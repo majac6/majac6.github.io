@@ -1,2 +1,0 @@
-webpackJsonp([0xb73b10474722],{555:function(t,a){t.exports={data:{site:{siteMetadata:{title:"MAJAC Blog",author:"majac6"}},markdownRemark:{id:"/Users/MAJAC/Desktop/majac6.github 2.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark",html:"<p>글 작성 해야함 ㅎㅎ</p>",frontmatter:{title:"gatsbyJS 로 블로그 시작하기",date:"October 30, 2017"}}},pathContext:{path:"/start-github-blog/"}}}});
-//# sourceMappingURL=path---start-github-blog-ec07af344c85267e51d4.js.map
