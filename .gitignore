@@ -1,2 +1,5 @@
-_src/*
-_src
+node_modules/
+src/
+.cache/
+static/
+.*
