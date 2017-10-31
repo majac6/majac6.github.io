@@ -2,21 +2,21 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": require("gatsby-module-loader?name=component---node-modules-gatsby-plugin-offline-app-shell-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js"),
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js"),
   "component---src-templates-blog-post-js": require("gatsby-module-loader?name=component---src-templates-blog-post-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js"),
-  "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js"),
-  "component---src-pages-profile-js": require("gatsby-module-loader?name=component---src-pages-profile-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js")
+  "component---src-pages-profile-js": require("gatsby-module-loader?name=component---src-pages-profile-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js"),
+  "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js")
 }
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "offline-plugin-app-shell-fallback.json": require("gatsby-module-loader?name=path---offline-plugin-app-shell-fallback!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/offline-plugin-app-shell-fallback.json"),
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
   "start-github-blog.json": require("gatsby-module-loader?name=path---start-github-blog!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/start-github-blog.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "index.json": require("gatsby-module-loader?name=path---index!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json"),
+  "profile.json": require("gatsby-module-loader?name=path---profile!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "profile.json": require("gatsby-module-loader?name=path---profile!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json")
+  "index.json": require("gatsby-module-loader?name=path---index!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json")
 }
 
 exports.layouts = {

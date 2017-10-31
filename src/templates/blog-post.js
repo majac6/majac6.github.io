@@ -3,14 +3,14 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
+import ReactDisqusComments from 'react-disqus-comments'
+
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-
-    // window.console.log(post)
 
     return (
       <div>
@@ -25,6 +25,13 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+
+        <ReactDisqusComments
+          shortname="majacblog"
+          title="majac blog disqus"
+          identifier={location.pathname}
+          onNewComment={this.handleNewComment}/>
+
       </div>
     )
   }

@@ -3,21 +3,21 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js")),
   "component---src-templates-blog-post-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js")),
-  "component---src-pages-index-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js")),
-  "component---src-pages-profile-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js"))
+  "component---src-pages-profile-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js")),
+  "component---src-pages-index-js": preferDefault(require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js"))
 }
 
 exports.json = {
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "offline-plugin-app-shell-fallback.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/offline-plugin-app-shell-fallback.json"),
+  "dev-404-page.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
   "start-github-blog.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/start-github-blog.json"),
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json"),
+  "profile.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json"),
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "profile.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json")
+  "index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json")
 }
 
 exports.layouts = {

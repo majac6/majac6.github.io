@@ -18,29 +18,12 @@ class Template extends React.Component {
 
   render() {
     const { location, children } = this.props
-    let disqus = ('')
 
     let rootPath = '/'
     if (typeof __PREFIX_PATHS__ !== 'undefined' && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + '/'
     }
 
-    // window.console.log(location.pathname)
-    // window.console.log(location)
-
-    if (location.pathname === rootPath) {
-      // do nothing
-    } else if (location.pathname === '/profile') {
-      // do nothing
-    } else {
-      disqus = (
-        <ReactDisqusComments
-          shortname="majacblog"
-          title="majac blog disqus"
-          identifier={location.pathname}
-          onNewComment={this.handleNewComment}/>
-      )
-    }
     return (
       <div id="page">
         <Nav />
@@ -52,9 +35,6 @@ class Template extends React.Component {
             <div className="row">
               <div className="col-12">
                 {children()}
-              </div>
-              <div className="col-12">
-                {disqus}
               </div>
             </div>
           </div>

@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "updatedAt": 1509430234886,
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "bcd60289fc9975deeff2988515fe18e8",
         "owner": "internal-data-bridge"
       }
     },
@@ -1386,14 +1396,16 @@
         "title": "MAJAC Blog",
         "author": "majac6"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-31T05:44:41.013Z",
+      "buildTime": "2017-10-31T06:10:31.770Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "94309a269f19ac8ccfe92a1b2db88ea2",
+        "contentDigest": "6223c725b5dbbfb46a1d361a60b59e73",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1403,7 +1415,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2cc89aaf4a504806c021cdb7c345b99f",
+        "contentDigest": "c3a566adf3d4d24dc55a59383eec5b2a",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1413,10 +1425,10 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2017-10-31T05:43:31.196Z",
-      "accessTime": "2017-10-31T05:44:43.883Z",
-      "changeTime": "2017-10-31T05:43:31.196Z",
-      "birthTime": "2017-10-31T05:43:31.196Z",
+      "modifiedTime": "2017-10-31T06:07:21.266Z",
+      "accessTime": "2017-10-31T06:10:34.518Z",
+      "changeTime": "2017-10-31T06:07:21.266Z",
+      "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src",
       "base": "posts",
@@ -1430,23 +1442,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592106156,
+      "ino": 8592108602,
       "blocks": 0,
-      "atimeMs": 1509428683883.4204,
-      "mtimeMs": 1509428611195.756,
-      "ctimeMs": 1509428611195.756,
-      "birthtimeMs": 1509428611195.7053,
-      "atime": "2017-10-31T05:44:43.883Z",
-      "mtime": "2017-10-31T05:43:31.196Z",
-      "ctime": "2017-10-31T05:43:31.196Z",
-      "birthtime": "2017-10-31T05:43:31.196Z"
+      "atimeMs": 1509430234517.8162,
+      "mtimeMs": 1509430041265.8271,
+      "ctimeMs": 1509430041265.8271,
+      "birthtimeMs": 1509430041265.7686,
+      "atime": "2017-10-31T06:10:34.518Z",
+      "mtime": "2017-10-31T06:07:21.266Z",
+      "ctime": "2017-10-31T06:07:21.266Z",
+      "birthtime": "2017-10-31T06:07:21.266Z"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2d7a5b74156cbb3ac71b0cc934f5a345",
+        "contentDigest": "5eae8f41c6c6611f81d67aabe3792b82",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1456,10 +1468,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2017-10-31T05:43:31.196Z",
-      "accessTime": "2017-10-31T05:44:43.885Z",
-      "changeTime": "2017-10-31T05:43:31.196Z",
-      "birthTime": "2017-10-31T05:43:31.196Z",
+      "modifiedTime": "2017-10-31T06:07:21.266Z",
+      "accessTime": "2017-10-31T06:10:34.520Z",
+      "changeTime": "2017-10-31T06:07:21.266Z",
+      "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts",
       "base": "2017-10-30-start-github-blog",
@@ -1473,16 +1485,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8592106157,
+      "ino": 8592108603,
       "blocks": 0,
-      "atimeMs": 1509428683885.2244,
-      "mtimeMs": 1509428611196.0796,
-      "ctimeMs": 1509428611196.0796,
-      "birthtimeMs": 1509428611195.749,
-      "atime": "2017-10-31T05:44:43.885Z",
-      "mtime": "2017-10-31T05:43:31.196Z",
-      "ctime": "2017-10-31T05:43:31.196Z",
-      "birthtime": "2017-10-31T05:43:31.196Z"
+      "atimeMs": 1509430234519.5925,
+      "mtimeMs": 1509430041266.0364,
+      "ctimeMs": 1509430041266.0364,
+      "birthtimeMs": 1509430041265.8184,
+      "atime": "2017-10-31T06:10:34.520Z",
+      "mtime": "2017-10-31T06:07:21.266Z",
+      "ctime": "2017-10-31T06:07:21.266Z",
+      "birthtime": "2017-10-31T06:07:21.266Z"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file",
@@ -1605,27 +1617,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "layout": "index",
-      "jsonName": "offline-plugin-app-shell-fallback.json",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "updatedAt": 1509428684269,
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3040d6540ef0c23a7f5110e1ec8e9c67",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /start-github-blog/": {
       "path": "/start-github-blog/",
       "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js",
@@ -1636,7 +1627,7 @@
       "layout": "index",
       "jsonName": "start-github-blog.json",
       "internalComponentName": "ComponentStartGithubBlog",
-      "updatedAt": 1509428684291,
+      "updatedAt": 1509430234906,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js",
@@ -1645,28 +1636,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d8b44ba1dc478be1c9a6f9650474cd41",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "path": "/",
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "updatedAt": 1509428684296,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "947c3e0f6a2b8420f0c8ce6fd0acd048",
+        "contentDigest": "118175fe74bd4ec60ff6fb74f3abc460",
         "owner": "internal-data-bridge"
       }
     },
@@ -1677,7 +1647,7 @@
       "layout": "index",
       "jsonName": "profile.json",
       "internalComponentName": "ComponentProfile",
-      "updatedAt": 1509428684297,
+      "updatedAt": 1509430234912,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1687,7 +1657,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aab86e268b85573ed905cdbbdc8c2104",
+        "contentDigest": "f066b482770e58eb04a6cc12bc21f4a2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1509430234913,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6a3e1d78a26155994b74dfa9b4bdf19a",
         "owner": "internal-data-bridge"
       }
     }
@@ -1709,6 +1700,9 @@
     "connections": {
       "MarkdownRemark": [
         "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
