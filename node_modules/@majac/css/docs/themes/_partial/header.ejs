@@ -1,0 +1,29 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><%= config.title %></a>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul id="main-nav" class="navbar-nav mr-auto">
+
+      <% for (var i in theme.menu){ %>
+        <%
+          var active_class = '';
+          if(path.split('/')[0] == i) active_class = 'active';
+          if(path.split('/')[0] == 'index.html' && i == 'home') active_class = 'active';
+        %>
+        <li class="nav-item">
+          <a
+          class="nav-link <%=active_class%>"
+          href="<%- url_for(theme.menu[i]) %>">
+            <%= i %>
+          </a>
+        </li>
+      <% } %>
+
+    </ul>
+  </div>
+</nav>
+
+
+

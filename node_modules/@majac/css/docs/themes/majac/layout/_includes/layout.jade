@@ -1,0 +1,20 @@
+doctype html
+html
+
+  head
+    include head
+
+  body
+    include nav
+
+    if body
+      div!= body
+    else
+      block content
+    
+    include footer
+
+
+
+  //- include _partial/footer
+  //- include _partial/after-footer
