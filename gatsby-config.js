@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: 'https://majac6.github.io',
+  pathPrefix: '/',
   siteMetadata: {
     title: "MAJAC Blog",
     author: "majac6",
