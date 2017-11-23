@@ -16,7 +16,9 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "profile.json": require("gatsby-module-loader?name=path---profile!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json")
+  "profile.json": require("gatsby-module-loader?name=path---profile!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
+  "ibm-devcon-review.json": require("gatsby-module-loader?name=path---ibm-devcon-review!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/ibm-devcon-review.json")
 }
 
 exports.layouts = {

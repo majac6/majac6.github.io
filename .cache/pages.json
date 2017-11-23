@@ -26,5 +26,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "profile.json",
         "path": "/profile/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "ibm-devcon-review.json",
+        "path": "/ibm-devcon-review/"
     }
 ]

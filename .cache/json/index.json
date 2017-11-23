@@ -9,7 +9,17 @@
             "edges": [
                 {
                     "node": {
-                        "excerpt": "글 작성 해야함 ㅎㅎ",
+                        "excerpt": "여기에 메인 이미지 첨부 어쩌다 보니 올해 첫번째 참여한 컨퍼런스다. 원래 IBM 에서 주최하는 행사는 나와 큰 관련이 없는 행사이지만, playnode 라는 단체에서 몇개의 세션을 진행하기로 되어 있어서 정확히는 오후…",
+                        "frontmatter": {
+                            "path": "/ibm-devcon-review/",
+                            "date": "09 November, 2017",
+                            "title": "2017 IBM Devcon 참가 후기"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "excerpt": "안녕하세요. 마작입니다.\n첫 포스트는 github 페이지를 gatsby.js 로 시작하게 된 이유와 그 후기를 공유하고자 작성합니다. 아마 github 페이지라면 대부분 jekyll…",
                         "frontmatter": {
                             "path": "/start-github-blog/",
                             "date": "30 October, 2017",

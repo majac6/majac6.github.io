@@ -17,7 +17,9 @@ exports.json = {
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
   "index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/index.json"),
   "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "profile.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json")
+  "profile.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/profile.json"),
+  "layout-index.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
+  "ibm-devcon-review.json": require("/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/ibm-devcon-review.json")
 }
 
 exports.layouts = {
