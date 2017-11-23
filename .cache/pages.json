@@ -2,36 +2,36 @@
     {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "dev-404-page.json",
         "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "start-github-blog.json",
         "path": "/start-github-blog/"
     },
     {
-        "componentChunkName": "component---src-pages-index-js",
+        "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "ibm-devcon-review.json",
+        "path": "/ibm-devcon-review/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-jsx",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "index.json",
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-profile-js",
+        "componentChunkName": "component---src-pages-profile-jsx",
         "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "profile.json",
         "path": "/profile/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "ibm-devcon-review.json",
-        "path": "/ibm-devcon-review/"
     }
 ]

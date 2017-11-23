@@ -1,6 +1,8 @@
 @import '../../node_modules/@majac/css/build/majac.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+@import './components/nav';
+
 html, body, #___gatsby, #page {
   height: 100%;
   @extend .display-flex;
@@ -16,9 +18,6 @@ li {
 }
 
 #page {
-  nav {
-    min-height: 49px;
-  }
   .wallpaper {
     min-height: 250px;
     background-color: black;
