@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1509430234886,
+      "updatedAt": 1511419990878,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bcd60289fc9975deeff2988515fe18e8",
+        "contentDigest": "a9bace0b752b9fd20188468bcf10ed3e",
         "owner": "internal-data-bridge"
       }
     },
@@ -1400,12 +1400,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-31T06:10:31.770Z",
+      "buildTime": "2017-11-23T06:53:07.110Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6223c725b5dbbfb46a1d361a60b59e73",
+        "contentDigest": "8a0ef55fe9063796fac955b4f4c42989",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1415,7 +1415,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c3a566adf3d4d24dc55a59383eec5b2a",
+        "contentDigest": "2e4efef9550e69dafd8b88f84a49b669",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1426,7 +1426,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2017-10-31T06:07:21.266Z",
-      "accessTime": "2017-10-31T06:10:34.518Z",
+      "accessTime": "2017-11-23T06:53:10.544Z",
       "changeTime": "2017-10-31T06:07:21.266Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
@@ -1435,7 +1435,7 @@
       "ext": "",
       "name": "posts",
       "relativeDirectory": "..",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
@@ -1444,11 +1444,11 @@
       "blksize": 4194304,
       "ino": 8592108602,
       "blocks": 0,
-      "atimeMs": 1509430234517.8162,
+      "atimeMs": 1511419990544.2605,
       "mtimeMs": 1509430041265.8271,
       "ctimeMs": 1509430041265.8271,
       "birthtimeMs": 1509430041265.7686,
-      "atime": "2017-10-31T06:10:34.518Z",
+      "atime": "2017-11-23T06:53:10.544Z",
       "mtime": "2017-10-31T06:07:21.266Z",
       "ctime": "2017-10-31T06:07:21.266Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
@@ -1458,7 +1458,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5eae8f41c6c6611f81d67aabe3792b82",
+        "contentDigest": "9e920bbcae5caf79453eb52eeeb39553",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1469,7 +1469,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2017-10-31T06:07:21.266Z",
-      "accessTime": "2017-10-31T06:10:34.520Z",
+      "accessTime": "2017-11-23T06:53:10.546Z",
       "changeTime": "2017-10-31T06:07:21.266Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
@@ -1478,7 +1478,7 @@
       "ext": "",
       "name": "2017-10-30-start-github-blog",
       "relativeDirectory": "",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
@@ -1487,11 +1487,11 @@
       "blksize": 4194304,
       "ino": 8592108603,
       "blocks": 0,
-      "atimeMs": 1509430234519.5925,
+      "atimeMs": 1511419990546.1667,
       "mtimeMs": 1509430041266.0364,
       "ctimeMs": 1509430041266.0364,
       "birthtimeMs": 1509430041265.8184,
-      "atime": "2017-10-31T06:10:34.520Z",
+      "atime": "2017-11-23T06:53:10.546Z",
       "mtime": "2017-10-31T06:07:21.266Z",
       "ctime": "2017-10-31T06:07:21.266Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
@@ -1627,7 +1627,7 @@
       "layout": "index",
       "jsonName": "start-github-blog.json",
       "internalComponentName": "ComponentStartGithubBlog",
-      "updatedAt": 1509430234906,
+      "updatedAt": 1511419990894,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js",
@@ -1636,28 +1636,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "118175fe74bd4ec60ff6fb74f3abc460",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /profile/": {
-      "path": "/profile/",
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
-      "componentChunkName": "component---src-pages-profile-js",
-      "layout": "index",
-      "jsonName": "profile.json",
-      "internalComponentName": "ComponentProfile",
-      "updatedAt": 1509430234912,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
-      "id": "SitePage /profile/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f066b482770e58eb04a6cc12bc21f4a2",
+        "contentDigest": "0f94c102b31d4257afd18dee4705b788",
         "owner": "internal-data-bridge"
       }
     },
@@ -1668,7 +1647,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1509430234913,
+      "updatedAt": 1511419990899,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1678,7 +1657,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6a3e1d78a26155994b74dfa9b4bdf19a",
+        "contentDigest": "0ed8cea027f660f45c16d1f8b7b13824",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /profile/": {
+      "path": "/profile/",
+      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
+      "componentChunkName": "component---src-pages-profile-js",
+      "layout": "index",
+      "jsonName": "profile.json",
+      "internalComponentName": "ComponentProfile",
+      "updatedAt": 1511419990900,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
+      "id": "SitePage /profile/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d24aafa4c0cd747e5a875f0b985680bf",
         "owner": "internal-data-bridge"
       }
     }
