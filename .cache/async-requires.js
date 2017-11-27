@@ -2,7 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js"),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": require("gatsby-module-loader?name=component---node-modules-gatsby-plugin-offline-app-shell-js!/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js"),
   "component---src-templates-blog-post-jsx": require("gatsby-module-loader?name=component---src-templates-blog-post-jsx!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx"),
   "component---src-pages-index-jsx": require("gatsby-module-loader?name=component---src-pages-index-jsx!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/index.jsx"),
   "component---src-pages-resume-jsx": require("gatsby-module-loader?name=component---src-pages-resume-jsx!/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/resume.jsx"),
@@ -11,7 +11,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/dev-404-page.json"),
+  "offline-plugin-app-shell-fallback.json": require("gatsby-module-loader?name=path---offline-plugin-app-shell-fallback!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/offline-plugin-app-shell-fallback.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
   "start-github-blog.json": require("gatsby-module-loader?name=path---start-github-blog!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/start-github-blog.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/json/layout-index.json"),
