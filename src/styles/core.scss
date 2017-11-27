@@ -1,9 +1,11 @@
 @import '../../node_modules/@majac/css/build/majac.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
+@import './config/color';
 @import './components/nav';
-
-html, body, #___gatsby, #page {
+html,
+body,
+#___gatsby,
+#page {
   height: 100%;
   @extend .display-flex;
   flex-direction: column;
@@ -20,15 +22,92 @@ li {
 #page {
   .wallpaper {
     min-height: 250px;
-    background-color: black;
+    background-color: $primary;
+    margin-bottom: 2.5rem;
+    @extend .display-flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    text-align: center;
+    @include mobile {
+      min-height: 125px;
+    }
   }
   .main {
     flex: 1;
-    margin: 2.5rem 0;
   }
   footer {
     min-height: 60px;
     line-height: 60px;
     background-color: #f5f5f5;
+  }
+}
+
+#post-wrap {
+  .title {
+    a {
+      color: black;
+      @extend .textsize-xxg;
+      font-weight: bold;
+    }
+  }
+}
+
+#profileBox {
+  background: #f1f1f1;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  .photo {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg);
+    @include bg-set(contain, center);
+  }
+  .name {
+    .kr {
+      @extend .textsize-xxg;
+      font-weight: 500;
+      .en {
+        @extend .textsize-sm;
+        font-weight: 100;
+        margin-left: 1rem;
+      }
+    }
+  }
+  .sns {
+    margin-top: 2rem;
+    a {
+      color: #666;
+      &:hover {
+        color: #26a9e1;
+      }
+    }
+    i {
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  }
+  .position {
+    @extend .textsize-lg;
+  }
+}
+
+#resume {
+  ul {
+    li {
+      margin-bottom: 1rem;
+      b {
+        display: block;
+        @extend .textsize-lg;
+        @extend .textletter-sm;
+      }
+    }
+  }
+
+  h4 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
 }

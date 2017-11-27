@@ -2,8 +2,7 @@
 title: "2017 IBM Devcon 참가 후기"
 date: "2017-11-09T10:00:00.284Z"
 path: "/ibm-devcon-review/"
-tag: "IBM conferance"
-categort: "conferance"
+category: "javascript"
 ---
 [여기에 메인 이미지 첨부]
 

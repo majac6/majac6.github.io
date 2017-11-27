@@ -11,7 +11,10 @@ class Nav extends React.Component {
             <Link to="/">MAJAC BLOG</Link>
           </div>
           <div className="menu float-right">
-            <Link className="nav-link" to="/profile">Profile</Link>
+            <Link className="nav-link" to="/resume">
+              <img id="navProfilePic" src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=30&r=pg"/>
+              <span>Resume</span>
+            </Link>
           </div>
         </div>
       </nav>
