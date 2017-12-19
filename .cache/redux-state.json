@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1511833736224,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62237ceb27a756544f237fe91cae1826",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1401,16 +1391,14 @@
         "title": "MAJAC Blog",
         "author": "majac6"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-11-28T01:48:51.908Z",
+      "buildTime": "2017-12-11T01:59:52.683Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a8fab38991249b6dc089b6bf2eb6fed9",
+        "contentDigest": "79e386ebbdb72c43905e4fa241a373a0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1420,7 +1408,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b51ed83beb6fa0946973e4776260a1b6",
+        "contentDigest": "5d4c31a5233b5ca61bf4a466a2d5873c",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1431,7 +1419,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2017-11-23T06:56:40.625Z",
-      "accessTime": "2017-11-28T01:48:55.805Z",
+      "accessTime": "2017-12-11T01:59:55.687Z",
       "changeTime": "2017-11-23T06:56:40.625Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
@@ -1449,11 +1437,11 @@
       "blksize": 4194304,
       "ino": 8592108602,
       "blocks": 0,
-      "atimeMs": 1511833735805.37,
+      "atimeMs": 1512957595687.2502,
       "mtimeMs": 1511420200625.234,
       "ctimeMs": 1511420200625.234,
       "birthtimeMs": 1509430041265.7686,
-      "atime": "2017-11-28T01:48:55.805Z",
+      "atime": "2017-12-11T01:59:55.687Z",
       "mtime": "2017-11-23T06:56:40.625Z",
       "ctime": "2017-11-23T06:56:40.625Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
@@ -1463,7 +1451,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "70177f6f57b35eccca5806d8df8166d1",
+        "contentDigest": "7532ddcb90fa5547fa30f8bf6333e5e9",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1474,7 +1462,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2017-11-23T06:56:40.626Z",
-      "accessTime": "2017-11-28T01:48:55.807Z",
+      "accessTime": "2017-12-11T01:59:55.689Z",
       "changeTime": "2017-11-23T06:56:40.626Z",
       "birthTime": "2017-11-23T06:56:40.625Z",
       "root": "/",
@@ -1492,11 +1480,11 @@
       "blksize": 4194304,
       "ino": 8595607733,
       "blocks": 0,
-      "atimeMs": 1511833735807.3496,
+      "atimeMs": 1512957595689.0352,
       "mtimeMs": 1511420200625.883,
       "ctimeMs": 1511420200625.883,
       "birthtimeMs": 1511420200625.2168,
-      "atime": "2017-11-28T01:48:55.807Z",
+      "atime": "2017-12-11T01:59:55.689Z",
       "mtime": "2017-11-23T06:56:40.626Z",
       "ctime": "2017-11-23T06:56:40.626Z",
       "birthtime": "2017-11-23T06:56:40.625Z"
@@ -1506,7 +1494,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3d08412490843add8eebae0702d49a1b",
+        "contentDigest": "fa783312d1c1d7d00b390cb6b8470f8c",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1517,7 +1505,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2017-11-27T04:51:24.781Z",
-      "accessTime": "2017-11-28T01:48:55.807Z",
+      "accessTime": "2017-12-11T01:59:55.689Z",
       "changeTime": "2017-11-27T04:51:24.781Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
       "root": "/",
@@ -1535,11 +1523,11 @@
       "blksize": 4194304,
       "ino": 8592108603,
       "blocks": 0,
-      "atimeMs": 1511833735807.3547,
+      "atimeMs": 1512957595688.9658,
       "mtimeMs": 1511758284780.636,
       "ctimeMs": 1511758284780.636,
       "birthtimeMs": 1509430041265.8184,
-      "atime": "2017-11-28T01:48:55.807Z",
+      "atime": "2017-12-11T01:59:55.689Z",
       "mtime": "2017-11-27T04:51:24.781Z",
       "ctime": "2017-11-27T04:51:24.781Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
@@ -1732,6 +1720,27 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "updatedAt": 1512957596102,
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3901f3b8030214c8136680509d08204a",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /start-github-blog/": {
       "path": "/start-github-blog/",
       "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
@@ -1742,7 +1751,7 @@
       "layout": "index",
       "jsonName": "start-github-blog.json",
       "internalComponentName": "ComponentStartGithubBlog",
-      "updatedAt": 1511833736244,
+      "updatedAt": 1512957596120,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
@@ -1751,7 +1760,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "13e60c68ea85b4242731e91f09838586",
+        "contentDigest": "7e21df0ded5b924e8c3e3cf2e5f2748a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1765,7 +1774,7 @@
       "layout": "index",
       "jsonName": "ibm-devcon-review.json",
       "internalComponentName": "ComponentIbmDevconReview",
-      "updatedAt": 1511833736244,
+      "updatedAt": 1512957596120,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
@@ -1774,7 +1783,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "430bf4e1fe14f2a0f61041fe5ed8aba2",
+        "contentDigest": "deb2911d0631a96dbe647c895595de19",
         "owner": "internal-data-bridge"
       }
     },
@@ -1785,7 +1794,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1511833736253,
+      "updatedAt": 1512957596128,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1795,7 +1804,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf17ab27008e6ec189f14f48b6719e10",
+        "contentDigest": "deca17874f2a813cec98abbf425b4b6a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1806,7 +1815,7 @@
       "layout": "index",
       "jsonName": "resume.json",
       "internalComponentName": "ComponentResume",
-      "updatedAt": 1511833736254,
+      "updatedAt": 1512957596129,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1816,7 +1825,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbc03ee5eef3cb93d83f6dea87914401",
+        "contentDigest": "08628dd24b2f9bd172064184adaf418f",
         "owner": "internal-data-bridge"
       }
     },
@@ -1827,7 +1836,7 @@
       "layout": "index",
       "jsonName": "categories-javascript.json",
       "internalComponentName": "ComponentCategoriesJavascript",
-      "updatedAt": 1511833736261,
+      "updatedAt": 1512957596132,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1837,7 +1846,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "504ac8a807940aee6778ab54d2ec7403",
+        "contentDigest": "41adb46a596cb7ee6836298d2e6d3300",
         "owner": "internal-data-bridge"
       }
     }
