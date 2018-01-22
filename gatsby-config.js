@@ -5,6 +5,7 @@ module.exports = {
     author: "majac6",
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
