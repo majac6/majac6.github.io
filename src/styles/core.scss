@@ -1,7 +1,17 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import '../../node_modules/@majac/css/build/majac.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// @import '../../node_modules/highlight.js/styles/dark.css';
 @import './config/color';
 @import './components/nav';
+@import './page/resume';
+@import './page/blog-post';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
 html,
 body,
 #___gatsby,
@@ -9,6 +19,7 @@ body,
   height: 100%;
   @extend .display-flex;
   flex-direction: column;
+  font-size: 16px;
 }
 
 a {
@@ -37,6 +48,7 @@ li {
   }
   .main {
     flex: 1;
+    font-size: 1.2rem;
   }
   footer {
     min-height: 60px;
@@ -45,15 +57,7 @@ li {
   }
 }
 
-#post-wrap {
-  .title {
-    a {
-      color: black;
-      @extend .textsize-xxg;
-      font-weight: bold;
-    }
-  }
-}
+
 
 #profileBox {
   background: #f1f1f1;
@@ -94,20 +98,14 @@ li {
   }
 }
 
-#resume {
+#categorylist-wrap {
+  text-align: right;
   ul {
+    list-style: none;
     li {
-      margin-bottom: 1rem;
-      b {
-        display: block;
-        @extend .textsize-lg;
-        @extend .textletter-sm;
+      &:before {
+        content: '- ';
       }
     }
-  }
-
-  h4 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
   }
 }

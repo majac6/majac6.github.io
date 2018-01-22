@@ -8,7 +8,7 @@ class Nav extends React.Component {
       <nav>
         <div className="container">
           <div className="logo float-left">
-            <Link to="/">MAJAC BLOG</Link>
+            <Link to="/">MAJAC Blog</Link>
           </div>
           <div className="menu float-right">
             <Link className="nav-link" to="/resume">
