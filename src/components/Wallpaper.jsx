@@ -4,6 +4,7 @@ class Wallpaper extends React.Component {
   render() {
     return (
       <div className="wallpaper">
+        
       </div>
     )
   }

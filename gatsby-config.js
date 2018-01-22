@@ -4,9 +4,13 @@ module.exports = {
     title: "MAJAC Blog",
     author: "majac6",
   },
+<<<<<<< HEAD
   plugins: [
     `gatsby-plugin-typescript`,
     {
+=======
+  plugins: [{
+>>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       resolve: `gatsby-plugin-sass`,
       options: {
         precision: 8,
@@ -16,14 +20,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
-        name: "posts",
+        name: `posts`,
       },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          {
+        plugins: [{
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
@@ -35,9 +38,9 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
         ],
       },
     },
@@ -46,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-110074065-1`,
       },
     },
     `gatsby-plugin-offline`,

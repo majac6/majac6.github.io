@@ -7,7 +7,7 @@ class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center text-gray">
-              FOOTER
+              Copyright By MAJAC
             </div>
           </div>
         </div>

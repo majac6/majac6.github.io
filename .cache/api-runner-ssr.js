@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"trackingId":"UA-110074065-1"},
     },{
       plugin: require('/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
