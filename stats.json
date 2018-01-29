@@ -1,56 +1,56 @@
 {
   "assetsByChunkName": {
     "component---src-pages-resume-jsx": [
-      "component---src-pages-resume-jsx-87b8a2d723f7daff3981.js",
-      "component---src-pages-resume-jsx-87b8a2d723f7daff3981.js.map"
+      "component---src-pages-resume-jsx-666311a51f5501f497a1.js",
+      "component---src-pages-resume-jsx-666311a51f5501f497a1.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-9a0458a362d8f6d00227.js",
-      "component---src-layouts-index-jsx-9a0458a362d8f6d00227.js.map"
+      "component---src-layouts-index-jsx-bc07a59295032b3f45f6.js",
+      "component---src-layouts-index-jsx-bc07a59295032b3f45f6.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---ibm-devcon-review": [
-      "path---ibm-devcon-review-66366c73248593ae24f8.js",
-      "path---ibm-devcon-review-66366c73248593ae24f8.js.map"
+      "path---ibm-devcon-review-9eaf4c9bc29a98d9d27f.js",
+      "path---ibm-devcon-review-9eaf4c9bc29a98d9d27f.js.map"
     ],
     "path---categories-javascript": [
-      "path---categories-javascript-b06b469db37101583cf8.js",
-      "path---categories-javascript-b06b469db37101583cf8.js.map"
+      "path---categories-javascript-6e7625b57a5e2476842b.js",
+      "path---categories-javascript-6e7625b57a5e2476842b.js.map"
     ],
     "path---index": [
-      "path---index-b06b469db37101583cf8.js",
-      "path---index-b06b469db37101583cf8.js.map"
+      "path---index-6e7625b57a5e2476842b.js",
+      "path---index-6e7625b57a5e2476842b.js.map"
     ],
     "commons": [
-      "commons-4ea4c9a24fd151215a4f.js",
-      "commons-4ea4c9a24fd151215a4f.js.map"
+      "commons-490c37726ce148734dc0.js",
+      "commons-490c37726ce148734dc0.js.map"
     ],
     "path---start-github-blog": [
       "path---start-github-blog-901dc93344162994b746.js",
       "path---start-github-blog-901dc93344162994b746.js.map"
     ],
     "component---src-pages-categories-javascript-jsx": [
-      "component---src-pages-categories-javascript-jsx-aa67cc7b795913fea016.js",
-      "component---src-pages-categories-javascript-jsx-aa67cc7b795913fea016.js.map"
+      "component---src-pages-categories-javascript-jsx-b78a29d043fa271d75be.js",
+      "component---src-pages-categories-javascript-jsx-b78a29d043fa271d75be.js.map"
     ],
     "component---src-templates-blog-post-jsx": [
-      "component---src-templates-blog-post-jsx-273d06469f83b670cc02.js",
-      "component---src-templates-blog-post-jsx-273d06469f83b670cc02.js.map"
+      "component---src-templates-blog-post-jsx-b5d0148d3bf4ffbd2e04.js",
+      "component---src-templates-blog-post-jsx-b5d0148d3bf4ffbd2e04.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-8a97062e37d8a212d5d2.js",
-      "component---src-pages-index-jsx-8a97062e37d8a212d5d2.js.map"
+      "component---src-pages-index-jsx-ca76cf5994a70c7c6a6f.js",
+      "component---src-pages-index-jsx-ca76cf5994a70c7c6a6f.js.map"
     ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
