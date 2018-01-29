@@ -32,11 +32,13 @@
     "react-highlight": "^0.10.0",
     "react-responsive-grid": "^0.3.3",
     "reactstrap": "^5.0.0-alpha.3",
+    "tslint": "^5.9.1",
     "typeface-merriweather": "^0.0.35",
     "typeface-montserrat": "^0.0.37",
     "typography-theme-wordpress-2016": "^0.15.1"
   },
   "devDependencies": {
+    "@types/react-helmet": "^5.0.3",
     "eslint": "^4.10.0",
     "eslint-plugin-react": "^7.4.0",
     "gatsby-plugin-sass": "^1.0.12",
