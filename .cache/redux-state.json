@@ -7,11 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-<<<<<<< HEAD
-      "updatedAt": 1510821176578,
-=======
-      "updatedAt": 1516616401684,
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "updatedAt": 1516782098247,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -21,11 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-<<<<<<< HEAD
-        "contentDigest": "5199212b5d0932c92687bdb2cd987b37",
-=======
-        "contentDigest": "4ca59311fda46495de11e776345b86ef",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "b5cd1945969f73e3d47ceee04ba5c643",
         "owner": "internal-data-bridge"
       }
     },
@@ -276,6 +268,86 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6e60e7aac813ded8200625f229cb7ea5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-sass": {
       "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
@@ -441,21 +513,6 @@
       "pluginOptions": {
         "plugins": [
           {
-            "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
-            "id": "Plugin gatsby-remark-images",
-            "name": "gatsby-remark-images",
-            "version": "1.5.18",
-            "pluginOptions": {
-              "plugins": [],
-              "maxWidth": 590,
-              "wrapperStyle": "",
-              "backgroundColor": "white",
-              "linkImagesToOriginal": true,
-              "pathPrefix": ""
-            },
-            "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images"
-          },
-          {
             "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-responsive-iframe",
             "id": "Plugin gatsby-remark-responsive-iframe",
             "name": "gatsby-remark-responsive-iframe",
@@ -465,6 +522,22 @@
               "wrapperStyle": "margin-bottom: 1.0725rem"
             },
             "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.18",
+            "pluginOptions": {
+              "plugins": [],
+              "linkImagesToOriginal": false,
+              "sizeByPixelDensity": false,
+              "maxWidth": 650,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "pathPrefix": ""
+            },
+            "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images"
           },
           {
             "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-prismjs",
@@ -612,91 +685,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a92c6e3883a0504b4d19ab358c4297ae",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-remark-images": {
-      "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
-      "id": "Plugin gatsby-remark-images",
-      "name": "gatsby-remark-images",
-      "version": "1.5.18",
-      "pluginOptions": {
-        "plugins": [],
-        "maxWidth": 590,
-        "wrapperStyle": "",
-        "backgroundColor": "white",
-        "linkImagesToOriginal": true,
-        "pathPrefix": ""
-      },
-      "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
-      "packageJson": {
-        "name": "gatsby-remark-images",
-        "description": "Processes images in markdown so they can be used in the production build.",
-        "version": "1.5.18",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "markdown",
-          "remark",
-          "image",
-          "responsive images"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cheerio",
-            "version": "^1.0.0-rc.2"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^1.6.9"
-          },
-          {
-            "name": "is-relative-url",
-            "version": "^2.0.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.4"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "unist-util-select",
-            "version": "^1.5.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "41e6402495c414c659f2f34d183ed0c6",
+        "contentDigest": "144136b93bc369e212cb601092e938fe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -766,6 +755,91 @@
       "children": [],
       "internal": {
         "contentDigest": "8d17dfc1424bc4d228d25703d2f52bd1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.18",
+      "pluginOptions": {
+        "plugins": [],
+        "linkImagesToOriginal": false,
+        "sizeByPixelDensity": false,
+        "maxWidth": 650,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "pathPrefix": ""
+      },
+      "pluginFilepath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.9"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bc73b46e4cd3d6d31e9e523cd3f7a67a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1303,11 +1377,7 @@
       "resolve": "/Users/MAJAC/Documents/Project/majac/majac6.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-<<<<<<< HEAD
-      "version": "affac2f86cb00e9f8999e2c078db9431",
-=======
-      "version": "c5bfcb9e2512e506f028da2277e4fdbd",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "version": "9ee1c5afb32dc8370f4acb2baeeb7ea9",
       "pluginOptions": {
         "plugins": []
       },
@@ -1343,6 +1413,10 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.22"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
           },
           {
             "name": "gatsby-plugin-google-analytics",
@@ -1473,6 +1547,10 @@
           {
             "name": "prettier",
             "version": "^1.7.4"
+          },
+          {
+            "name": "tslint-react",
+            "version": "^3.4.0"
           }
         ],
         "peerDependencies": [],
@@ -1482,11 +1560,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "90b41082b1c61fa1a399fcbc6384efb4",
-=======
-        "contentDigest": "40f148aeac775fc4f9105bd1921ecf18",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "25bab45bef2d42cdfe846cc76035caf0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1500,20 +1574,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-<<<<<<< HEAD
-      "buildTime": "2017-11-16T08:32:51.405Z",
-=======
-      "buildTime": "2018-01-22T04:49:49.731Z",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "buildTime": "2018-01-24T08:21:34.537Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "0b0a404e6509bf1e2a83728ccb149803",
-=======
-        "contentDigest": "6e7bf4c92bcc8e33c715ecc0c2e37976",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "7f046e40a32da7faf35ec760219427b0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1523,11 +1589,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "12ee5e5c669dba6be3c3f123f235b205",
-=======
-        "contentDigest": "72c7ad9cafcfb2418eca007997b08b6f",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "156dfd8aa7d453b6fd07cf771f023f78",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1537,17 +1599,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-<<<<<<< HEAD
-      "modifiedTime": "2017-11-09T01:59:25.836Z",
-      "accessTime": "2017-11-16T08:32:56.087Z",
-      "changeTime": "2017-11-09T01:59:25.836Z",
-      "birthTime": "2017-11-03T07:42:53.504Z",
-=======
       "modifiedTime": "2017-11-23T06:56:40.625Z",
-      "accessTime": "2018-01-22T04:49:51.428Z",
+      "accessTime": "2018-01-24T08:21:37.912Z",
       "changeTime": "2017-11-23T06:56:40.625Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src",
       "base": "posts",
@@ -1561,38 +1616,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8591684596,
+      "ino": 8592108602,
       "blocks": 0,
-<<<<<<< HEAD
-      "atimeMs": 1510821176087.0496,
-      "mtimeMs": 1510192765835.9502,
-      "ctimeMs": 1510192765835.9502,
-      "birthtimeMs": 1509694973503.993,
-      "atime": "2017-11-16T08:32:56.087Z",
-      "mtime": "2017-11-09T01:59:25.836Z",
-      "ctime": "2017-11-09T01:59:25.836Z",
-      "birthtime": "2017-11-03T07:42:53.504Z"
-=======
-      "atimeMs": 1516596591427.5754,
+      "atimeMs": 1516782097911.6926,
       "mtimeMs": 1511420200625.234,
       "ctimeMs": 1511420200625.234,
       "birthtimeMs": 1509430041265.7686,
-      "atime": "2018-01-22T04:49:51.428Z",
+      "atime": "2018-01-24T08:21:37.912Z",
       "mtime": "2017-11-23T06:56:40.625Z",
       "ctime": "2017-11-23T06:56:40.625Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "97435e78f7a7fae117a8366aa4c1c9f4",
-=======
-        "contentDigest": "33d4ccb033ef07451ddf37132bcf6f5c",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "1f6b5415a894cca82f802c0dc87a8b3e",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1600,21 +1640,12 @@
       "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog",
       "relativePath": "2017-10-30-start-github-blog",
       "extension": "",
-<<<<<<< HEAD
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2017-11-03T07:42:53.505Z",
-      "accessTime": "2017-11-16T08:32:56.089Z",
-      "changeTime": "2017-11-03T07:42:53.505Z",
-      "birthTime": "2017-11-03T07:42:53.504Z",
-=======
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2017-11-27T04:51:24.781Z",
-      "accessTime": "2018-01-22T04:49:51.430Z",
-      "changeTime": "2017-11-27T04:51:24.781Z",
+      "modifiedTime": "2018-01-23T04:39:11.422Z",
+      "accessTime": "2018-01-24T08:21:37.914Z",
+      "changeTime": "2018-01-23T04:39:11.422Z",
       "birthTime": "2017-10-31T06:07:21.266Z",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts",
       "base": "2017-10-30-start-github-blog",
@@ -1628,77 +1659,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8591684597,
+      "ino": 8592108603,
       "blocks": 0,
-<<<<<<< HEAD
-      "atimeMs": 1510821176089.333,
-      "mtimeMs": 1509694973504.5588,
-      "ctimeMs": 1509694973504.5588,
-      "birthtimeMs": 1509694973504.0762,
-      "atime": "2017-11-16T08:32:56.089Z",
-      "mtime": "2017-11-03T07:42:53.505Z",
-      "ctime": "2017-11-03T07:42:53.505Z",
-      "birthtime": "2017-11-03T07:42:53.504Z"
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review absPath of file": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5dc096109413ac85db53dbc44081e9a1",
-        "type": "Directory",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review",
-      "relativePath": "2017-11-09-ibm-devcon-review",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2017-11-03T07:42:53.505Z",
-      "accessTime": "2017-11-16T08:32:56.089Z",
-      "changeTime": "2017-11-09T01:59:25.836Z",
-      "birthTime": "2017-11-03T07:42:53.504Z",
-      "root": "/",
-      "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts",
-      "base": "2017-11-09-ibm-devcon-review",
-      "ext": "",
-      "name": "2017-11-09-ibm-devcon-review",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592349928,
-      "blocks": 0,
-      "atimeMs": 1510821176089.3098,
-      "mtimeMs": 1509694973504.5588,
-      "ctimeMs": 1510192765835.95,
-      "birthtimeMs": 1509694973504.0762,
-      "atime": "2017-11-16T08:32:56.089Z",
-      "mtime": "2017-11-03T07:42:53.505Z",
-      "ctime": "2017-11-09T01:59:25.836Z",
-      "birthtime": "2017-11-03T07:42:53.504Z"
-=======
-      "atimeMs": 1516596591429.8848,
-      "mtimeMs": 1511758284780.636,
-      "ctimeMs": 1511758284780.636,
+      "atimeMs": 1516782097914.2786,
+      "mtimeMs": 1516682351421.828,
+      "ctimeMs": 1516682351421.828,
       "birthtimeMs": 1509430041265.8184,
-      "atime": "2018-01-22T04:49:51.430Z",
-      "mtime": "2017-11-27T04:51:24.781Z",
-      "ctime": "2017-11-27T04:51:24.781Z",
+      "atime": "2018-01-24T08:21:37.914Z",
+      "mtime": "2018-01-23T04:39:11.422Z",
+      "ctime": "2018-01-23T04:39:11.422Z",
       "birthtime": "2017-10-31T06:07:21.266Z"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2d4b7f042ffe1dded0c9a05b1d2e131a",
+        "contentDigest": "e46fdd50b6958db5d8922bf54d324f2c",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1708,9 +1685,9 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-01-22T02:08:07.352Z",
-      "accessTime": "2018-01-22T04:49:51.430Z",
-      "changeTime": "2018-01-22T02:08:07.352Z",
+      "modifiedTime": "2018-01-23T04:39:11.422Z",
+      "accessTime": "2018-01-24T08:21:37.914Z",
+      "changeTime": "2018-01-23T04:39:11.422Z",
       "birthTime": "2017-11-23T06:56:40.625Z",
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts",
@@ -1727,13 +1704,13 @@
       "blksize": 4194304,
       "ino": 8595607733,
       "blocks": 0,
-      "atimeMs": 1516596591429.9912,
-      "mtimeMs": 1516586887352.3467,
-      "ctimeMs": 1516586887352.3467,
+      "atimeMs": 1516782097914.2815,
+      "mtimeMs": 1516682351422.2598,
+      "ctimeMs": 1516682351422.2598,
       "birthtimeMs": 1511420200625.2168,
-      "atime": "2018-01-22T04:49:51.430Z",
-      "mtime": "2018-01-22T02:08:07.352Z",
-      "ctime": "2018-01-22T02:08:07.352Z",
+      "atime": "2018-01-24T08:21:37.914Z",
+      "mtime": "2018-01-23T04:39:11.422Z",
+      "ctime": "2018-01-23T04:39:11.422Z",
       "birthtime": "2017-11-23T06:56:40.625Z"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file": {
@@ -1743,11 +1720,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "5029ecb1b295d153ddfba1b207e50bd2",
-=======
         "contentDigest": "12d2376f59f7d4d0eead3245c648e4e8",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1756,21 +1729,12 @@
       "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md",
       "relativePath": "2017-10-30-start-github-blog/index.md",
       "extension": "md",
-<<<<<<< HEAD
-      "size": 2316,
-      "prettySize": "2.32 kB",
-      "modifiedTime": "2017-11-09T06:48:45.680Z",
-      "accessTime": "2017-11-09T06:48:47.119Z",
-      "changeTime": "2017-11-09T06:48:45.680Z",
-      "birthTime": "2017-11-03T07:42:53.504Z",
-=======
       "size": 2284,
       "prettySize": "2.28 kB",
-      "modifiedTime": "2018-01-22T10:19:59.340Z",
-      "accessTime": "2018-01-22T10:19:59.340Z",
-      "changeTime": "2018-01-22T10:19:59.340Z",
-      "birthTime": "2017-11-23T06:56:40.624Z",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "modifiedTime": "2018-01-23T07:59:27.765Z",
+      "accessTime": "2018-01-24T08:04:28.994Z",
+      "changeTime": "2018-01-23T07:59:27.765Z",
+      "birthTime": "2018-01-23T04:39:11.422Z",
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog",
       "base": "index.md",
@@ -1784,29 +1748,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-<<<<<<< HEAD
-      "ino": 8591684598,
+      "ino": 8598198099,
       "blocks": 8,
-      "atimeMs": 1510210127118.7266,
-      "mtimeMs": 1510210125680.2864,
-      "ctimeMs": 1510210125680.2864,
-      "birthtimeMs": 1509694973504.1746,
-      "atime": "2017-11-09T06:48:47.119Z",
-      "mtime": "2017-11-09T06:48:45.680Z",
-      "ctime": "2017-11-09T06:48:45.680Z",
-      "birthtime": "2017-11-03T07:42:53.504Z"
-=======
-      "ino": 8595607732,
-      "blocks": 8,
-      "atimeMs": 1516616399340.0085,
-      "mtimeMs": 1516616399340.2915,
-      "ctimeMs": 1516616399340.2915,
-      "birthtimeMs": 1511420200624.4902,
-      "atime": "2018-01-22T10:19:59.340Z",
-      "mtime": "2018-01-22T10:19:59.340Z",
-      "ctime": "2018-01-22T10:19:59.340Z",
-      "birthtime": "2017-11-23T06:56:40.624Z"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "atimeMs": 1516781068993.7178,
+      "mtimeMs": 1516694367765.2693,
+      "ctimeMs": 1516694367765.2693,
+      "birthtimeMs": 1516682351421.8198,
+      "atime": "2018-01-24T08:04:28.994Z",
+      "mtime": "2018-01-23T07:59:27.765Z",
+      "ctime": "2018-01-23T07:59:27.765Z",
+      "birthtime": "2018-01-23T04:39:11.422Z"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
@@ -1815,11 +1766,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-<<<<<<< HEAD
-        "contentDigest": "95b024d1ee1859bb1c07644eba43d6e0",
-=======
-        "contentDigest": "63f23c81e96b1deb9308a825f8670f70",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "53dbbf27b9f645aac715e69b2d3b2a75",
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1828,21 +1775,12 @@
       "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md",
       "relativePath": "2017-11-09-ibm-devcon-review/index.md",
       "extension": "md",
-<<<<<<< HEAD
-      "size": 12484,
-      "prettySize": "12.5 kB",
-      "modifiedTime": "2017-11-09T08:18:25.000Z",
-      "accessTime": "2017-11-09T08:18:26.579Z",
-      "changeTime": "2017-11-09T08:18:25.212Z",
-      "birthTime": "2017-11-03T07:42:53.504Z",
-=======
-      "size": 6395,
-      "prettySize": "6.39 kB",
-      "modifiedTime": "2018-01-22T10:20:01.502Z",
-      "accessTime": "2018-01-22T10:20:01.501Z",
-      "changeTime": "2018-01-22T10:20:01.502Z",
-      "birthTime": "2017-11-23T06:56:40.625Z",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "size": 12638,
+      "prettySize": "12.6 kB",
+      "modifiedTime": "2018-01-24T06:09:01.391Z",
+      "accessTime": "2018-01-24T08:04:28.994Z",
+      "changeTime": "2018-01-24T06:09:01.391Z",
+      "birthTime": "2018-01-23T04:39:11.422Z",
       "root": "/",
       "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review",
       "base": "index.md",
@@ -1856,28 +1794,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-<<<<<<< HEAD
-      "ino": 8592349930,
+      "ino": 8598198100,
       "blocks": 32,
-      "atimeMs": 1510215506578.9126,
-      "mtimeMs": 1510215505000,
-      "ctimeMs": 1510215505212.1426,
-      "birthtimeMs": 1509694973504.1746,
-      "atime": "2017-11-09T08:18:26.579Z",
-      "mtime": "2017-11-09T08:18:25.000Z",
-      "ctime": "2017-11-09T08:18:25.212Z",
-      "birthtime": "2017-11-03T07:42:53.504Z"
-=======
-      "ino": 8595607734,
-      "blocks": 16,
-      "atimeMs": 1516616401501.3667,
-      "mtimeMs": 1516616401501.6685,
-      "ctimeMs": 1516616401501.6685,
-      "birthtimeMs": 1511420200625.2834,
-      "atime": "2018-01-22T10:20:01.501Z",
-      "mtime": "2018-01-22T10:20:01.502Z",
-      "ctime": "2018-01-22T10:20:01.502Z",
-      "birthtime": "2017-11-23T06:56:40.625Z"
+      "atimeMs": 1516781068993.8408,
+      "mtimeMs": 1516774141390.9402,
+      "ctimeMs": 1516774141390.9402,
+      "birthtimeMs": 1516682351422.2517,
+      "atime": "2018-01-24T08:04:28.994Z",
+      "mtime": "2018-01-24T06:09:01.391Z",
+      "ctime": "2018-01-24T06:09:01.391Z",
+      "birthtime": "2018-01-23T04:39:11.422Z"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file",
@@ -1898,7 +1824,7 @@
       "size": 235128,
       "prettySize": "235 kB",
       "modifiedTime": "2018-01-22T02:08:07.354Z",
-      "accessTime": "2018-01-22T04:35:43.804Z",
+      "accessTime": "2018-01-24T08:04:28.994Z",
       "changeTime": "2018-01-22T02:08:07.355Z",
       "birthTime": "2018-01-22T02:08:07.352Z",
       "root": "/",
@@ -1916,24 +1842,14 @@
       "blksize": 4194304,
       "ino": 8598144919,
       "blocks": 464,
-      "atimeMs": 1516595743803.8396,
+      "atimeMs": 1516781068993.9338,
       "mtimeMs": 1516586887354.2603,
       "ctimeMs": 1516586887355.0989,
       "birthtimeMs": 1516586887352.3252,
-      "atime": "2018-01-22T04:35:43.804Z",
+      "atime": "2018-01-24T08:04:28.994Z",
       "mtime": "2018-01-22T02:08:07.354Z",
       "ctime": "2018-01-22T02:08:07.355Z",
       "birthtime": "2018-01-22T02:08:07.352Z"
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file",
-      "internal": {
-        "contentDigest": "55fcbfec1d138b2f90b6759d8f5c9fd6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/logo.png absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/logo.png absPath of file",
@@ -1954,7 +1870,7 @@
       "size": 362833,
       "prettySize": "363 kB",
       "modifiedTime": "2018-01-22T01:59:20.466Z",
-      "accessTime": "2018-01-22T04:35:43.804Z",
+      "accessTime": "2018-01-24T08:17:24.067Z",
       "changeTime": "2018-01-22T01:59:20.467Z",
       "birthTime": "2018-01-22T01:59:20.463Z",
       "root": "/",
@@ -1972,14 +1888,66 @@
       "blksize": 4194304,
       "ino": 8598144512,
       "blocks": 712,
-      "atimeMs": 1516595743803.7742,
+      "atimeMs": 1516781844067.4778,
       "mtimeMs": 1516586360465.9082,
       "ctimeMs": 1516586360466.542,
       "birthtimeMs": 1516586360463.3926,
-      "atime": "2018-01-22T04:35:43.804Z",
+      "atime": "2018-01-24T08:17:24.067Z",
       "mtime": "2018-01-22T01:59:20.466Z",
       "ctime": "2018-01-22T01:59:20.467Z",
       "birthtime": "2018-01-22T01:59:20.463Z"
+    },
+    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/nametag.jpg absPath of file",
+      "internal": {
+        "contentDigest": "55fcbfec1d138b2f90b6759d8f5c9fd6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: gatsbyJS 로 블로그 시작하기\ndate: \"2017-10-30T13:00:00.284Z\"\npath: \"/start-github-blog/\"\ncategory: \"Javascript\"\n---\n\n안녕하세요. 마작입니다.\n첫 포스트는 github 페이지를 gatsby.js 로 시작하게 된 이유와 그 후기를 공유하고자 작성합니다.\n\n아마 github 페이지라면 대부분 jekyll 를 사용해 제작하는것을 가장 보편적으로 생각하실텐데요. 저도 처음엔 이 툴을 사용해 페이지를 빌드해서 사용했었고, 점점 활용범위를 넓혀가기 위해 블로그로 활용하려고 했었습니다.\n\n그러다 문득 Ruby로 작성된 jekyll 말고 nodejs 기반으로 만들어진 다른 툴이 없을까 찾아보았습니다.\n그중에 꽤 괜찮아보인 Hexo 를 발견했고, 이 툴을 이용해서 ejs 로 작성된 기본 템플릿을 pug(jade)로 바꾸고, Bootstrap 을 붙여보는 식으로 해서 작성을 해봤었지만 딱히 큰 매력을 느끼기는 어려웠는데요.\n\n개인적으로는 최신 프론트앤드 기술(Angular, React, Vue)과 연관되어있고, 정적 페이지를 빠르게 만들기 효과적인 도구를 찾고 있었거든요. 아무래도 매번 작은 홍보용 페이지를 만들기 위해 무거운 npm 모듈들을 올려가는것들을 딱히 좋아하지도 않았구요. 무엇보다 마크업언어로 된 파일들로 바로바로 포스팅도 할수 있어야 데이터베이스를 만들지 않고도 글을 올릴 필요성도 있어야 한다고 생각했습니다.\n\n그러다 다른분들의 github 페이지를 보고 gatsby.js 로 만들어진곳이 있어 공홈에 들어가보니 생각보다 Document 도 잘 정리되어 있고(개인적으로 Hexo는 Document가 빈약하다고 생각함) 최신 기술중 하나인 React 로 되어 있어서 해보고 싶다는 생각이 많이 들었습니다.\n\n아직까지 회사일+외주일 그리고 포스팅까지 하기엔 부족한 점이 많지만,\nGithub 페이지 포스팅을 통해, 제가 작업했던 내용을 다시 살펴보고 많은 분들께 공유하는 차원에서도 꽤 괜찮아 보이게 만들고 싶었는데요.\n\n이 글을 읽으시는 분들을 위해서 제가 이 페이지를 어떤 과정으로 만들었는지 소개해 드리려고 합니다.\n\n",
+        "contentDigest": "26f77500a7aa6c2c58f0261c6a7a7d21",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "gatsbyJS 로 블로그 시작하기",
+        "date": "2017-10-30T13:00:00.284Z",
+        "path": "/start-github-blog/",
+        "category": "Javascript",
+        "_PARENT": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file",
+        "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md"
+    },
+    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"2017 IBM Devcon 참가 후기\"\ndate: \"2017-11-09T10:00:00.284Z\"\npath: \"/ibm-devcon-review/\"\ncategory: \"Javascript\"\n---\n![Play node 2017 Logo](/logo.png)\n\n2018년이 끝나가는 11월에 Javascript 행사에 참가하게 되었고, 어쩌다 보니 보니 올해 처음이자 마지막으로 참가한 행사가 되어 버렸다. playnode 라는 비영리 단체에서 몇개의 세션을 진행하기로 되어 있어서 정확히는 오후 1시 이후부터 진행되는 playnode 의 두번째 세션(FrontEnd)을 듣기 위해 참여했다. 참가비용은 없었고 사전 등록을 진행하기에 행사 진행 약 2주전 쯤 사전 등록을 진행했고, 덕분에 빠르게 명찰을 받아 행사장에 입장할 수 있었다.\n\n행사장은 신논현역 근처 르메르디앙 호텔에서 진행했는데, 호텔 컨퍼런스 룸에서 하는 행사는 처음이라 조금 두근두근했다. 하지만 한가지 아쉬운 점이 하나 있었는데, 요즘 행사장에서 대부분 진행하는 Live 앱을 다운로드 받으면 개인 QR코드 및 현재 행사와 관련된 정보내 알림등을 실시간으로 받아볼 수 있지만 앱을 다운로드 받으려고 하니 내 디바이스와 호환이 되지 않아 다운로드 받을 수 없었다. 참고로 나는 넥서스6 - Android 7(누가) 를 사용중인데 안드로이드 오레오 기기가 아직 국내에 1~2개밖에 발매되지 않은것을 고려하면 거의 최신 디바이스이다. \n\n![Alt text](/sobad.png)\n<div class=\"text-center margin-bottom-20\"><b>기기가 이 버전과 호환되지 않습니다!</b></div>\n\n오전 첫번째 세션은 Jonas Jacobi 라는 IBM의 Developer Advocacy 부사장이 나와 오픈소스에 대한 이야기를 주로 다루었는데, 몇가지 기억나는 내용만 메모해본다면.\n\n- 오픈소스는 다른 개발자와 커뮤니케이션하는 최고의 도구이다.\n- 오픈소스는 다른 개발자로부터 기술지원을 받을 수 있다.\n- IBM은 오픈소스 커뮤니티를 만들기 위해 오래전부터 투자 등의 많은 노력을 해 왔고 자사 블로그나 github 을 통해 많은 자료를 공개하고 있다.\n\n<hr/>\n\n다음 이어진 세션은 Github의 Solutions Engineer인 Christian Weber 가 나와 세션을 진행했고 Github + Watson 으로 하는 소프트웨어 개발에 대해 발표를 진행했다. 평소 github 은 자주 사용하지만 Watson 은 처음 들어보는거라 조금 생소한 부분은 있었지만, 실제로 github 을 만든 사람을 보니 신기하다는 생각이 들었다. 처음엔 개발 문화나 방법론에 대해 이야기했는데, 아마 이분은 조선에서 일해본 적이 없어서 이걸 만들어가는것이 얼마나 어려운지 잘 모르시는것 같다. 그리고 Oberver 패턴에 대해 이야기했는데 아마 RxJS에서 사용하는 subject, observer, subscribe 과 비슷한 개념인것 같은데 정확히 이것과 같은 개념인지는 한번 더 알아봐야겠다.\n\n- 개발문화를 스스로 만들고 조율해야 함\n- Oberver Pattern\n\n그리고 오전 마지막 세션은 serverless 에 대해 이야기를 하는 시간이었고, 발표자인 OpenWhisk의 Michael M Behrendt은 한국에 처음 왔다고 말하면서 반갑다고 했지만 표정은 매우 어두워보였다. openwhisk 는 apache 재단에서 진행하는 오픈소스프로젝트중에 하나인데 서버분야는 잘 모르다 보니 조금 어렵긴했지만 한번 웹사이트를 둘러보며 천천히 읽어보면 유익한 내용이 될 것 같다.\n\n<hr/>\n\n그리고 찾아온 점심시간..\n애초에 등록비용이 없었기에 점심식사는 제공되지 않을 것이라고 생각했지만, 다행히도 IBM측에서 방문자들에게 모두 호텔이 만든 도시락을 제공해주었다. 신선한 샌드위치 조각 3종류가 제공되었고 웨지감자는 통통하니 맛있었다. 그리고 호텔맛나는 커피까지 줘서 매우 만족스러웠다.\n\n![Alt text](/lunch.jpg)\n\n오후부터는 드디어 내가 원래 들으려고 했던 세션이 시작되었다.\n아무래도 메인 행사에 껴서 하다보니 생각보다 공간이 넓지 않았고 넉넉히 앉기에는 의자가 조금 부족했지만, 진작부터 자리를 맡아 둔 것에 크게 힘들거나 하지는 않았다.\n\n* * *\n\n**첫번째 세션** - [발표자료](http://slides.com/bjkim-1/typescript#/)\n## 타입스크립트 제가한번 써봤습니다\n\n첫번째 세션은 Flitto 의 김병진님이라는 분이 진행했다. 이분은 백엔드 개발자이고 사내 백오피스 개발을 했던 후기를 공유하고자 하는 내용이었다. 현재 사내에서 진행하는 프로젝트도 ts 를 사용하고 있었고, 앞으로 하는 프로젝트도 모두 ts를 사용하고자 하기 때문에 다른 사람의 후기를 듣는건 꽤 괜찮은 시간이었다. 아무래도 ts를 사용하려다 보면 js코드를 ts로 빌드해야하는것이 반드시 필요하기 때문에 이를 매우 번거롭다고 생각하는 사람들이 많지만, 한번의 번거로움으로 기술 표준화 및 다양하고 간략한 문법을 사용할수 있으므로 이 글을 읽는 분들 중 ts 도입을 검토하는 개발자라면 주저하지 말고 도입하시기를 추천드리고 싶다.\n\n- input, output 값을 체크할 때 유효성 및 structure 체크를 하는 함수가 불필요하게 자꾸 들어가는 문제를 ts(interface)로 극복할 수 있음.\n- 각각의 interface 는 여러개를 중첩해 사용하거나 상속받아 사용할 수 있음, 단 이 때 너무 많은 depth 를 가지지 않도록 주의해야 함.\n- 그리고 위 interface 를 code editor 에서 사용할 경우 typeError 를 표시해주게 됨.\n- oberverble`<interfaceName>` 형태를 사용해 output 값을 명확히 해 줄 수 있다.\n- backend, Frontend 양쪽에서 같은 interface 를 사용하게 됨으로써 shard라는 폴더를 하나 생성해 그곳에 공통된 interface 를 사용하게 됨으로써 RestFul 을 좀 더 명확하게 할 수 있다.\n- JS의 @decorator 를 사용할 수 있음. Angualr4의 @component 를 만들때 쓰이는게 이거임. 대략적으로는 아래와 같은 문법이다. 이 문법을 통해 의존성을 주입할수 있는 등 다방면에서 활용이 가능하다.\n\n* * *\n\n두번째 세션 - [발표자료](http://slides.com/bjkim-1/typescript#/3/12)\n\n두번째 세션은 하이퍼커넥트의 안희종 님이 진행했고 주제는 \"typescript & flow, 정적 타이핑 도입하기\" 관련 내용이다. 오늘 이런 개발주제 관련 발표가 처음이라고 한다. 이 발표의 주된 내용중에서 인상적인 내용은\n\n- ts(ms) or flow(facebook) 를 사용함으로써 실제 개발시 출현(발견) 되는 버그의 10% 이상을 감소시킬 수 있다.\n- 정적타입시스템을 통해 코드 자체가 문서화되기 매우 용이하다.\n- 참고로 둘다 문법에는 큰 차이가 없으므로 개인적으로 편한것을 골라 사용하는것이 대체로 좋음. 하지만 발표자는 typescript 를 쓰는것을 추천함. 왜냐면 javasciprt의 기본적인 불안정성을 flow 에너 너무 엄격하게 체크하므로 생산성이 매우 떨어짐.\n\n* * *\n\n세번째 세션 - [발표자료](https://www.slideshare.net/HeejongAhn/typescript-flow-81799404/)\n\n세번째 세션은 라즈베리파이 + NodeJS + React Native 를 활용해 제작한 스마트조명을 만든 프로젝트를 리뷰하는 시간이었고 발표자는 Streami 의 프론트앤드 개발자 김석준님이다. 나한테 아주 큰 관심이 있는 시간은 아니지만, 리액트 네이티브에 평소 관심이 있었기때문에 들어보고 싶었고 마침 발표자도 풀스택이지만 주로 프론트앤드 개발을 하시는 분이기때문에 나름 유익한 시간이 되었다.\n\n* * *\n\n네번째 세션 - [발표자료](https://www.slideshare.net/analogstyle/raspberry-pi-iot-stacks)\n\n다음으로 네번째 세션에는 한개의 프로젝트 안에 여러개의 모듈을 관리하는 방법(monorepo)을 lerna 라는 패키지를 이용해 진행하는것(getting start) 을 step by step 을 하는 시간이었는데, 뭐 이것도 관심이 없는 분야는 아니지만 그렇게 나에게 있어 흥미가 있는 것은 아니었기에 그냥 흘러가듯 듣고 있었는데, 갑자기 발표자분께서 선물을 준다고 하시면서 질문을 하시길래 답을 했고 책 한권을 주셨다(내가 관심이 별로 없는). 모노레포에 대한 개념을 사실 이번에 처음 들었는데, 내가 독립적인 모듈을 여러개 만들고 그 모듈이 서로 연관되어 있다면 모노레포를 한번 도입해보고 연습해보는 시간이 필요할것 같다.\n\n* * *\n\n다섯번째 세션 - 발표자료 링크 없음\n\n다섯번째 세션은 console.log 사용하지 않고 강력한 디버깅을 하는 방법에 대해 발표하는 시간이었는데 자세히 보니 -덜 조금- 이라는 단어가 붙어있었다. 뭐 어쨌든, 평소에 디버깅할때 console.log 에 굉장히 의존을 많이 하는 편이었는데, 다른 개발자들은 이 방법 말고 다른 방법을 쓴다고 하니 꽤 흥미로운 내용이 많을것 같았다. 발표자는 주로 node, react 를 사용해 웹앱을 개발하는 개발자였다. 그런데 뭔가 색다른 내용인줄 알았지만 결국엔 typescript 를 사용하자는 내용이었다. 핵심적인 내용은 두번째 세션에서 나왔던 내용을 좀 더 세심하게 발표한다는 느낌을 받았다.\n\n- ts 를 통해 interface 를 선언해 사용하면 중간중간 obejct 를 확인하는 console.log 를 사용하지 않아도 된다.\n- 헤당 interface 는 vscode를 사용해 중간중간 수정할때 이를 참조하는 부분에서도 원본 interface 를 바로바로 수정할수 있다.\n- CSS 를 JS안에서 사용할때도(Like react) 허용하지 않는 property 사용시에도 vscode 에서 error 을 출력해줌.\n- ts는 overload(?) 를 지원함\n- 크롬의 디버깅모드인 인스펙터를 사용해 코드를 바로바로 리뷰해 보는 습관을 기르는 것이 좋다. breakpoint, pause 등을 사용하자. 이 기능은 node 에서도 사용할수 있음(따로 애드온으로 깔아야하나??)\n- 그리고 vscode debug 에서도 inspector 를 지원하고, Frontend 에서 활용하기 매우 편하다.\n- 하지만 이런 것들은 디버깅 포인트가 지나버리면 다시 뒤로갈수가 없음. 그래서 챠크라라는 패키지를 이용한다.(아직 아쉬운점이 있지만)\n\n* * *\n\n여섯번째 세션 - 발표자료 링크 없음\n\n마지막 세션 이웅재님이 진행하는 일렉트론 패키징머신 후기인데 seoul.js 등 여러개 커뮤니티를 운영하고 있는 사람이다. 평소에 일렉트론에 관심이 매우매우 많아서 꼭 들어보고 싶은 세션중에 하나인데 마지막 시간이라서(배고파서) 힘들었지만 최대한 열심히 듣기 위해 노력했다. 아직까지는 이 자동화해 주는 툴은 개발중이고 나중에는 오픈소스로 풀 계획이 있다고 한다.\n\n- 일렉트론의 기본은 일렉트론 패키지 안에 app(app.asar) 을 만들어놓으면 그 앱이 실행되는 원리이다.\n- 그 일렉트론 앱을 내가 만든 앱에 맞게 아이덴티티를 부여하는것을 리브랜딩이라 한다.\n- electron-packager 를 사용하면 실행파일 만들어줌\n- electron-builder 를 사용하면 설치파일을 만들어줌, 맥, 윈도우 등등 타겟설정이 가능함\n- electron-forge 를 쓰면 angular-cli 처럼 cli로 일렉트론을 개발할수 있게 해줌. 그리고 기본 템플릿이 있어서 다양한 프레임워크/라이브러리 로 설정된 skeleton 을 제공한다.\n- 웹에서 설치파일을 제공하고 사용자가 설치했을 경우, 앱을 설치한 유저에게 autoUpdate 기능도 Squirrel 을 사용하면 가능하지만 생각보다 사용하기 까다로움.(윈도우에서 정상적으로 작동하지 않음)\n- 기본적으로 자동업데이트를 사용하려면, 내부적으로 웹서버를 띄우고 그곳에서 업데이트된 파일을 다운로드 받아 ready 상태로 두는 방법을 사용해야 함.\n- 그리고 자동업데이트를 하려면 자동업데이트 서버를 사용해야함, 오픈소스로 존재하지만 기능이 역시 완벽하지 않음.\n- 그래서 vscode 를 분석해본결과 inno setup 이라는 방식을 사용해서 이를 도입해서 사용해보기로 함.\n\n<hr/>\n\n\n\n\n\n",
+        "contentDigest": "7cb4fb995606092e093c2ea8b579af8c",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "2017 IBM Devcon 참가 후기",
+        "date": "2017-11-09T10:00:00.284Z",
+        "path": "/ibm-devcon-review/",
+        "category": "Javascript",
+        "_PARENT": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
+        "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/lunch.jpg absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/lunch.jpg absPath of file",
@@ -2000,7 +1968,7 @@
       "size": 341640,
       "prettySize": "342 kB",
       "modifiedTime": "2018-01-22T02:08:07.335Z",
-      "accessTime": "2018-01-22T04:35:43.804Z",
+      "accessTime": "2018-01-24T08:17:24.068Z",
       "changeTime": "2018-01-22T02:08:07.336Z",
       "birthTime": "2018-01-22T02:08:07.334Z",
       "root": "/",
@@ -2018,83 +1986,14 @@
       "blksize": 4194304,
       "ino": 8598144918,
       "blocks": 672,
-      "atimeMs": 1516595743803.8076,
+      "atimeMs": 1516781844067.5012,
       "mtimeMs": 1516586887335.4011,
       "ctimeMs": 1516586887335.6638,
       "birthtimeMs": 1516586887334.0974,
-      "atime": "2018-01-22T04:35:43.804Z",
+      "atime": "2018-01-24T08:17:24.068Z",
       "mtime": "2018-01-22T02:08:07.335Z",
       "ctime": "2018-01-22T02:08:07.336Z",
       "birthtime": "2018-01-22T02:08:07.334Z"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file",
-      "internal": {
-<<<<<<< HEAD
-        "content": "---\ntitle: gatsbyJS 로 블로그 시작하기\ndate: \"2017-10-30T13:00:00.284Z\"\npath: \"/start-github-blog/\"\ncategort: \"develop\"\ntag: \"javascript, gatsbyjs, react\"\n---\n\n안녕하세요. 마작입니다.\n첫 포스트는 github 페이지를 gatsby.js 로 시작하게 된 이유와 그 후기를 공유하고자 작성합니다.\n\n아마 github 페이지라면 대부분 jekyll 를 사용해 제작하는것을 가장 보편적으로 생각하실텐데요. 저도 처음엔 이 툴을 사용해 페이지를 빌드해서 사용했었고, 점점 활용범위를 넓혀가기 위해 블로그로 활용하려고 했었습니다.\n\n그러다 문득 Ruby로 작성된 jekyll 말고 nodejs 기반으로 만들어진 다른 툴이 없을까 찾아보았습니다.\n그중에 꽤 괜찮아보인 Hexo 를 발견했고, 이 툴을 이용해서 ejs 로 작성된 기본 템플릿을 pug(jade)로 바꾸고, Bootstrap 을 붙여보는 식으로 해서 작성을 해봤었지만 딱히 큰 매력을 느끼기는 어려웠는데요.\n\n개인적으로는 최신 프론트앤드 기술(Angular, React, Vue)과 연관되어있고, 정적 페이지를 빠르게 만들기 효과적인 도구를 찾고 있었거든요. 아무래도 매번 작은 홍보용 페이지를 만들기 위해 무거운 npm 모듈들을 올려가는것들을 딱히 좋아하지도 않았구요. 무엇보다 마크업언어로 된 파일들로 바로바로 포스팅도 할수 있어야 데이터베이스를 만들지 않고도 글을 올릴 필요성도 있어야 한다고 생각했습니다.\n\n그러다 다른분들의 github 페이지를 보고 gatsby.js 로 만들어진곳이 있어 공홈에 들어가보니 생각보다 Document 도 잘 정리되어 있고(개인적으로 Hexo는 Document가 빈약하다고 생각함) 최신 기술중 하나인 React 로 되어 있어서 해보고 싶다는 생각이 많이 들었습니다.\n\n아직까지 회사일+외주일 그리고 포스팅까지 하기엔 부족한 점이 많지만,\nGithub 페이지 포스팅을 통해, 제가 작업했던 내용을 다시 살펴보고 많은 분들께 공유하는 차원에서도 꽤 괜찮아 보이게 만들고 싶었는데요.\n\n이 글을 읽으시는 분들을 위해서 제가 이 페이지를 어떤 과정으로 만들었는지 소개해 드리려고 합니다.\n\n",
-        "contentDigest": "18b636d1a2654d6b6f8f633df454d8fc",
-=======
-        "content": "---\ntitle: gatsbyJS 로 블로그 시작하기\ndate: \"2017-10-30T13:00:00.284Z\"\npath: \"/start-github-blog/\"\ncategory: \"Javascript\"\n---\n\n안녕하세요. 마작입니다.\n첫 포스트는 github 페이지를 gatsby.js 로 시작하게 된 이유와 그 후기를 공유하고자 작성합니다.\n\n아마 github 페이지라면 대부분 jekyll 를 사용해 제작하는것을 가장 보편적으로 생각하실텐데요. 저도 처음엔 이 툴을 사용해 페이지를 빌드해서 사용했었고, 점점 활용범위를 넓혀가기 위해 블로그로 활용하려고 했었습니다.\n\n그러다 문득 Ruby로 작성된 jekyll 말고 nodejs 기반으로 만들어진 다른 툴이 없을까 찾아보았습니다.\n그중에 꽤 괜찮아보인 Hexo 를 발견했고, 이 툴을 이용해서 ejs 로 작성된 기본 템플릿을 pug(jade)로 바꾸고, Bootstrap 을 붙여보는 식으로 해서 작성을 해봤었지만 딱히 큰 매력을 느끼기는 어려웠는데요.\n\n개인적으로는 최신 프론트앤드 기술(Angular, React, Vue)과 연관되어있고, 정적 페이지를 빠르게 만들기 효과적인 도구를 찾고 있었거든요. 아무래도 매번 작은 홍보용 페이지를 만들기 위해 무거운 npm 모듈들을 올려가는것들을 딱히 좋아하지도 않았구요. 무엇보다 마크업언어로 된 파일들로 바로바로 포스팅도 할수 있어야 데이터베이스를 만들지 않고도 글을 올릴 필요성도 있어야 한다고 생각했습니다.\n\n그러다 다른분들의 github 페이지를 보고 gatsby.js 로 만들어진곳이 있어 공홈에 들어가보니 생각보다 Document 도 잘 정리되어 있고(개인적으로 Hexo는 Document가 빈약하다고 생각함) 최신 기술중 하나인 React 로 되어 있어서 해보고 싶다는 생각이 많이 들었습니다.\n\n아직까지 회사일+외주일 그리고 포스팅까지 하기엔 부족한 점이 많지만,\nGithub 페이지 포스팅을 통해, 제가 작업했던 내용을 다시 살펴보고 많은 분들께 공유하는 차원에서도 꽤 괜찮아 보이게 만들고 싶었는데요.\n\n이 글을 읽으시는 분들을 위해서 제가 이 페이지를 어떤 과정으로 만들었는지 소개해 드리려고 합니다.\n\n",
-        "contentDigest": "26f77500a7aa6c2c58f0261c6a7a7d21",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "gatsbyJS 로 블로그 시작하기",
-        "date": "2017-10-30T13:00:00.284Z",
-        "path": "/start-github-blog/",
-<<<<<<< HEAD
-        "categort": "develop",
-        "tag": "javascript, gatsbyjs, react",
-=======
-        "category": "Javascript",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
-        "_PARENT": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file",
-        "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md"
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
-      "internal": {
-<<<<<<< HEAD
-        "content": "---\ntitle: \"2017 IBM Devcon 참가 후기\"\ndate: \"2017-11-09T10:00:00.284Z\"\npath: \"/ibm-devcon-review/\"\ntag: \"IBM conferance\"\ncategort: \"conferance\"\n---\n[여기에 메인 이미지 첨부]\n\n어쩌다 보니 올해 첫번째 참여한 컨퍼런스다. 원래 IBM 에서 주최하는 행사는 나와 큰 관련이 없는 행사이지만, playnode 라는 단체에서 몇개의 세션을 진행하기로 되어 있어서 정확히는 오후 1시 이후부터 진행되는 playnode 의 2 세션(FrontEnd)을 듣기 위해 참여했다. 참가비용은 없었고 사전 등록을 진행하기에 행사 진행 약 2주전 쯤 사전 등록을 진행했고, 덕분에 빠르게 명찰을 받아 행사장에 입장할 수 있었다.\n\n행사장은 신논현역 근처 르메르디앙 호텔에서 진행했는데, 호텔 컨퍼런스 룸에서 하는 행사는 처음이라 조금 두근두근했다. 하지만 한가지 아쉬운 점은.. 요즘 행사장에서 대부분 진행하는 Live 앱을 다운로드 받으면 개인 QR코드 및 현재 행사와 관련된 정보내 알림등을 실시간으로 받아볼 수 있지만 앱을 다운로드 받으려고 하니 내 디바이스와 호환이 되지 않아 다운로드 받을 수 없었다. 참고로 나는 넥서스6 - Android 7(누가) 를 사용중인데 안드로이드 오레오 기기가 아직 국내에 1~2개밖에 발매되지 않은것을 고려하면 거의 최신 디바이스이다. \n\n[여기에 이미지 넣기]\n\n오전 첫번째 세션은 Jonas Jacobi 라는 IBM의 Developer Advocacy 부사장이 나와 오픈소스에 대한 이야기를 주로 다루었는데, 몇가지 기억나는 내용이라면 다음과 같다.\n\n- 오픈소스는 다른 개발자와 커뮤니케이션하는 최고의 도구이다.\n- 오픈소스는 다른 개발자로부터 기술지원을 받을 수 있다.\n- IBM은 오픈소스 커뮤니티를 만들기 위해 오래전부터 투자 등의 많은 노력을 해 왔고 자사 블로그나 github 을 통해 많은 자료를 공개하고 있다.\n\n다음 이어진 세션은 Github의 Solutions Engineer인 Christian Weber 가 나와 세션을 진행했고 Github + Watson 으로 하는 소프트웨어 개발에 대해 발표를 진행했다. 평소 github 은 자주 사용하지만 Watson 은 처음 들어보는거라 조금 생소한 부분은 있었지만, 실제로 github 을 만든 사람을 보니 신기하다는 생각이 들었다. \n\n처음엔 개발 문화나 방법론에 대해 이야기했는데, 아마 이분은 조선에서 일해본 적이 없어서 이걸 만들어가는것이 얼마나 어려운지 잘 모르시는것 같다. 그리고 Oberver 패턴에 대해 이야기했는데 아마 RxJS에서 사용하는 subject, observer, subscribe 과 비슷한 개념인것 같은데 정확히 이것과 같은 개념인지는 한번 더 알아봐야겠다.\n\n- 개발문화를 스스로 만들고 조율해야 함\n- Oberver Pattern\n\n그리고 오전 마지막 세션은 serverless 에 대해 이야기를 하는 시간이었고, 발표자인 OpenWhisk의 Michael M Behrendt은 한국에 처음 왔다고 말하면서 반갑다고 했지만 표정은 매우 어두워보였다. openwhisk 는 apache 재단에서 진행하는 오픈소스프로젝트중에 하나인데 서버분야는 잘 모르다 보니 조금 어렵긴했지만 한번 웹사이트를 둘러보며 천천히 읽어보면 유익한 내용이 될 것 같다.\n\n그리고 찾아온 점심시간..\n애초에 등록비용이 없었기에 점심식사는 제공되지 않을 것이라고 생각했지만, 다행히도 IBM측에서 방문자들에게 모두 호텔이 만든 도시락을 제공해주었다. 신선한 샌드위치 조각 3종류가 제공되었고 웨지감자는 통통하니 맛있었다. 그리고 호텔맛나는 커피까지 줘서 매우 만족스러웠다.\n\n[도시락 사진 첨부하기]\n\n오후부터는 드디어 내가 원래 들으려고 했던 세션이 시작되었다.\n아무래도 메인 행사에 껴서 하다보니 생각보다 공간이 넓지 않았고 넉넉히 앉기에는 의자가 조금 부족했지만, 진작부터 자리를 맡아 둔 것에 크게 힘들거나 하지는 않았다.\n\n첫번째 세션은 Flitto 의 김병진님이라는 분이 진행했고, 주제는 \"타입스크립트 제가한번 써봤습니다\" 라는 내용이었다. 이분은 백엔드 개발자이고 사내 백오피스 개발을 했던 후기를 공유하고자 하는 내용이었다. 현재 사내에서 진행하는 프로젝트도 ts 를 사용하고 있었고, 앞으로 하는 프로젝트도 모두 ts를 사용하고자 하기 때문에 다른 사람의 후기를 듣는건 꽤 괜찮은 시간이었다. 아무래도 ts를 사용하려다 보면 js코드를 ts로 빌드해야하는것이 반드시 필요하기 때문에 이를 매우 번거롭다고 생각하는 사람들이 많지만, 한번의 번거로움으로 기술 표준화 및 다양하고 간략한 문법을 사용할수 있으므로 이 글을 읽는 분들 중 ts 도입을 검토하는 개발자라면 주저하지 말고 도입하시기를 추천드리고 싶다.\n\n일반 이번 세션에서 가장 중요하게 다룬 내용은 다음과 같다.\n\n- input, output 값을 체크할 때 유효성 및 structure 체크를 하는 함수가 불필요하게 자꾸 들어가는 문제를 ts(interface)로 극복할 수 있음.\n- 각각의 interface 는 여러개를 중첩해 사용하거나 상속받아 사용할 수 있음, 단 이 때 너무 많은 depth 를 가지지 않도록 주의해야 함.\n- 그리고 위 interface 를 code editor 에서 사용할 경우 typeError 를 표시해주게 됨.\n- oberverble`<interfaceName>` 형태를 사용해 output 값을 명확히 해 줄 수 있다.\n- backend, Frontend 양쪽에서 같은 interface 를 사용하게 됨으로써 shard라는 폴더를 하나 생성해 그곳에 공통된 interface 를 사용하게 됨으로써 RestFul 을 좀 더 명확하게 할 수 있다.\n- JS의 @decorator 를 사용할 수 있음. Angualr4의 @component 를 만들때 쓰이는게 이거임. 대략적으로는 아래와 같은 문법이다. 이 문법을 통해 의존성을 주입할수 있는 등 다방면에서 활용이 가능하다.\n\nfunction decoratorName() {\n\n}\n\n@decoratorName\nclass ClassName {\n\n}\n\n두번째 세션은 하이퍼커넥트의 안희종 님이 진행했고 주제는 \"typescript & flow, 정적 타이핑 도입하기\" 관련 내용이다. 오늘 이런 개발주제 관련 발표가 처음이라고 한다.\n\n이 발표의 주된 내용중에서 인상적인 내용은\n\n- ts(ms) or flow(facebook) 를 사용함으로써 실제 개발시 출현(발견) 되는 버그의 10% 이상을 감소시킬 수 있다.\n- 정적타입시스템을 통해 코드 자체가 문서화되기 매우 용이하다.\n- 참고로 둘다 문법에는 큰 차이가 없으므로 개인적으로 편한것을 골라 사용하는것이 대체로 좋음. 하지만 발표자는 typescript 를 쓰는것을 추천함. 왜냐면 javasciprt의 기본적인 불안정성을 flow 에너 너무 엄격하게 체크하므로 생산성이 매우 떨어짐.\n\n\n세번째 세션은 라즈베리파이 + NodeJS + React Native 를 활용해 제작한 스마트조명을 만든 프로젝트를 리뷰하는 시간이었고 발표자는 Streami 의 프론트앤드 개발자 김석준님이다. 나한테 아주 큰 관심이 있는 시간은 아니지만, 리액트 네이티브에 평소 관심이 있었기때문에 들어보고 싶었고 마침 발표자도 풀스택이지만 주로 프론트앤드 개발을 하시는 분이기때문에 나름 유익한 시간이 되었다.\n\n잠시 쉬는시간에 아래쪽에 내려가보니 IBM 기념품을 나눠주고 있었고, 원래는 IBM Live 앱을 통해 설문을 진행해야 받을수 있었지만 난 앱을 다운로드 받을수 없다고 징징거리니 관계자분이 확인후에 그냥 주셨다.\n\n다음으로 네번째 세션에는 한개의 프로젝트 안에 여러개의 모듈을 관리하는 방법(monorepo)을 lerna 라는 패키지를 이용해 진행하는것(getting start) 을 step by step 을 하는 시간이었는데, 뭐 이것도 관심이 없는 분야는 아니지만 그렇게 나에게 있어 흥미가 있는 것은 아니었기에 그냥 흘러가듯 듣고 있었는데, 갑자기 발표자분께서 선물을 준다고 하시면서 질문을 하시길래 답을 했고 책 한권을 주셨다(내가 관심이 별로 없는). 모노레포에 대한 개념을 사실 이번에 처음 들었는데, 내가 독립적인 모듈을 여러개 만들고 그 모듈이 서로 연관되어 있다면 모노레포를 한번 도입해보고 연습해보는 시간이 필요할것 같다.\n\n[책 사진 이미지 첨부]\n\n다섯번째 세션은 console.log 사용하지 않고 강력한 디버깅을 하는 방법에 대해 발표하는 시간이었는데 자세히 보니 -덜 조금- 이라는 단어가 붙어있었다. 뭐 어쨌든, 평소에 디버깅할때 console.log 에 굉장히 의존을 많이 하는 편이었는데, 다른 개발자들은 이 방법 말고 다른 방법을 쓴다고 하니 꽤 흥미로운 내용이 많을것 같았다. 발표자는 주로 node, react 를 사용해 웹앱을 개발하는 개발자였다. 그런데 뭔가 색다른 내용인줄 알았지만 결국엔 typescript 를 사용하자는 내용이었다. 핵심적인 내용은 두번째 세션에서 나왔던 내용을 좀 더 세심하게 발표한다는 느낌을 받았다.\n\n- ts 를 통해 interface 를 선언해 사용하면 중간중간 obejct 를 확인하는 console.log 를 사용하지 않아도 된다.\n- 헤당 interface 는 vscode를 사용해 중간중간 수정할때 이를 참조하는 부분에서도 원본 interface 를 바로바로 수정할수 있다.\n- CSS 를 JS안에서 사용할때도(Like react) 허용하지 않는 property 사용시에도 vscode 에서 error 을 출력해줌.\n- ts는 overload(?) 를 지원함\n- 크롬의 디버깅모드인 인스펙터를 사용해 코드를 바로바로 리뷰해 보는 습관을 기르는 것이 좋다. breakpoint, pause 등을 사용하자. 이 기능은 node 에서도 사용할수 있음(따로 애드온으로 깔아야하나??)\n- 그리고 vscode debug 에서도 inspector 를 지원하고, Frontend 에서 활용하기 매우 편하다.\n- 하지만 이런 것들은 디버깅 포인트가 지나버리면 다시 뒤로갈수가 없음. 그래서 챠크라라는 패키지를 이용한다.(아직 아쉬운점이 있지만)\n\n마지막 세션 이웅재님이 진행하는 일렉트론 패키징머신 후기인데 seoul.js 등 여러개 커뮤니티를 운영하고 있는 사람이다. 평소에 일렉트론에 관심이 매우매우 많아서 꼭 들어보고 싶은 세션중에 하나인데 마지막 시간이라서(배고파서) 힘들었지만 최대한 열심히 듣기 위해 노력했다. 아직까지는 이 자동화해 주는 툴은 개발중이고 나중에는 오픈소스로 풀 계획이 있다고 한다.\n\n- 일렉트론의 기본은 일렉트론 패키지 안에 app(app.asar) 을 만들어놓으면 그 앱이 실행되는 원리이다.\n- 그 일렉트론 앱을 내가 만든 앱에 맞게 아이덴티티를 부여하는것을 리브랜딩이라 한다.\n- electron-packager 를 사용하면 실행파일 만들어줌\n- electron-builder 를 사용하면 설치파일을 만들어줌, 맥, 윈도우 등등 타겟설정이 가능함\n- electron-forge 를 쓰면 angular-cli 처럼 cli로 일렉트론을 개발할수 있게 해줌. 그리고 기본 템플릿이 있어서 다양한 프레임워크/라이브러리 로 설정된 skeleton 을 제공한다.\n- 웹에서 설치파일을 제공하고 사용자가 설치했을 경우, 앱을 설치한 유저에게 autoUpdate 기능도 Squirrel 을 사용하면 가능하지만 생각보다 사용하기 까다로움.(윈도우에서 정상적으로 작동하지 않음)\n- 기본적으로 자동업데이트를 사용하려면, 내부적으로 웹서버를 띄우고 그곳에서 업데이트된 파일을 다운로드 받아 ready 상태로 두는 방법을 사용해야 함.\n- 그리고 자동업데이트를 하려면 자동업데이트 서버를 사용해야함, 오픈소스로 존재하지만 기능이 역시 완벽하지 않음.\n- 그래서 vscode 를 분석해본결과 inno setup 이라는 방식을 사용해서 이를 도입해서 사용해보기로 함.\n\n\n\n",
-        "contentDigest": "796d59e4df45374fed44f12ceb5bf14b",
-=======
-        "content": "---\ntitle: \"2017 IBM Devcon 참가 후기\"\ndate: \"2017-11-09T10:00:00.284Z\"\npath: \"/ibm-devcon-review/\"\ncategory: \"Javascript\"\n---\n![Alt text](/logo.png)\n\n2018년이 끝나가는 11월에 Javascript 행사에 참가하게 되었고, 어쩌다 보니 보니 올해 처음이자 마지막으로 참가한 행사가 되어 버렸다. playnode 라는 비영리 단체에서 몇개의 세션을 진행하기로 되어 있어서 정확히는 오후 1시 이후부터 진행되는 playnode 의 두번째 세션(FrontEnd)을 듣기 위해 참여했다. 참가비용은 없었고 사전 등록을 진행하기에 행사 진행 약 2주전 쯤 사전 등록을 진행했고, 덕분에 빠르게 명찰을 받아 행사장에 입장할 수 있었다.\n\n![Alt text](/nametag.jpg)\n\n행사장은 신논현역 근처 르메르디앙 호텔에서 진행했는데, 호텔 컨퍼런스 룸에서 하는 행사는 처음이라 조금 두근두근했다. 하지만 한가지 아쉬운 점이 하나 있었는데, 요즘 행사장에서 대부분 진행하는 Live 앱을 다운로드 받으면 개인 QR코드 및 현재 행사와 관련된 정보내 알림등을 실시간으로 받아볼 수 있지만 앱을 다운로드 받으려고 하니 내 디바이스와 호환이 되지 않아 다운로드 받을 수 없었다. 참고로 나는 넥서스6 - Android 7(누가) 를 사용중인데 안드로이드 오레오 기기가 아직 국내에 1~2개밖에 발매되지 않은것을 고려하면 거의 최신 디바이스이다. \n\n![Alt text](/sobad.png)\n\n오전 첫번째 세션은 Jonas Jacobi 라는 IBM의 Developer Advocacy 부사장이 나와 오픈소스에 대한 이야기를 주로 다루었는데, 몇가지 기억나는 내용만 메모해본다면.\n\n- 오픈소스는 다른 개발자와 커뮤니케이션하는 최고의 도구이다.\n- 오픈소스는 다른 개발자로부터 기술지원을 받을 수 있다.\n- IBM은 오픈소스 커뮤니티를 만들기 위해 오래전부터 투자 등의 많은 노력을 해 왔고 자사 블로그나 github 을 통해 많은 자료를 공개하고 있다.\n\n다음 이어진 세션은 Github의 Solutions Engineer인 Christian Weber 가 나와 세션을 진행했고 Github + Watson 으로 하는 소프트웨어 개발에 대해 발표를 진행했다. 평소 github 은 자주 사용하지만 Watson 은 처음 들어보는거라 조금 생소한 부분은 있었지만, 실제로 github 을 만든 사람을 보니 신기하다는 생각이 들었다. \n\n처음엔 개발 문화나 방법론에 대해 이야기했는데, 아마 이분은 조선에서 일해본 적이 없어서 이걸 만들어가는것이 얼마나 어려운지 잘 모르시는것 같다. 그리고 Oberver 패턴에 대해 이야기했는데 아마 RxJS에서 사용하는 subject, observer, subscribe 과 비슷한 개념인것 같은데 정확히 이것과 같은 개념인지는 한번 더 알아봐야겠다.\n\n- 개발문화를 스스로 만들고 조율해야 함\n- Oberver Pattern\n\n그리고 오전 마지막 세션은 serverless 에 대해 이야기를 하는 시간이었고, 발표자인 OpenWhisk의 Michael M Behrendt은 한국에 처음 왔다고 말하면서 반갑다고 했지만 표정은 매우 어두워보였다. openwhisk 는 apache 재단에서 진행하는 오픈소스프로젝트중에 하나인데 서버분야는 잘 모르다 보니 조금 어렵긴했지만 한번 웹사이트를 둘러보며 천천히 읽어보면 유익한 내용이 될 것 같다.\n\n그리고 찾아온 점심시간..\n애초에 등록비용이 없었기에 점심식사는 제공되지 않을 것이라고 생각했지만, 다행히도 IBM측에서 방문자들에게 모두 호텔이 만든 도시락을 제공해주었다. 신선한 샌드위치 조각 3종류가 제공되었고 웨지감자는 통통하니 맛있었다. 그리고 호텔맛나는 커피까지 줘서 매우 만족스러웠다.\n\n![Alt text](/lunch.jpg)\n\n오후부터는 드디어 내가 원래 들으려고 했던 세션이 시작되었다.\n아무래도 메인 행사에 껴서 하다보니 생각보다 공간이 넓지 않았고 넉넉히 앉기에는 의자가 조금 부족했지만, 진작부터 자리를 맡아 둔 것에 크게 힘들거나 하지는 않았다.\n\n첫번째 세션은 Flitto 의 김병진님이라는 분이 진행했고, 주제는 \"타입스크립트 제가한번 써봤습니다\" 라는 내용이었다. 이분은 백엔드 개발자이고 사내 백오피스 개발을 했던 후기를 공유하고자 하는 내용이었다. 현재 사내에서 진행하는 프로젝트도 ts 를 사용하고 있었고, 앞으로 하는 프로젝트도 모두 ts를 사용하고자 하기 때문에 다른 사람의 후기를 듣는건 꽤 괜찮은 시간이었다. 아무래도 ts를 사용하려다 보면 js코드를 ts로 빌드해야하는것이 반드시 필요하기 때문에 이를 매우 번거롭다고 생각하는 사람들이 많지만, 한번의 번거로움으로 기술 표준화 및 다양하고 간략한 문법을 사용할수 있으므로 이 글을 읽는 분들 중 ts 도입을 검토하는 개발자라면 주저하지 말고 도입하시기를 추천드리고 싶다.\n\n일반 이번 세션에서 가장 중요하게 다룬 내용은 다음과 같다.\n\n- input, output 값을 체크할 때 유효성 및 structure 체크를 하는 함수가 불필요하게 자꾸 들어가는 문제를 ts(interface)로 극복할 수 있음.\n- 각각의 interface 는 여러개를 중첩해 사용하거나 상속받아 사용할 수 있음, 단 이 때 너무 많은 depth 를 가지지 않도록 주의해야 함.\n- 그리고 위 interface 를 code editor 에서 사용할 경우 typeError 를 표시해주게 됨.\n- oberverble`<interfaceName>` 형태를 사용해 output 값을 명확히 해 줄 수 있다.\n- backend, Frontend 양쪽에서 같은 interface 를 사용하게 됨으로써 shard라는 폴더를 하나 생성해 그곳에 공통된 interface 를 사용하게 됨으로써 RestFul 을 좀 더 명확하게 할 수 있다.\n- JS의 @decorator 를 사용할 수 있음. Angualr4의 @component 를 만들때 쓰이는게 이거임. 대략적으로는 아래와 같은 문법이다. 이 문법을 통해 의존성을 주입할수 있는 등 다방면에서 활용이 가능하다.\n\n\n```javascript\nfunction decoratorName() { ... }\n\n@decoratorName\nclass [ClassName] { ... }\n```\n\n\n",
-        "contentDigest": "ae6a556e873989675f599be5db963a79",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "2017 IBM Devcon 참가 후기",
-        "date": "2017-11-09T10:00:00.284Z",
-        "path": "/ibm-devcon-review/",
-<<<<<<< HEAD
-        "tag": "IBM conferance",
-        "categort": "conferance",
-        "_PARENT": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
-        "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md"
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/salty_egg.jpg absPath of file": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/salty_egg.jpg absPath of file",
-=======
-        "category": "Javascript",
-        "_PARENT": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file",
-        "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/index.md"
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/logo.png absPath of file >> ImageSharp": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/logo.png absPath of file >> ImageSharp",
@@ -2118,7 +2017,6 @@
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "children": [
         "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file >> ImageSharp"
       ],
@@ -2130,30 +2028,13 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "posts",
-<<<<<<< HEAD
-      "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/salty_egg.jpg",
-      "relativePath": "2017-10-30-start-github-blog/salty_egg.jpg",
-      "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2017-11-03T07:42:53.507Z",
-      "accessTime": "2017-11-09T04:37:14.911Z",
-      "changeTime": "2017-11-03T07:42:53.507Z",
-      "birthTime": "2017-11-03T07:42:53.505Z",
-      "root": "/",
-      "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog",
-      "base": "salty_egg.jpg",
-      "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "2017-10-30-start-github-blog",
-=======
       "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png",
       "relativePath": "2017-11-09-ibm-devcon-review/sobad.png",
       "extension": "png",
       "size": 537117,
       "prettySize": "537 kB",
       "modifiedTime": "2018-01-22T02:08:07.290Z",
-      "accessTime": "2018-01-22T04:35:43.804Z",
+      "accessTime": "2018-01-24T08:17:24.068Z",
       "changeTime": "2018-01-22T02:08:07.291Z",
       "birthTime": "2018-01-22T02:08:07.278Z",
       "root": "/",
@@ -2162,7 +2043,6 @@
       "ext": ".png",
       "name": "sobad",
       "relativeDirectory": "2017-11-09-ibm-devcon-review",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2170,75 +2050,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-<<<<<<< HEAD
-      "ino": 8591684599,
-      "blocks": 1344,
-      "atimeMs": 1510202234911.294,
-      "mtimeMs": 1509694973507.4556,
-      "ctimeMs": 1509694973507.4556,
-      "birthtimeMs": 1509694973504.5476,
-      "atime": "2017-11-09T04:37:14.911Z",
-      "mtime": "2017-11-03T07:42:53.507Z",
-      "ctime": "2017-11-03T07:42:53.507Z",
-      "birthtime": "2017-11-03T07:42:53.505Z"
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file",
-      "children": [
-        "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg",
-      "relativePath": "2017-11-09-ibm-devcon-review/salty_egg.jpg",
-      "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2017-11-03T07:42:53.507Z",
-      "accessTime": "2017-11-09T04:37:14.911Z",
-      "changeTime": "2017-11-09T01:58:54.490Z",
-      "birthTime": "2017-11-03T07:42:53.505Z",
-      "root": "/",
-      "dir": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review",
-      "base": "salty_egg.jpg",
-      "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "2017-11-09-ibm-devcon-review",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8592349931,
-      "blocks": 1344,
-      "atimeMs": 1510202234911.4287,
-      "mtimeMs": 1509694973507.4556,
-      "ctimeMs": 1510192734489.9348,
-      "birthtimeMs": 1509694973504.5476,
-      "atime": "2017-11-09T04:37:14.911Z",
-      "mtime": "2017-11-03T07:42:53.507Z",
-      "ctime": "2017-11-09T01:58:54.490Z",
-      "birthtime": "2017-11-03T07:42:53.505Z"
-=======
       "ino": 8598144917,
       "blocks": 1056,
-      "atimeMs": 1516595743803.8713,
+      "atimeMs": 1516781844067.5203,
       "mtimeMs": 1516586887290.1785,
       "ctimeMs": 1516586887291.4783,
       "birthtimeMs": 1516586887277.6963,
-      "atime": "2018-01-22T04:35:43.804Z",
+      "atime": "2018-01-24T08:17:24.068Z",
       "mtime": "2018-01-22T02:08:07.290Z",
       "ctime": "2018-01-22T02:08:07.291Z",
       "birthtime": "2018-01-22T02:08:07.278Z"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
     },
     "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file >> ImageSharp": {
       "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file >> ImageSharp",
@@ -2246,16 +2067,6 @@
       "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/sobad.png absPath of file",
       "internal": {
         "contentDigest": "1c0527c2cde974506f07b871629c8897",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-11-09-ibm-devcon-review/salty_egg.jpg absPath of file",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2270,11 +2081,7 @@
       "layout": "index",
       "jsonName": "start-github-blog.json",
       "internalComponentName": "ComponentStartGithubBlog",
-<<<<<<< HEAD
-      "updatedAt": 1510821176600,
-=======
-      "updatedAt": 1516616401687,
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "updatedAt": 1516782098267,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
@@ -2283,30 +2090,12 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-<<<<<<< HEAD
-        "contentDigest": "ffcaa06510cc2f7ae483ba9fa6aeb825",
-=======
-        "contentDigest": "b25fbb8655df726bfe6f723bdb9d1a91",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "1507d87295b0fdcc3298d018b082ca6f",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /ibm-devcon-review/": {
       "path": "/ibm-devcon-review/",
-<<<<<<< HEAD
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js",
-      "context": {
-        "path": "/ibm-devcon-review/"
-      },
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "layout": "index",
-      "jsonName": "ibm-devcon-review.json",
-      "internalComponentName": "ComponentIbmDevconReview",
-      "updatedAt": 1510821176601,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.js",
-=======
       "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
       "context": {
         "path": "/ibm-devcon-review/"
@@ -2315,21 +2104,16 @@
       "layout": "index",
       "jsonName": "ibm-devcon-review.json",
       "internalComponentName": "ComponentIbmDevconReview",
-      "updatedAt": 1516616401688,
+      "updatedAt": 1516782098268,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/templates/blog-post.jsx",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "id": "SitePage /ibm-devcon-review/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-<<<<<<< HEAD
-        "contentDigest": "e31cae6e3f138c8c05c6cd7f2b96ba93",
-=======
-        "contentDigest": "a6ee243a601cc0110dc05cc69dd27002",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "66458f7ccf99ec4e2f212a70bf334d0c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2340,11 +2124,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-<<<<<<< HEAD
-      "updatedAt": 1510821176610,
-=======
-      "updatedAt": 1516596591818,
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+      "updatedAt": 1516782098275,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -2354,26 +2134,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-<<<<<<< HEAD
-        "contentDigest": "4641094ec6fb80e49463f611d2bfc195",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /profile/": {
-      "path": "/profile/",
-      "component": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
-      "componentChunkName": "component---src-pages-profile-js",
-      "layout": "index",
-      "jsonName": "profile.json",
-      "internalComponentName": "ComponentProfile",
-      "updatedAt": 1510821176611,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/profile.js",
-      "id": "SitePage /profile/",
-=======
-        "contentDigest": "04aab11ecfbaf00bca31aa556a9418c7",
+        "contentDigest": "d2b494ccaed7d414c6841783f81cedb4",
         "owner": "internal-data-bridge"
       }
     },
@@ -2384,21 +2145,17 @@
       "layout": "index",
       "jsonName": "resume.json",
       "internalComponentName": "ComponentResume",
-      "updatedAt": 1516596591819,
+      "updatedAt": 1516782098276,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/pages/resume.jsx",
       "id": "SitePage /resume/",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-<<<<<<< HEAD
-        "contentDigest": "2520578ed7f0ff39230b7765751d896f",
-=======
-        "contentDigest": "84dcd452cc9f3f54a23b8542c0cbe93e",
+        "contentDigest": "10ef7affff3ddef400b5783562b2ad0c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2409,7 +2166,7 @@
       "layout": "index",
       "jsonName": "categories-javascript.json",
       "internalComponentName": "ComponentCategoriesJavascript",
-      "updatedAt": 1516596591822,
+      "updatedAt": 1516782098280,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -2419,31 +2176,22 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d1cfee57354fbe71e85fe96712f12cc",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+        "contentDigest": "6daa842bb39b37db30fe07c784a29e7c",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-<<<<<<< HEAD
-    "PLUGINS_HASH": "32877b0a8a34c1692e53c632a8ac66a1"
-=======
-    "PLUGINS_HASH": "ed206c666e814e817862aba855946c57"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
+    "PLUGINS_HASH": "1e11c8169b33d0dc2132194a81fef9dd"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/start-github-blog/",
         "/ibm-devcon-review/",
-<<<<<<< HEAD
-        "/"
-=======
         "/",
         "/categories/javascript/"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
       ],
       "/Users/MAJAC/Documents/Project/majac/majac6.github.io/src/posts/2017-10-30-start-github-blog/index.md absPath of file >>> MarkdownRemark": [
         "/start-github-blog/"

@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDisqusComments from 'react-disqus-comments'
- 
+
 class Disqus extends React.Component {
-  handleNewComment(comment) {
+  handleNewComment(comment: any) {
     window.console.log(comment.text)
   }
 
   render() {
-    
+
     return (
       <ReactDisqusComments
         shortname="majacblog"

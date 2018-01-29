@@ -14,15 +14,9 @@
         "path": "/start-github-blog/"
     },
     {
-<<<<<<< HEAD
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-=======
         "componentChunkName": "component---src-templates-blog-post-jsx",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
         "jsonName": "ibm-devcon-review.json",
         "path": "/ibm-devcon-review/"
     },
@@ -34,13 +28,6 @@
         "path": "/"
     },
     {
-<<<<<<< HEAD
-        "componentChunkName": "component---src-pages-profile-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "profile.json",
-        "path": "/profile/"
-=======
         "componentChunkName": "component---src-pages-resume-jsx",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
@@ -53,6 +40,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "categories-javascript.json",
         "path": "/categories/javascript/"
->>>>>>> 6f49f9dc9ab8aa1f23c44bae25fe4a6b61a7dd7a
     }
 ]

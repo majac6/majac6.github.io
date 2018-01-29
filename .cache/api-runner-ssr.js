@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-favicon/gatsby-ssr.js'),
+      options: {"plugins":[],"logo":"./src/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
+    },{
       plugin: require('/Users/MAJAC/Documents/Project/majac/majac6.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
       options: {"plugins":[],"trackingId":"UA-110074065-1"},
     },{
