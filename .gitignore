@@ -1,9 +1,6 @@
 ## NPM 패키지 폴더
 /node_modules
 
-## 원본 폴더
-/src
-
 ## 캐싱된 데이터들
 /.cache/
 /.cache/*
