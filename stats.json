@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-resume-jsx": [
-      "component---src-pages-resume-jsx-666311a51f5501f497a1.js",
-      "component---src-pages-resume-jsx-666311a51f5501f497a1.js.map"
+      "component---src-pages-resume-jsx-20a69061e9c0c5aacabf.js",
+      "component---src-pages-resume-jsx-20a69061e9c0c5aacabf.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,16 +17,20 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---ibm-devcon-review": [
-      "path---ibm-devcon-review-9eaf4c9bc29a98d9d27f.js",
-      "path---ibm-devcon-review-9eaf4c9bc29a98d9d27f.js.map"
+      "path---ibm-devcon-review-89909c65d10eceab80e9.js",
+      "path---ibm-devcon-review-89909c65d10eceab80e9.js.map"
     ],
     "path---categories-javascript": [
-      "path---categories-javascript-6e7625b57a5e2476842b.js",
-      "path---categories-javascript-6e7625b57a5e2476842b.js.map"
+      "path---categories-javascript-dd7576eca134cb5363d8.js",
+      "path---categories-javascript-dd7576eca134cb5363d8.js.map"
+    ],
+    "path---osc-tonight": [
+      "path---osc-tonight-7362f901851636c1fe61.js",
+      "path---osc-tonight-7362f901851636c1fe61.js.map"
     ],
     "path---index": [
-      "path---index-6e7625b57a5e2476842b.js",
-      "path---index-6e7625b57a5e2476842b.js.map"
+      "path---index-dd7576eca134cb5363d8.js",
+      "path---index-dd7576eca134cb5363d8.js.map"
     ],
     "commons": [
       "commons-490c37726ce148734dc0.js",
@@ -49,17 +53,17 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-ca76cf5994a70c7c6a6f.js",
-      "component---src-pages-index-jsx-ca76cf5994a70c7c6a6f.js.map"
+      "component---src-pages-index-jsx-c12cd8421c68a93c1a8b.js",
+      "component---src-pages-index-jsx-c12cd8421c68a93c1a8b.js.map"
     ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-04dc5da45ba09ff37bd6.js",
+      "app-9838145a039edbd27f84.js",
       "build-js-styles.css",
-      "app-04dc5da45ba09ff37bd6.js.map",
+      "app-9838145a039edbd27f84.js.map",
       "build-js-styles.css.map"
     ]
   }
