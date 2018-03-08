@@ -5,7 +5,9 @@ path: "/osc-tonight/"
 category: "Speech"
 ---
 
-안녕하세요. 2018년 2월 1일 오픈소스컨설팅에서 발표한 자료 공유합니다. 개인적으로 공식적인 행사에서 발표한 일이 처음이라 여러모로 부족한 점이 많았는데도, 많은 관심 가져주셔서 감사합니다. 발표때 사용한 프레젠테이션은 아래 링크를 참조해주세요.
+![Open Source Consulting Tonight 2018](/osc-tonight.jpg)
+
+개인적으로 공식적인 행사에서 발표한 일이 처음이라 여러모로 부족한 점이 많았는데도, 많은 관심 가져주셔서 감사합니다. 발표때 사용한 프레젠테이션은 아래 링크를 참조해주세요.
 
 [Javascript 로 만드는 멀티 플랫폼](http://slides.com/hungsunlim/deck/fullscreen)
 

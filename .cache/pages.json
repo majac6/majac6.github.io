@@ -1,17 +1,17 @@
 [
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-jsx",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "ibm-devcon-review.json",
-        "path": "/ibm-devcon-review/"
+        "jsonName": "osc-tonight.json",
+        "path": "/osc-tonight/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-jsx",
@@ -21,11 +21,11 @@
         "path": "/start-github-blog/"
     },
     {
-        "componentChunkName": "component---src-pages-resume-jsx",
+        "componentChunkName": "component---src-templates-blog-post-jsx",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "resume.json",
-        "path": "/resume/"
+        "jsonName": "ibm-devcon-review.json",
+        "path": "/ibm-devcon-review/"
     },
     {
         "componentChunkName": "component---src-pages-index-jsx",
@@ -33,6 +33,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "index.json",
         "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-resume-jsx",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "resume.json",
+        "path": "/resume/"
     },
     {
         "componentChunkName": "component---src-pages-categories-javascript-jsx",

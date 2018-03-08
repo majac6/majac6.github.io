@@ -1,0 +1,69 @@
+#resume {
+  #myProfile {
+    margin: auto;
+    display: table;
+    padding: 50px 0;
+    text-align: center;
+    .photo {
+      width: 175px;
+      height: 175px;
+      background-image: url(https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg);
+      @include bg-set(contain, center);
+      @include border-radius(100%);
+      margin-bottom: 25px;
+    }
+    .en {
+      @extend .textsize-sm;
+      font-weight: 100;
+    }
+    .kr {
+      @extend .textsize-xxg;
+      font-weight: 500;
+    }
+    .sns {
+      a {
+        color: #666;
+        &:hover {
+          color: #26a9e1;
+        }
+      }
+      i {
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  ul {
+    li {
+      margin-bottom: 1rem !important;
+    }
+  }
+  hr {
+    margin: 30px 0;
+  }
+
+  .content-box {
+    padding: 50px 0;
+
+    h3 {
+      margin-bottom: 50px;
+      // font-weight: 700;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    .img {
+      display: table;
+      height: 175px;
+      width: 175px;
+      margin: auto;
+      @include border-radius(100%);
+      @include bg-set(contain, center);
+      background-color: #EFEFEF;
+      margin-bottom: 20px;
+    }
+
+  }
+}
