@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDisqusComments from 'react-disqus-comments'
 
 class Disqus extends React.Component {
-  handleNewComment(comment: any) {
+  handleNewComment(comment) {
     window.console.log(comment.text)
   }
 

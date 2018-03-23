@@ -9,7 +9,7 @@ class BlogIndex extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
-    let categories: any = []
+    let categories = []
 
     // console.log(posts)
 
