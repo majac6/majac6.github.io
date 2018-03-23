@@ -1,16 +1,12 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-resume-jsx": [
-      "component---src-pages-resume-jsx-20a69061e9c0c5aacabf.js",
-      "component---src-pages-resume-jsx-20a69061e9c0c5aacabf.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-c12cd8421c68a93c1a8b.js",
+      "component---src-pages-index-js-c12cd8421c68a93c1a8b.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
-    ],
-    "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-bc07a59295032b3f45f6.js",
-      "component---src-layouts-index-jsx-bc07a59295032b3f45f6.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -19,6 +15,18 @@
     "path---ibm-devcon-review": [
       "path---ibm-devcon-review-89909c65d10eceab80e9.js",
       "path---ibm-devcon-review-89909c65d10eceab80e9.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-b5d0148d3bf4ffbd2e04.js",
+      "component---src-templates-blog-post-js-b5d0148d3bf4ffbd2e04.js.map"
+    ],
+    "component---src-pages-categories-javascript-js": [
+      "component---src-pages-categories-javascript-js-b78a29d043fa271d75be.js",
+      "component---src-pages-categories-javascript-js-b78a29d043fa271d75be.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-f92b0c38e1fd7fa55a7f.js",
+      "component---src-layouts-index-js-f92b0c38e1fd7fa55a7f.js.map"
     ],
     "path---categories-javascript": [
       "path---categories-javascript-dd7576eca134cb5363d8.js",
@@ -32,6 +40,10 @@
       "path---index-dd7576eca134cb5363d8.js",
       "path---index-dd7576eca134cb5363d8.js.map"
     ],
+    "component---src-pages-resume-js": [
+      "component---src-pages-resume-js-60a274e37d6143f86201.js",
+      "component---src-pages-resume-js-60a274e37d6143f86201.js.map"
+    ],
     "commons": [
       "commons-490c37726ce148734dc0.js",
       "commons-490c37726ce148734dc0.js.map"
@@ -40,30 +52,18 @@
       "path---start-github-blog-901dc93344162994b746.js",
       "path---start-github-blog-901dc93344162994b746.js.map"
     ],
-    "component---src-pages-categories-javascript-jsx": [
-      "component---src-pages-categories-javascript-jsx-b78a29d043fa271d75be.js",
-      "component---src-pages-categories-javascript-jsx-b78a29d043fa271d75be.js.map"
-    ],
-    "component---src-templates-blog-post-jsx": [
-      "component---src-templates-blog-post-jsx-b5d0148d3bf4ffbd2e04.js",
-      "component---src-templates-blog-post-jsx-b5d0148d3bf4ffbd2e04.js.map"
-    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-c12cd8421c68a93c1a8b.js",
-      "component---src-pages-index-jsx-c12cd8421c68a93c1a8b.js.map"
     ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9838145a039edbd27f84.js",
+      "app-9890db7bbf749b49c216.js",
       "build-js-styles.css",
-      "app-9838145a039edbd27f84.js.map",
+      "app-9890db7bbf749b49c216.js.map",
       "build-js-styles.css.map"
     ]
   }
