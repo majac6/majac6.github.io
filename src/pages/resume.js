@@ -85,6 +85,10 @@ class Resume extends React.Component {
                   OS
                   <small>Ubuntu, CentOS</small>
                 </li>
+                <li>
+                  Etc..
+                  <small>Docker & Docker-Compose, Gitlab, PlexMediaServer, ownCloud</small>
+                </li>
               </ul>
             </div>
 
@@ -258,7 +262,13 @@ class Resume extends React.Component {
               <h4>Speech</h4>
             </div>
             <div className="col-sm-9">
+              https://www.youtube.com/watch?v=wNkVQxbcYeg&index=32&list=PLORxAVAC5fUW6hZ4C7YQ-RluswzsE5Ibb
               <ul>
+                <li>
+                  <Link to="osc-tonight">2018 AWS Summit Seoul</Link>
+                  <div>AWS 행사에서 회사 대표로 '데이터 센터 모던화' 에 대해 발표</div>
+                  <small>Server, AWS, DevOps</small>
+                </li>
                 <li>
                   <Link to="osc-tonight">2018 OSC Tonight</Link>
                   <div>사내에서 진행된 행사에서 'Javascript로 할수있는 일들' 에 대해 발표</div>
