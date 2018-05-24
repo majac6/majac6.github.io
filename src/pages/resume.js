@@ -8,29 +8,38 @@ class Resume extends React.Component {
     return (
       <div id="resume" className="container">
         <div className="row">
-
           <div className="col-sm-12">
             <div id="myProfile">
-              <div className="photo"></div>
+              <div className="photo" />
               <div className="margin-bottom-25">
                 <div className="kr">임 흥선</div>
                 <div className="en">HungSun LIM</div>
               </div>
               <div className="margin-bottom-10">
                 <div className="position">Front-End Developer</div>
-                <div><small>KangNam Univ. Computer Media Engineering</small></div>
+                <div>
+                  <small>KangNam Univ. Computer Media Engineering</small>
+                </div>
                 <a href="mailto://majac6@gmail.com">majac6@gmail.com</a>
               </div>
               <div className="sns">
-                <a href="https://github.com/majac6" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/majac6" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank"><i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://github.com/majac6" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+                <a href="https://www.facebook.com/majac6" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
+                  target="_blank"
+                >
+                  <i className="fa fa-facebook-official" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </div>
 
           <div className="col-sm-10 row mr-auto ml-auto">
-
             <div className="col-sm-12">
               <h2>Skill</h2>
               <hr />
@@ -87,7 +96,9 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   Etc..
-                  <small>Docker & Docker-Compose, Gitlab, PlexMediaServer, ownCloud</small>
+                  <small>
+                    Docker & Docker-Compose, Gitlab, PlexMediaServer, ownCloud
+                  </small>
                 </li>
               </ul>
             </div>
@@ -110,7 +121,6 @@ class Resume extends React.Component {
           </div>
 
           <div className="col-sm-10 row mr-auto ml-auto">
-
             <div className="col-sm-12">
               <h2>Company</h2>
               <hr />
@@ -213,11 +223,9 @@ class Resume extends React.Component {
                 </li>
               </ul>
             </div>
-
           </div>
 
           <div className="col-sm-10 row mr-auto ml-auto">
-
             <div className="col-sm-12">
               <h2>Personal Somethings</h2>
               <hr />
@@ -231,14 +239,20 @@ class Resume extends React.Component {
                 <li>
                   <a
                     href="https://github.com/majac6/singleLinePrice-chart-majac"
-                    target="_blank">Single Price Chart</a>
+                    target="_blank"
+                  >
+                    Single Price Chart
+                  </a>
                   <div>박차컴퍼니 앱에 사용되기 위해 제작</div>
                   <small>D3.js</small>
                 </li>
                 <li>
                   <a
                     href="https://github.com/majac6/package_daum-postcode"
-                    target="_blank">Daum Postcode Meteor Package</a>
+                    target="_blank"
+                  >
+                    Daum Postcode Meteor Package
+                  </a>
                   <div>Meteor 에서 사용하기 위해 다음 주소찾기를 미티어 패키지 제작</div>
                   <small>Javascript, Meteor</small>
                 </li>
@@ -262,10 +276,14 @@ class Resume extends React.Component {
               <h4>Speech</h4>
             </div>
             <div className="col-sm-9">
-              https://www.youtube.com/watch?v=wNkVQxbcYeg&index=32&list=PLORxAVAC5fUW6hZ4C7YQ-RluswzsE5Ibb
               <ul>
                 <li>
-                  <Link to="osc-tonight">2018 AWS Summit Seoul</Link>
+                  <a
+                    href="https://www.youtube.com/watch?v=wNkVQxbcYeg&index=32&list=PLORxAVAC5fUW6hZ4C7YQ-RluswzsE5Ibb"
+                    target="_blank"
+                  >
+                    2018 AWS Summit Seoul
+                  </a>
                   <div>AWS 행사에서 회사 대표로 '데이터 센터 모던화' 에 대해 발표</div>
                   <small>Server, AWS, DevOps</small>
                 </li>
@@ -276,9 +294,7 @@ class Resume extends React.Component {
                 </li>
               </ul>
             </div>
-
           </div>
-
         </div>
       </div>
     )
