@@ -6,6 +6,7 @@
 /.cache
 
 ## 테스트용으로 빌드된 폴더
-public/*
+public/
 public
 /public
+./public
