@@ -7,13 +7,14 @@
     }
     small {
       display: block;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
       color: #999;
     }
     .col-sm-9 li div {
       @extend .textsize-sm;
     }
-    .col-sm-3, .col-sm-9 {
+    .col-sm-3,
+    .col-sm-9 {
       margin-bottom: 2rem;
     }
   }
@@ -78,7 +79,7 @@
       margin: auto;
       @include border-radius(100%);
       @include bg-set(contain, center);
-      background-color: #EFEFEF;
+      background-color: #efefef;
       margin-bottom: 20px;
     }
   }
