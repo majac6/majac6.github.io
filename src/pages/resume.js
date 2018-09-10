@@ -122,7 +122,7 @@ class Resume extends React.Component {
 
           <div className="col-sm-10 row mr-auto ml-auto">
             <div className="col-sm-12">
-              <h2>Company</h2>
+              <h2>Company & Project</h2>
               <hr />
             </div>
 
@@ -266,7 +266,9 @@ class Resume extends React.Component {
               <ul>
                 <li>
                   Twinkring BackOffice
-                  <div>기존 종이로 처리하던 업무 시스템을 웹앱으로 전환</div>
+                  <div>
+                    기존 종이로 처리하던 업무 시스템을 웹앱으로 전환 및 AWS + Docker 로 배포 및 개발환경 구성
+                  </div>
                   <small>기획, Angular4, AWS, PHP(Lumen)</small>
                 </li>
               </ul>
