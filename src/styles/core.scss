@@ -1,8 +1,7 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-@import '../../node_modules/@majac/css/build/majac.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-// @import '../../node_modules/highlight.js/styles/dark.css';
 @import './config/color';
+@import './config/typo';
 @import './components/nav';
 @import './page/blog-post';
 
@@ -16,28 +15,13 @@ body,
 #___gatsby,
 #page {
   height: 100%;
-  @extend .display-flex;
+  display: flex;
   flex-direction: column;
   font-size: 14px;
 }
 
 a {
   box-shadow: none;
-}
-
-li {
-  margin-bottom: 0;
-}
-
-h1 {
-  font-weight: 600;
-  letter-spacing: -0.2rem;
-  font-size: 3rem;
-}
-h2 {
-  font-weight: 600;
-  font-size: 2.25rem;
-  margin-bottom: 20px;
 }
 
 #page {
@@ -51,10 +35,12 @@ h2 {
     padding: 5rem 2rem;
     text-align: center;
   }
+
   .main {
     flex: 1;
     font-size: 1.25rem;
   }
+
   footer {
     min-height: 60px;
     line-height: 60px;
@@ -64,8 +50,10 @@ h2 {
 
 #categorylist-wrap {
   text-align: right;
+
   ul {
     list-style: none;
+
     li {
       &:before {
         content: '- ';
