@@ -32,7 +32,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/src/posts`,
+				path: `${__dirname}/src/posts/`,
 				name: 'posts',
 			},
 		},
@@ -48,12 +48,12 @@ module.exports = {
 							// the content container as this plugin uses this as the
 							// base for generating different widths of each image.
 							maxWidth: 590,
+							linkImagesToOriginal: false,
 						},
 					},
 				],
 			},
 		},
-		'gatsby-transformer-sharp',
 		{
 			resolve: 'gatsby-plugin-google-analytics',
 			options: {
@@ -61,7 +61,6 @@ module.exports = {
 			},
 		},
 		'gatsby-plugin-offline',
-		'gatsby-plugin-react-helmet',
 	],
 }
 

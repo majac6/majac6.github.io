@@ -6,7 +6,10 @@
 
 // You can delete this file if you're not using it
 
+const _ = require('lodash')
+const Promise = require('bluebird')
 const path = require('path')
+const select = require('unist-util-select')
 
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions
