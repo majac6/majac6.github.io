@@ -11,9 +11,7 @@ import Nav from '../components/Nav'
 import Wallpaper from '../components/Wallpaper'
 import ReactDisqusComments from 'react-disqus-comments'
 
-
 class Template extends React.Component {
-
   handleNewComment(comment) {
     window.console.log(comment.text)
   }
@@ -29,9 +27,7 @@ class Template extends React.Component {
     return (
       <div id="page">
         <Nav />
-        <div className="main">
-          {children()}
-        </div>
+        <div className="main">{children()}</div>
         <Footer />
       </div>
     )

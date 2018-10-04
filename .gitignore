@@ -1,9 +1,8 @@
-## NPM 패키지 폴더
-/node_modules
-
-## 캐싱된 데이터들
+# Project dependencies
 .cache
-/.cache
+node_modules
+yarn-error.log
 
-## 테스트용으로 빌드된 폴더
-public/
+# Build directory
+/public
+.DS_Store

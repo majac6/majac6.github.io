@@ -1,0 +1,18 @@
+@import 'utils';
+
+.jumbotron {
+  background-color: $oc-violet-9 !important;
+  border-radius: 0px !important;
+  text-align: center;
+
+  .title {
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: bold;
+  }
+
+  .date {
+    font-size: .9rem;
+    color: #FFF;
+  }
+}

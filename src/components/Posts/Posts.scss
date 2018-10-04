@@ -1,0 +1,28 @@
+@import 'utils';
+
+.posts {
+  a {
+    color: $oc-gray-8 !important;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+
+    &:hover {
+      background-color: $oc-gray-1;
+      text-decoration: none;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: 600;
+      // margin-top: -0.5rem;
+    }
+
+    small {
+      font-size: .9rem;
+      // font-weight: bold;
+      color: $oc-gray-6;
+    }
+  }
+}

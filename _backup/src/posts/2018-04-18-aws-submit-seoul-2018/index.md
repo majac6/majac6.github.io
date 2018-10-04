@@ -6,7 +6,7 @@ category: 'Event'
 tag: 'javascript, Speech'
 ---
 
-![AWS Summit Seoul 2018](aws2018_wallpaper.jpeg)
+![AWS Summit Seoul 2018](/aws2018_wallpaper.jpeg)
 
 안녕하세요. 오랜만에 글을 작성하네요.
 이번에는 AWS Summit Seoul 2018 참관후기 및 제가 진행했던 세션 내용에 대해 공유할게요.

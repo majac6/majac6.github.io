@@ -1,0 +1,9 @@
+## NPM 패키지 폴더
+/node_modules
+
+## 캐싱된 데이터들
+.cache
+/.cache
+
+## 테스트용으로 빌드된 폴더
+public/

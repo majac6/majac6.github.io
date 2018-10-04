@@ -6,7 +6,7 @@ category: 'Event'
 tag: 'javascript, kakao'
 ---
 
-![if(kakao) dev](wallpaper.png)
+![if(kakao) dev](/wallpaper.png)
 
 2018 년 9 월 4 일, 카카오에서 열린 [if(kakao) 개발자](https://if.kakao.com/) 행사에 참여했다, 원래 이 행사는 사전에 따로 신청 및 추첨되어야만 참가가 가능하지만 회사에서 당첨된 분께서 업무 일정때문에 갈수가 없다고 하셔서 어부지리로 가게 되었다.
 
