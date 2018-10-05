@@ -5,4 +5,7 @@ yarn-error.log
 
 # Build directory
 /public
+/_backup
+
+# System File
 .DS_Store

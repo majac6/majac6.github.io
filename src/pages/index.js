@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 
-import Link from 'gatsby-link'
-import get from 'lodash/get'
 import _ from 'lodash'
 
 import Layout from '../components/layout'
 import Posts from '../components/Posts'
+import Categories from '../components/Categories'
 
 import './../style/style.scss'
 
@@ -14,6 +13,7 @@ export class IndexPage extends Component {
 	state = {
 		posts: [],
 		categories: [],
+		category: '',
 	}
 
 	componentDidMount() {
@@ -25,17 +25,29 @@ export class IndexPage extends Component {
 		categories = _.uniq(categories)
 
 		this.setState({
+			...this.state,
 			posts: posts,
 			categories: categories,
 		})
 	}
 
 	render() {
-		// <Jumbotron />
+		const { posts, categories, category } = this.state
 
 		return (
 			<Layout>
-				<Posts list={this.state.posts} />
+				<div className="container">
+					{this.state.category}
+					<div className="row">
+						{/* {category !== '' && <div className="col-12">분류 : {category}</div>}
+						<div className="col-md-3 order-md-12 text-right">
+							<Categories list={categories} />
+						</div> */}
+						<div className="col-md-12 order-md-1 posts">
+							<Posts list={posts} />
+						</div>
+					</div>
+				</div>
 			</Layout>
 		)
 	}

@@ -1,8 +1,8 @@
 ---
-title: '2018 OSC Tonight 행사 발표자료 공유'
+title: '2018 OSC Tonight 행사 발표'
 date: '2018-02-01T10:00:00.284Z'
 path: '/osc-tonight/'
-category: 'Event'
+category: 'event'
 tag: 'javascript, Speech'
 ---
 

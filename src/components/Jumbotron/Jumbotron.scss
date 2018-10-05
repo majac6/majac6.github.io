@@ -1,18 +1,30 @@
 @import 'utils';
 
 .jumbotron {
-  background-color: $oc-violet-9 !important;
+  background-color: transparent !important;
+  // background-color: $oc-indigo-4 !important;
   border-radius: 0px !important;
   text-align: center;
+  padding-top: 1rem !important;
+  // border-width: 1px 0;
+  // border-style: solid;
+  // border-color: #000;
+  // border-bottom: 1px solid #000;
 
   .title {
-    font-size: 3rem;
-    color: #FFF;
-    font-weight: bold;
+    font-size: 5.5vw;
+    color: #000;
+    // color: #FFF;
+    text-align: left;
+    font-weight: $title-font-weight;
+    letter-spacing: -0.25vw;
   }
 
   .date {
-    font-size: .9rem;
-    color: #FFF;
+    font-size: 2vw;
+    color: #000;
+    // color: #FFF;
+    font-weight: 300;
+    text-align: left;
   }
 }

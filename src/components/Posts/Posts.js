@@ -13,17 +13,14 @@ export class Posts extends Component {
 		const posts = this.props.list
 
 		return (
-			<div className="posts">
-				<div className="container">
-					{posts.map((item, index) => {
-						if (item.node.path !== '/404/') {
-							const title =
-								get(item, 'node.frontmatter.title') || item.node.path
-							return <PostItem post={item} key={index} />
-						}
-					})}
-				</div>
-			</div>
+			<>
+				{posts.map((item, index) => {
+					if (item.node.path !== '/404/') {
+						const title = get(item, 'node.frontmatter.title') || item.node.path
+						return <PostItem post={item} key={index} />
+					}
+				})}
+			</>
 		)
 	}
 }

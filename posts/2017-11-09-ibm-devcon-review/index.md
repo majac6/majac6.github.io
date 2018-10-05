@@ -2,7 +2,7 @@
 title: '2017 IBM Devcon 참가 후기'
 date: '2017-11-09T10:00:00.284Z'
 path: '/ibm-devcon-review/'
-category: 'Event'
+category: 'event'
 tag: 'playnode, javascript'
 ---
 

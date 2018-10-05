@@ -2,7 +2,7 @@
 title: '2018 AWS Submit Seoul 발표 후기'
 date: '2018-04-18T10:00:00.284Z'
 path: '/aws-submit-seuol-2018/'
-category: 'Event'
+category: 'event'
 tag: 'javascript, Speech'
 ---
 

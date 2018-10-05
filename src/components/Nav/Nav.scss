@@ -1,7 +1,15 @@
-@import 'utils';
+@import "utils";
 
 nav {
   display: flex !important;
+
+  @include media("<=tablet") {
+    .profile {
+      span {
+        display: none;
+      }
+    }
+  }
 
   a {
     color: black;
@@ -17,12 +25,14 @@ nav {
   }
 
   .logo a {
-    color: $oc-violet-9;
-    font-size: 2.75rem;
+    color: #000;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: -.075rem;
+
     // @include mobile {
     //   font-size: 1.5rem;
     // }
+
   }
 }

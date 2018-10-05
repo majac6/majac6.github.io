@@ -7,17 +7,20 @@ const Nav = () => {
 	return (
 		<nav>
 			<div className="container">
-				<div className="logo float-left">
-					<Link to="/">FE Tech Blog</Link>
-				</div>
-				<div className="menu float-right">
-					<Link className="nav-link" to="/resume">
-						<img
-							id="navProfilePic"
-							src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=30&r=pg"
-						/>
-						<span>HungSun Majac LIM</span>
-					</Link>
+				<div className="row">
+					<div className="col-auto mr-auto logo">
+						<Link to="/">마작 기술 블로그</Link>
+					</div>
+					<div className="col-auto">
+						<Link className="nav-link profile" to="/resume">
+							<img
+								width="40px"
+								id="navProfilePic"
+								src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
+							/>
+							<span>HungSun LIM</span>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</nav>

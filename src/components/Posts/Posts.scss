@@ -2,27 +2,49 @@
 
 .posts {
   a {
-    color: $oc-gray-8 !important;
+    color: #000 !important;
     display: block;
-    padding: 1.5rem;
+    padding: 1rem .5rem;
     border-radius: 5px;
-    margin-bottom: .5rem;
+    margin-bottom: .25rem;
+    background-color: #FFF;
 
     &:hover {
       background-color: $oc-gray-1;
+      transition: background-color 0.3s;
       text-decoration: none;
+
+      p {
+        background: transparent;
+      }
     }
 
     .title {
       font-size: 2rem;
-      font-weight: 600;
-      // margin-top: -0.5rem;
+      font-weight: $title-font-weight;
+      letter-spacing: -0.1rem;
+      line-height: 2.75rem;
+    }
+
+    .category {
+      margin-right: 5px;
+      font-size: .9rem;
+      color: $oc-gray-6;
+      // font-weight: bold;
     }
 
     small {
       font-size: .9rem;
-      // font-weight: bold;
       color: $oc-gray-6;
+    }
+
+    p {
+      margin-top: .5rem;
+      color: $oc-gray-7;
+      font-weight: $title-font-weight / 2;
+      // background: $oc-gray-1;
+      // padding: 1rem;
+      // border-radius: 3px;
     }
   }
 }

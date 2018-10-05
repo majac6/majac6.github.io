@@ -1,0 +1,57 @@
+@import 'utils';
+
+$box-size: 150px;
+
+.left-top-rectangle {
+  width: $box-size;
+  height: $box-size;
+  background-color: $oc-violet-9;
+  position: absolute;
+  top: ($box-size / 2) * -1;
+  left: ($box-size / 2) * -1;
+  transform: rotate(45deg);
+  // opacity: .8;
+}
+
+.right-bottom-rectangle {
+  width: $box-size;
+  height: $box-size;
+  background-color: $oc-violet-9;
+  position: absolute;
+  bottom: ($box-size / 2) * -1 + 100;
+  right: ($box-size / 2) * -1;
+  transform: rotate(45deg);
+  // opacity: .8;
+}
+
+footer {
+  display: block;
+  background-color: $oc-gray-9;
+  color: #FFF;
+  height: 200px;
+  margin-top: 3rem;
+
+  .container,
+  .row {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+    .title {
+      font-weight: bold;
+      font-size: 1.5rem;
+      opacity: .75;
+    }
+
+    .links {
+      margin-top: 0.5rem;
+
+      a {
+        color: #FFF;
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+        opacity: .75;
+      }
+    }
+  }
+}
