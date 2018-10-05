@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import ReactDisqusComments from 'react-disqus-comments'
 
 import Layout from '../components/layout'
 import Jumbotron from '../components/Jumbotron'
@@ -18,6 +19,14 @@ export default function Template({
 						<div
 							className="blog-post-content"
 							dangerouslySetInnerHTML={{ __html: html }}
+						/>
+					</div>
+					<div className="col-12">
+						<ReactDisqusComments
+							shortname="majacblog"
+							title="majac blog disqus"
+							identifier={frontmatter.title + '-' + frontmatter.date}
+							onNewComment={() => {}}
 						/>
 					</div>
 				</div>
