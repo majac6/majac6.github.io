@@ -2,8 +2,8 @@
 title: gatsbyJS 로 블로그 시작하기
 date: '2017-10-30T13:00:00.284Z'
 path: '/start-github-blog/'
-category: 'blog'
-tag: 'javascript, blog, gatsby'
+category: 'javascript'
+tag: 'blog, gatsby'
 ---
 
 안녕하세요. 마작입니다.

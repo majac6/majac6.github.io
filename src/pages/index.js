@@ -24,27 +24,58 @@ export class IndexPage extends Component {
 		})
 		categories = _.uniq(categories)
 
-		this.setState({
-			...this.state,
+		const nextState = {
 			posts: posts,
 			categories: categories,
+			category: '',
+		}
+
+		const queryParams = this.props.location.search
+		if (queryParams.indexOf('category') > -1) {
+			nextState.category = queryParams.replace('?category=', '')
+		} else {
+			nextState.category = ''
+		}
+
+		this.setState(nextState)
+	}
+
+	componentWillReceiveProps(props) {
+		const queryParams = props.location.search
+		let category = ''
+		if (queryParams.indexOf('category') > -1) {
+			category = queryParams.replace('?category=', '')
+		}
+
+		this.setState({
+			category: category,
 		})
 	}
+
+	// {category !== '' && <div className="col-12">분류 : {category}</div>}
 
 	render() {
 		const { posts, categories, category } = this.state
 
+		console.log(posts)
+
 		return (
 			<Layout>
 				<div className="container">
-					{this.state.category}
 					<div className="row">
-						{/* {category !== '' && <div className="col-12">분류 : {category}</div>}
 						<div className="col-md-3 order-md-12 text-right">
-							<Categories list={categories} />
-						</div> */}
-						<div className="col-md-12 order-md-1 posts">
-							<Posts list={posts} />
+							<Categories list={categories} active={category} />
+						</div>
+						<div className="col-md-9 order-md-1 posts">
+							<Posts
+								list={
+									category === ''
+										? posts
+										: posts.filter(item => {
+												return item.node.frontmatter.category === category
+										  })
+								}
+							/>
 						</div>
 					</div>
 				</div>
@@ -52,6 +83,11 @@ export class IndexPage extends Component {
 		)
 	}
 }
+
+// IndexPage.propTypes = {
+// 	location: React.PropTypes.object,
+// 	route: React.PropTypes.object,
+// }
 
 export default IndexPage
 

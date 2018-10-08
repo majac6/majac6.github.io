@@ -4,7 +4,7 @@
   a {
     color: #000 !important;
     display: block;
-    padding: 1rem .5rem;
+    padding: 1rem 1.5rem;
     border-radius: 5px;
     margin-bottom: .25rem;
     background-color: #FFF;
@@ -26,13 +26,6 @@
       line-height: 2.75rem;
     }
 
-    .category {
-      margin-right: 5px;
-      font-size: .9rem;
-      color: $oc-gray-6;
-      // font-weight: bold;
-    }
-
     small {
       font-size: .9rem;
       color: $oc-gray-6;
@@ -41,7 +34,7 @@
     p {
       margin-top: .5rem;
       color: $oc-gray-7;
-      font-weight: $title-font-weight / 2;
+      font-weight: ($title-font-weight / 2) + 100;
       // background: $oc-gray-1;
       // padding: 1rem;
       // border-radius: 3px;

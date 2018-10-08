@@ -2,24 +2,26 @@
 
 .blog-post-content {
 
+  $lineHeight: 3vw;
+
   margin-bottom: 3rem;
 
   p {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 1.6vw;
+    font-weight: ($title-font-weight / 2) + 100;
     letter-spacing: -.025rem;
+    line-height: $lineHeight;
   }
 
   ul {
     margin: 1.5rem 0;
 
     li {
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 2rem;
+      font-size: 1.6vw;
+      font-weight: ($title-font-weight / 2) + 100;
+      line-height: $lineHeight;
     }
   }
-
 
   strong {
     font-weight: 600;

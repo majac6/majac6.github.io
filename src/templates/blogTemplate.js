@@ -12,9 +12,11 @@ export default function Template({
 }) {
 	const { markdownRemark } = data // data.markdownRemark holds our post data
 	const { frontmatter, html } = markdownRemark
+
+	// console.log(data)
 	return (
 		<Layout>
-			<Jumbotron title={frontmatter.title} date={frontmatter.date} />
+			<Jumbotron {...frontmatter} />
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
@@ -45,6 +47,7 @@ export const pageQuery = graphql`
 				date(formatString: "YYYY년 MM월 DD일")
 				path
 				title
+				category
 			}
 		}
 	}

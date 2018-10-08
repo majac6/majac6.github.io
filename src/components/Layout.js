@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
 			}
 		`}
 		render={data => (
-			<>
+			<div className="layout">
 				<Helmet
 					title={data.site.siteMetadata.title}
 					// meta={[
@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
 				{/* <Header siteTitle={data.site.siteMetadata.title} /> */}
 				{/* <div className="left-top-rectangle" /> */}
 				{/* <div className="right-bottom-rectangle" /> */}
-				<div>{children}</div>
+				<div className="main">{children}</div>
 				<footer>
 					<div className="container">
 						<div className="row">
@@ -57,7 +57,7 @@ const Layout = ({ children }) => (
 						</div>
 					</div>
 				</footer>
-			</>
+			</div>
 		)}
 	/>
 )
