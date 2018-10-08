@@ -57,7 +57,7 @@ export class IndexPage extends Component {
 	render() {
 		const { posts, categories, category } = this.state
 
-		console.log(posts)
+		// console.log(posts)
 
 		return (
 			<Layout>

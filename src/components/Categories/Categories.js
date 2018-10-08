@@ -5,9 +5,9 @@ import './Categories.scss'
 
 const Categories = ({ list, active }) => {
 	return (
-		<>
+		<div className="categories">
 			<h3>카테고리</h3>
-			<ul className="categories">
+			<ul>
 				<li key={''}>
 					<Link to="/">all</Link>
 				</li>
@@ -24,7 +24,7 @@ const Categories = ({ list, active }) => {
 					)
 				})}
 			</ul>
-		</>
+		</div>
 	)
 }
 
