@@ -33,27 +33,21 @@ class Resume extends React.Component {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												<i className="fa fa-github-square" aria-hidden="true" />
+												GitHub
 											</a>
 											<a
 												href="https://www.facebook.com/majac6"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												<i
-													className="fa fa-linkedin-square"
-													aria-hidden="true"
-												/>
+												Linkedin
 											</a>
 											<a
 												href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												<i
-													className="fa fa-facebook-official"
-													aria-hidden="true"
-												/>
+												Facebook
 											</a>
 										</div>
 									</div>

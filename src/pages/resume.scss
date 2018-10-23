@@ -93,15 +93,12 @@
     .sns {
       a {
         color: #666;
+        margin: 0 .5rem;
+        font-size: .85rem;
 
         &:hover {
           color: #26a9e1;
         }
-      }
-
-      i {
-        font-size: 2rem;
-        margin-right: 1rem;
       }
     }
   }
