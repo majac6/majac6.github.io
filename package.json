@@ -40,7 +40,8 @@
     "react-disqus-comments": "^1.2.0",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-highlight": "^0.10.0"
+    "react-highlight": "^0.10.0",
+    "spoqa-han-sans": "^2.1.2"
   },
   "homepage": "https://majac6.majac.co.kr",
   "keywords": [
