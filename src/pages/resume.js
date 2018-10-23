@@ -262,7 +262,7 @@ export class Resume extends Component {
 
 									<div className="project">
 										<h3>박차 모바일 앱 업데이트</h3>
-										<div className="date">2017.10 - 2017.01</div>
+										<div className="date">2016.10 - 2017.01</div>
 										<p className="description">
 											일반 고객 대상의 LPG 전문 중고차 구매 어플리케이션으로
 											iOS, Android 동시 배포를 위해 하이브리드 앱으로 작성
@@ -286,7 +286,7 @@ export class Resume extends Component {
 
 									<div className="project">
 										<h3>박차 비즈 웹사이트 개발</h3>
-										<div className="date">2017.06 - 2017.09</div>
+										<div className="date">2016.06 - 2016.09</div>
 										<p className="description">
 											중고차 양수도를 위해 허용된 이용자만 사용 가능한
 											웹사이트입니다. 해외 서비스인 carvana 를 참고해 개발하였고
