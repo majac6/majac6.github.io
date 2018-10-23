@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import Layout from '../components/layout'
 
 import './resume.scss'
 
-class Resume extends React.Component {
+export class Resume extends Component {
 	render() {
 		return (
 			<Layout>
