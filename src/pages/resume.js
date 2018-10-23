@@ -484,6 +484,20 @@ export class Resume extends Component {
 								</div>
 								<div className="col-sm-6">
 									<div className="project">
+										<h3>React Social Login</h3>
+										<p className="description">
+											Facebook, Google 인증에 사용되는 모듈을 만들어 오픈소스
+											형태로 배포하였습니다.
+											{'  '}
+											<a href="https://www.npmjs.com/package/@majac/react-social-login">
+												링크
+											</a>
+										</p>
+										<h5>사용 기술</h5>
+										<p className="tech">React, NPM</p>
+									</div>
+
+									<div className="project">
 										<h3>오픈소스컨설팅 UI 킷</h3>
 										<p className="description">
 											사내 프론트앤드 개발시 사용되는 속성값들을 묶어 오픈소스로
@@ -492,7 +506,7 @@ export class Resume extends Component {
 											<a href="https://tech.osci.kr/osc-style/">링크</a>
 										</p>
 										<h5>사용 기술</h5>
-										<p className="tech">Webpack, Pug(Jade), GitHub, SCSS</p>
+										<p className="tech">Webpack, Pug(Jade), NPM, SCSS</p>
 									</div>
 
 									<div className="project">

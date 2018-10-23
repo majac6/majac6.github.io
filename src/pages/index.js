@@ -7,8 +7,6 @@ import Layout from '../components/layout'
 import Posts from '../components/Posts'
 import Categories from '../components/Categories'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'spoqa-han-sans/css/SpoqaHanSans-kr.css'
 import './../style/style.scss'
 
 export class IndexPage extends Component {

@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Nav from './Nav'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'spoqa-han-sans/css/SpoqaHanSans-kr.css'
 import './Layout.scss'
 
 const Layout = ({ children }) => (
