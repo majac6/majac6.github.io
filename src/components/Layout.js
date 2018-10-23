@@ -40,15 +40,24 @@ const Layout = ({ children }) => (
 							<div className="col-12">
 								<div className="title">마작 기술 블로그</div>
 								<div className="links">
-									<a href="https://github.com/majac6" target="_blank">
+									<a
+										href="https://github.com/majac6"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<i className="fa fa-github" aria-hidden="true" />
 									</a>
-									<a href="https://www.facebook.com/majac6" target="_blank">
+									<a
+										href="https://www.facebook.com/majac6"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<i className="fa fa-facebook-square" aria-hidden="true" />
 									</a>
 									<a
 										href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										<i className="fa fa-linkedin-square" aria-hidden="true" />
 									</a>
