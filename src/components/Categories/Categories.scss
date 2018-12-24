@@ -1,0 +1,26 @@
+@import 'utils';
+
+.categories {
+
+  padding: 1rem 1.5rem;
+
+  h3 {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+
+    @include media("<=tablet") {
+      display: flex;
+
+      >li {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+}

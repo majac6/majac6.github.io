@@ -1,0 +1,39 @@
+@import './utils';
+
+* {
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+
+html {
+  font-size: 16px;
+
+  @include media("<=tablet") {
+    font-size: 14px;
+  }
+}
+
+.badge {
+  margin-right: 5px;
+  font-size: .75rem;
+  background-color: $oc-gray-7;
+  color: #FFF;
+  text-transform: uppercase;
+
+  &.badge {
+    &-event {
+      background-color: $oc-pink-7;
+      // color: #000;
+    }
+
+    &-javascript {
+      background-color: $oc-yellow-7;
+      color: #FFF;
+    }
+
+    // &-event {
+    //   background-color: $oc-yellow-9;
+    //   color: #FFF;
+    // }
+  }
+}
