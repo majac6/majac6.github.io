@@ -1,5 +1,5 @@
 ---
-title: '2018년을 되돌아보며'
+title: 2018년을 되돌아보며
 date: '2018-12-24T13:00:00.284Z'
 path: '/looking-back-this-year/'
 category: 'blog'
