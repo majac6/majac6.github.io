@@ -2,15 +2,15 @@
 
 .blog-post-content {
 
-  $lineHeight: 2.25rem;
+  $lineHeight: 2rem;
 
   margin-bottom: 3rem;
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: ($title-font-weight / 2) + 50;
-    letter-spacing: -.025rem;
     line-height: $lineHeight;
+    margin-bottom: 3rem;
   }
 
   ul {
@@ -40,24 +40,24 @@
       // font-size: 4rem;
       margin-top: 1.5rem;
       margin-bottom: 1.75rem;
-      font-weight: 500;
-      letter-spacing: -.1rem;
+      font-weight: 700;
+      // letter-spacing: -.1rem;
     }
 
     &3 {
       // font-size: 3.2rem;
       margin-top: 1.25rem;
       margin-bottom: 2rem;
-      font-weight: 500;
-      letter-spacing: -.1rem;
+      font-weight: 700;
+      // letter-spacing: -.1rem;
     }
 
     &4 {
       // font-size: 2.6rem;
       margin-top: 1.15rem;
       margin-bottom: 2rem;
-      font-weight: 500;
-      letter-spacing: -.1rem;
+      font-weight: 700;
+      // letter-spacing: -.1rem;
     }
 
     &5 {
@@ -65,7 +65,7 @@
       margin-top: 1.1rem;
       margin-bottom: 2rem;
       font-weight: 500;
-      letter-spacing: -.1rem;
+      // letter-spacing: -.1rem;
     }
   }
 }
