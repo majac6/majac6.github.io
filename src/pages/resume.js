@@ -154,6 +154,22 @@ export class Resume extends Component {
                     <li>간결하고 아름다운 문서를 작성하는 것을 좋아합니다.</li>
                   </ul>
                 </div>
+                <div className="col-sm-12">
+                  <div className="mb-2">
+                    <b className="text-lg">Licenses</b>
+                  </div>
+                  <ul>
+                    <li>2004­.12.­10 - M­Commerce관리사 2급(MCS­09­000231)</li>
+                    <li>2004.10.11 - 정보기기운용기능사(04404100554Y)</li>
+                    <li>2004­.04.­30 - 인터넷정보검색사 2급(IIS­21­002405)</li>
+                    <li>2004­.04.­19 - 정보처리기능사(0M01101408Y)</li>
+                    <li>
+                      2003­.12.­22 - 컴퓨터그래픽스운용기능사(03405 1027520)
+                    </li>
+                    <li>2003­.10.­30 - 컴퓨터활용능력 2급</li>
+                    <li>2003­.07.­03 - 워드프로세서 1급</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
@@ -173,13 +189,36 @@ export class Resume extends Component {
 
                 <div className="col-sm-8">
                   <div className="project">
+                    <h3>카닥 4.0 업데이트</h3>
+                    <div className="date">2019.07 - 2019.10</div>
+                    <p className="description">
+                      카닥 4.0에서는 모든 웹뷰의 디자인 업데이트와 새로 추가된
+                      쿠폰함 및 쿠폰과의 연동 작업이 진행되었습니다.
+                    </p>
+                    <h5>사용 기술</h5>
+                    <p className="tech">
+                      React, React Hooks, React Router, Context, Story Book
+                    </p>
+                    <h5>역할</h5>
+                    <div className="myRole">
+                      <ul>
+                        <li>컨테이너 패턴 적용</li>
+                        <li>커스텀 화면전환 애니메이션 적용</li>
+                        <li>공통된 행동을 Hooks 로 작성</li>
+                        <li>Function 컴포넌트 사용 지향</li>
+                        <li>스토리북을 통한 컴포넌트 공유</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="project">
                     <h3>카닥 앱 마이카 업데이트</h3>
                     <div className="date">2019.03 - 2019.06</div>
                     <p className="description">
                       앱 사용자들을 위해 자신의 차량을 등록하고, 이미 개발된
                       카닥의 모든 서비스를 이용할 수 있는 마이카 기능 업데이트
                       작업입니다. 이 작업은 Android, iOS 에서 WebView 로
-                      사용해야 하기 때문에 그것을 전제 조건으로 개발하였습니다.
+                      사용해야 하기 때문에 그것을 전제 조건으로 개발하였고 내부
+                      운영을 위한 백오피스도 함께 업데이트 되었습니다.
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
@@ -188,10 +227,35 @@ export class Resume extends Component {
                     <h5>역할</h5>
                     <div className="myRole">
                       <ul>
+                        <li>웹뷰를 위한 모놀리식(Monolithic) 프로젝트 구성</li>
                         <li>컨테이너 패턴 적용</li>
                         <li>커스텀 화면전환 애니메이션 적용</li>
                         <li>공통된 행동을 Hooks 로 작성</li>
-                        <li>모든 컴포넌트를 Function으로 작성후 Hooks 적용</li>
+                        <li>Function 컴포넌트 사용 지향</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="project">
+                    <h3>카닥 앱 React Native 샘플 작성</h3>
+                    <div className="date">2019.01 - 2019.03</div>
+                    <p className="description">
+                      카닥은 모바일 어플리케이션을 Native + WebView 를 사용해
+                      제작하고 있었는데 내부적인 테스트를 위해 React Native 를
+                      활용하여 간단하게 현재의 앱의 일부 기능을 샘플로
+                      제작하였습니다.
+                    </p>
+                    <h5>사용 기술</h5>
+                    <p className="tech">React Native, Expo, React, Adobe XD</p>
+                    <h5>역할</h5>
+                    <div className="myRole">
+                      <ul>
+                        <li>Adobe XD 로 개발 목표와 프로토타입 제작</li>
+                        <li>최초 Boiler Plate 작성</li>
+                        <li>화면 전환 및 기본 레이아웃 구성</li>
+                        <li>
+                          사진 선택 및 최적화 등 기본적인 견적요청 기능 작성
+                        </li>
                       </ul>
                     </div>
                   </div>
