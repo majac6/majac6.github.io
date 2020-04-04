@@ -184,17 +184,18 @@ export class Resume extends Component {
                 <div className="col-sm-4">
                   <h3>주식회사 카닥</h3>
                   <div className="role">프론트앤드 개발</div>
-                  <div className="date">2018.01 - NOW</div>
+                  <div className="date">2019.01 - NOW</div>
                 </div>
 
                 <div className="col-sm-8">
-
                   <div className="project">
                     <h3>카닥몰 첫 랜딩 페이지 프로젝트</h3>
                     <div className="date">2020.03</div>
                     <p className="description">
-                      통합결제 프로젝트와 병행으로 진행되었으며 기존 워드프레스의 view 를 사용하지 않고 프론트앤드 사이드는
-                      별도로 작성해 빠른 페이지 로딩과 카닥에서 제공하는 UI/UX 를 첫 페이지에 도입하는 프로젝트입니다.
+                      통합결제 프로젝트와 병행으로 진행되었으며 기존
+                      워드프레스의 view 를 사용하지 않고 프론트앤드 사이드는
+                      별도로 작성해 빠른 페이지 로딩과 카닥에서 제공하는 UI/UX
+                      를 첫 페이지에 도입하는 프로젝트입니다.
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
@@ -203,9 +204,17 @@ export class Resume extends Component {
                     <h5>역할</h5>
                     <div className="myRole">
                       <ul>
-                        <li>서버에서 준 타입으로 동적인 컴포넌트를 사용하도록 구성</li>
-                        <li>컴포넌트 최적화를 위해 state, staticState 등의 개념 분리</li>
-                        <li>callback 패턴으로 컨테이너 컴포넌트간 통신규약 설정 후 내부 개발자 교육 진행</li>
+                        <li>
+                          서버에서 준 타입으로 동적인 컴포넌트를 사용하도록 구성
+                        </li>
+                        <li>
+                          컴포넌트 최적화를 위해 state, staticState 등의 개념
+                          분리
+                        </li>
+                        <li>
+                          callback 패턴으로 컨테이너 컴포넌트간 통신규약 설정 후
+                          내부 개발자 교육 진행
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -214,33 +223,47 @@ export class Resume extends Component {
                     <h3>카닥 통합결제, 신용카드등록 프로젝트</h3>
                     <div className="date">2020.02 - 2020.03</div>
                     <p className="description">
-                      각 서비스별로 독립적으로 작용했던 결제창을 하나로 통합하고, 유저가 자신의 신용카드를 직접
-                      등록해 반복적으로 사용할수 있도록 추가되었습니다. 그리고 새롭게 템플릿 패턴을 통해 반복적인 페이지의 레이아웃을
-                      컴포넌트화 하는 작업도 진행되었습니다.
+                      각 서비스별로 독립적으로 작용했던 결제창을 하나로
+                      통합하고, 유저가 자신의 신용카드를 직접 등록해 반복적으로
+                      사용할수 있도록 추가되었습니다. 그리고 새롭게 템플릿
+                      패턴을 통해 반복적인 페이지의 레이아웃을 컴포넌트화 하는
+                      작업도 진행되었습니다.
                     </p>
                     <h5>사용 기술</h5>
-                    <p className="tech">
-                      React, Typescript, Context, Hooks
-                    </p>
+                    <p className="tech">React, Typescript, Context, Hooks</p>
                     <h5>역할</h5>
                     <div className="myRole">
                       <ul>
                         <li>컨테이너 패턴으로 두가지 기능을 효율적으로 작성</li>
-                        <li>카드번호와 같이 특정 패턴을 정규화하도록 input masking hook 작성</li>
-                        <li>전역, 지역 Context 를 활용해 props 깊이와 리렌더링 컨트롤</li>
+                        <li>
+                          카드번호와 같이 특정 패턴을 정규화하도록 input masking
+                          hook 작성
+                        </li>
+                        <li>
+                          전역, 지역 Context 를 활용해 props 깊이와 리렌더링
+                          컨트롤
+                        </li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="project">
-                    <h3>프론트앤드 모든 프로젝트 모노레포(Monorepo) 전환 및 CI/CD 개선</h3>
+                    <h3>
+                      프론트앤드 모든 프로젝트 모노레포(Monorepo) 전환 및 CI/CD
+                      개선
+                    </h3>
                     <div className="date">2019.12 - 2020.01</div>
                     <p className="description">
-                      더 빠르고 효율적인 작업을 위해, MSA + 모놀리식 으로 구성된 지금의 방식을 yarn workspace 를 활용해 모노레포 환경으로 다시 구성하였습니다.
-                      구상했던 방식을 12월 외부 세미나에서 TOSS팀의 개발방식에 대해 이야기를 듣고 난 뒤 좀 더 확신하게 되었고 이를 실제 구현하였으며
-                      이를 도입하면서 젠킨스가 아닌 github Action 으로 CI/CD 툴을 변경하였습니다. 이 시점부터 모든 프론트앤드 프로젝트는
-                      도커로 전환되었습니다. 그리고 쉘스크립트와 cardoc-react-generator(cg cli) 를 만들어 모든 개발자가 동일한 컨벤션을 가질 수 있도록
-                      툴로써 제공하였습니다.
+                      더 빠르고 효율적인 작업을 위해, MSA + 모놀리식 으로 구성된
+                      지금의 방식을 yarn workspace 를 활용해 모노레포 환경으로
+                      다시 구성하였습니다. 구상했던 방식을 12월 외부 세미나에서
+                      TOSS팀의 개발방식에 대해 이야기를 듣고 난 뒤 좀 더
+                      확신하게 되었고 이를 실제 구현하였으며 이를 도입하면서
+                      젠킨스가 아닌 github Action 으로 CI/CD 툴을
+                      변경하였습니다. 이 시점부터 모든 프론트앤드 프로젝트는
+                      도커로 전환되었습니다. 그리고 쉘스크립트와
+                      cardoc-react-generator(cg cli) 를 만들어 모든 개발자가
+                      동일한 컨벤션을 가질 수 있도록 툴로써 제공하였습니다.
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
@@ -249,12 +272,23 @@ export class Resume extends Component {
                     <h5>역할</h5>
                     <div className="myRole">
                       <ul>
-                        <li>./deploy.sh 쉘스크립트를 사용해 모든 production 배포 로직을 시스템화</li>
-                        <li>1개 저장소에 다중 프로젝트 구조를 갖는 모노레포 구성</li>
-                        <li>cardoc-react-generator cli 프로젝트로 생성해 코드 컨벤션 통일</li>
+                        <li>
+                          ./deploy.sh 쉘스크립트를 사용해 모든 production 배포
+                          로직을 시스템화
+                        </li>
+                        <li>
+                          1개 저장소에 다중 프로젝트 구조를 갖는 모노레포 구성
+                        </li>
+                        <li>
+                          cardoc-react-generator cli 프로젝트로 생성해 코드
+                          컨벤션 통일
+                        </li>
                         <li>오래되고 정확하지 않은 README 재정리</li>
                         <li>프론트앤드 팀 내 개발자 교육</li>
-                        <li>변경된 사항을 다른 팀과 공유하기 위해 슬라이드 제작 및 세미나 진행</li>
+                        <li>
+                          변경된 사항을 다른 팀과 공유하기 위해 슬라이드 제작 및
+                          세미나 진행
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -271,7 +305,8 @@ export class Resume extends Component {
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
-                      React, NextJS, Typescript, React Hooks, React Router, Redux, Context
+                      React, NextJS, Typescript, React Hooks, React Router,
+                      Redux, Context
                     </p>
                     <h5>역할</h5>
                     <div className="myRole">
@@ -292,7 +327,8 @@ export class Resume extends Component {
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
-                      React, NextJS, Typescript ,React Hooks, React Router, Context, Story Book
+                      React, NextJS, Typescript ,React Hooks, React Router,
+                      Context, Story Book
                     </p>
                     <h5>역할</h5>
                     <div className="myRole">
