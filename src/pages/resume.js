@@ -211,7 +211,7 @@ export class Resume extends Component {
                   </div>
 
                   <div className="project">
-                    <h3>카닥 통합결제,신용카드등록 프로젝트</h3>
+                    <h3>카닥 통합결제, 신용카드등록 프로젝트</h3>
                     <div className="date">2020.02 - 2020.03</div>
                     <p className="description">
                       각 서비스별로 독립적으로 작용했던 결제창을 하나로 통합하고, 유저가 자신의 신용카드를 직접
