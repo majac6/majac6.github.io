@@ -64,9 +64,10 @@ export class Resume extends Component {
                 </div>
                 <div className="col-sm-12 mb-4">
                   <p className="text-lg">
-                    웹 개발을 좋아하고 더 잘 하고 싶은 개발자입니다. 그 중
-                    프론트앤드 개발을 제일 좋아하며 극강의 프론트앤드 개발자가
-                    되는 것이 목표입니다.
+                    안녕하세요 프론트앤드 개발자 임흥선입니다. 처음 개발을
+                    시작하고 AngularJS 를 만난후 프론트앤드 개발자로써 첫 시작을
+                    하였습니다. 지금은 React 를 위주로 사용하고 있고 이 분야에서
+                    최고가 되기 위해 노력하고 있습니다.
                   </p>
                 </div>
                 <div className="col-sm-4">
@@ -189,6 +190,85 @@ export class Resume extends Component {
 
                 <div className="col-sm-8">
                   <div className="project">
+                    <h3>cardoc react generator 업데이트</h3>
+                    <div className="date">2020.05</div>
+                    <p className="description">
+                      월초에 제작했던 cg 커맨드는 컨테이너와 컴포넌트만 생성이
+                      가능하였으나 기능을 추가로 개선해 페이지, 엘리먼트 등도 이
+                      커맨드를 이용해 자동으로 생성할수 있도록 추가하였고 헤당
+                      프로젝트가 JS ,TS 인지를 옵션으로 부여받았지만 프로젝트
+                      루트폴더의 index.js or ts 를 보고 자동으로 이 프로젝트의
+                      메인 언어를 파악하는 방식으로 변경하였습니다. 그리고 각
+                      컴포넌트 타입에 따라 필요한 패키지를 미리 첨부해두는
+                      식으로 작업자의 피로를 덜 수 있는 방향으로
+                      업데이트하였습니다.
+                    </p>
+                    <h5>사용 기술</h5>
+                    <p className="tech">NodeJS, Yarn Workspace</p>
+                    <h5>역할</h5>
+                    <div className="myRole">
+                      <ul>
+                        <li>
+                          ts, js 를 옵션으로 받지만 자동으로 감지해 생성하도록
+                          변경
+                        </li>
+                        <li>
+                          ReadME 업데이트 및 프론트 개발자들에게 교육 진행
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="project">
+                    <h3>마이카 프로필 업데이트</h3>
+                    <div className="date">2020.05</div>
+                    <p className="description">
+                      마이카의 프로필 페이지를 도입할 필요성이 있기에 새로운
+                      UI를 적용하였고 기존 레거시 코드를 개선하는 작업도 함께
+                      이루어졌습니다. 기존에는 page 를 메인으로 두고 하단에
+                      추가적인 페이지를 만드는 방식으로 구현되었지만 몰 작업때
+                      완전히 정착된 컨테이너 패턴을 적용해 레거시와 독립된
+                      형태로 구성하였습니다.
+                    </p>
+                    <h5>사용 기술</h5>
+                    <p className="tech">React, Context, Hooks, AWS S3</p>
+                    <h5>역할</h5>
+                    <div className="myRole">
+                      <ul>
+                        <li>컨테이너 패턴 적용</li>
+                        <li>
+                          callback 패턴 적용 및 DeBounce 개념 도입해 불필요한
+                          렌더링 제거
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="project">
+                    <h3>카닥몰 2차 업데이트</h3>
+                    <div className="date">2020.04</div>
+                    <p className="description">
+                      카닥몰 최초 업데이트 이후 후속으로 진행된 프로젝트입니다.
+                      기존 디자인 패턴을 유지하면서 상품 검색,목록,상세,후기 및
+                      상품문의 등 장바구니 이전 단계까지의 흐름을 구현하였고 이
+                      부분을 1개의 컨테이너로 구현하였습니다.
+                    </p>
+                    <h5>사용 기술</h5>
+                    <p className="tech">
+                      React, Typescript, Context, Hooks, Docker, k8s(AWS EKS)
+                    </p>
+                    <h5>역할</h5>
+                    <div className="myRole">
+                      <ul>
+                        <li>
+                          callback 패턴 적용 및 DeBounce 개념 도입해 불필요한
+                          렌더링 제거
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="project">
                     <h3>카닥몰 첫 랜딩 페이지 프로젝트</h3>
                     <div className="date">2020.03</div>
                     <p className="description">
@@ -199,7 +279,7 @@ export class Resume extends Component {
                     </p>
                     <h5>사용 기술</h5>
                     <p className="tech">
-                      React, Typescript, Context, Hooks, Docker, k8s(AWS ECS)
+                      React, Typescript, Context, Hooks, Docker, k8s(AWS EKS)
                     </p>
                     <h5>역할</h5>
                     <div className="myRole">
