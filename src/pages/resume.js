@@ -138,7 +138,7 @@ export class Resume extends Component {
                     <li>MS Office, Page, Keynote</li>
                   </ul>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-12">
                   <div className="mb-2">
                     <b className="text-lg">Infra Structure</b>
                   </div>
