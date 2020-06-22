@@ -15,7 +15,9 @@ export class Resume extends Component {
               <div className="row">
                 <div className="col-sm-12">
                   <div id="myProfile">
-                    <div className="photo" />
+                    <div className="photo">
+                      <img src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg" />
+                    </div>
                     <div className="mb-3">
                       <div className="kr">임 흥선</div>
                       <div className="en">HungSun LIM</div>
@@ -121,8 +123,8 @@ export class Resume extends Component {
                     <b className="text-lg">Server</b>
                   </div>
                   <ul>
-                    <li>PHP, Composer</li>
-                    <li>NodeJS, Express, Hapi</li>
+                    <li>PHP with Composer</li>
+                    <li>NodeJS, Express, Koa.js</li>
                   </ul>
                 </div>
                 <div className="col-sm-4">
@@ -130,10 +132,21 @@ export class Resume extends Component {
                     <b className="text-lg">Tools</b>
                   </div>
                   <ul>
-                    <li>VS code, SourceTree</li>
+                    <li>VS code, gitKraken, git CLI</li>
                     <li>Sketch, Adobe XD</li>
                     <li>Photoshop, Illustrator</li>
                     <li>MS Office, Page, Keynote</li>
+                  </ul>
+                </div>
+                <div className="col-sm-6">
+                  <div className="mb-2">
+                    <b className="text-lg">Infra Structure</b>
+                  </div>
+                  <ul>
+                    <li>OS: Ubuntu, Amazone Linux 2</li>
+                    <li>AWS: EC2, ECS, S3, Route53, EKS, CloudFront</li>
+                    <li>CI/CD: Github Action, Jenkins</li>
+                    <li>I Love Docker</li>
                   </ul>
                 </div>
                 <div className="col-sm-12">
