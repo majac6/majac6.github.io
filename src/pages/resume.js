@@ -58,7 +58,7 @@ export class Resume extends Component {
             </div>
           </section>
 
-          <section>
+          <section id="skill">
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
@@ -188,7 +188,7 @@ export class Resume extends Component {
             </div>
           </section>
 
-          <section>
+          <section id="project">
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
@@ -825,7 +825,7 @@ export class Resume extends Component {
                   <h2>외부 활동</h2>
                 </div>
 
-                <div className="col-sm-4">
+                <div className="col-sm-4" id="opensource">
                   <h3>오픈소스 제작</h3>
                 </div>
                 <div className="col-sm-6">
@@ -884,7 +884,7 @@ export class Resume extends Component {
                   </div>
                 </div>
 
-                <div className="col-sm-4">
+                <div className="col-sm-4" id="speech">
                   <h3>발표</h3>
                 </div>
                 <div className="col-sm-6">
