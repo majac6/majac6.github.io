@@ -1,8 +1,8 @@
-@import 'utils';
+@import "utils";
 
 #resume {
   .container {
-    @include media('>tablet') {
+    @include media(">tablet") {
       max-width: 800px;
     }
   }

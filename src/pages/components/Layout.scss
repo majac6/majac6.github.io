@@ -7,8 +7,8 @@ $box-size: 150px;
   height: $box-size;
   background-color: $oc-violet-9;
   position: absolute;
-  top: ($box-size / 2) * -1;
-  left: ($box-size / 2) * -1;
+  top: calc($box-size / 2) * -1;
+  left: calc($box-size / 2) * -1;
   transform: rotate(45deg);
   // opacity: .8;
 }
@@ -18,8 +18,8 @@ $box-size: 150px;
   height: $box-size;
   background-color: $oc-violet-9;
   position: absolute;
-  bottom: ($box-size / 2) * -1 + 100;
-  right: ($box-size / 2) * -1;
+  bottom: calc($box-size / 2) * -1 + 100;
+  right: calc($box-size / 2) * -1;
   transform: rotate(45deg);
   // opacity: .8;
 }
