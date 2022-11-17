@@ -161,6 +161,40 @@ const resume = () => {
           </div>
         </section>
 
+        <section id="skill">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <h2>경력 및 학력</h2>
+              </div>
+              <div className="col-sm-12">
+                <div className="mb-2">
+                  <b className="text-lg">학력</b>
+                </div>
+                <ul>
+                  <li>2009.03 - 2013.08 : 강남대학교 컴퓨터미디어공학부 졸입(학사)</li>
+                  <li>2007.03 - 2009.02 : 세한대학교 컴퓨터교육과</li>
+                  <li>2006.03 ~ 2006.09 : 연세디지털게임교육원 게임기획</li>
+                  <li>2003.03 ~ 2006.02 : 태원고등학교</li>
+                </ul>
+              </div>
+              <div className="col-sm-12">
+                <div className="mb-2">
+                  <b className="text-lg">경력</b>
+                </div>
+                <ul>
+                  <li>2021.01 - NOW : 딜리헙</li>
+                  <li>2020.09 - 2020.12 : LGU+</li>
+                  <li>2019.01 - 2020.08 : 카닥</li>
+                  <li>2017.07 - 2018.12 : 오픈소스컨설팅</li>
+                  <li>2016.06 ~ 2017.05 : 박차컴퍼니</li>
+                  <li>2012.11 ~ 2016.03 : 이큐브랩</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="project">
           <div className="container">
             <div className="row">
