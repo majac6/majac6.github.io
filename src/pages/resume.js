@@ -13,7 +13,8 @@ const resume = () => {
               <div className="col-sm-12">
                 <div id="myProfile">
                   <div className="photo">
-                    <img src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg" alt="HungSun LIM" />
+                    <img src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
+                         alt="HungSun LIM"/>
                   </div>
                   <div className="mb-3">
                     <div className="kr">임 흥선</div>
@@ -33,7 +34,8 @@ const resume = () => {
                     <a href="https://www.facebook.com/majac6" target="_blank" rel="noopener noreferrer">
                       Linkedin
                     </a>
-                    <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank"
+                       rel="noopener noreferrer">
                       Facebook
                     </a>
                   </div>
@@ -211,13 +213,72 @@ const resume = () => {
 
               <div className="col-sm-8">
                 <div className="project">
+                  <h3>프론트앤드 리팩토링</h3>
+                  <div className="date">2023.03 ~ 2023.05</div>
+                  <p className="description">
+                    1차 개발을 마친 상태에서 프론트앤드 리팩토링을 진행하였습니다. 이전 JS, Webpack 와 같은 기술을 사용하지 않고 최신 기술과 트렌드를
+                    도입하기 위해 Typescript + Vite 를 도입하였으며, 좀더 안정적인 개발을 위해 테스트 도구인 Vitest 도 함께 적용하였습니다.
+                    이번 프로젝트를 진행하면서 이전 Javascript 코드를 모두 Typescript 로 포팅하고 모듈과 컴포넌트들은 모두 테스트 코드를 작성했을 뿐만 아니라
+                    컴포넌트의 경우 스토리북까지 작성해 보다 코드의 안정성과 재사용성을 향상시켰습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">Typescript, Vite, Vitest, Tailwind, SCSS, Storybook</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>Promise Mirror 프레임워크 분석 및 구조화</li>
+                      <li>텍스트 에디터 및 뷰어 개발</li>
+                      <li>뷰어에 댓글 기능 추가</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="project">
+                  <h3>텍스트 에디터 및 뷰어 개발</h3>
+                  <div className="date">2022.11 ~ 2023.02</div>
+                  <p className="description">
+                    Promise Mirror 를 활용해 100% 확장 가능한 텍스트 에디터를 개발하였고 이를 스튜디오 프로젝트에 적용하였습니다.
+                    그리고 이를 기반으로 한 뷰어도 제작해 스토어 프로젝트에 함께 적용하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS, Promise Mirror</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>Promise Mirror 프레임워크 분석 및 구조화</li>
+                      <li>텍스트 에디터 및 뷰어 개발</li>
+                      <li>뷰어에 댓글 기능 추가</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="project">
+                  <h3>갤러리 개발</h3>
+                  <div className="date">2022.06 ~ 2022.10</div>
+                  <p className="description">
+                    일러스트와 같은 다양한 이미지를 게시하고 이를 통해 유저들끼리 소통할수 있는 기능을 구현하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>이미지 업로드 및 간단한 편집기능 개발</li>
+                      <li>이미지 뷰 를 위한 Feed 컴포넌트 개발</li>
+                      <li>댓글 기능 추가</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="project">
                   <h3>iOS App 출시</h3>
                   <div className="date">2022.04 ~ 2022.05</div>
                   <p className="description">
-                    Android 앱과 동일한 규칙으로 iOS 앱의 웹뷰를 이용해 앱을 구현하였고, 이때 Apple Login 도 같이 구현되었습니다.
+                    안드로이드 앱을 출시한 경험을 바탕으로 iOS 앱도 동일한 아키텍쳐를 활용해 개발하였습니다. 다만 iOS 앱 출시를 위해서는
+                    기존 애플로그인 서드파티 로그인을 지원해야 했기에 이 기능도 함께 구현하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, JS Interface</p>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS, JS Interface</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -232,10 +293,10 @@ const resume = () => {
                   <div className="date">2022.01 ~ 2022.03</div>
                   <p className="description">
                     디지털 컨텐츠(폰트, 이미지 등 기타 에셋)들을 판매할수 있는 서비스가 스토어와 스튜디오에 각각 구현되었습니다. 단 이번
-                    스펙에서 좀더 구체적인 디스크립션을 작성하기 위해 에디터가 필요하였고 Quill 을 사용해 구현하였습니다.
+                    스펙에서 좀더 구체적인 디스크립션을 작성하기 위해 에디터가 필요하였고 완성형 에디터인 Quill 을 사용해 구현하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, Quill Editor</p>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS, Quill Editor</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -249,9 +310,12 @@ const resume = () => {
                 <div className="project">
                   <h3>Android App 출시</h3>
                   <div className="date">2021.11 ~ 2021.12</div>
-                  <p className="description">웹에서 개발된 모바일 페이지들을 이용해 안드로이드 앱을 출시하였습니다.</p>
+                  <p className="description">
+                    Base 로 설계된 안드로이드 앱에 웹뷰 형태로 현재 만들어진 웹앱을 렌더링하기로 결정하였고, 현재 웹뷰에서 필요한 데이터를 네이티브
+                    앱과 연동하기 위해 JS Interface 를 설계하고 이를 적용하였습니다.
+                  </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, JS Interface</p>
+                  <p className="tech">JS Interface, React, Webpack, Javascript, tailwind, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -264,8 +328,15 @@ const resume = () => {
                 <div className="project">
                   <h3>스토어/스튜디오 추가 업데이트</h3>
                   <div className="date">2021.06 ~ 2021.10</div>
-                  <p className="description">최초 스토어, 스튜디오 개발 이후 다음 기능들이 추가되었습니다.</p>
-                  <div>
+                  <p className="description">
+                    최초 스토어, 스튜디오 개발 이후 다음 기능들이 추가되었습니다. 주로 개발된 기능들을 실제로 유저가 얼만큼 잘 사용하고 있는지
+                    측정하거나 테스트할수 있는 외부 라이브러리를 설치하고 이 프로젝트에 맞게 적절히 적용하는 업무를 맡았고 이전 개발된 갤러리에
+                    도네이션 기능을 추가하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
                     <ul>
                       <li>갤러리 : 일러스트를 포스팅하고 도네이션을 받을수 있는 기능</li>
                       <li>애널리틱스 툴 적용 : GTM, Mixpanel</li>
@@ -273,27 +344,26 @@ const resume = () => {
                       <li>Hackle 사용한 A/B 테스트 진행</li>
                     </ul>
                   </div>
-                  <h5>사용 기술</h5>
-                  <p className="tech">React</p>
-                  <h5>역할</h5>
-                  <div className="myRole">
-                    <ul>
-                      <li>디자인/기획 스펙 구현</li>
-                    </ul>
-                  </div>
                 </div>
 
                 <div className="project">
                   <h3>스토어 웹 개발</h3>
                   <div className="date">2021.03 ~ 2021.05</div>
-                  <p className="description">딜리헙의 자산(웹툰)을 유저에게 제공하는 페이지와 기능을 작성하였습니다.</p>
+                  <p className="description">
+                    창작자가 만든 창작물을 공개하기 위한 웹앱으로 다음과 같은 기능들을 개발하였습니다. 이 프로젝트 역시 모든 컴포넌트/모듈 개발과
+                    디자인 시스템 구현 작업을 담당하고 리딩도 맡아 진행하였습니다.
+                  </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React</p>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
                       <li>웹툰 뷰어 개발</li>
-                      <li>디자인/기획 스펙 구현</li>
+                      <li>디자인 시스템 개발</li>
+                      <li>커스터마이제이션 뷰어 개발</li>
+                      <li>디자인 시스템 개발</li>
+                      <li>알림 등 유저와의 상호작용 시스템 개발</li>
+                      <li>서드파티(카카오, 네이버, 페이스북) 로그인 연동</li>
                     </ul>
                   </div>
                 </div>
@@ -302,17 +372,20 @@ const resume = () => {
                   <h3>스튜디오 웹 개발</h3>
                   <div className="date">2021.01 ~ 2021.02</div>
                   <p className="description">
-                    크리에이터로 접근한 사용자들이 자신의 프로젝트(웹툰)을 업로드할수 있는 환경을 구축하였습니다.
+                    창작자를 위한 웹앱으로 다음과 같은 기능을 지원하였으며 모든 컴포넌트/모듈 개발과 디자인 스펙 구현 작업을 담당하고 프로젝트가
+                    원활히 진행될수 있도록 리딩도 맡아 진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, React Hook Form 적용</p>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS, React Hook Form</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>위자드 형태의 페이지 개발</li>
+                      <li>웹툰 생성 위자드 개발</li>
+                      <li>웹툰 에디터 개발</li>
                       <li>폼을 많이 사용해야 했기에 React Hook Form 라이브러리를 적용</li>
-                      <li>커스터마제이션(유저가 자신의 페이지를 꾸밀수 있는 기능) 개발</li>
-                      <li>디자인/기획 스펙 구현</li>
+                      <li>커스터마제이션(유저가 자신의 페이지를 꾸밀수 있는 기능) 에디터 개발</li>
+                      <li>디자인 시스템 개발</li>
+                      <li>서드파티(카카오, 네이버, 페이스북) 로그인 연동</li>
                     </ul>
                   </div>
                 </div>
@@ -321,11 +394,11 @@ const resume = () => {
                   <h3>최초 프론트앤드 개발환경 정의</h3>
                   <div className="date">2021.01</div>
                   <p className="description">
-                    아얘 처음부터 환경을 구성해야 했기에 페이지 라우팅 방식과 인증을 위한 세션 유지 그리고 멀티 디바이스(PC, Mobile, Tablet)
-                    환경, 전역 상태관리 등 우리에게 필요한 기술들을 CTO님과 함께 정의하고 최초 환경을 함께 구성하였습니다.
+                    처음부터 환경을 구성해야 했기에 페이지 라우팅 방식과 인증을 위한 세션 유지 그리고 멀티 디바이스(PC, Mobile, Tablet)
+                    환경, 전역 상태관리 등 우리에게 필요한 기술들을 정의하고 최초 환경을 함께 구성하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React</p>
+                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
