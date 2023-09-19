@@ -191,7 +191,7 @@ const resume = () => {
                   <b className="text-lg">경력</b>
                 </div>
                 <ul>
-                  <li>2021.01 - NOW : 딜리헙</li>
+                  <li>2021.01 - 2023.06 : 딜리헙</li>
                   <li>2020.09 - 2020.12 : LGU+</li>
                   <li>2019.01 - 2020.08 : 카닥</li>
                   <li>2017.07 - 2018.12 : 오픈소스컨설팅</li>
@@ -214,13 +214,13 @@ const resume = () => {
                 <h3>딜리헙 Global</h3>
                 <div className="role">웹툰 오픈 플랫폼</div>
                 <div className="role">프론트앤드 개발</div>
-                <div className="date">2021.01 - NOW</div>
+                <div className="date">2021.01 - 2023.06</div>
               </div>
 
               <div className="col-sm-8">
                 <div className="project">
                   <h3>프론트앤드 리팩토링</h3>
-                  <div className="date">2023.03 ~ 2023.05</div>
+                  <div className="date">2023.03 ~ 2023.06</div>
                   <p className="description">
                     1차 개발을 마친 상태에서 프론트앤드 리팩토링을 진행하였습니다. 이전 JS, Webpack 와 같은 기술을 사용하지 않고 최신 기술과 트렌드를
                     도입하기 위해 Typescript + Vite 를 도입하였으며, 좀더 안정적인 개발을 위해 테스트 도구인 Vitest 도 함께 적용하였습니다.
