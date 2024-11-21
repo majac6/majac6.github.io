@@ -237,9 +237,8 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-sm-8">
+
                 <div className="project">
                   <h3>Web/Native 인터페이스 리팩토링</h3>
                   <div className="date">2024.08 - 2024.09</div>
@@ -259,9 +258,8 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-sm-8">
+
                 <div className="project">
                   <h3>데이터독(DataDog) 도입</h3>
                   <div className="date">2024.06 - 2024.07</div>
@@ -279,9 +277,8 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-sm-8">
+
                 <div className="project">
                   <h3>2024 여름 아모레 세일 페스타</h3>
                   <div className="date">2024.04 - 2024.05</div>
@@ -299,9 +296,8 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-sm-8">
+
                 <div className="project">
                   <h3>디지털 분석 도구 고도화</h3>
                   <div className="date">2024.02 - 2024.03</div>
@@ -319,9 +315,8 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-sm-8">
+
                 <div className="project">
                   <h3>아모레몰 선물하기 기능</h3>
                   <div className="date">2024.01</div>
@@ -340,7 +335,6 @@ const resume = () => {
                   </div>
                 </div>
               </div>
-
 
               <div className="col-sm-4">
                 <h3>딜리헙</h3>
