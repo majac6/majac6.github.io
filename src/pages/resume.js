@@ -53,12 +53,10 @@ const resume = () => {
               </div>
               <div className="col-sm-12 mb-4">
                 <p className="text-lg">
-                  안녕하세요! 저는 임흥선이라고 합니다. 프론트앤드 개발자로서 React, Angular, Vue와 같은 다양한 프론트앤드 프레임워크를 다루는데 능숙한 개발자입니다. 또한, PHP를
-                  이용한 풀스택 개발도 할 수 있습니다. 저는 웹 개발의 다양한 측면에 흥미와 열정을 갖고 있으며, 사용자 친화적인 인터페이스를 구현하기 위해 최신 프론트앤드 기술에 주도적으로 적용하고
-                  있습니다. 여러 프레임워크 중에서는 React 를 가장 오래 잘 다루어 왔습니다.
-                  또한, 백엔드 개발에도 관심이 많아 PHP를 활용한 서버 사이드 개발과 데이터베이스 관리 등 다양한 기술 스택을 보유하고 있습니다. 풀스택 개발자로서 프론트엔드와 백엔드 간의 원활한
-                  통신과 데이터 처리를 위해 RESTful API와 데이터베이스 설계에 대한 이해도 높습니다. 새로운 기술과 도구에 대한 학습에 열려 있으며, 문제 해결 능력과 창의성을 바탕으로 팀과의
-                  협업에서 좋은 결과를 도출하고자 합니다. 좋은 사용자 경험과 효율적인 코드 작성을 목표로 하며, 항상 최신 개발 트렌드를 주시하여 지속적인 성장을 추구하고 있습니다.
+                  안녕하세요, 임흥선입니다. 저는 React를 중심으로 다양한 프론트엔드 프레임워크(Angular, Vue 등)를 다뤄온 개발자이며, PHP, Node 기반의 백엔드 및 풀스택 개발
+                  경험도
+                  보유하고 있습니다. 사용자 친화적인 인터페이스 구현과 RESTful API, 데이터베이스 설계에 강점을 가지며, 최신 기술을 적극적으로 도입해 효율적이고 유지보수 가능한 코드를
+                  작성합니다. 문제 해결과 협업에 강하며, 지속적인 성장과 우수한 사용자 경험을 위해 노력하고 있습니다.
 
                   감사합니다. 저에 대해 더 궁금한 점이 있으시면 언제든지 문의해주세요!
                 </p>
@@ -69,24 +67,25 @@ const resume = () => {
                 </div>
                 <ul>
                   <li>자바스크립트 + No Jquery</li>
-                  <li>Webpack</li>
+                  <li>Tailwind</li>
+                  <li>Webpack, Vite</li>
                   <li>CSS 전처리기 사용</li>
-                  <li>아름다운 HTML</li>
-                  <li>다양한 브라우저 지원</li>
+                  <li>시맨틱 HTML</li>
+                  <li>크로스 브라우징</li>
                   <li>검색엔진 최적화</li>
                 </ul>
               </div>
               <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">React</b>
+                  <b className="text-lg">React/NextJS(10,12 and over 13)</b>
                 </div>
                 <ul>
                   <li>컴포넌트 기반 개발</li>
-                  <li>Styled 컴포넌트 활용</li>
+                  <li>CSS in JS</li>
                   <li>컴포넌트 라이프사이클 및 최적화</li>
-                  <li>컴포넌트 상태 관리(State, Mobx)</li>
-                  <li>Redux + Flux 구조</li>
+                  <li>컴포넌트 전역/지역 상태 관리</li>
                   <li>코드 스플리팅을 통한 앱 최적화</li>
+                  <li>Next.js 의 서버/클라이언트 사이드 및 컴포넌트</li>
                 </ul>
               </div>
               <div className="col-sm-4">
@@ -111,11 +110,11 @@ const resume = () => {
               </div>
               <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">Server</b>
+                  <b className="text-lg">PHP/Nodejs</b>
                 </div>
                 <ul>
                   <li>PHP with Composer</li>
-                  <li>NodeJS, Express, Koa.js</li>
+                  <li>NodeJS, Express, Nestjs</li>
                 </ul>
               </div>
               <div className="col-sm-4">
@@ -123,8 +122,8 @@ const resume = () => {
                   <b className="text-lg">Tools</b>
                 </div>
                 <ul>
-                  <li>VS code, gitKraken, git CLI</li>
-                  <li>Sketch, Adobe XD</li>
+                  <li>inteliJ, VS code, gitKraken, git CLI</li>
+                  <li>Figma, Sketch, Adobe XD</li>
                   <li>Photoshop, Illustrator</li>
                   <li>MS Office, Page, Keynote</li>
                 </ul>
@@ -134,10 +133,11 @@ const resume = () => {
                   <b className="text-lg">Infra Structure</b>
                 </div>
                 <ul>
-                  <li>OS: Ubuntu, Amazone Linux 2</li>
-                  <li>AWS: EC2, ECS, S3, Route53, EKS, CloudFront</li>
-                  <li>CI/CD: Github Action, Jenkins</li>
-                  <li>I Love Docker</li>
+                  <li>Ubuntu, Amazone Linux 2 and 3</li>
+                  <li>Aamazon web service</li>
+                  <li>terraform</li>
+                  <li>Github Action, Jenkins</li>
+                  <li>Docker, Docker Compose, k8s</li>
                 </ul>
               </div>
               <div className="col-sm-12">
@@ -191,12 +191,13 @@ const resume = () => {
                   <b className="text-lg">경력</b>
                 </div>
                 <ul>
-                  <li>2021.01 - 2023.06 : 딜리헙</li>
-                  <li>2020.09 - 2020.12 : LGU+</li>
-                  <li>2019.01 - 2020.08 : 카닥</li>
-                  <li>2017.07 - 2018.12 : 오픈소스컨설팅</li>
-                  <li>2016.06 ~ 2017.05 : 박차컴퍼니</li>
-                  <li>2012.11 ~ 2016.03 : 이큐브랩</li>
+                  <li>2024.01 - NOW : 아모레퍼시픽 / AMORE PACIFIC</li>
+                  <li>2021.01 - 2023.06 : 딜리헙 / Dillyhub</li>
+                  <li>2020.09 - 2020.12 : 엘지유플러스 / LGU+</li>
+                  <li>2019.01 - 2020.08 : 카닥 / Cardoc</li>
+                  <li>2017.07 - 2018.12 : 오픈소스컨설팅 / open source consulting</li>
+                  <li>2016.06 ~ 2017.05 : 박차컴퍼니 / bakcha company</li>
+                  <li>2012.11 ~ 2016.03 : 이큐브랩 / EcubeLabs</li>
                 </ul>
               </div>
             </div>
@@ -211,9 +212,140 @@ const resume = () => {
               </div>
 
               <div className="col-sm-4">
-                <h3>딜리헙 Global</h3>
-                <div className="role">웹툰 오픈 플랫폼</div>
-                <div className="role">프론트앤드 개발</div>
+                <h3>아모레퍼시픽 / AMORE PACIFIC</h3>
+                <div className="role">아모레몰 운영 및 개발</div>
+                <div className="role">프론트앤드 리더</div>
+                <div className="date">2024.01 - NOW</div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>주문/완료 페이지 내재화 1차 : 프로젝트 구성 및 비회원 케이스</h3>
+                  <div className="date">2024.10 - 2024.11</div>
+                  <p className="description">
+                    외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 next10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관을 준비했고 next 최신
+                    버전인 14를 이용해 모던한 프로젝트를 구성하고 모든 기능을 한번에 이관할수 없기에 비회원 구매 케이스를 우선해 1차 목표 스코프를 정하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">typescript, react17, next14, tailwind, storybook, docker</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>전체 개발 범위 조정 및 배포단위 선정</li>
+                      <li>초기 FE프로젝트 구성 및 docker 베이스 구성</li>
+                      <li>비회원 케이스 스펙 구현</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>Web/Native 인터페이스 리팩토링</h3>
+                  <div className="date">2024.08 - 2024.09</div>
+                  <p className="description">
+                    아모레몰의 Web은 Native App(iOS, Android) 에서 Webview 형태로 사용되지만 각 작업자별로 현재 페이지 상태와 앱의 상태를 일치시키는 코드가 파편화되어
+                    있고 상황에 따라 제어권이 Web/Android/iOS 에서 각각 가지고 있어 문제가 발생시 어느 부분에서 잘못된 함수를 호출하는지 알수가 없는 문제가 다수 발생하였습니다. 이
+                    문제를 해결하기 위해 Web-Native 간 인터페이스를 명령적이 아닌 선언적으로 구성하고 협력 외주사에게도 가이드 문서가 아닌 javascript library 를 제공하는
+                    방향으로 진행하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">javascript, typescript, react16, next10</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>Web-Native 인터페이스 라이브러리 설계</li>
+                      <li>라이브러리 React Hook, pure javascript 각각 작성</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>데이터독(DataDog) 도입</h3>
+                  <div className="date">2024.06 - 2024.07</div>
+                  <p className="description">
+                    로그 수집과 분석 장애 대응등 전반적인 모니터링을 위해 데이터독을 도입하였고 고객 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하고 특정 유저의 행동을 분석해 아모레몰을
+                    탐색하는 유저가 어떤 행동을 많이 하고 어디에서 이탈하는지 확인해 제품 고도화를 위해 무엇을 더 해야 하는지 발견하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">typescript, react16, next10</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>데이터독 대시보드/럼 관리</li>
+                      <li>웹훅을 통한 알림 추가</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>2024 여름 아모레 세일 페스타</h3>
+                  <div className="date">2024.04 - 2024.05</div>
+                  <p className="description">
+                    1년에 2번 진행하는 아모레 세일 페스타에서 사용될 새로운 feature 인 "럭키드로우" 와 "멤버십플러스 이용권" 을 추가 개발했습니다. 이 기능을 통해 새로운 유저가 행사를
+                    좀더 잘 즐기고 아모레몰의 멤버십플러스를 짧은 기간동안 체험해볼수 있는 기능이 추가되었습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">Nextj10, React16, Redux</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>상품상세 페이지 업데이트 및 럭키드로우 관련 페이지 추가</li>
+                      <li>멤버십플러스 이용권 조회/사용/갱신/취소 등 관리 페이지 추가</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>디지털 분석 도구 고도화</h3>
+                  <div className="date">2024.02 - 2024.03</div>
+                  <p className="description">
+                    google analytic 3 지원 종료로 인해 GA4 로 마이그레이션을 진행해야 하는 상황에서 기존 파편화 되어 관리되던 분석 도구들을 하나의 모듈로 묶어 관리하는 작업도 같이
+                    병행했습니다. 이 작업을 통해 분석 도구들을 통합하고 관리하기 쉽게 만들었으며, 이를 통해 데이터 분석 및 통계를 보다 효율적으로 수행할수 있게 되었습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">Nextj10, React16, GA3, GA4, GTM, aiaqua</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>페이스북 픽셀, 카카오 픽셀, 네이버 추적 도구 등 타 도구들을 GTM 을 통해 주입할수 있도록 가이드 제공</li>
+                      <li>GA, GTM 관련 React 컴포넌트 및 훅 작성</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8">
+                <div className="project">
+                  <h3>아모레몰 선물하기 기능</h3>
+                  <div className="date">2024.01</div>
+                  <p className="description">
+                    단일 상품에 대해 선물할수 있는 feature 가 추가되었습니다. 구매자는 수신자 정보를 입력해 상품을 구매할수 있고 수신자는 새로 추가된 페이지를 통해 상품을 배송받을수
+                    있습니다. 이 기능을 통해 신규 유저를 기존 유저를 통해 확보하는 루트가 추가되었습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">Nextjs10, React16, Typescript, Redux</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>상품상세, 장바구니, 주문서, 주문완료, 및 기타 클레임 영역 선물하기 타입 지원 추가</li>
+                      <li>선물하기 수신자 페이지, 선물함, 선물상세 신규 페이지 추가</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-sm-4">
+                <h3>딜리헙</h3>
+                <div className="role">글로벌 웹툰 오픈 플랫폼</div>
+                <div className="role">프론트앤드 엔지니어</div>
                 <div className="date">2021.01 - 2023.06</div>
               </div>
 
@@ -232,9 +364,9 @@ const resume = () => {
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>Promise Mirror 프레임워크 분석 및 구조화</li>
-                      <li>텍스트 에디터 및 뷰어 개발</li>
-                      <li>뷰어에 댓글 기능 추가</li>
+                      <li>전반적인 프로잭트 구조 설계</li>
+                      <li>배포 및 브랜치 전략 수립</li>
+                      <li>기존 javascript 코드 typescript 로 포팅</li>
                     </ul>
                   </div>
                 </div>
