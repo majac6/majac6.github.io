@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `프론트앤드 개발자 : 임흥선`,
+    title: `프론트앤드 엔지니어 : 임흥선`,
     siteUrl: `https://majac.co.kr`,
   },
   plugins: [
