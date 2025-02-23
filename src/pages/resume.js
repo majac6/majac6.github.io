@@ -4,8 +4,7 @@ import Layout from './components/layout';
 import './resume.scss';
 
 const resume = () => {
-  return (
-    <Layout>
+  return (<Layout>
       <div id="resume">
         <section>
           <div className="container">
@@ -21,7 +20,7 @@ const resume = () => {
                     <div className="en">HungSun LIM</div>
                   </div>
                   <div className="mb-2">
-                    <div className="position">Front-End Developer</div>
+                    <div className="position">Front-End Engineer</div>
                     <div>
                       <small>KangNam Univ. Computer Media Engineering</small>
                     </div>
@@ -32,11 +31,11 @@ const resume = () => {
                       GitHub
                     </a>
                     <a href="https://www.facebook.com/majac6" target="_blank" rel="noopener noreferrer">
-                      Linkedin
+                      Facebook
                     </a>
                     <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank"
                        rel="noopener noreferrer">
-                      Facebook
+                      Linkedin
                     </a>
                   </div>
                 </div>
@@ -53,12 +52,14 @@ const resume = () => {
               </div>
               <div className="col-sm-12 mb-4">
                 <p className="text-lg">
-                  안녕하세요, 임흥선입니다. 저는 React를 중심으로 다양한 프론트엔드 프레임워크(Angular, Vue 등)를 다뤄온 개발자이며, PHP, Node 기반의 백엔드 및 풀스택 개발
-                  경험도
-                  보유하고 있습니다. 사용자 친화적인 인터페이스 구현과 RESTful API, 데이터베이스 설계에 강점을 가지며, 최신 기술을 적극적으로 도입해 효율적이고 유지보수 가능한 코드를
-                  작성합니다. 문제 해결과 협업에 강하며, 지속적인 성장과 우수한 사용자 경험을 위해 노력하고 있습니다.
-
-                  감사합니다. 저에 대해 더 궁금한 점이 있으시면 언제든지 문의해주세요!
+                  PHP(Apache, Php, Mysql) 개발자로 시작해 지금은 프론트앤드 엔지니어로 활동하고 있습니다. 자바스크립트 개발 환경에 익숙하고
+                  Client 사이드는 React, Sever 사이드는 Nextjs, Express 를 주로 사용합니다.
+                  개발된 어플리케이션을 Docker 환경에서 테스트하고 배포하는것을 선호하지만 클래식한 베어메탈, EC2 기반 클라우드 환경도 잘 사용합니다.
+                  <br/>
+                  1~2인 개발팀부터 100인 이상 팀까지 다양한 환경에서 팀원, 리더로써 근무한 경험이 있고 팀과 회사 목표에 맞는 적절한 방법을 선택해 수립하고
+                  목표를 정해 진행하는 과정을 즐깁니다.
+                  <br/>
+                  저에게 궁금한 사항이 있다면 메일을 통해 언제든 연락 주세요.
                 </p>
               </div>
               <div className="col-sm-4">
@@ -214,20 +215,41 @@ const resume = () => {
               <div className="col-sm-4">
                 <h3>아모레퍼시픽 / AMORE PACIFIC</h3>
                 <div className="role">아모레몰 운영 및 개발</div>
-                <div className="role">프론트앤드 리더</div>
+                <div className="role">프론트앤드 리더/엔지니어</div>
                 <div className="date">2024.01 - NOW</div>
               </div>
 
               <div className="col-sm-8">
+
+                <div className="project">
+                  <h3>주문/완료 페이지 내재화 2차 : 프로젝트 구성 및 비회원 케이스</h3>
+                  <div className="date">2024.12 - 2025.03</div>
+                  <p className="description">
+                    1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">typescript, react19, nextjs15, tailwind, storybook, docker</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>전체 개발 범위 조정 및 배포단위 선정</li>
+                      <li>회원 케이스 스펙 구현</li>
+                      <li>코드 및 앱 최적화 및 웹 바이탈 측정</li>
+                      <li>nextjs, react 버전 최신화</li>
+                    </ul>
+                  </div>
+                </div>
+
                 <div className="project">
                   <h3>주문/완료 페이지 내재화 1차 : 프로젝트 구성 및 비회원 케이스</h3>
                   <div className="date">2024.10 - 2024.11</div>
                   <p className="description">
-                    외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 next10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관을 준비했고 next 최신
+                    외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 nextjs10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관을 준비했고 next
+                    최신
                     버전인 14를 이용해 모던한 프로젝트를 구성하고 모든 기능을 한번에 이관할수 없기에 비회원 구매 케이스를 우선해 1차 목표 스코프를 정하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">typescript, react17, next14, tailwind, storybook, docker</p>
+                  <p className="tech">typescript, react18, nextjs14, tailwind, storybook, docker</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -237,7 +259,6 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-
 
                 <div className="project">
                   <h3>Web/Native 인터페이스 리팩토링</h3>
@@ -249,7 +270,7 @@ const resume = () => {
                     방향으로 진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">javascript, typescript, react16, next10</p>
+                  <p className="tech">javascript, typescript, react16, nextjs10</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -268,7 +289,7 @@ const resume = () => {
                     탐색하는 유저가 어떤 행동을 많이 하고 어디에서 이탈하는지 확인해 제품 고도화를 위해 무엇을 더 해야 하는지 발견하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">typescript, react16, next10</p>
+                  <p className="tech">typescript, react16, nextjs10</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -344,6 +365,24 @@ const resume = () => {
               </div>
 
               <div className="col-sm-8">
+                <div className="project">
+                  <h3>프론트앤드 리팩토링</h3>
+                  <div className="date">2025.01 ~ 2025.02</div>
+                  <p className="description">
+                    퇴사 이후 진행된 프로젝트로 이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션 하는 작업을 진행했습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">k8s, aws, gcp</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>기존 k8s 환경 분석</li>
+                      <li>각 프로젝트별 docker run 필요 파일 및 환경변수 생성</li>
+                      <li>AWS -> GCP 수동 마이그레이션 진행</li>
+                    </ul>
+                  </div>
+                </div>
+
                 <div className="project">
                   <h3>프론트앤드 리팩토링</h3>
                   <div className="date">2023.03 ~ 2023.06</div>
@@ -1078,7 +1117,7 @@ const resume = () => {
                   <div className="myRole">
                     <ul>
                       <li>요구사항 정리 및 문서화</li>
-                      <li>Abode XD 로 기본 기획 및 프로토타입 작성</li>
+                      <li>Adobe XD 로 기본 기획 및 프로토타입 작성</li>
                       <li>백엔드 개발환경 구성 및 기능 구현</li>
                       <li>프론트엔드 개발환경 구성 및 기능 구현</li>
                       <li>Docker, Docker-compose 기반 개발/테스트/배포 환경 구성</li>
@@ -1101,7 +1140,7 @@ const resume = () => {
                   <div className="myRole">
                     <ul>
                       <li>요구사항 정리 및 문서화</li>
-                      <li>KaKao Oven 으로 기본 기획 및 프로토타입 작성</li>
+                      <li>Kakao Oven 으로 기본 기획 및 프로토타입 작성</li>
                       <li>프론트앤드 개발환경 구성 및 기능 구현</li>
                       <li>ng 컴포넌트 기반 구조 개발</li>
                       <li>rxjs 기반 데이터 반응형 구조</li>
@@ -1199,8 +1238,7 @@ const resume = () => {
           </div>
         </section>
       </div>
-    </Layout>
-  );
+    </Layout>);
 };
 
 export default resume;
