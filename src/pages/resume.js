@@ -52,8 +52,8 @@ const resume = () => {
               </div>
               <div className="col-sm-12 mb-4">
                 <p className="text-lg">
-                  PHP(Apache, Php, Mysql) 개발자로 시작해 지금은 프론트앤드 엔지니어로 활동하고 있습니다. 자바스크립트 개발 환경에 익숙하고
-                  Client 사이드는 React, Sever 사이드는 Nextjs, Express 를 주로 사용합니다.
+                  PHP(Apache, Php, Mysql) 개발자로 시작해 지금은 프론트앤드 엔지니어로 활동하고 있습니다. 자바스크립트/타입스크립트 개발 환경에 익숙하고
+                  React, Nextjs, Express 를 주로 사용합니다.
                   개발된 어플리케이션을 Docker 환경에서 테스트하고 배포하는것을 선호하지만 클래식한 베어메탈, EC2 기반 클라우드 환경도 잘 사용합니다.
                   <br/>
                   1~2인 개발팀부터 100인 이상 팀까지 다양한 환경에서 팀원, 리더로써 근무한 경험이 있고 팀과 회사 목표에 맞는 적절한 방법을 선택해 수립하고
