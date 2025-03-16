@@ -215,14 +215,14 @@ const resume = () => {
               <div className="col-sm-4">
                 <h3>아모레퍼시픽 / AMORE PACIFIC</h3>
                 <div className="role">아모레몰 운영 및 개발</div>
-                <div className="role">프론트앤드 리더/엔지니어</div>
+                <div className="role">프론트앤드 리더</div>
                 <div className="date">2024.01 - NOW</div>
               </div>
 
               <div className="col-sm-8">
 
                 <div className="project">
-                  <h3>주문/완료 페이지 내재화 2차 : 프로젝트 구성 및 비회원 케이스</h3>
+                  <h3>주문/완료 페이지 내재화 2차 : User Case</h3>
                   <div className="date">2024.12 - 2025.03</div>
                   <p className="description">
                     1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.
@@ -232,16 +232,50 @@ const resume = () => {
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
+                      <li>nextjs15 가 출시되어 nextjs15로 업그레이드</li>
+                      <li>오픈서치, 데이터독 로그 수집 및 분석 기능 추가</li>
                       <li>전체 개발 범위 조정 및 배포단위 선정</li>
                       <li>회원 케이스 스펙 구현</li>
                       <li>코드 및 앱 최적화 및 웹 바이탈 측정</li>
                       <li>nextjs, react 버전 최신화</li>
                     </ul>
                   </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>로그 수집 및 분석을 통해 버그 발생시 문제가 되는 부분을 정확히 파악할수 있게 되었습니다.</li>
+                      <li>데이터독을 활용해 웹 바이탈을 측정하고 메모리 누수 등 문제를 발견하고 해결할수 있는 기초 마련.</li>
+                      <li>주문과 관련된 모든 페이지 내재화 완료.</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div className="project">
-                  <h3>주문/완료 페이지 내재화 1차 : 프로젝트 구성 및 비회원 케이스</h3>
+                  <h3>2024 겨울 아모레 세일 페스타</h3>
+                  <div className="date">2024.12</div>
+                  <p className="description">
+                    라이브방송과 연계된 쿠폰 feature 를 추가하였습니다. 라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능을 추가하였고 데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하였습니다.
+                  </p>
+                  <h5>사용 기술</h5>
+                  <p className="tech">typescript, react17, nextjs10, datadog</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능을 추가</li>
+                      <li>데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템을 구성</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>라이브방송에서 별도 쿠폰함으로 이동할 필요 없이 쿠폰을 발급받을수 있어 쿠폰 발급 프로세스가 간소화되었습니다.</li>
+                      <li>유저 플로우 최적화로 보다 정확한 구매 전환율 측정 가능</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="project">
+                  <h3>주문/완료 페이지 내재화 1차 : move to DevOps, None-user Case</h3>
                   <div className="date">2024.10 - 2024.11</div>
                   <p className="description">
                     외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 nextjs10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관을 준비했고 next
@@ -254,8 +288,15 @@ const resume = () => {
                   <div className="myRole">
                     <ul>
                       <li>전체 개발 범위 조정 및 배포단위 선정</li>
-                      <li>초기 FE프로젝트 구성 및 docker 베이스 구성</li>
+                      <li>초기 FE프로젝트 구성 및 docker 베이스의 보일러플레이트 구성</li>
                       <li>비회원 케이스 스펙 구현</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>DevOps 환경에서 운영되는 EKS 로 이관 및 배포 환경 구성</li>
+                      <li>nextjs14 로 마이그레이션 및 모던한 프로젝트 구성</li>
                     </ul>
                   </div>
                 </div>
@@ -276,6 +317,13 @@ const resume = () => {
                     <ul>
                       <li>Web-Native 인터페이스 라이브러리 설계</li>
                       <li>라이브러리 React Hook, pure javascript 각각 작성</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>매주 발생하는 동일한 원인의 다른 버그 발생률 Zero 달성</li>
+                      <li>동일한 기능의 라이브러리를 외주사에 제공하여 동일한 기능을 구현하는 시간 단축</li>
                     </ul>
                   </div>
                 </div>
@@ -316,6 +364,13 @@ const resume = () => {
                       <li>멤버십플러스 이용권 조회/사용/갱신/취소 등 관리 페이지 추가</li>
                     </ul>
                   </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>럭키드로우를 통해 운영에서 새로운 방식의 BM 활용 가능하게 되었습니다.</li>
+                      <li>멤버십플러스를 이용권 형태로 추가해 다양한 제휴사들의 혜택을 추가할수 있게 되었습니다.</li>
+                    </ul>
+                  </div>
                 </div>
 
 
@@ -335,6 +390,13 @@ const resume = () => {
                       <li>GA, GTM 관련 React 컴포넌트 및 훅 작성</li>
                     </ul>
                   </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>기존 파편화 되어 관리되던 분석 도구들을 하나의 모듈로 묶어 관리하기 쉽게 만들었습니다.</li>
+                      <li>GA4 를 통해 구성원들이 정확한 데이터 분석해 추후 매출 분석이 더 용이하게 가능하였음.</li>
+                    </ul>
+                  </div>
                 </div>
 
 
@@ -352,6 +414,13 @@ const resume = () => {
                     <ul>
                       <li>상품상세, 장바구니, 주문서, 주문완료, 및 기타 클레임 영역 선물하기 타입 지원 추가</li>
                       <li>선물하기 수신자 페이지, 선물함, 선물상세 신규 페이지 추가</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>선물받기를 통해 신규 유저가 되는 경로가 추가되어 신규 유저 확보 효과 있음</li>
+                      <li>추후 보훈의달 등 선물 수요가 많은 행사에서 선물하기 기능을 활용할수 있을 것으로 기대</li>
                     </ul>
                   </div>
                 </div>
