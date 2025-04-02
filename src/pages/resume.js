@@ -46,17 +46,14 @@ const resume = () => {
         <section id="skill">
           <div className="container">
             <div className="row">
-              <div className="col-sm-12">
-                <h2>보유 기술</h2>
-              </div>
               <div className="col-sm-12 mb-4">
                 <p className="text-lg">
-                  스타트업부터 대기업까지 다양한 회사에서 개발을 통해 문제를 해결하고 비즈니스 목표롤 달성해 왔습니다. 회사 또는 팀 규모에
+                  스타트업부터 대기업까지 다양한 회사에서 개발을 통해 문제를 해결하고 비즈니스 목표를 달성해 왔습니다. 회사 또는 팀 규모에
                   따라 선택할수 있는 가장 최적의 개발 방법을 도출하고 실행하며 목표한 기한 내에 비즈니스 목표를 달성하고 이를 기반으로 팀과
                   개인의 성장도 함께 이룰수 있는 순환 구조를 만들고 유지하며 발전해 나가는 것을 좋아합니다.
                 </p>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-6">
                 <div className="mb-2">
                   <b className="text-lg">Frontend (Senior)</b>
                 </div>
@@ -73,7 +70,7 @@ const resume = () => {
                   <li>Vitest, Jest, Cypress, React Testing Library, playwright</li>
                 </ul>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-6">
                 <div className="mb-2">
                   <b className="text-lg">Backend (Mid-Level)</b>
                 </div>
@@ -81,20 +78,24 @@ const resume = () => {
                   <p>Nodejs, PHP 기반의 대표적인 프레임워크를 사용해 MVC 구조를 적용하고 개발합니다.</p>
                 </div>
                 <ul>
-                  <li>NodeJS, NestJS, Express, PHP, Codeigniter, Laravel</li>
-                  <li>MySQL, MariaDB, MongoDB, Redis, Memcached</li>
+                  <li>Javascript / Typescript : NodeJS, NestJS, Express</li>
+                  <li>PHP : Codeigniter, Laravel</li>
+                  <li>Database :MySQL, MariaDB, MongoDB, Redis, Memcached</li>
                 </ul>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-12">
                 <div className="mb-2">
                   <b className="text-lg">Infrastructure / Operation</b>
                 </div>
                 <div className="mb-2">
-                  <p>AWS, GCP, Bare Metal 와 같은 Cloud 또는 On-premise 환경에서 인프라를 구성하고 운영합니다.</p>
+                  <p>Cloud 또는 On-premise 환경에서 목적에 맞는 인프라를 구성하고 운영합니다.</p>
                 </div>
                 <ul>
-                  <li>DevOps(EKS, k8s, ECS, Docker run), GitOps(ArgoCD)</li>
-                  
+                  <li>DevOps : EKS, k8s, ECS, Docker run</li>
+                  <li>GitOps : ArgoCD</li>
+                  <li>CI/CD : Github Actions, Jenkins</li>
+                  <li>Monitoring : Datadog, Grafana, Prometheus, Sentry, OpenSearch</li>
+                  <li>Cloud : AWS, GCP, Azure</li>
                 </ul>
               </div>
               <div className="col-sm-12">
@@ -123,27 +124,32 @@ const resume = () => {
               </div>
               <div className="col-sm-12">
                 <div className="mb-2">
-                  <b className="text-lg">학력</b>
+                  <b className="text-lg">경력</b>
                 </div>
                 <ul>
-                  <li>2009.03 - 2013.08 : 강남대학교 컴퓨터미디어공학부 졸입(학사)</li>
-                  <li>2007.03 - 2009.02 : 세한대학교 컴퓨터교육과</li>
-                  <li>2006.03 ~ 2006.09 : 연세디지털게임교육원 게임기획</li>
-                  <li>2003.03 ~ 2006.02 : 태원고등학교</li>
+                  <li>2024.01 - NOW : 아모레퍼시픽(AMORE PACIFIC) / Senior Frontend Engineer(Lead)</li>
+                  <li>2021.01 - 2023.06 : 딜리헙(Dillyhub) / Senior Frontend Engineer(Lead)</li>
+                  <li>2020.09 - 2020.12 : 엘지유플러스(LGU+) / Senior Frontend Engineer(Lead)</li>
+                  <li>2019.01 - 2020.08 : 카닥(CarDoc) / Frontend Engineer</li>
+                  <li>2017.07 - 2018.12 : 오픈소스컨설팅(Open Source Consulting) / Frontend Engineer</li>
+                  <li>2016.06 ~ 2017.05 : 박차컴퍼니(Bakcha Company) / Software Engineer</li>
+                  <li>2012.11 ~ 2016.03 : 이큐브랩(EcubeLabs) / Software Engineer </li>
                 </ul>
               </div>
               <div className="col-sm-12">
                 <div className="mb-2">
-                  <b className="text-lg">경력</b>
+                  <b className="text-lg">자격증</b>
+                </div>
+              </div>
+              <div className="col-sm-12">
+                <div className="mb-2">
+                  <b className="text-lg">학력</b>
                 </div>
                 <ul>
-                  <li>2024.01 - NOW : 아모레퍼시픽 / AMORE PACIFIC</li>
-                  <li>2021.01 - 2023.06 : 딜리헙 / Dillyhub</li>
-                  <li>2020.09 - 2020.12 : 엘지유플러스 / LGU+</li>
-                  <li>2019.01 - 2020.08 : 카닥 / Cardoc</li>
-                  <li>2017.07 - 2018.12 : 오픈소스컨설팅 / open source consulting</li>
-                  <li>2016.06 ~ 2017.05 : 박차컴퍼니 / bakcha company</li>
-                  <li>2012.11 ~ 2016.03 : 이큐브랩 / EcubeLabs</li>
+                  <li>2009.03 - 2013.08 : 강남대학교 컴퓨터미디어공학부 졸업(학사)</li>
+                  <li>2007.03 - 2009.02 : 세한대학교 컴퓨터교육과 수료</li>
+                  <li>2006.03 ~ 2006.09 : 연세디지털게임교육원 게임기획 수료</li>
+                  <li>2003.03 ~ 2006.02 : 태원고등학교 졸업</li>
                 </ul>
               </div>
             </div>
@@ -154,32 +160,28 @@ const resume = () => {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h2>개발 경험</h2>
+                <h2>프로젝트 경험</h2>
               </div>
 
               <div className="col-sm-4">
                 <h3>아모레퍼시픽 / AMORE PACIFIC</h3>
-                <div className="role">아모레몰 운영 및 개발</div>
-                <div className="role">프론트앤드 리더</div>
+                <div className="role">Senior Frontend Engineer(Lead)</div>
                 <div className="date">2024.01 - NOW</div>
               </div>
 
               <div className="col-sm-8">
                 <div className="project">
-                  <h3>주문/완료 페이지 내재화 2차 : User Case</h3>
-                  <div className="date">2024.12 - 2025.03</div>
+                  <h3>주문 페이지 2차</h3>
+                  <div className="date">2025.01 - 2025.03</div>
                   <p className="description">1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.</p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react19, nextjs15, tailwind, storybook, docker</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>nextjs15 가 출시되어 nextjs15로 업그레이드</li>
-                      <li>오픈서치, 데이터독 로그 수집 및 분석 기능 추가</li>
-                      <li>전체 개발 범위 조정 및 배포단위 선정</li>
-                      <li>회원 케이스 스펙 구현</li>
-                      <li>코드 및 앱 최적화 및 웹 바이탈 측정</li>
-                      <li>nextjs, react 버전 최신화</li>
+                      <li>프로젝트 개발 총괄</li>
+                      <li>VOC 대응 등 모니터링 계획 수립</li>
+                      <li>결제 프로세스 및 에러 케이스 발생 시 대응 방안 수립</li>
                     </ul>
                   </div>
                   <h5>성과</h5>
@@ -218,7 +220,7 @@ const resume = () => {
                 </div>
 
                 <div className="project">
-                  <h3>주문/완료 페이지 내재화 1차 : move to DevOps, None-user Case</h3>
+                  <h3>주문 페이지 1차</h3>
                   <div className="date">2024.10 - 2024.11</div>
                   <p className="description">
                     외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 nextjs10 환경이 아닌 사내 devops 환경에서
@@ -230,16 +232,16 @@ const resume = () => {
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>전체 개발 범위 조정 및 배포단위 선정</li>
-                      <li>초기 FE프로젝트 구성 및 docker 베이스의 보일러플레이트 구성</li>
-                      <li>비회원 케이스 스펙 구현</li>
+                      <li>프로젝트 개발 총괄</li>
+                      <li>새로운 주문 프론트앤드 프로젝트 아키텍처 설계</li>
+                      <li>tailwind 기반 디자인시스템 설계</li>
                     </ul>
                   </div>
                   <h5>성과</h5>
                   <div className="myRole">
                     <ul>
                       <li>DevOps 환경에서 운영되는 EKS 로 이관 및 배포 환경 구성</li>
-                      <li>nextjs14 로 마이그레이션 및 모던한 프로젝트 구성</li>
+                      <li>nextjs14 기반 및 모던한 프론트앤드 프로젝트 구성</li>
                     </ul>
                   </div>
                 </div>
@@ -255,7 +257,7 @@ const resume = () => {
                     진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">javascript, typescript, react16, nextjs10</p>
+                  <p className="tech">javascript, typescript, react17, nextjs10</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -281,12 +283,12 @@ const resume = () => {
                     제품 고도화를 위해 무엇을 더 해야 하는지 발견하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">typescript, react16, nextjs10</p>
-                  <h5>역할</h5>
+                  <p className="tech">DataDog</p>
+                  <h5>성과</h5>
                   <div className="myRole">
                     <ul>
-                      <li>데이터독 대시보드/럼 관리</li>
-                      <li>웹훅을 통한 알림 추가</li>
+                      <li>웹 바이탈 데이터 수집 및 분석 환경 구성해 성능적으로 취약한 부분에 대응할수 있도록 기술적 기반 마련.</li>
+                      <li>클라이언트 에러 발생 시 웹훅을 통해 알림 추가해 대응 시간 단축.</li>
                     </ul>
                   </div>
                 </div>
@@ -300,7 +302,7 @@ const resume = () => {
                     기능이 추가되었습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">Nextj10, React16, Redux</p>
+                  <p className="tech">Nextj10, React17, Redux</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -313,20 +315,21 @@ const resume = () => {
                     <ul>
                       <li>럭키드로우를 통해 운영에서 새로운 방식의 BM 활용 가능하게 되었습니다.</li>
                       <li>멤버십플러스를 이용권 형태로 추가해 다양한 제휴사들의 혜택을 추가할수 있게 되었습니다.</li>
+                      <li>지난 선물하기 기능을 통해 신규 유저를 기존 유저를 통해 확보하는 루트가 추가되었습니다.</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="project">
                   <h3>디지털 분석 도구 고도화</h3>
-                  <div className="date">2024.02 - 2024.03</div>
+                  <div className="date">2024.03 - 2024.04</div>
                   <p className="description">
                     google analytic 3 지원 종료로 인해 GA4 로 마이그레이션을 진행해야 하는 상황에서 기존 파편화 되어 관리되던 분석 도구들을
                     하나의 모듈로 묶어 관리하는 작업도 같이 병행했습니다. 이 작업을 통해 분석 도구들을 통합하고 관리하기 쉽게 만들었으며,
                     이를 통해 데이터 분석 및 통계를 보다 효율적으로 수행할수 있게 되었습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">Nextj10, React16, GA3, GA4, GTM, aiaqua</p>
+                  <p className="tech">Nextj10, React17, GA3, GA4, GTM, aiaqua</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -344,27 +347,20 @@ const resume = () => {
                 </div>
 
                 <div className="project">
-                  <h3>아모레몰 선물하기 기능</h3>
-                  <div className="date">2024.01</div>
+                  <h3>아모레몰 선물하기</h3>
+                  <div className="date">2024.01 - 2024.02</div>
                   <p className="description">
-                    단일 상품에 대해 선물할수 있는 feature 가 추가되었습니다. 구매자는 수신자 정보를 입력해 상품을 구매할수 있고 수신자는
-                    새로 추가된 페이지를 통해 상품을 배송받을수 있습니다. 이 기능을 통해 신규 유저를 기존 유저를 통해 확보하는 루트가
-                    추가되었습니다.
+                    단일 상품에 대해 선물할수 있는 새로운 feature 가 추가되었습니다. 구매자는 수신자 정보를 입력해 상품을 구매할수 있고
+                    수신자는 새로 추가된 페이지를 통해 상품을 배송받을수 있습니다. 이 기능을 통해 신규 유저를 기존 유저를 통해 확보하는
+                    루트가 추가되었습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">Nextjs10, React16, Typescript, Redux</p>
-                  <h5>역할</h5>
-                  <div className="myRole">
-                    <ul>
-                      <li>상품상세, 장바구니, 주문서, 주문완료, 및 기타 클레임 영역 선물하기 타입 지원 추가</li>
-                      <li>선물하기 수신자 페이지, 선물함, 선물상세 신규 페이지 추가</li>
-                    </ul>
-                  </div>
+                  <p className="tech">Nextjs10, React17, Typescript, Redux</p>
                   <h5>성과</h5>
                   <div className="myRole">
                     <ul>
                       <li>선물받기를 통해 신규 유저가 되는 경로가 추가되어 신규 유저 확보 효과 있음</li>
-                      <li>추후 보훈의달 등 선물 수요가 많은 행사에서 선물하기 기능을 활용할수 있을 것으로 기대</li>
+                      <li>선물 수요가 많은 시즌에 선물하기 기능을 활용할수 있을 것으로 기대</li>
                     </ul>
                   </div>
                 </div>
@@ -373,7 +369,7 @@ const resume = () => {
               <div className="col-sm-4">
                 <h3>딜리헙</h3>
                 <div className="role">글로벌 웹툰 오픈 플랫폼</div>
-                <div className="role">프론트앤드 엔지니어</div>
+                <div className="role">Senior Frontend Engineer(Lead)</div>
                 <div className="date">2021.01 - 2023.06</div>
               </div>
 
@@ -598,7 +594,7 @@ const resume = () => {
               <div className="col-sm-4">
                 <h3>LGU+</h3>
                 <div className="role">홈플랫폼추진단 구축운영팀</div>
-                <div className="role">프론트앤드 개발</div>
+                <div className="role">Senior Frontend Engineer(Lead)</div>
                 <div className="date">2020.09 - 2020.12</div>
               </div>
 
@@ -643,7 +639,7 @@ const resume = () => {
 
               <div className="col-sm-4">
                 <h3>주식회사 카닥</h3>
-                <div className="role">프론트앤드 개발</div>
+                <div className="role">Frontend Engineer</div>
                 <div className="date">2019.01 - 2020.08</div>
               </div>
 
@@ -890,7 +886,7 @@ const resume = () => {
 
               <div className="col-sm-4">
                 <h3>오픈소스컨설팅</h3>
-                <div className="role">프론트앤드 개발</div>
+                <div className="role">Frontend Engineer</div>
                 <div className="date">2017.07 - 2018.12</div>
               </div>
               <div className="col-sm-8">
@@ -964,7 +960,7 @@ const resume = () => {
 
               <div className="col-sm-4">
                 <h3>박차컴퍼니</h3>
-                <div className="role">프론트앤드 개발</div>
+                <div className="role">Software Engineer</div>
                 <div className="date">2016.06 ~ 2017.05</div>
               </div>
               <div className="col-sm-8">
@@ -1034,7 +1030,7 @@ const resume = () => {
 
               <div className="col-sm-4">
                 <h3>이큐브랩</h3>
-                <div className="role">소프트웨어 개발</div>
+                <div className="role">Software Engineer</div>
                 <div className="date">2012.11 ~ 2016.03</div>
               </div>
               <div className="col-sm-6">
@@ -1113,7 +1109,7 @@ const resume = () => {
 
               <div className="col-sm-4">
                 <h3>트윈클링</h3>
-                <div className="role">소프트웨어 개발</div>
+                <div className="role">Project Manager</div>
                 <div className="date">외주</div>
               </div>
               <div className="col-sm-8">

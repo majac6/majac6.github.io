@@ -7,7 +7,7 @@ import './Layout.scss';
 
 const Layout = ({ children }) => (
   <div className='layout'>
-    <Helmet title="프론트앤드 개발자 : 임흥선">
+    <Helmet title="Senior Frontend Engineer : HungSun LIM">
       <html lang='ko' />
     </Helmet>
     {/* <Nav /> */}
@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
       <div className='container'>
         <div className='row'>
           <div className='col-12'>
-            <div className='title'>마작 기술 블로그</div>
+            <div className='title'>Thanks for visiting</div>
             <div className='links'>
               <a href='https://github.com/majac6' target='_blank' rel='noopener noreferrer'>
                 GitHub
