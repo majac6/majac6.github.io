@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `프론트앤드 엔지니어 : 임흥선`,
-    siteUrl: `https://majac.co.kr`,
+    title: `Senior Frontend Engineer : HungSun LIM`,
+    siteUrl: `https://majac6.github.io`,
   },
   plugins: [
     {
