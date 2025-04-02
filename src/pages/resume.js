@@ -4,7 +4,8 @@ import Layout from './components/layout';
 import './resume.scss';
 
 const resume = () => {
-  return (<Layout>
+  return (
+    <Layout>
       <div id="resume">
         <section>
           <div className="container">
@@ -12,15 +13,14 @@ const resume = () => {
               <div className="col-sm-12">
                 <div id="myProfile">
                   <div className="photo">
-                    <img src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
-                         alt="HungSun LIM"/>
+                    <img src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg" alt="HungSun LIM" />
                   </div>
                   <div className="mb-3">
                     <div className="kr">임 흥선</div>
                     <div className="en">HungSun LIM</div>
                   </div>
                   <div className="mb-2">
-                    <div className="position">Front-End Engineer</div>
+                    <div className="position">Senior Frontend Engineer</div>
                     <div>
                       <small>KangNam Univ. Computer Media Engineering</small>
                     </div>
@@ -33,8 +33,7 @@ const resume = () => {
                     <a href="https://www.facebook.com/majac6" target="_blank" rel="noopener noreferrer">
                       Facebook
                     </a>
-                    <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank"
-                       rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/hungsun-lim-a37824106/" target="_blank" rel="noopener noreferrer">
                       Linkedin
                     </a>
                   </div>
@@ -52,104 +51,50 @@ const resume = () => {
               </div>
               <div className="col-sm-12 mb-4">
                 <p className="text-lg">
-                  PHP(Apache, Php, Mysql) 개발자로 시작해 지금은 프론트앤드 엔지니어로 활동하고 있습니다. 자바스크립트/타입스크립트 개발 환경에 익숙하고
-                  React, Nextjs, Express 를 주로 사용합니다.
-                  개발된 어플리케이션을 Docker 환경에서 테스트하고 배포하는것을 선호하지만 클래식한 베어메탈, EC2 기반 클라우드 환경도 잘 사용합니다.
-                  <br/>
-                  1~2인 개발팀부터 100인 이상 팀까지 다양한 환경에서 팀원, 리더로써 근무한 경험이 있고 팀과 회사 목표에 맞는 적절한 방법을 선택해 수립하고
-                  목표를 정해 진행하는 과정을 즐깁니다.
-                  <br/>
-                  저에게 궁금한 사항이 있다면 메일을 통해 언제든 연락 주세요.
+                  스타트업부터 대기업까지 다양한 회사에서 개발을 통해 문제를 해결하고 비즈니스 목표롤 달성해 왔습니다. 회사 또는 팀 규모에
+                  따라 선택할수 있는 가장 최적의 개발 방법을 도출하고 실행하며 목표한 기한 내에 비즈니스 목표를 달성하고 이를 기반으로 팀과
+                  개인의 성장도 함께 이룰수 있는 순환 구조를 만들고 유지하며 발전해 나가는 것을 좋아합니다.
                 </p>
               </div>
               <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">JS/HTML/CSS</b>
+                  <b className="text-lg">Frontend (Senior)</b>
+                </div>
+                <div className="mb-2">
+                  <p>프로젝트 규모 및 목적에 따라 적절한 아키텍처와 프레임워크를 선택하고 구현합니다.</p>
                 </div>
                 <ul>
-                  <li>자바스크립트 + No Jquery</li>
-                  <li>Tailwind</li>
-                  <li>Webpack, Vite</li>
-                  <li>CSS 전처리기 사용</li>
-                  <li>시맨틱 HTML</li>
-                  <li>크로스 브라우징</li>
-                  <li>검색엔진 최적화</li>
+                  <li>Micro Frontend Architecture, Buildtime Or Runtime (Monolithic, Monorepo, Federation)</li>
+                  <li>Javascript, Typescript</li>
+                  <li>React, NextJS(10,12 and over 13), Angular, Svelte, Vue</li>
+                  <li>React Native, Expo</li>
+                  <li>Tailwind, SCSS, CSS, Storybook</li>
+                  <li>Vite, Webpack, Rollup</li>
+                  <li>Vitest, Jest, Cypress, React Testing Library, playwright</li>
                 </ul>
               </div>
               <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">React/NextJS(10,12 and over 13)</b>
+                  <b className="text-lg">Backend (Mid-Level)</b>
+                </div>
+                <div className="mb-2">
+                  <p>Nodejs, PHP 기반의 대표적인 프레임워크를 사용해 MVC 구조를 적용하고 개발합니다.</p>
                 </div>
                 <ul>
-                  <li>컴포넌트 기반 개발</li>
-                  <li>CSS in JS</li>
-                  <li>컴포넌트 라이프사이클 및 최적화</li>
-                  <li>컴포넌트 전역/지역 상태 관리</li>
-                  <li>코드 스플리팅을 통한 앱 최적화</li>
-                  <li>Next.js 의 서버/클라이언트 사이드 및 컴포넌트</li>
+                  <li>NodeJS, NestJS, Express, PHP, Codeigniter, Laravel</li>
+                  <li>MySQL, MariaDB, MongoDB, Redis, Memcached</li>
                 </ul>
               </div>
               <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">Angular</b>
+                  <b className="text-lg">Infrastructure / Operation</b>
                 </div>
-                <ul>
-                  <li>컴포넌트 기반 개발</li>
-                  <li>프로바이더 활용</li>
-                  <li>모듈 지연 로딩</li>
-                  <li>데이터 반응형 구조 설계</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
                 <div className="mb-2">
-                  <b className="text-lg">Database</b>
+                  <p>AWS, GCP, Bare Metal 와 같은 Cloud 또는 On-premise 환경에서 인프라를 구성하고 운영합니다.</p>
                 </div>
                 <ul>
-                  <li>RDB : MariaDB, Mysql</li>
-                  <li>NoSQL : MongoDB</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
-                <div className="mb-2">
-                  <b className="text-lg">PHP/Nodejs</b>
-                </div>
-                <ul>
-                  <li>PHP with Composer</li>
-                  <li>NodeJS, Express, Nestjs</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
-                <div className="mb-2">
-                  <b className="text-lg">Tools</b>
-                </div>
-                <ul>
-                  <li>inteliJ, VS code, gitKraken, git CLI</li>
-                  <li>Figma, Sketch, Adobe XD</li>
-                  <li>Photoshop, Illustrator</li>
-                  <li>MS Office, Page, Keynote</li>
-                </ul>
-              </div>
-              <div className="col-sm-12">
-                <div className="mb-2">
-                  <b className="text-lg">Infra Structure</b>
-                </div>
-                <ul>
-                  <li>Ubuntu, Amazone Linux 2 and 3</li>
-                  <li>Aamazon web service</li>
-                  <li>terraform</li>
-                  <li>Github Action, Jenkins</li>
-                  <li>Docker, Docker Compose, k8s</li>
-                </ul>
-              </div>
-              <div className="col-sm-12">
-                <div className="mb-2">
-                  <b className="text-lg">Communication</b>
-                </div>
-                <ul>
-                  <li>레드마인, 지라, 컨플루언스를 사용하는 것을 좋아합니다.</li>
-                  <li>깃랩, 레드마인(아틀라시안 제품군) 등을 직접 셋팅하고 동료들과 프로젝트를 진행합니다.</li>
-                  <li>프로토타이핑, 그래픽 툴을 활용해 앞으로의 개발에 대해 이야기하고 반영합니다.</li>
-                  <li>간결하고 아름다운 문서를 작성하는 것을 좋아합니다.</li>
+                  <li>DevOps(EKS, k8s, ECS, Docker run), GitOps(ArgoCD)</li>
+                  
                 </ul>
               </div>
               <div className="col-sm-12">
@@ -220,13 +165,10 @@ const resume = () => {
               </div>
 
               <div className="col-sm-8">
-
                 <div className="project">
                   <h3>주문/완료 페이지 내재화 2차 : User Case</h3>
                   <div className="date">2024.12 - 2025.03</div>
-                  <p className="description">
-                    1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.
-                  </p>
+                  <p className="description">1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.</p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react19, nextjs15, tailwind, storybook, docker</p>
                   <h5>역할</h5>
@@ -254,7 +196,8 @@ const resume = () => {
                   <h3>2024 겨울 아모레 세일 페스타</h3>
                   <div className="date">2024.12</div>
                   <p className="description">
-                    라이브방송과 연계된 쿠폰 feature 를 추가하였습니다. 라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능을 추가하였고 데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하였습니다.
+                    라이브방송과 연계된 쿠폰 feature 를 추가하였습니다. 라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수
+                    있는 기능을 추가하였고 데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react17, nextjs10, datadog</p>
@@ -278,9 +221,9 @@ const resume = () => {
                   <h3>주문/완료 페이지 내재화 1차 : move to DevOps, None-user Case</h3>
                   <div className="date">2024.10 - 2024.11</div>
                   <p className="description">
-                    외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 nextjs10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관을 준비했고 next
-                    최신
-                    버전인 14를 이용해 모던한 프로젝트를 구성하고 모든 기능을 한번에 이관할수 없기에 비회원 구매 케이스를 우선해 1차 목표 스코프를 정하였습니다.
+                    외주사에서 관리된 주문/완료 페이지에 대한 내재화 요건을 달성하기 위해 기존 nextjs10 환경이 아닌 사내 devops 환경에서
+                    운영되는 EKS 로 이관을 준비했고 next 최신 버전인 14를 이용해 모던한 프로젝트를 구성하고 모든 기능을 한번에 이관할수
+                    없기에 비회원 구매 케이스를 우선해 1차 목표 스코프를 정하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react18, nextjs14, tailwind, storybook, docker</p>
@@ -305,10 +248,11 @@ const resume = () => {
                   <h3>Web/Native 인터페이스 리팩토링</h3>
                   <div className="date">2024.08 - 2024.09</div>
                   <p className="description">
-                    아모레몰의 Web은 Native App(iOS, Android) 에서 Webview 형태로 사용되지만 각 작업자별로 현재 페이지 상태와 앱의 상태를 일치시키는 코드가 파편화되어
-                    있고 상황에 따라 제어권이 Web/Android/iOS 에서 각각 가지고 있어 문제가 발생시 어느 부분에서 잘못된 함수를 호출하는지 알수가 없는 문제가 다수 발생하였습니다. 이
-                    문제를 해결하기 위해 Web-Native 간 인터페이스를 명령적이 아닌 선언적으로 구성하고 협력 외주사에게도 가이드 문서가 아닌 javascript library 를 제공하는
-                    방향으로 진행하였습니다.
+                    아모레몰의 Web은 Native App(iOS, Android) 에서 Webview 형태로 사용되지만 각 작업자별로 현재 페이지 상태와 앱의 상태를
+                    일치시키는 코드가 파편화되어 있고 상황에 따라 제어권이 Web/Android/iOS 에서 각각 가지고 있어 문제가 발생시 어느 부분에서
+                    잘못된 함수를 호출하는지 알수가 없는 문제가 다수 발생하였습니다. 이 문제를 해결하기 위해 Web-Native 간 인터페이스를
+                    명령적이 아닌 선언적으로 구성하고 협력 외주사에게도 가이드 문서가 아닌 javascript library 를 제공하는 방향으로
+                    진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">javascript, typescript, react16, nextjs10</p>
@@ -328,13 +272,13 @@ const resume = () => {
                   </div>
                 </div>
 
-
                 <div className="project">
                   <h3>데이터독(DataDog) 도입</h3>
                   <div className="date">2024.06 - 2024.07</div>
                   <p className="description">
-                    로그 수집과 분석 장애 대응등 전반적인 모니터링을 위해 데이터독을 도입하였고 고객 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하고 특정 유저의 행동을 분석해 아모레몰을
-                    탐색하는 유저가 어떤 행동을 많이 하고 어디에서 이탈하는지 확인해 제품 고도화를 위해 무엇을 더 해야 하는지 발견하였습니다.
+                    로그 수집과 분석 장애 대응등 전반적인 모니터링을 위해 데이터독을 도입하였고 고객 VOC 유입 전 미리 대응할수 있도록
+                    시스템을 구성하고 특정 유저의 행동을 분석해 아모레몰을 탐색하는 유저가 어떤 행동을 많이 하고 어디에서 이탈하는지 확인해
+                    제품 고도화를 위해 무엇을 더 해야 하는지 발견하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react16, nextjs10</p>
@@ -347,13 +291,13 @@ const resume = () => {
                   </div>
                 </div>
 
-
                 <div className="project">
                   <h3>2024 여름 아모레 세일 페스타</h3>
                   <div className="date">2024.04 - 2024.05</div>
                   <p className="description">
-                    1년에 2번 진행하는 아모레 세일 페스타에서 사용될 새로운 feature 인 "럭키드로우" 와 "멤버십플러스 이용권" 을 추가 개발했습니다. 이 기능을 통해 새로운 유저가 행사를
-                    좀더 잘 즐기고 아모레몰의 멤버십플러스를 짧은 기간동안 체험해볼수 있는 기능이 추가되었습니다.
+                    1년에 2번 진행하는 아모레 세일 페스타에서 사용될 새로운 feature 인 "럭키드로우" 와 "멤버십플러스 이용권" 을 추가
+                    개발했습니다. 이 기능을 통해 새로운 유저가 행사를 좀더 잘 즐기고 아모레몰의 멤버십플러스를 짧은 기간동안 체험해볼수 있는
+                    기능이 추가되었습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">Nextj10, React16, Redux</p>
@@ -373,13 +317,13 @@ const resume = () => {
                   </div>
                 </div>
 
-
                 <div className="project">
                   <h3>디지털 분석 도구 고도화</h3>
                   <div className="date">2024.02 - 2024.03</div>
                   <p className="description">
-                    google analytic 3 지원 종료로 인해 GA4 로 마이그레이션을 진행해야 하는 상황에서 기존 파편화 되어 관리되던 분석 도구들을 하나의 모듈로 묶어 관리하는 작업도 같이
-                    병행했습니다. 이 작업을 통해 분석 도구들을 통합하고 관리하기 쉽게 만들었으며, 이를 통해 데이터 분석 및 통계를 보다 효율적으로 수행할수 있게 되었습니다.
+                    google analytic 3 지원 종료로 인해 GA4 로 마이그레이션을 진행해야 하는 상황에서 기존 파편화 되어 관리되던 분석 도구들을
+                    하나의 모듈로 묶어 관리하는 작업도 같이 병행했습니다. 이 작업을 통해 분석 도구들을 통합하고 관리하기 쉽게 만들었으며,
+                    이를 통해 데이터 분석 및 통계를 보다 효율적으로 수행할수 있게 되었습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">Nextj10, React16, GA3, GA4, GTM, aiaqua</p>
@@ -399,13 +343,13 @@ const resume = () => {
                   </div>
                 </div>
 
-
                 <div className="project">
                   <h3>아모레몰 선물하기 기능</h3>
                   <div className="date">2024.01</div>
                   <p className="description">
-                    단일 상품에 대해 선물할수 있는 feature 가 추가되었습니다. 구매자는 수신자 정보를 입력해 상품을 구매할수 있고 수신자는 새로 추가된 페이지를 통해 상품을 배송받을수
-                    있습니다. 이 기능을 통해 신규 유저를 기존 유저를 통해 확보하는 루트가 추가되었습니다.
+                    단일 상품에 대해 선물할수 있는 feature 가 추가되었습니다. 구매자는 수신자 정보를 입력해 상품을 구매할수 있고 수신자는
+                    새로 추가된 페이지를 통해 상품을 배송받을수 있습니다. 이 기능을 통해 신규 유저를 기존 유저를 통해 확보하는 루트가
+                    추가되었습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">Nextjs10, React16, Typescript, Redux</p>
@@ -438,7 +382,8 @@ const resume = () => {
                   <h3>프론트앤드 리팩토링</h3>
                   <div className="date">2025.01 ~ 2025.02</div>
                   <p className="description">
-                    퇴사 이후 진행된 프로젝트로 이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션 하는 작업을 진행했습니다.
+                    퇴사 이후 진행된 프로젝트로 이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션 하는
+                    작업을 진행했습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">k8s, aws, gcp</p>
@@ -456,10 +401,10 @@ const resume = () => {
                   <h3>프론트앤드 리팩토링</h3>
                   <div className="date">2023.03 ~ 2023.06</div>
                   <p className="description">
-                    1차 개발을 마친 상태에서 프론트앤드 리팩토링을 진행하였습니다. 이전 JS, Webpack 와 같은 기술을 사용하지 않고 최신 기술과 트렌드를
-                    도입하기 위해 Typescript + Vite 를 도입하였으며, 좀더 안정적인 개발을 위해 테스트 도구인 Vitest 도 함께 적용하였습니다.
-                    이번 프로젝트를 진행하면서 이전 Javascript 코드를 모두 Typescript 로 포팅하고 모듈과 컴포넌트들은 모두 테스트 코드를 작성했을 뿐만 아니라
-                    컴포넌트의 경우 스토리북까지 작성해 보다 코드의 안정성과 재사용성을 향상시켰습니다.
+                    1차 개발을 마친 상태에서 프론트앤드 리팩토링을 진행하였습니다. 이전 JS, Webpack 와 같은 기술을 사용하지 않고 최신 기술과
+                    트렌드를 도입하기 위해 Typescript + Vite 를 도입하였으며, 좀더 안정적인 개발을 위해 테스트 도구인 Vitest 도 함께
+                    적용하였습니다. 이번 프로젝트를 진행하면서 이전 Javascript 코드를 모두 Typescript 로 포팅하고 모듈과 컴포넌트들은 모두
+                    테스트 코드를 작성했을 뿐만 아니라 컴포넌트의 경우 스토리북까지 작성해 보다 코드의 안정성과 재사용성을 향상시켰습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">Typescript, Vite, Vitest, Tailwind, SCSS, Storybook</p>
@@ -477,8 +422,8 @@ const resume = () => {
                   <h3>텍스트 에디터 및 뷰어 개발</h3>
                   <div className="date">2022.11 ~ 2023.02</div>
                   <p className="description">
-                    Promise Mirror 를 활용해 100% 확장 가능한 텍스트 에디터를 개발하였고 이를 스튜디오 프로젝트에 적용하였습니다.
-                    그리고 이를 기반으로 한 뷰어도 제작해 스토어 프로젝트에 함께 적용하였습니다.
+                    Promise Mirror 를 활용해 100% 확장 가능한 텍스트 에디터를 개발하였고 이를 스튜디오 프로젝트에 적용하였습니다. 그리고
+                    이를 기반으로 한 뷰어도 제작해 스토어 프로젝트에 함께 적용하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">React, Webpack, Javascript, tailwind, SCSS, Promise Mirror</p>
@@ -551,8 +496,8 @@ const resume = () => {
                   <h3>Android App 출시</h3>
                   <div className="date">2021.11 ~ 2021.12</div>
                   <p className="description">
-                    Base 로 설계된 안드로이드 앱에 웹뷰 형태로 현재 만들어진 웹앱을 렌더링하기로 결정하였고, 현재 웹뷰에서 필요한 데이터를 네이티브
-                    앱과 연동하기 위해 JS Interface 를 설계하고 이를 적용하였습니다.
+                    Base 로 설계된 안드로이드 앱에 웹뷰 형태로 현재 만들어진 웹앱을 렌더링하기로 결정하였고, 현재 웹뷰에서 필요한 데이터를
+                    네이티브 앱과 연동하기 위해 JS Interface 를 설계하고 이를 적용하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">JS Interface, React, Webpack, Javascript, tailwind, SCSS</p>
@@ -569,9 +514,9 @@ const resume = () => {
                   <h3>스토어/스튜디오 추가 업데이트</h3>
                   <div className="date">2021.06 ~ 2021.10</div>
                   <p className="description">
-                    최초 스토어, 스튜디오 개발 이후 다음 기능들이 추가되었습니다. 주로 개발된 기능들을 실제로 유저가 얼만큼 잘 사용하고 있는지
-                    측정하거나 테스트할수 있는 외부 라이브러리를 설치하고 이 프로젝트에 맞게 적절히 적용하는 업무를 맡았고 이전 개발된 갤러리에
-                    도네이션 기능을 추가하였습니다.
+                    최초 스토어, 스튜디오 개발 이후 다음 기능들이 추가되었습니다. 주로 개발된 기능들을 실제로 유저가 얼만큼 잘 사용하고
+                    있는지 측정하거나 테스트할수 있는 외부 라이브러리를 설치하고 이 프로젝트에 맞게 적절히 적용하는 업무를 맡았고 이전
+                    개발된 갤러리에 도네이션 기능을 추가하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
@@ -590,8 +535,8 @@ const resume = () => {
                   <h3>스토어 웹 개발</h3>
                   <div className="date">2021.03 ~ 2021.05</div>
                   <p className="description">
-                    창작자가 만든 창작물을 공개하기 위한 웹앱으로 다음과 같은 기능들을 개발하였습니다. 이 프로젝트 역시 모든 컴포넌트/모듈 개발과
-                    디자인 시스템 구현 작업을 담당하고 리딩도 맡아 진행하였습니다.
+                    창작자가 만든 창작물을 공개하기 위한 웹앱으로 다음과 같은 기능들을 개발하였습니다. 이 프로젝트 역시 모든 컴포넌트/모듈
+                    개발과 디자인 시스템 구현 작업을 담당하고 리딩도 맡아 진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
@@ -612,8 +557,8 @@ const resume = () => {
                   <h3>스튜디오 웹 개발</h3>
                   <div className="date">2021.01 ~ 2021.02</div>
                   <p className="description">
-                    창작자를 위한 웹앱으로 다음과 같은 기능을 지원하였으며 모든 컴포넌트/모듈 개발과 디자인 스펙 구현 작업을 담당하고 프로젝트가
-                    원활히 진행될수 있도록 리딩도 맡아 진행하였습니다.
+                    창작자를 위한 웹앱으로 다음과 같은 기능을 지원하였으며 모든 컴포넌트/모듈 개발과 디자인 스펙 구현 작업을 담당하고
+                    프로젝트가 원활히 진행될수 있도록 리딩도 맡아 진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">React, Webpack, Javascript, tailwind, SCSS, React Hook Form</p>
@@ -1307,7 +1252,8 @@ const resume = () => {
           </div>
         </section>
       </div>
-    </Layout>);
+    </Layout>
+  );
 };
 
 export default resume;
