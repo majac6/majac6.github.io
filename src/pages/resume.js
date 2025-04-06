@@ -138,11 +138,6 @@ const resume = () => {
               </div>
               <div className="col-sm-12">
                 <div className="mb-2">
-                  <b className="text-lg">자격증</b>
-                </div>
-              </div>
-              <div className="col-sm-12">
-                <div className="mb-2">
                   <b className="text-lg">학력</b>
                 </div>
                 <ul>
