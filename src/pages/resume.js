@@ -193,7 +193,7 @@ const resume = () => {
                   <h3>2024 겨울 아모레 세일 페스타</h3>
                   <div className="date">2024.12</div>
                   <p className="description">
-                    라이브방송과 연계된 쿠폰 feature 를 추가하였습니다. 라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수
+                    라이브방송과 연계된 쿠폰 feature 를 추가하였습니다. 라이브방송 영상에서 상품과 관련된 쿠폰을 발급하고 쿠폰을 사용할수
                     있는 기능을 추가하였고 데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템을 구성하였습니다.
                   </p>
                   <h5>사용 기술</h5>
@@ -351,11 +351,19 @@ const resume = () => {
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">Nextjs10, React17, Typescript, Redux</p>
+                  <h5>역할</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>선물하기 모듈 설계</li>
+                      <li>모니터링 방안 수립</li>
+                    </ul>
+                  </div>
                   <h5>성과</h5>
                   <div className="myRole">
                     <ul>
                       <li>선물받기를 통해 신규 유저가 되는 경로가 추가되어 신규 유저 확보 효과 있음</li>
                       <li>선물 수요가 많은 시즌에 선물하기 기능을 활용할수 있을 것으로 기대</li>
+                      <li>모니터링 방안 수립으로 문제 발생 시 대응 시간 단축</li>
                     </ul>
                   </div>
                 </div>
@@ -370,7 +378,7 @@ const resume = () => {
 
               <div className="col-sm-8">
                 <div className="project">
-                  <h3>프론트앤드 리팩토링</h3>
+                  <h3>Google Cloud Platform 마이그레이션 from AWS</h3>
                   <div className="date">2025.01 ~ 2025.02</div>
                   <p className="description">
                     퇴사 이후 진행된 프로젝트로 이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션 하는
@@ -383,7 +391,14 @@ const resume = () => {
                     <ul>
                       <li>기존 k8s 환경 분석</li>
                       <li>각 프로젝트별 docker run 필요 파일 및 환경변수 생성</li>
-                      <li>AWS -> GCP 수동 마이그레이션 진행</li>
+                      <li>AWS k8s 에서 GCP docker run 으로 수동 마이그레이션 진행</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>비용 절감으로 인해 매달 비용문제 해결</li>
+                      <li>소수 인원으로 쉽게 관리할수 있도록 마이그레이션 진행</li>
                     </ul>
                   </div>
                 </div>
@@ -407,6 +422,14 @@ const resume = () => {
                       <li>기존 javascript 코드 typescript 로 포팅</li>
                     </ul>
                   </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>빌드 속도 약 2~3배 이상 감소</li>
+                      <li>테스트 코드 작성으로 안정성 향상</li>
+                      <li>타입스크립트 적용으로 코드 안정성 향상</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div className="project">
@@ -426,6 +449,13 @@ const resume = () => {
                       <li>뷰어에 댓글 기능 추가</li>
                     </ul>
                   </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>웹소설도 게재할수 있도록 서비스 확장</li>
+                      <li>Promise Mirror 를 통해 완성형이 아닌 조합형 에디터 구현해 추후 기능 확장이 용이하도록 함</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div className="project">
@@ -442,6 +472,14 @@ const resume = () => {
                       <li>이미지 업로드 및 간단한 편집기능 개발</li>
                       <li>이미지 뷰 를 위한 Feed 컴포넌트 개발</li>
                       <li>댓글 기능 추가</li>
+                      <li>도네이션(Meow) 기능 추가</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>일러스트 게재 기능 추가</li>
+                      <li>도네이션(Meow) 을 통해 새로운 BM 도입</li>
                     </ul>
                   </div>
                 </div>
@@ -477,8 +515,14 @@ const resume = () => {
                   <div className="myRole">
                     <ul>
                       <li>Quill 에디터를 React 에서 사용하기 위해 컴포넌트 작성</li>
-                      <li>프로덕트 기능에 필요한 추가 컴포넌트, 훅 구현</li>
-                      <li>추가 페이지 개발</li>
+                      <li>프로덕트 기능에 필요한 추가 컴포넌트, 페이지, 훅 구현</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>완성형 에디터를 통해 유저가 좀더 풍부한 컨텐츠를 게재할수 있도록 함</li>
+                      <li>디지털 상품을 게시하고 판매할수 있는 새로운 BM 추가</li>
                     </ul>
                   </div>
                 </div>
@@ -565,25 +609,6 @@ const resume = () => {
                     </ul>
                   </div>
                 </div>
-
-                <div className="project">
-                  <h3>최초 프론트앤드 개발환경 정의</h3>
-                  <div className="date">2021.01</div>
-                  <p className="description">
-                    처음부터 환경을 구성해야 했기에 페이지 라우팅 방식과 인증을 위한 세션 유지 그리고 멀티 디바이스(PC, Mobile, Tablet)
-                    환경, 전역 상태관리 등 우리에게 필요한 기술들을 정의하고 최초 환경을 함께 구성하였습니다.
-                  </p>
-                  <h5>사용 기술</h5>
-                  <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
-                  <h5>역할</h5>
-                  <div className="myRole">
-                    <ul>
-                      <li>라우팅 맵, 전역 상태관리, 캐싱, 페이지 구조 등 리액트 개발에 필요한 모듈 개발</li>
-                      <li>인증 모듈, 세션(또는 토큰) 스토리지 등 딜리헙 서비스에 필요한 모듈 개발</li>
-                      <li>Tailwind, storybook 적용</li>
-                    </ul>
-                  </div>
-                </div>
               </div>
 
               <div className="col-sm-4">
@@ -595,38 +620,23 @@ const resume = () => {
 
               <div className="col-sm-8">
                 <div className="project">
-                  <h3>프론트앤드 개발 리딩</h3>
-                  <div className="date">2020.11 ~ 2020.12</div>
+                  <h3>Home-in 프론트앤드 프로젝트</h3>
+                  <div className="date">2020.09 ~ 2020.12</div>
                   <p className="description">
-                    앱은 목표로 하는 대부분의 기능들이 주차에 맞게 진행되었으나 프론트앤드의 경우 목표보다 더딘 상황이었기에 퍼블리셔/개발자
-                    교육과 함께 코드퀄리티를 체크하고 피드백하였습니다.
+                    프로젝트가 진행되던 도중 합류하게 되었고 퍼블리싱 개발과 프론트앤드 개발이 서로 유기적이지 못한 부분을 발견이 이 부분에
+                    대한 가이드를 수립하고 vuejs 로 프론트앤드 개발을 좀더 원활히 진행하기 위해 교육 진행하고 지체되고 있던 프론트 개발
+                    진행상황을 정상화하였으며 웹뷰 기반의 앱 개발을 할수 있도록 환경을 구성하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">VueJS, JS interface</p>
+                  <p className="tech">VueJS, JS interface, Javascript, Tailwind</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
+                      <li>프론트앤드 개발 총괄</li>
                       <li>퍼블리셔 대상 VueJS 컴포넌트 구현 교육 진행</li>
                       <li>iOS, Android 진행상황 체크 및 웹 인터페이스 개발 테스트 진행</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="project">
-                  <h3>홈인 프론트앤드 아키텍팅 변경</h3>
-                  <div className="date">2020.09 ~ 2020.10</div>
-                  <p className="description">
-                    목표하는 스펙을 구현하기 위해 지금까지 진행된 내용을 검토하였으나 앱웹 간 인터페이스 뿐만 아니라 PC, Mobile 플랫폼간
-                    로직을 공유하고 다른 UI를 표시해야 하는 스펙을 맞추기에 무리가 있어 새로운 구조를 제안하고 그 구조로 변경될수 있도록
-                    커뮤니케이션을 진행하였습니다.
-                  </p>
-                  <h5>사용 기술</h5>
-                  <p className="tech">VueJS</p>
-                  <h5>역할</h5>
-                  <div className="myRole">
-                    <ul>
                       <li>WEB(PC, Mobile) : 1개의 로직(index)에서 다른 UI(PC, Mobile) 을 렌더링할수 있는 구조로 개선</li>
-                      <li>iOS, Android 개발환경 구축</li>
+                      <li>웹뷰 기반 iOS, Android 개발환경 구축</li>
                     </ul>
                   </div>
                 </div>
@@ -648,11 +658,11 @@ const resume = () => {
                     로 앤드포인트를 만들어 서버와 클라이언트가 데이터를 주고 받았습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, Express</p>
+                  <p className="tech">React, Express, SCSS, Javascript, Nodejs</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>디자인/기획 스펙 구현</li>
+                      <li>장바구니, 결제하기 페이지 등 주요 페이지 로드 속도 대폭 감소</li>
                     </ul>
                   </div>
                 </div>
@@ -666,13 +676,21 @@ const resume = () => {
                     서로 의존성 없이 작업하는 것을 목표로 빠르게 진행하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, PHP, MySql, iOS, Android</p>
+                  <p className="tech">React, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>프로젝트 리딩 및 아키텍팅</li>
+                      <li>프로젝트 리딩</li>
                       <li>각 환경(서버, 웹, 앱) 데이터 구조와 인터페이스 정의</li>
-                      <li>React 로 웹 스펙 구현</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>카닥 앱에 커뮤니티 탭을 통해 데일리 접속자 증가</li>
+                      <li>
+                        보유/관심차종 을 통해 게시물을 확인할수 있도록 설계해 유저의 관심도를 높이고 사업적인 데이터도 활용할수 있도록 설계
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -706,7 +724,7 @@ const resume = () => {
                     정착된 컨테이너 패턴을 적용해 레거시와 독립된 형태로 구성하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, Context, Hooks, AWS S3</p>
+                  <p className="tech">React, Context, Hooks, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -724,11 +742,13 @@ const resume = () => {
                     상품문의 등 장바구니 이전 단계까지의 흐름을 구현하였고 이 부분을 1개의 컨테이너로 구현하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, Typescript, Context, Hooks, Docker, k8s(AWS EKS)</p>
+                  <p className="tech">React, Typescript, Context, Hooks, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>callback 패턴 적용 및 DeBounce 개념 도입해 불필요한 렌더링 제거</li>
+                      <li>상품/전시 관련 페이지 개발</li>
+                      <li>상태 및 코드 최적화를 통해 불필요한 렌더링 제거</li>
+                      <li>컨테이너 패턴 적용해 View 와 비즈니스 로직 분리</li>
                     </ul>
                   </div>
                 </div>
@@ -741,7 +761,7 @@ const resume = () => {
                     페이지 로딩과 카닥에서 제공하는 UI/UX 를 첫 페이지에 도입하는 프로젝트입니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">React, Typescript, Context, Hooks, Docker, k8s(AWS EKS)</p>
+                  <p className="tech">React, Typescript, Context, Hooks, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -765,9 +785,18 @@ const resume = () => {
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
+                      <li>프로젝트 개발 리드</li>
                       <li>컨테이너 패턴으로 두가지 기능을 효율적으로 작성</li>
                       <li>카드번호와 같이 특정 패턴을 정규화하도록 input masking hook 작성</li>
                       <li>전역, 지역 Context 를 활용해 props 깊이와 리렌더링 컨트롤</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>기존 서비스 및 추가되는 서비스에서도 새로운 결제 로비를 통해 결제할수 있도록 로직 일원화</li>
+                      <li>결제수단 추가/삭제시 한 번의 작업으로 모든 서비스에 적용 가능하도록 설계</li>
+                      <li>레거시 코드를 활용한 방법으로 빠르고 안정성 높은 개발</li>
                     </ul>
                   </div>
                 </div>
@@ -793,6 +822,14 @@ const resume = () => {
                       <li>오래되고 정확하지 않은 README 재정리</li>
                       <li>프론트앤드 팀 내 개발자 교육</li>
                       <li>변경된 사항을 다른 팀과 공유하기 위해 슬라이드 제작 및 세미나 진행</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>모노레포 구성으로 모든 프로젝트 배포 시간 단축</li>
+                      <li>젠킨스 대신 github Action 으로 CI/CD 툴 변경</li>
+                      <li>약 50개 이상의 저장소를 10개 이하로 줄임</li>
                     </ul>
                   </div>
                 </div>
@@ -859,7 +896,7 @@ const resume = () => {
                 </div>
 
                 <div className="project">
-                  <h3>카닥 앱 React Native 샘플 작성</h3>
+                  <h3>카닥 앱 React Native POC</h3>
                   <div className="date">2019.01 - 2019.03</div>
                   <p className="description">
                     카닥은 모바일 어플리케이션을 Native + WebView 를 사용해 제작하고 있었는데 내부적인 테스트를 위해 React Native 를
@@ -1038,7 +1075,7 @@ const resume = () => {
                     제품을 보여주기 위해 마커 그룹화 및 실시간 필터링을 제공하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">AngularJS, SCSS, NodeJS, MariaDB, AWS, Android/iOS</p>
+                  <p className="tech">AngularJS, SCSS, NodeJS, MariaDB, AWS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
@@ -1059,7 +1096,7 @@ const resume = () => {
                     유저를 추천하고, 메시지를 보내거나 자신의 병원과 관련된 후기 등을 관리하는 기능을 개발하였습니다.
                   </p>
                   <h5>사용 기술</h5>
-                  <p className="tech">Jquery, SCSS, Android/iOS, Codeigniter, MaraiDB</p>
+                  <p className="tech">Jquery, SCSS, Codeigniter, MaraiDB</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
