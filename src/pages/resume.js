@@ -80,7 +80,7 @@ const resume = () => {
                 <ul>
                   <li>Javascript / Typescript : NodeJS, NestJS, Express</li>
                   <li>PHP : Codeigniter, Laravel</li>
-                  <li>Database :MySQL, MariaDB, MongoDB, Redis, Memcached</li>
+                  <li>Database :MySQL, MariaDB, Redis, Memcached</li>
                 </ul>
               </div>
               <div className="col-sm-12">
@@ -126,15 +126,104 @@ const resume = () => {
                 <div className="mb-2">
                   <b className="text-lg">경력</b>
                 </div>
-                <ul>
-                  <li>2024.01 - NOW : 아모레퍼시픽(AMORE PACIFIC) / Senior Frontend Engineer(Lead)</li>
-                  <li>2021.01 - 2023.06 : 딜리헙(Dillyhub) / Senior Frontend Engineer(Lead)</li>
-                  <li>2020.09 - 2020.12 : 엘지유플러스(LGU+) / Senior Frontend Engineer(Lead)</li>
-                  <li>2019.01 - 2020.08 : 카닥(CarDoc) / Frontend Engineer</li>
-                  <li>2017.07 - 2018.12 : 오픈소스컨설팅(Open Source Consulting) / Frontend Engineer</li>
-                  <li>2016.06 ~ 2017.05 : 박차컴퍼니(Bakcha Company) / Software Engineer</li>
-                  <li>2012.11 ~ 2016.03 : 이큐브랩(EcubeLabs) / Software Engineer </li>
-                </ul>
+
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2024.01 - NOW</div>
+                  <div className="text-sm">
+                    <strong>Senior Frontend Engineer(Lead)</strong>
+                  </div>
+                  <div className="text-lg mb-2">아모레퍼시픽(AMORE PACIFIC)</div>
+                  <p className="text-sm">
+                    디지털서비스개발팀의 Frontend 셀에 개발리더 담당. 자사 전자상거래 플랫폼인{' '}
+                    <a href="https://amoremall.com/kr/ko/display/main" target="_blank" rel="noopener noreferrer">
+                      아모레몰
+                    </a>
+                    뿐만 아니라 스킨노트, 커머스커뮤니티 등 OKR 에 필요한 서비스 개발의 프론트 파트를 리드함. 일정관리와 DX, 아키텍처
+                    설계뿐만 아니라 필요에 따라 직접 개발도 진행.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2021.01 - 2023.06</div>
+                  <div className="text-sm">
+                    <strong>Senior Frontend Engineer</strong>
+                  </div>
+                  <div className="text-lg mb-2">딜리헙(Dillyhub)</div>
+
+                  <p className="text-sm">
+                    자사 웹툰/소설 오픈 플랫폼{' '}
+                    <a href="https://dillyhub.com" target="_blank" rel="noopener noreferrer">
+                      딜리헙
+                    </a>{' '}
+                    의 모든 프론트 개발을 담당. 유저(독자) 뿐만 아니라 크리에이터(작가) 들을 위한 스토어/스튜디오 두가지 서비스 개발 및
+                    다양한 디바이스를 대응하기 위해 3가지의 break point 로 제작.
+                    <br />
+                    독자적인 디자인 시스템을 구축하기 위해 모든 컴포넌트는 오픈소스 없이 자체 구현했으며 소설 작성을 위한 텍스트 에디터 또한
+                    promise mirror 를 통해 직접 개발.
+                    <br />
+                    딜리헙에서는 프론트 개발 뿐만이 아닌 nodejs(express) 기반의 백엔드 개발과 aws, gcp 기반의 인프라도 함께 담당하였음.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2020.09 - 2020.12</div>
+                  <div className="text-sm">
+                    <strong>Senior Frontend Engineer(Lead)</strong>
+                  </div>
+                  <div className="text-lg mb-2">엘지유플러스(LGU+)</div>
+                  <p className="text-sm">
+                    홈플랫폼추진단 홈플랫폼구축운영팀에 소속되어 LG CNS 와 함께 Homin(홈인) 플랫폼의 프론트 리딩을 담당하였음. 대부분의
+                    개발이 외주사를 통해 이루어졌기에 목적에 맞는 아키텍처 설계와 요구사항에 맞는 최소한의 코드 퀄리티를 보장하기 위한 리뷰
+                    및 개발자/퍼블리셔 교육 진행.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2019.01 - 2020.08</div>
+                  <div className="text-sm">
+                    <strong>Frontend Engineer</strong>
+                  </div>
+                  <div className="text-lg mb-2">카닥(Cardoc)</div>
+
+                  <p className="text-sm">
+                    자체 o2o 서비스 카닥의 수리,테크샵(엔진오일), 워시(세차), 몰(쇼핑몰), BO, PO, 결제로비 등 모든 프론트 개발과 전반적인
+                    프론트앤드 아키텍처에 대해 제안하고 논의하는 과정을 통해 직접 yarn workspace 기반의 모노레포 개발환경도 개선함.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2017.07 - 2018.12</div>
+                  <div className="text-sm">
+                    <strong>Frontend Engineer</strong>
+                  </div>
+                  <div className="text-lg mb-2">오픈소스컨설팅(Open Source Consulting)</div>
+
+                  <p className="text-sm">
+                    자체 인프라 운영/관리를 위한 소프트웨어를 web 기반으로 개발해 Saas, on-premise 환경에서 사용할수 있도록 개발함.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2016.06 ~ 2017.05</div>
+                  <div className="text-sm">
+                    <strong>Software Engineer</strong>
+                  </div>
+                  <div className="text-lg mb-2">박차컴퍼니(Bakcha Company)</div>
+
+                  <p className="text-sm">
+                    중고차 매매/양수도/경매 등의 o2o 서비스를 웹/하이브리드 앱 으로 개발했고 백앤드는 php 기반의 코드로 작성하였으며
+                    프론트앤드는 angular 로 개발했으며 서비스 특성상 Android/iOS 앱이 반드시 필요했기에 cordova 기반의 Framework7 을 통해
+                    하이브리드 앱 형태로 개발함.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <div className="text-xs text-gray">2012.11 ~ 2016.03</div>
+                  <div className="text-sm">
+                    <strong>Software Engineer</strong>
+                  </div>
+                  <div className="text-lg mb-2">이큐브랩(EcubeLabs)</div>
+
+                  <p className="text-sm">
+                    스타트업의 극 초기 첫번째 개발자로 합류해 자체 IoT 제품인 "태양광 압축 쓰레기통" 의 웹 개발을 담당하였음. 야외에
+                    설치되는 제품에서 http 프로토콜 기반으로 통신한 이후부터 유저가 제품의 상태를 앱/웹 으로 확인할수 있는 단계까지의 모든
+                    개발을 진행했으며 제품의 알파 버전부터 1.0버전까지 개발 진행함.
+                  </p>
+                </div>
               </div>
               <div className="col-sm-12">
                 <div className="mb-2">

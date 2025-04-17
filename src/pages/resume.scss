@@ -40,8 +40,27 @@
     margin-bottom: 0.5rem;
   }
 
+  .text-gray {
+    color: $oc-gray-6;
+  }
+
+  .text-md {
+    font-size: 1.15rem;
+    letter-spacing: -0.04rem;
+  }
+
+  .text-sm {
+    font-size: 1rem;
+    letter-spacing: -0.025rem;
+  }
+
+  .text-xs {
+    font-size: 0.85rem;
+    letter-spacing: -0.025rem;
+  }
+
   .text-lg {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: -0.05rem;
   }
 
