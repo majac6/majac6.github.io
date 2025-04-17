@@ -461,7 +461,7 @@ const resume = () => {
               <div className="col-sm-4">
                 <h3>딜리헙</h3>
                 <div className="role">글로벌 웹툰 오픈 플랫폼</div>
-                <div className="role">Senior Frontend Engineer(Lead)</div>
+                <div className="role">Senior Frontend Engineer</div>
                 <div className="date">2021.01 - 2023.06</div>
               </div>
 
