@@ -130,49 +130,49 @@ const resume = () => {
                 <div className="mb-4">
                   <div className="text-xs text-gray">2024.01 - NOW</div>
                   <div className="text-sm">
-                    <strong>Senior Frontend Engineer(Lead)</strong>
+                    <strong>Frontend Engineer(Lead)</strong>
                   </div>
                   <div className="text-lg mb-2">아모레퍼시픽(AMORE PACIFIC)</div>
                   <p className="text-sm">
-                    디지털서비스개발팀의 Frontend 셀에 개발리더 담당. 자사 전자상거래 플랫폼인{' '}
-                    <a href="https://amoremall.com/kr/ko/display/main" target="_blank" rel="noopener noreferrer">
-                      아모레몰
-                    </a>
-                    뿐만 아니라 스킨노트, 커머스커뮤니티 등 OKR 에 필요한 서비스 개발의 프론트 파트를 리드함. 일정관리와 DX, 아키텍처
-                    설계뿐만 아니라 필요에 따라 직접 개발도 진행.
+                    <ul>
+                      <li>아모레몰(전자상거래) 프론트앤드 개발 리드</li>
+                      <li>커머스커뮤니티, 스킨노트 등 신사업 프론트앤드 개발 리드</li>
+                      <li>프론트앤드 기술 전략 및 로드맵 수립</li>
+                      <li>프론트앤드 개발 환경 구축 및 운영</li>
+                      <li>협력사 및 계약직 인력 관리</li>
+                      <li>프로젝트 일정 관리</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
                   <div className="text-xs text-gray">2021.01 - 2023.06</div>
                   <div className="text-sm">
-                    <strong>Senior Frontend Engineer</strong>
+                    <strong>Fullstack Engineer</strong>
                   </div>
                   <div className="text-lg mb-2">딜리헙(Dillyhub)</div>
 
                   <p className="text-sm">
-                    자사 웹툰/소설 오픈 플랫폼{' '}
-                    <a href="https://dillyhub.com" target="_blank" rel="noopener noreferrer">
-                      딜리헙
-                    </a>{' '}
-                    의 모든 프론트 개발을 담당. 유저(독자) 뿐만 아니라 크리에이터(작가) 들을 위한 스토어/스튜디오 두가지 서비스 개발 및
-                    다양한 디바이스를 대응하기 위해 3가지의 break point 로 제작.
-                    <br />
-                    독자적인 디자인 시스템을 구축하기 위해 모든 컴포넌트는 오픈소스 없이 자체 구현했으며 소설 작성을 위한 텍스트 에디터 또한
-                    promise mirror 를 통해 직접 개발.
-                    <br />
-                    딜리헙에서는 프론트 개발 뿐만이 아닌 nodejs(express) 기반의 백엔드 개발과 aws, gcp 기반의 인프라도 함께 담당하였음.
+                    <ul>
+                      <li>딜리헙(오픈 웹툰/소설 플랫폼) US,KR 스토어/스튜디오 프론트앤드/백앤드 개발 및 운영</li>
+                      <li>딜리뷰 프론트앤드/백앤드 개발 및 운영</li>
+                      <li>딜리헙 디자인 시스템 구축</li>
+                      <li>k8s 기반 devops 환경 구축 및 운영</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
                   <div className="text-xs text-gray">2020.09 - 2020.12</div>
                   <div className="text-sm">
-                    <strong>Senior Frontend Engineer(Lead)</strong>
+                    <strong>Frontend Engineer(Lead)</strong>
                   </div>
                   <div className="text-lg mb-2">엘지유플러스(LGU+)</div>
                   <p className="text-sm">
-                    홈플랫폼추진단 홈플랫폼구축운영팀에 소속되어 LG CNS 와 함께 Homin(홈인) 플랫폼의 프론트 리딩을 담당하였음. 대부분의
-                    개발이 외주사를 통해 이루어졌기에 목적에 맞는 아키텍처 설계와 요구사항에 맞는 최소한의 코드 퀄리티를 보장하기 위한 리뷰
-                    및 개발자/퍼블리셔 교육 진행.
+                    <ul>
+                      <li>Homin(홈 서비스 플랫폼) 프론트앤드 개발 리드</li>
+                      <li>Homin 프론트앤드 개발 환경 구축 및 운영</li>
+                      <li>협력사 및 계약직 인력관리 및 교육</li>
+                      <li>프로젝트 일정 관리</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
@@ -183,8 +183,10 @@ const resume = () => {
                   <div className="text-lg mb-2">카닥(Cardoc)</div>
 
                   <p className="text-sm">
-                    자체 o2o 서비스 카닥의 수리,테크샵(엔진오일), 워시(세차), 몰(쇼핑몰), BO, PO, 결제로비 등 모든 프론트 개발과 전반적인
-                    프론트앤드 아키텍처에 대해 제안하고 논의하는 과정을 통해 직접 yarn workspace 기반의 모노레포 개발환경도 개선함.
+                    <ul>
+                      <li>카닥 프론트앤드 개발환경 구축 및 운영</li>
+                      <li>수리, 테크샵(엔진오일), 세차, 카닥몰 개발 및 운영</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
@@ -195,33 +197,42 @@ const resume = () => {
                   <div className="text-lg mb-2">오픈소스컨설팅(Open Source Consulting)</div>
 
                   <p className="text-sm">
-                    자체 인프라 운영/관리를 위한 소프트웨어를 web 기반으로 개발해 Saas, on-premise 환경에서 사용할수 있도록 개발함.
+                    <ul>
+                      <li>프론트앤드 개발 환경 구축 및 운영</li>
+                      <li>인프라 관리 운영 솔루션 프론트앤드 개발 및 운영</li>
+                      <li>협력사 프론트앤드 개발 교육 및 지원</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
                   <div className="text-xs text-gray">2016.06 ~ 2017.05</div>
                   <div className="text-sm">
-                    <strong>Software Engineer</strong>
+                    <strong>Frontend Engineer</strong>
                   </div>
                   <div className="text-lg mb-2">박차컴퍼니(Bakcha Company)</div>
 
                   <p className="text-sm">
-                    중고차 매매/양수도/경매 등의 o2o 서비스를 웹/하이브리드 앱 으로 개발했고 백앤드는 php 기반의 코드로 작성하였으며
-                    프론트앤드는 angular 로 개발했으며 서비스 특성상 Android/iOS 앱이 반드시 필요했기에 cordova 기반의 Framework7 을 통해
-                    하이브리드 앱 형태로 개발함.
+                    <ul>
+                      <li>박차 프론트앤드 개발 및 운영</li>
+                      <li>박차, 차팡(차량 경매) 하이브리드 앱(PhoneGap 기반) 개발 및 운영</li>
+                      <li>박차 양수도 서비스 프론트앤드 개발 및 운영</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="mb-4">
                   <div className="text-xs text-gray">2012.11 ~ 2016.03</div>
                   <div className="text-sm">
-                    <strong>Software Engineer</strong>
+                    <strong>Fullstack Engineer</strong>
                   </div>
                   <div className="text-lg mb-2">이큐브랩(EcubeLabs)</div>
 
                   <p className="text-sm">
-                    스타트업의 극 초기 첫번째 개발자로 합류해 자체 IoT 제품인 "태양광 압축 쓰레기통" 의 웹 개발을 담당하였음. 야외에
-                    설치되는 제품에서 http 프로토콜 기반으로 통신한 이후부터 유저가 제품의 상태를 앱/웹 으로 확인할수 있는 단계까지의 모든
-                    개발을 진행했으며 제품의 알파 버전부터 1.0버전까지 개발 진행함.
+                    <ul>
+                      <li>이큐브랩 백앤드/프론트앤드 개발 및 운영</li>
+                      <li>CCN(스마트 압축 쓰레기통 웹 솔루션) Beta, Alpha, 1.0 풀스택 개발 및 운영</li>
+                      <li>시크릿차트(비급여 병원 플랫폼 서비스) 풀스택 개발 및 운영</li>
+                      <li>정부과제 프로젝트 개발</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -256,7 +267,7 @@ const resume = () => {
               <div className="col-sm-8">
                 <div className="project">
                   <h3>주문 페이지 2차</h3>
-                  <div className="date">2025.01 - 2025.03</div>
+                  <div className="date">2025.01 - 2025.04</div>
                   <p className="description">1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.</p>
                   <h5>사용 기술</h5>
                   <p className="tech">typescript, react19, nextjs15, tailwind, storybook, docker</p>
@@ -639,18 +650,23 @@ const resume = () => {
                   <div className="date">2021.06 ~ 2021.10</div>
                   <p className="description">
                     최초 스토어, 스튜디오 개발 이후 다음 기능들이 추가되었습니다. 주로 개발된 기능들을 실제로 유저가 얼만큼 잘 사용하고
-                    있는지 측정하거나 테스트할수 있는 외부 라이브러리를 설치하고 이 프로젝트에 맞게 적절히 적용하는 업무를 맡았고 이전
-                    개발된 갤러리에 도네이션 기능을 추가하였습니다.
+                    있는지 측정하거나 테스트할수 있는 외부 라이브러리를 설치.
                   </p>
                   <h5>사용 기술</h5>
                   <p className="tech">React, Webpack, Javascript, tailwind, SCSS</p>
                   <h5>역할</h5>
                   <div className="myRole">
                     <ul>
-                      <li>갤러리 : 일러스트를 포스팅하고 도네이션을 받을수 있는 기능</li>
                       <li>애널리틱스 툴 적용 : GTM, Mixpanel</li>
                       <li>스토어 홈/스튜디오 랜딩 페이지 개발</li>
                       <li>Hackle 사용한 A/B 테스트 진행</li>
+                    </ul>
+                  </div>
+                  <h5>성과</h5>
+                  <div className="myRole">
+                    <ul>
+                      <li>계획된 마케팅 진행</li>
+                      <li>유저 행동 분석 및 A/B테스트 진행</li>
                     </ul>
                   </div>
                 </div>
