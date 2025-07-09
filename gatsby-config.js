@@ -4,14 +4,6 @@ module.exports = {
     siteUrl: `https://majac6.github.io`,
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-sass',
-      options: {
-        sassOptions: {
-          includePaths: [`${__dirname}/node_modules`, `${__dirname}/src/style`],
-        },
-      },
-    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
@@ -28,6 +20,13 @@ module.exports = {
         path: './src/pages/',
       },
       __key: 'pages',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'articles',
+        path: './src/content/articles/',
+      },
     },
   ],
 };

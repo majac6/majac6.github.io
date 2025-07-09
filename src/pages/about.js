@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from './components/Layout';
 
-const Resume = () => {
+const AboutPage = () => {
   return (
-    <Layout>
+    <Layout title="About Me - Senior Frontend Engineer : HungSun LIM">
       <div className="max-w-3xl mx-auto px-2 py-8">
         {/* 프로필 섹션 */}
         <section className="mb-12 text-center">
@@ -177,4 +177,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default AboutPage; 

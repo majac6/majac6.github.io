@@ -1,54 +1,28 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from './components/Layout';
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-    marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <Layout>
+      <main className="flex items-center justify-center min-h-[60vh] bg-white">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold mb-4 tracking-tight">
+            페이지를 찾을 수 없습니다
+          </h1>
+          <p className="text-base text-gray-500 mb-8">
+            죄송합니다 <span role="img" aria-label="슬픈 이모지">😔</span> 요청하신 페이지를 찾을 수 없습니다.
+          </p>
+          <Link 
+            to="/" 
+            className="inline-flex items-center px-6 py-2 border border-primary-600 text-primary-600 font-semibold rounded hover:bg-primary-50 transition-colors"
+          >
+            홈으로 돌아가기
+          </Link>
+        </div>
+      </main>
+    </Layout>
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;

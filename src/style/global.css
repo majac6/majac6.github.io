@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --color-background: #fff;
+  --color-background-dark: #0f172a; /* slate-900 */
+  --color-foreground: #0f172a;      /* slate-900 */
+  --color-foreground-dark: #f1f5f9; /* slate-100 */
+  --color-primary: #10b981;         /* emerald-500 */
+  --color-primary-dark: #34d399;    /* emerald-400 */
+}

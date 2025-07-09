@@ -1,0 +1,295 @@
+# Tailwind CSS 스타일 가이드
+공식 문서: https://tailwindcss.com/docs
+
+## 기본 원칙
+
+### 1. 유틸리티 우선 접근법
+- 모든 스타일링은 Tailwind 유틸리티 클래스를 우선적으로 사용
+- 커스텀 CSS는 최소한으로 유지
+- 컴포넌트별 스타일링보다는 유틸리티 클래스 조합 사용
+
+### 2. 일관성 유지
+- 동일한 스타일 패턴은 일관되게 적용
+- 색상, 간격, 타이포그래피는 디자인 시스템 기반 사용
+
+## 클래스 순서 규칙
+
+### 1. 레이아웃 클래스
+```jsx
+// 올바른 순서
+<div className="
+  // 1. Display & Position
+  block relative
+  
+  // 2. Layout
+  flex items-center justify-between
+  
+  // 3. Spacing
+  p-4 mx-auto
+  
+  // 4. Sizing
+  w-full h-12
+  
+  // 5. Typography
+  text-lg font-semibold text-gray-900
+  
+  // 6. Background & Border
+  bg-white border border-gray-200
+  
+  // 7. Effects
+  shadow-sm rounded-lg
+  
+  // 8. Transitions
+  transition-all duration-200
+  
+  // 9. Interactive states
+  hover:bg-gray-50 focus:ring-2 focus:ring-blue-500
+">
+```
+
+### 2. 반응형 디자인
+```jsx
+// 모바일 우선 접근법
+<div className="
+  // 기본 (모바일)
+  p-4 text-sm
+  
+  // 태블릿
+  md:p-6 md:text-base
+  
+  // 데스크톱
+  lg:p-8 lg:text-lg
+  
+  // 대형 화면
+  xl:p-10 xl:text-xl
+">
+```
+
+## 색상 시스템
+
+### 1. 의미별 색상 사용
+```jsx
+// 성공 상태
+<div className="bg-green-50 text-green-800 border-green-200">
+
+// 경고 상태  
+<div className="bg-yellow-50 text-yellow-800 border-yellow-200">
+
+// 오류 상태
+<div className="bg-red-50 text-red-800 border-red-200">
+
+// 정보 상태
+<div className="bg-blue-50 text-blue-800 border-blue-200">
+```
+
+### 2. 다크 모드 지원
+```jsx
+<div className="
+  bg-white dark:bg-gray-900
+  text-gray-900 dark:text-white
+  border-gray-200 dark:border-gray-700
+">
+```
+
+## 타이포그래피
+
+### 1. 텍스트 크기
+```jsx
+// 제목
+<h1 className="text-4xl font-bold">제목</h1>
+<h2 className="text-3xl font-semibold">부제목</h2>
+<h3 className="text-2xl font-medium">소제목</h3>
+
+// 본문
+<p className="text-base leading-relaxed">본문 텍스트</p>
+<p className="text-sm text-gray-600">작은 텍스트</p>
+```
+
+### 2. 폰트 가중치
+```jsx
+// 명확한 의미 전달
+<span className="font-light">가벼운 텍스트</span>
+<span className="font-normal">일반 텍스트</span>
+<span className="font-medium">중간 굵기</span>
+<span className="font-semibold">세미볼드</span>
+<span className="font-bold">볼드</span>
+```
+
+## 간격 시스템
+
+### 1. 일관된 간격 사용
+```jsx
+// 컨테이너 간격
+<div className="p-4 md:p-6 lg:p-8">
+
+// 요소 간 간격
+<div className="space-y-4">
+  <div>첫 번째 요소</div>
+  <div>두 번째 요소</div>
+</div>
+
+// 그리드 간격
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+```
+
+## 컴포넌트 패턴
+
+### 1. 버튼 컴포넌트
+```jsx
+const Button = ({ variant = 'primary', size = 'md', children, ...props }) => {
+  const baseClasses = "inline-flex items-center justify-center font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2"
+  
+  const variants = {
+    primary: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500",
+    secondary: "bg-gray-200 text-gray-900 hover:bg-gray-300 focus:ring-gray-500",
+    danger: "bg-red-600 text-white hover:bg-red-700 focus:ring-red-500"
+  }
+  
+  const sizes = {
+    sm: "px-3 py-1.5 text-sm",
+    md: "px-4 py-2 text-base",
+    lg: "px-6 py-3 text-lg"
+  }
+  
+  return (
+    <button 
+      className={`${baseClasses} ${variants[variant]} ${sizes[size]}`}
+      {...props}
+    >
+      {children}
+    </button>
+  )
+}
+```
+
+### 2. 카드 컴포넌트
+```jsx
+const Card = ({ children, className = "" }) => {
+  return (
+    <div className={`
+      bg-white dark:bg-gray-800
+      border border-gray-200 dark:border-gray-700
+      rounded-lg shadow-sm
+      p-6
+      ${className}
+    `}>
+      {children}
+    </div>
+  )
+}
+```
+
+## 접근성 고려사항
+
+### 1. 포커스 표시
+```jsx
+// 모든 인터랙티브 요소에 포커스 스타일 적용
+<button className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+  버튼
+</button>
+```
+
+### 2. 색상 대비
+```jsx
+// 충분한 색상 대비 보장
+<div className="bg-gray-100 text-gray-900"> // ✅ 좋음
+<div className="bg-gray-300 text-gray-400"> // ❌ 나쁨
+```
+
+## 성능 최적화
+
+### 1. 클래스 최적화
+```jsx
+// ❌ 나쁨 - 중복 클래스
+<div className="p-4 p-6 p-8">
+
+// ✅ 좋음 - 조건부 클래스
+<div className={`
+  p-4
+  ${isLarge ? 'md:p-6 lg:p-8' : 'md:p-4 lg:p-6'}
+`}>
+```
+
+### 2. 동적 클래스 관리
+```jsx
+// clsx 또는 classnames 라이브러리 사용 권장
+import clsx from 'clsx'
+
+<div className={clsx(
+  'base-classes',
+  condition && 'conditional-classes',
+  variant && `variant-${variant}`
+)}>
+```
+
+## 커스텀 설정
+
+### 1. tailwind.config.js 설정
+```javascript
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#eff6ff',
+          500: '#3b82f6',
+          900: '#1e3a8a',
+        }
+      },
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem',
+      }
+    }
+  },
+  plugins: [],
+}
+```
+
+## 금지사항
+
+### 1. 인라인 스타일 사용 금지
+```jsx
+// ❌ 나쁨
+<div style={{ padding: '16px', backgroundColor: 'white' }}>
+
+// ✅ 좋음
+<div className="p-4 bg-white">
+```
+
+### 2. 과도한 커스텀 CSS 금지
+```jsx
+// ❌ 나쁨 - 불필요한 커스텀 CSS
+.custom-button {
+  padding: 1rem;
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+}
+
+// ✅ 좋음 - Tailwind 유틸리티 사용
+<button className="p-4 bg-blue-600 rounded-lg">
+```
+
+## Tailwind v4+ 테마/스타일 가이드 (공식 레퍼런스 준수)
+
+- **전역 컬러/타이포/스페이싱 등은 반드시 @theme 디렉티브로 선언**
+  - 예: global.css/app.css 상단에
+    ```css
+    @theme {
+      --color-background: #fff;
+      --color-background-dark: #0f172a;
+      --color-foreground: #0f172a;
+      --color-foreground-dark: #f1f5f9;
+      --color-primary: #10b981;
+      --color-primary-dark: #34d399;
+    }
+    ```
+- **컴포넌트/레이아웃에서는 유틸리티 클래스만 사용**
+  - 예: `bg-background dark:bg-background-dark text-foreground dark:text-foreground-dark`
+  - 버튼 등은 `bg-primary dark:bg-primary-dark` 등
+- **body에 dark 클래스만 토글** (JS/React에서)
+- **글로벌 @apply, body.dark 등 직접 스타일링은 금지**
+- **Tailwind 공식 문서(https://tailwindcss.com/docs/theme) 방식만 허용**
+
+이 가이드를 따라 일관되고 유지보수하기 쉬운 코드를 작성하세요. 

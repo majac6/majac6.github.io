@@ -1,0 +1,130 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Majac6.github.io 프로젝트 규칙
+
+## 프로젝트 개요
+- **프로젝트명**: majac-resume (Gatsby 기반 포트폴리오/이력서 사이트)
+- **주요 기술**: Gatsby 5, React 18, Tailwind CSS 4, Node.js 20
+- **목적**: Senior Frontend Engineer 임흥선의 포트폴리오 및 이력서 사이트
+
+## 디렉토리 구조 규칙
+
+### 루트 레벨
+- `gatsby-config.js`: Gatsby 설정 파일 (플러그인, 메타데이터 등)
+- `gatsby-browser.js`: 브라우저 관련 Gatsby 설정
+- `package.json`: 프로젝트 의존성 및 스크립트 관리
+- `tailwind.config.js`: Tailwind CSS 설정 (커스텀 색상, 폰트, 간격 등)
+- `postcss.config.js`: PostCSS 설정
+- `README.md`: 프로젝트 문서
+
+### src/ 디렉토리 구조
+```
+src/
+├── images/          # 정적 이미지 파일 (icon.png 등)
+├── content/         # Markdown 콘텐츠
+│   └── articles/    # 블로그 글 Markdown 파일들
+├── pages/           # Gatsby 페이지 컴포넌트
+│   ├── components/  # 페이지 레벨 컴포넌트
+│   │   ├── Layout.js # 메인 레이아웃 컴포넌트
+│   │   ├── Navigation.js # 네비게이션 컴포넌트
+│   │   ├── ArticleCard.js # 아티클 카드 컴포넌트
+│   │   ├── Pagination.js # 페이지네이션 컴포넌트
+│   │   └── TableOfContents.js # 목차 컴포넌트 (ScrollSpy)
+│   ├── index.js     # 홈페이지
+│   ├── articles.js  # 아티클 목록 페이지
+│   ├── article.js   # 아티클 상세 페이지 (템플릿)
+│   ├── about.js     # About Me 페이지 (기존 resume)
+│   └── 404.js       # 404 에러 페이지
+└── style/
+    └── global.css   # 전역 스타일 (Tailwind CSS import)
+```
+
+## 코딩 규칙
+
+### React 컴포넌트
+- **함수형 컴포넌트** 사용 (Hooks 기반)
+- **PascalCase**로 컴포넌트명 작성
+- **JSX** 사용 시 className에 Tailwind CSS 클래스 적용
+- **한국어 주석** 사용 (프로젝트 목적상 한국어 이력서)
+
+### 스타일링
+- **Tailwind CSS 4** 우선 사용
+- **반응형 디자인** 적용 (md:, lg: 브레이크포인트)
+- **커스텀 색상**: primary 색상 팔레트 사용
+- **폰트**: Spoqa Han Sans 계열 폰트 사용
+- **간격**: Tailwind 기본 간격 + 커스텀 간격 (18, 88 등)
+
+### 파일 명명 규칙
+- **컴포넌트**: PascalCase (Layout.js, Resume.js)
+- **페이지**: camelCase (index.js, resume.js)
+- **설정 파일**: kebab-case (gatsby-config.js, tailwind.config.js)
+
+### Gatsby 특화 규칙
+- **페이지 컴포넌트**는 `src/pages/` 디렉토리에 위치
+- **정적 자산**은 `src/images/` 디렉토리에 위치
+- **Markdown 콘텐츠**는 `src/content/articles/` 디렉토리에 위치
+- **gatsby-config.js**에서 플러그인 및 메타데이터 설정
+- **GraphQL**을 사용하여 Markdown 데이터 쿼리
+- **gatsby-transformer-remark**로 Markdown 파싱
+- **Helmet** 사용하여 SEO 최적화
+- **createPages API**로 동적 페이지 생성
+
+### 배포 관련
+- **GitHub Pages** 배포 사용
+- **gh-pages** 패키지로 배포 자동화
+- **prefix-paths** 옵션으로 GitHub Pages 호스팅 지원
+
+## 개발 워크플로우
+1. **개발 서버**: `npm run dev` 또는 `npm start`
+2. **빌드**: `npm run build`
+3. **배포**: `npm run deploy`
+4. **정리**: `npm run clean`
+
+## 주의사항
+- **한국어 콘텐츠** 중심의 프로젝트이므로 한국어 주석 및 문서화
+- **반응형 디자인** 필수 적용
+- **접근성** 고려 (aria-label 등)
+- **SEO 최적화** (Helmet, 메타 태그 등)
+- **Markdown 파일**은 frontmatter에 title, date, description 포함
+- **ScrollSpy** 기능은 목차 섹션에만 적용
+- **페이지네이션**은 10개씩 표시
+
+## 코드 예시
+
+### React 컴포넌트 구조
+```jsx
+import React from 'react';
+import Layout from './components/Layout';
+
+const ComponentName = () => {
+  return (
+    <Layout>
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* 한국어 주석 */}
+        <section className="mb-12">
+          {/* 컴포넌트 내용 */}
+        </section>
+      </div>
+    </Layout>
+  );
+};
+
+export default ComponentName;
+```
+
+### Tailwind CSS 사용
+```jsx
+// 반응형 디자인 예시
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div className="bg-white p-6 rounded-lg shadow-md">
+    {/* 카드 내용 */}
+  </div>
+</div>
+
+// 커스텀 색상 사용
+<button className="bg-primary-500 hover:bg-primary-900 text-white px-4 py-2 rounded">
+  버튼
+</button>
