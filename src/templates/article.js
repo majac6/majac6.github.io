@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from 'components/Layout';
 import TableOfContents from 'components/TableOfContents';
@@ -7,6 +7,34 @@ const ArticleTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data;
   const { frontmatter, html, headings } = markdownRemark;
   const { previous, next } = pageContext;
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      const anchor = e.target.closest('a[href^="#"]');
+      if (!anchor) return;
+  
+      const targetId = decodeURIComponent(anchor.getAttribute('href').substring(1));
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        e.preventDefault();
+  
+        const nav = document.querySelector('nav');
+        const navHeight = nav?.offsetHeight ?? 0;
+        const offsetTop = targetElement.getBoundingClientRect().top + window.scrollY - navHeight - 8;
+  
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth',
+        });
+  
+        // 해시도 수동으로 갱신
+        window.history.replaceState(null, '', `#${targetId}`);
+      }
+    };
+  
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, []);
 
   return (
     <Layout title={`${frontmatter.title} - Senior Frontend Engineer : HungSun LIM`}>
@@ -17,43 +45,28 @@ const ArticleTemplate = ({ data, pageContext }) => {
             {/* 아티클 헤더 */}
             <header className="mb-8 border-b border-gray-100 pb-4">
               <nav className="mb-3">
-                <Link 
-                  to="/articles" 
-                  className="text-primary-600 hover:underline text-xs font-medium"
-                >
+                <Link to="/articles" className="text-primary-600 hover:underline text-xs font-medium">
                   ← Articles
                 </Link>
               </nav>
-              <h1 className="text-2xl font-bold mb-2 tracking-tight">
-                {frontmatter.title}
-              </h1>
+              <h1 className="text-2xl font-bold mb-2 tracking-tight">{frontmatter.title}</h1>
               <div className="flex items-center space-x-3 text-xs text-gray-400 mb-4">
                 <time>{frontmatter.date}</time>
                 {frontmatter.tags && frontmatter.tags.length > 0 && (
                   <div className="flex space-x-1">
                     {frontmatter.tags.map((tag) => (
-                      <span 
-                        key={tag}
-                        className="px-2 py-0.5 border border-gray-200 bg-gray-50 text-gray-500 rounded-full"
-                      >
+                      <span key={tag} className="px-2 py-0.5 border border-gray-200 bg-gray-50 text-gray-500 rounded-full">
                         {tag}
                       </span>
                     ))}
                   </div>
                 )}
               </div>
-              {frontmatter.description && (
-                <p className="text-base text-gray-600 mb-2">
-                  {frontmatter.description}
-                </p>
-              )}
+              {frontmatter.description && <p className="text-base text-gray-600 mb-2">{frontmatter.description}</p>}
             </header>
 
             {/* 아티클 본문 */}
-            <div 
-              className="prose prose-lg max-w-none mb-12"
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <div className="prose prose-lg max-w-none mb-12" dangerouslySetInnerHTML={{ __html: html }} />
 
             {/* 이전/다음 글 네비게이션 */}
             <nav className="pt-8 border-t border-gray-100 mt-8">
@@ -61,25 +74,17 @@ const ArticleTemplate = ({ data, pageContext }) => {
                 {previous ? (
                   <Link
                     to={`/article/${previous.fields.slug}`}
-                    className="flex-1 pr-4 text-left text-xs text-gray-500 hover:text-primary-600"
-                  >
+                    className="flex-1 pr-4 text-left text-xs text-gray-500 hover:text-primary-600">
                     <div className="mb-1">이전 글</div>
-                    <div className="text-primary-600 font-medium truncate">
-                      {previous.frontmatter.title}
-                    </div>
+                    <div className="text-primary-600 font-medium truncate">{previous.frontmatter.title}</div>
                   </Link>
                 ) : (
                   <div className="flex-1"></div>
                 )}
                 {next ? (
-                  <Link
-                    to={`/article/${next.fields.slug}`}
-                    className="flex-1 pl-4 text-right text-xs text-gray-500 hover:text-primary-600"
-                  >
+                  <Link to={`/article/${next.fields.slug}`} className="flex-1 pl-4 text-right text-xs text-gray-500 hover:text-primary-600">
                     <div className="mb-1">다음 글</div>
-                    <div className="text-primary-600 font-medium truncate">
-                      {next.frontmatter.title}
-                    </div>
+                    <div className="text-primary-600 font-medium truncate">{next.frontmatter.title}</div>
                   </Link>
                 ) : (
                   <div className="flex-1"></div>
@@ -95,13 +100,16 @@ const ArticleTemplate = ({ data, pageContext }) => {
             </div>
           </aside>
         </div>
+
+        {/* space for scrollspy / 30vh */}
+        <div style={{ height: '30vh' }} />
       </div>
     </Layout>
   );
 };
 
 export const query = graphql`
-  query($id: String!) {
+  query ($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -121,4 +129,4 @@ export const query = graphql`
   }
 `;
 
-export default ArticleTemplate; 
+export default ArticleTemplate;

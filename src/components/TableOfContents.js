@@ -1,83 +1,98 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const TableOfContents = ({ headings }) => {
   const [activeId, setActiveId] = useState('');
   const [isClicking, setIsClicking] = useState(false);
   const clickTimeout = useRef(null);
-  const lastHeadingId = headings && headings.length > 0 ? headings[headings.length - 1].id : '';
+  const observer = useRef(null);
 
-  // IntersectionObserver 기반 scrollspy
+  const lastHeadingId = headings?.[headings.length - 1]?.id ?? '';
+
   useEffect(() => {
-    if (isClicking) return; // 클릭 중에는 scrollspy 비활성화
-    const nav = document.querySelector('nav');
-    const navHeight = nav ? nav.offsetHeight : 0;
-    const marginTop = Math.min(navHeight + 8, window.innerHeight / 2);
+    if (!headings || headings.length === 0) return;
 
-    const observer = new window.IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => a.target.getBoundingClientRect().top - b.target.getBoundingClientRect().top);
-        if (visible.length > 0) {
-          setActiveId(visible[0].target.id);
+    const handleIntersection = (entries) => {
+      if (isClicking) return;
+
+      const visibleHeadings = entries
+        .filter((entry) => entry.isIntersecting)
+        .map((entry) => ({
+          id: entry.target.id,
+          top: entry.boundingClientRect.top,
+          ratio: entry.intersectionRatio,
+        }));
+
+      if (visibleHeadings.length === 0) return;
+
+      // 가장 많이 보이는 heading 선택
+      const mostVisible = visibleHeadings.sort((a, b) => {
+        if (b.ratio === a.ratio) {
+          return a.top - b.top; // 같으면 화면 상단에 가까운 것
         }
-      },
-      {
-        rootMargin: `-${marginTop}px 0px 0px 0px`,
-        threshold: 0.1,
+        return b.ratio - a.ratio;
+      })[0];
+
+      if (mostVisible && mostVisible.id !== activeId) {
+        setActiveId(mostVisible.id);
       }
-    );
+    };
 
-    const headingElements = headings.map(({ id }) => 
-      document.getElementById(id)
-    ).filter(Boolean);
+    const options = {
+      root: null,
+      rootMargin: '0px 0px -60% 0px', // 화면 상단에서 40% 지점 기준
+      threshold: [0.1, 0.25, 0.5, 0.75, 1.0],
+    };
 
-    headingElements.forEach((element) => observer.observe(element));
+    observer.current = new IntersectionObserver(handleIntersection, options);
 
-    // Fallback: headings이 1개뿐이거나, 마운트 시점에만 1회 실행
-    if (headingElements.length > 0 && !activeId) {
-      setActiveId(headingElements[0].id);
-    }
+    const elements = headings
+      .map(({ id }) => document.getElementById(id))
+      .filter(Boolean);
+
+    elements.forEach((el) => observer.current.observe(el));
 
     return () => {
-      headingElements.forEach((element) => observer.unobserve(element));
-      observer.disconnect();
+      if (observer.current) {
+        observer.current.disconnect();
+        observer.current = null;
+      }
     };
-    // activeId를 의존성에 추가하지 않음 (무한루프 방지)
-  }, [headings, isClicking]);
+  }, [headings, isClicking, activeId]);
 
-  // 스크롤이 끝에 가까워지면 마지막 heading 강제 active
+  // 스크롤이 맨 아래 근처에 가면 마지막 heading을 강제로 활성화
   useEffect(() => {
     const handleScroll = () => {
       const scrollBottom = window.innerHeight + window.scrollY;
-      const docHeight = document.body.offsetHeight;
-      const margin = 10;
-      if (docHeight - scrollBottom <= margin && lastHeadingId) {
+      const docHeight = document.documentElement.offsetHeight;
+      const margin = 30;
+
+      if (docHeight - scrollBottom <= margin && lastHeadingId !== activeId) {
         setActiveId(lastHeadingId);
       }
     };
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastHeadingId]);
+  }, [lastHeadingId, activeId]);
 
-  // 목차 아이템 클릭 핸들러
   const scrollToHeading = (id) => {
     setIsClicking(true);
     setActiveId(id);
-    const element = document.getElementById(id);
-    if (element) {
-      const nav = document.querySelector('nav');
-      const navHeight = nav ? nav.offsetHeight : 0;
-      const y = element.getBoundingClientRect().top + window.pageYOffset - navHeight - 8;
-      window.scrollTo({ top: y, behavior: 'auto' }); // 스무스 스크롤 X
+    const el = document.getElementById(id);
+    const navHeight = document.querySelector('nav')?.offsetHeight || 0;
+
+    if (el) {
+      const offsetTop = el.getBoundingClientRect().top + window.scrollY - navHeight - 8;
+      window.scrollTo({ top: offsetTop, behavior: 'smooth' });
     }
+
     if (clickTimeout.current) clearTimeout(clickTimeout.current);
-    clickTimeout.current = setTimeout(() => setIsClicking(false), 300); // 300ms 후 scrollspy 재개
+    clickTimeout.current = setTimeout(() => {
+      setIsClicking(false);
+    }, 500); // 클릭 후 500ms 동안은 scrollspy 비활성화
   };
 
-  if (!headings || headings.length === 0) {
-    return null;
-  }
+  if (!headings || headings.length === 0) return null;
 
   return (
     <nav className="border border-gray-200 rounded-lg p-4 bg-white">
@@ -94,9 +109,7 @@ const TableOfContents = ({ headings }) => {
                   ? 'font-bold text-primary-700 border-l-4 border-primary-600 bg-primary-50 shadow-sm'
                   : 'text-gray-700 hover:text-primary-600 border-l-4 border-transparent'}
               `}
-              style={{
-                paddingLeft: `${(heading.depth - 2) * 8}px`,
-              }}
+              style={{ paddingLeft: `${(heading.depth - 2) * 8}px` }}
             >
               {heading.value}
             </button>
@@ -107,4 +120,4 @@ const TableOfContents = ({ headings }) => {
   );
 };
 
-export default TableOfContents; 
+export default TableOfContents;
