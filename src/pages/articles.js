@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import Layout from './components/Layout';
-import ArticleCard from './components/ArticleCard';
-import Pagination from './components/Pagination';
+import Layout from 'components/Layout';
+import ArticleCard from 'components/ArticleCard';
+import Pagination from 'components/Pagination';
 
 const ArticlesPage = ({ data }) => {
   const [currentPage, setCurrentPage] = useState(1);

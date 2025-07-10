@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import Layout from './components/Layout';
-import TableOfContents from './components/TableOfContents';
+import Layout from 'components/Layout';
+import TableOfContents from 'components/TableOfContents';
 
 const ArticleTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data;

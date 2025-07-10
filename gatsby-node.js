@@ -41,7 +41,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: `/article/${node.fields.slug}`,
-      component: path.resolve('./src/pages/article.js'),
+      component: path.resolve('./src/templates/article.js'),
       context: {
         id: node.id,
         slug: node.fields.slug,
@@ -69,4 +69,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: slug,
     });
   }
+};
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  const path = require('path');
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        components: path.resolve(__dirname, 'src/components'),
+      },
+    },
+  });
 }; 

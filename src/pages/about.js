@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './components/Layout';
+import Layout from 'components/Layout';
 
 const AboutPage = () => {
   return (
@@ -52,6 +52,15 @@ const AboutPage = () => {
               className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline"
             >
               Linkedin
+            </a>
+          </div>
+          {/* 경력기술서 바로가기 */}
+          <div className="mt-4">
+            <a
+              href="/professional-experience"
+              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors"
+            >
+              경력기술서 바로가기
             </a>
           </div>
         </section>
@@ -111,14 +120,15 @@ const AboutPage = () => {
 
         {/* 경력 섹션 */}
         <section className="mb-12 border-b border-gray-100 pb-8">
-          <h2 className="text-lg font-bold mb-6">경력 및 학력</h2>
+          <h2 className="text-lg font-bold mb-6">경력</h2>
           <div className="mb-6">
             <h3 className="text-base font-semibold mb-3">경력</h3>
             <div className="space-y-5">
+              {/* 아모레퍼시픽 */}
               <div>
                 <div className="text-xs text-gray-400 mb-1">2024.01 - NOW</div>
-                <div className="text-xs font-medium text-gray-700 mb-1">Frontend Engineer(Lead)</div>
-                <div className="text-base font-semibold mb-1">아모레퍼시픽(AMORE PACIFIC)</div>
+                <div className="text-xs font-medium text-gray-700 mb-1">Senior Frontend Engineer(Lead)</div>
+                <div className="text-base font-semibold mb-1">아모레퍼시픽 / AMORE PACIFIC</div>
                 <ul className="space-y-1 text-xs text-gray-700">
                   <li>• 아모레몰(전자상거래) 프론트엔드 개발 리드</li>
                   <li>• 커머스커뮤니티, 스킨노트 등 신사업 프론트엔드 개발 리드</li>
@@ -128,47 +138,99 @@ const AboutPage = () => {
                   <li>• 프로젝트 일정 관리</li>
                 </ul>
               </div>
+              {/* 딜리헙 */}
               <div>
                 <div className="text-xs text-gray-400 mb-1">2021.01 - 2023.06</div>
                 <div className="text-xs font-medium text-gray-700 mb-1">Fullstack Engineer</div>
-                <div className="text-base font-semibold mb-1">딜리딜리(Dillyhub)</div>
+                <div className="text-base font-semibold mb-1">딜리헙(Dillyhub)</div>
                 <ul className="space-y-1 text-xs text-gray-700">
-                  <li>• 딜리딜리(오픈 웹툰/소설 플랫폼) US,KR 스토어/스튜디오 프론트엔드/백엔드 개발 및 운영</li>
+                  <li>• 오픈 웹툰/소설 플랫폼(US,KR) 스토어/스튜디오 프론트엔드/백엔드 개발 및 운영</li>
                   <li>• 딜리뷰 프론트엔드/백엔드 개발 및 운영</li>
-                  <li>• 딜리딜리 디자인 시스템 구축</li>
+                  <li>• 디자인 시스템 구축</li>
                   <li>• k8s 기반 devops 환경 구축 및 운영</li>
                 </ul>
               </div>
+              {/* LGU+ */}
               <div>
                 <div className="text-xs text-gray-400 mb-1">2020.09 - 2020.12</div>
                 <div className="text-xs font-medium text-gray-700 mb-1">Frontend Engineer(Lead)</div>
-                <div className="text-base font-semibold mb-1">엘지유플러스(LGU+)</div>
+                <div className="text-base font-semibold mb-1">LGU+</div>
                 <ul className="space-y-1 text-xs text-gray-700">
-                  <li>• Homin(홈 서비스 플랫폼) 프론트엔드 개발 리드</li>
-                  <li>• Homin 프론트엔드 개발 환경 구축 및 운영</li>
-                  <li>• 협력사 및 계약직 인력관리 및 교육</li>
+                  <li>• Home-in(홈 서비스 플랫폼) 프론트엔드 개발 리드</li>
+                  <li>• 퍼블리셔 대상 VueJS 컴포넌트 구현 교육</li>
+                  <li>• iOS, Android 웹뷰 기반 개발환경 구축</li>
                   <li>• 프로젝트 일정 관리</li>
                 </ul>
               </div>
+              {/* 카닥 */}
               <div>
                 <div className="text-xs text-gray-400 mb-1">2019.01 - 2020.08</div>
                 <div className="text-xs font-medium text-gray-700 mb-1">Frontend Engineer</div>
-                <div className="text-base font-semibold mb-1">카독(Cardoc)</div>
+                <div className="text-base font-semibold mb-1">주식회사 카닥</div>
                 <ul className="space-y-1 text-xs text-gray-700">
-                  <li>• 카독 프론트엔드 개발환경 구축 및 운영</li>
-                  <li>• 수리, 테크샵(엔진오일), 세차, 카독몰 개발 및 운영</li>
+                  <li>• 카닥 프론트엔드 개발환경 구축 및 운영</li>
+                  <li>• 수리, 테크샵(엔진오일), 세차, 카닥몰, 커뮤니티 등 개발 및 운영</li>
+                  <li>• 프론트엔드 모노레포/CI/CD/배포 자동화</li>
                 </ul>
               </div>
+              {/* 오픈소스컨설팅 */}
               <div>
                 <div className="text-xs text-gray-400 mb-1">2017.07 - 2018.12</div>
                 <div className="text-xs font-medium text-gray-700 mb-1">Frontend Engineer</div>
                 <div className="text-base font-semibold mb-1">오픈소스컨설팅(Open Source Consulting)</div>
                 <ul className="space-y-1 text-xs text-gray-700">
-                  <li>• 다양한 클라이언트의 웹 프로젝트 개발</li>
-                  <li>• React, Vue.js 기반 프론트엔드 개발</li>
-                  <li>• Node.js 기반 백엔드 개발</li>
+                  <li>• Play-ce RoRo Admin/웹 콘솔/제품 소개 페이지 등 프론트엔드 개발</li>
+                  <li>• React, Angular, Gatsby 등 다양한 프레임워크 활용</li>
+                  <li>• AWS 등 클라우드 환경 기반 개발</li>
                 </ul>
               </div>
+              {/* 박차컴퍼니 */}
+              <div>
+                <div className="text-xs text-gray-400 mb-1">2016.06 - 2017.05</div>
+                <div className="text-xs font-medium text-gray-700 mb-1">Frontend Engineer</div>
+                <div className="text-base font-semibold mb-1">박차컴퍼니</div>
+                <ul className="space-y-1 text-xs text-gray-700">
+                  <li>• 차팡/박차 모바일 앱, 박차 비즈 웹사이트 등 프론트엔드 개발</li>
+                  <li>• Framework7, AngularJS 등 하이브리드/SPA 개발</li>
+                </ul>
+              </div>
+              {/* 외주/개인 프로젝트 */}
+              <div>
+                <div className="text-xs text-gray-400 mb-1">2017.11 - 2018.08 외주/개인</div>
+                <div className="text-xs font-medium text-gray-700 mb-1">Project Manager</div>
+                <div className="text-base font-semibold mb-1">외주/개인 프로젝트</div>
+                <ul className="space-y-1 text-xs text-gray-700">
+                  <li>• 베트남 쇼핑몰, 백오피스, 트윈클링 등 외주/개인 프로젝트 기획 및 개발</li>
+                  <li>• 요구사항 분석, 인프라 설계, 프론트/백엔드 개발, PM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 학력 섹션 */}
+        <section className="mb-12 border-b border-gray-100 pb-8">
+          <h2 className="text-lg font-bold mb-6">학력</h2>
+          <div className="space-y-5">
+            <div>
+              <div className="text-xs text-gray-400 mb-1">2009.03 - 2013.08</div>
+              <div className="text-base font-semibold mb-1">강남대학교 컴퓨터미디어공학부</div>
+              <div className="text-xs text-gray-700">졸업(학사)</div>
+            </div>
+            <div>
+              <div className="text-xs text-gray-400 mb-1">2007.03 - 2009.02</div>
+              <div className="text-base font-semibold mb-1">세한대학교 컴퓨터교육과</div>
+              <div className="text-xs text-gray-700">수료</div>
+            </div>
+            <div>
+              <div className="text-xs text-gray-400 mb-1">2006.03 - 2006.09</div>
+              <div className="text-base font-semibold mb-1">연세디지털게임교육원</div>
+              <div className="text-xs text-gray-700">게임기획 수료</div>
+            </div>
+            <div>
+              <div className="text-xs text-gray-400 mb-1">2003.03 - 2006.02</div>
+              <div className="text-base font-semibold mb-1">태원고등학교</div>
+              <div className="text-xs text-gray-700">졸업</div>
             </div>
           </div>
         </section>
