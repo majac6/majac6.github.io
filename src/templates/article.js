@@ -11,9 +11,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
   return (
     <Layout title={`${frontmatter.title} - Senior Frontend Engineer : HungSun LIM`}>
       <div className="max-w-5xl mx-auto px-2 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
           {/* 메인 컨텐츠 */}
-          <article className="lg:col-span-3">
+          <article className="lg:col-span-4">
             {/* 아티클 헤더 */}
             <header className="mb-8 border-b border-gray-100 pb-4">
               <nav className="mb-3">
@@ -89,8 +89,10 @@ const ArticleTemplate = ({ data, pageContext }) => {
           </article>
 
           {/* 사이드바 - 목차 */}
-          <aside className="lg:col-span-1 hidden lg:block">
-            <TableOfContents headings={headings} />
+          <aside className="lg:col-span-2 hidden lg:block">
+            <div className="sticky top-8">
+              <TableOfContents headings={headings} />
+            </div>
           </aside>
         </div>
       </div>

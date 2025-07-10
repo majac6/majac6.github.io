@@ -12,7 +12,14 @@ module.exports = {
         icon: 'src/images/icon.png',
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-autolink-headers',
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
