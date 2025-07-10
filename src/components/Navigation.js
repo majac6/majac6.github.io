@@ -19,7 +19,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="border-b border-gray-200 bg-white sticky top-0 z-30">
+    <nav className="print:hidden border-b border-gray-200 bg-white sticky top-0 z-30">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* 로고 */}

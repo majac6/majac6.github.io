@@ -166,7 +166,7 @@ const AboutPage = () => {
           <div className="mt-4">
             <a
               href="/professional-experience"
-              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors">
+              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors print:hidden">
               경력기술서 바로가기
             </a>
           </div>

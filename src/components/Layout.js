@@ -14,7 +14,7 @@ const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) 
       <main className="flex-1 max-w-4xl w-full mx-auto px-4 py-12">
         {children}
       </main>
-      <footer className="border-t border-gray-200 py-8 mt-16 bg-white">
+      <footer className="print:hidden border-t border-gray-200 py-8 mt-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center">
             <div className="text-base font-semibold opacity-70 mb-2">
