@@ -8,9 +8,9 @@ const AboutPage = () => {
         {/* 프로필 섹션 */}
         <section className="mb-12 text-center">
           <div className="mb-5">
-            <img 
-              src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg" 
-              alt="HungSun LIM" 
+            <img
+              src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
+              alt="HungSun LIM"
               className="w-28 h-28 rounded-full mx-auto border border-gray-200 mb-4"
             />
           </div>
@@ -21,36 +21,30 @@ const AboutPage = () => {
           <div className="mb-3">
             <div className="text-base font-semibold mb-1">Senior Frontend Engineer</div>
             <div className="text-xs text-gray-400 mb-1">KangNam Univ. Computer Media Engineering</div>
-            <a 
-              href="mailto:majac6@gmail.com" 
-              className="text-primary-600 hover:underline text-sm"
-            >
+            <a href="mailto:majac6@gmail.com" className="text-primary-600 hover:underline text-sm">
               majac6@gmail.com
             </a>
           </div>
           <div className="space-x-3 mt-2">
-            <a 
-              href="https://github.com/majac6" 
-              target="_blank" 
+            <a
+              href="https://github.com/majac6"
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline"
-            >
+              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
               GitHub
             </a>
-            <a 
-              href="https://www.facebook.com/majac6" 
-              target="_blank" 
+            <a
+              href="https://www.facebook.com/majac6"
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline"
-            >
+              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
               Facebook
             </a>
-            <a 
-              href="https://www.linkedin.com/in/hungsun-lim-a37824106/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline"
-            >
+              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
               Linkedin
             </a>
           </div>
@@ -58,8 +52,7 @@ const AboutPage = () => {
           <div className="mt-4">
             <a
               href="/professional-experience"
-              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors"
-            >
+              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors">
               경력기술서 바로가기
             </a>
           </div>
@@ -67,11 +60,11 @@ const AboutPage = () => {
 
         {/* 스킬 섹션 */}
         <section className="mb-12 border-b border-gray-100 pb-8">
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <p className="text-base text-gray-700 leading-relaxed">
               스타트업부터 대기업까지 다양한 회사에서 개발을 통해 문제를 해결하고 비즈니스 목표를 달성해 왔습니다. 회사 또는 팀 규모에 따라 선택할 수 있는 가장 최적의 개발 방법을 도출하고 실행하며 목표한 바 내에 비즈니스 목표를 달성하고 이를 기반으로 팀과 개인의 성장도 함께 이룰 수 있는 순환 구조를 만들고 유지하며 발전해 나가는 것을 좋아합니다.
             </p>
-          </div>
+          </div> */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div>
               <h3 className="text-base font-semibold mb-2">Frontend (Senior)</h3>
@@ -122,7 +115,6 @@ const AboutPage = () => {
         <section className="mb-12 border-b border-gray-100 pb-8">
           <h2 className="text-lg font-bold mb-6">경력</h2>
           <div className="mb-6">
-            <h3 className="text-base font-semibold mb-3">경력</h3>
             <div className="space-y-5">
               {/* 아모레퍼시픽 */}
               <div>
@@ -194,14 +186,16 @@ const AboutPage = () => {
                   <li>• Framework7, AngularJS 등 하이브리드/SPA 개발</li>
                 </ul>
               </div>
-              {/* 외주/개인 프로젝트 */}
+              {/* 이큐브랩 */}
               <div>
-                <div className="text-xs text-gray-400 mb-1">2017.11 - 2018.08 외주/개인</div>
-                <div className="text-xs font-medium text-gray-700 mb-1">Project Manager</div>
-                <div className="text-base font-semibold mb-1">외주/개인 프로젝트</div>
+                <div className="text-xs text-gray-400 mb-1">2012.11 - 2016.03</div>
+                <div className="text-xs font-medium text-gray-700 mb-1">Fullstack Engineer</div>
+                <div className="text-base font-semibold mb-1">이큐브랩(Ecube Labs)</div>
                 <ul className="space-y-1 text-xs text-gray-700">
-                  <li>• 베트남 쇼핑몰, 백오피스, 트윈클링 등 외주/개인 프로젝트 기획 및 개발</li>
-                  <li>• 요구사항 분석, 인프라 설계, 프론트/백엔드 개발, PM</li>
+                  <li>• IoT 기반 스마트 쓰레기통 관리 시스템(CCN) 및 병원 마케팅 플랫폼(시크릿차트) 등 다양한 웹서비스 프론트/백엔드 개발</li>
+                  <li>• AngularJS, Jquery, SCSS, NodeJS, Codeigniter 등 다양한 기술 스택 활용</li>
+                  <li>• 지도 기반 데이터 시각화, 관리자 대시보드, 하이브리드 앱(PhoneGap) 등 주요 기능 구현</li>
+                  <li>• 프론트엔드/백엔드 환경 설계 및 구축, API/컨트롤러/서비스/디렉티브 등 구조 설계 및 개발</li>
                 </ul>
               </div>
             </div>
@@ -239,4 +233,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage; 
+export default AboutPage;

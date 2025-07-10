@@ -601,6 +601,55 @@ const PROFESSIONAL_EXPERIENCES = [
       },
     ],
   },
+  {
+    company: '이큐브랩(Ecube Labs)',
+    position: 'Fullstack Engineer',
+    period: '2012.11 - 2016.03',
+    projects: [
+      {
+        name: 'CCN 웹사이트 2.0 개발',
+        duration: '2015.08 - 2016.03',
+        description: '기존 1.0 버전에서 새로운 제품군 추가 및 다양한 요구사항 수용을 위해 2.0 리워크. 구글맵 지도 기반에서 각 사용자별 제품 관리, 마커 그룹화 및 실시간 필터링 제공.',
+        stack: ['AngularJS', 'SCSS', 'NodeJS', 'MariaDB', 'AWS'],
+        roles: [
+          '프론트엔드 기능 구현',
+          'AngularJS 기반 컨트롤러/디렉티브/서비스/팩토리 개발',
+          'SCSS 기반 스타일 클래스 작성',
+          'NodeJS 기반 API 개발',
+        ],
+        achievements: [],
+      },
+      {
+        name: '시크릿차트 웹사이트 개발',
+        duration: '2014.08 - 2015.08',
+        description: '병원 마케팅 플랫폼, 후기 게시/공유, 병원정보/검색/추천, 관리자 페이지 등 다양한 기능 개발.',
+        stack: ['Jquery', 'SCSS', 'Codeigniter', 'MariaDB'],
+        roles: [
+          '백엔드/프론트엔드 개발환경 구성 및 기능 구현',
+          'CI 기반 MVC 구조 개발',
+          '네이티브 앱 용 API 개발 및 테스트페이지 작성',
+          'Jquery 기반 구조 개발',
+          'SCSS 기반 스타일 클래스 작성',
+        ],
+        achievements: [],
+      },
+      {
+        name: 'CCN 웹사이트 1.0 개발',
+        duration: '2012.11 - 2014.08',
+        description: '태양광 압축 쓰레기통 관리용 웹 콘솔, 지도 기반 데이터 시각화, 하이브리드 앱(PhoneGap) 개발 및 업데이트.',
+        stack: ['Jquery', 'SCSS', 'PhoneGap', 'JqueryMobile', 'Codeigniter', 'MariaDB'],
+        roles: [
+          '백엔드/프론트엔드 개발환경 구성 및 기능 구현',
+          'Jquery/PhoneGap 기반 구조 개발',
+          'JqueryMobile 기반 구조 개발',
+          'SCSS 기반 스타일 클래스 작성',
+          'CI 기반 MVC 구조 개발',
+          'PHP 기반 HTTP 포트 활용 서버-제품간 프로토콜 개발',
+        ],
+        achievements: [],
+      },
+    ],
+  },
 ];
 
 const ProfessionalExperience = () => {
