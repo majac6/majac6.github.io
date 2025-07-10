@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from 'components/Layout';
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  const articles = data?.allMarkdownRemark?.edges || [];
+
   return (
     <Layout title="Home - Senior Frontend Engineer : HungSun LIM">
       <div className="max-w-3xl mx-auto px-2 py-8">
@@ -41,31 +43,51 @@ const IndexPage = () => {
         <section className="mb-16">
           <h2 className="text-xl font-bold mb-6 border-b border-gray-100 pb-2">최근 글</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-5">
-              <h3 className="text-base font-semibold mb-1">Hello World - 첫 번째 블로그 글</h3>
-              <p className="text-gray-600 text-sm mb-3">Gatsby와 React로 만든 블로그의 첫 번째 글입니다.</p>
-              <div className="flex justify-between items-center">
-                <span className="text-xs text-gray-400">2024-01-15</span>
-                <Link to="/article/hello-world-첫-번째-블로그-글" className="text-primary-600 hover:underline text-xs font-medium">
-                  읽기 →
-                </Link>
+            {articles.length > 0 ? (
+              articles.map(({ node }) => (
+                <div key={node.id} className="bg-white border border-gray-200 rounded-lg p-5">
+                  <h3 className="text-base font-semibold mb-1">{node.frontmatter.title}</h3>
+                  <p className="text-gray-600 text-sm mb-3">{node.frontmatter.description || node.excerpt}</p>
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-gray-400">{node.frontmatter.date}</span>
+                    <Link to={`/article/${node.fields.slug}`} className="text-primary-600 hover:underline text-xs font-medium">
+                      읽기 →
+                    </Link>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div className="text-center py-12">
+                <p className="text-gray-400 text-base">아직 작성된 글이 없습니다.</p>
               </div>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-5">
-              <h3 className="text-base font-semibold mb-1">React 18의 새로운 기능들</h3>
-              <p className="text-gray-600 text-sm mb-3">React 18에서 추가된 Concurrent Features와 새로운 Hooks에 대해 알아봅니다.</p>
-              <div className="flex justify-between items-center">
-                <span className="text-xs text-gray-400">2024-01-20</span>
-                <Link to="/article/react-18의-새로운-기능들" className="text-primary-600 hover:underline text-xs font-medium">
-                  읽기 →
-                </Link>
-              </div>
-            </div>
+            )}
           </div>
         </section>
       </div>
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 2) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "YYYY-MM-DD")
+            description
+            tags
+          }
+          fields {
+            slug
+          }
+          excerpt(pruneLength: 160)
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;

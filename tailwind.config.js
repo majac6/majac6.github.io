@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  content: ['./src/pages/**/*.{js,ts,jsx,tsx,mdx}', './src/components/**/*.{js,ts,jsx,tsx,mdx}', './src/app/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx,md}'],
+  safelist: [
+    'prose',
+    'prose-lg',
+    'prose-invert', // dark mode 고려 시
+  ],
   plugins: [require('@tailwindcss/typography')],
 };
