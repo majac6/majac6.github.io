@@ -97,18 +97,20 @@ const AboutPage = () => {
               <li>• Cloud : AWS, GCP, Azure</li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-base font-semibold mb-2">Licenses</h3>
-            <ul className="space-y-1 text-xs text-gray-700">
-              <li>• 2004.12.10 - MCommerce관리사 2급(MCS-09-000231)</li>
-              <li>• 2004.10.11 - 정보기기운용기능사(04404100554Y)</li>
-              <li>• 2004.04.30 - 인터넷정보검색사 2급(IIS-21-002405)</li>
-              <li>• 2004.04.19 - 정보처리기능사(0M01101408Y)</li>
-              <li>• 2003.12.22 - 컴퓨터그래픽스운용기능사(03405 1027520)</li>
-              <li>• 2003.10.30 - 컴퓨터활용능력 2급</li>
-              <li>• 2003.07.03 - 워드프로세서 1급</li>
-            </ul>
-          </div>
+        </section>
+
+        {/* 자격증 섹션 */}
+        <section className="mb-12 border-b border-gray-100 pb-8">
+          <h2 className="text-lg font-bold mb-6">Licenses</h2>
+          <ul className="space-y-1 text-xs text-gray-700">
+            <li>• 2004.12.10 - MCommerce관리사 2급(MCS-09-000231)</li>
+            <li>• 2004.10.11 - 정보기기운용기능사(04404100554Y)</li>
+            <li>• 2004.04.30 - 인터넷정보검색사 2급(IIS-21-002405)</li>
+            <li>• 2004.04.19 - 정보처리기능사(0M01101408Y)</li>
+            <li>• 2003.12.22 - 컴퓨터그래픽스운용기능사(03405 1027520)</li>
+            <li>• 2003.10.30 - 컴퓨터활용능력 2급</li>
+            <li>• 2003.07.03 - 워드프로세서 1급</li>
+          </ul>
         </section>
 
         {/* 경력 섹션 */}
