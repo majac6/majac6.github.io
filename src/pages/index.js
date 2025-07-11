@@ -45,16 +45,19 @@ const IndexPage = ({ data }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {articles.length > 0 ? (
               articles.map(({ node }) => (
-                <div key={node.id} className="bg-white border border-gray-200 rounded-lg p-5">
-                  <h3 className="text-base font-semibold mb-1">{node.frontmatter.title}</h3>
+                <Link
+                  key={node.id}
+                  to={`/article/${node.fields.slug}`}
+                  className="group bg-white border border-gray-200 rounded-lg p-5 block transition-all duration-200 hover:shadow-lg hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-400"
+                  aria-label={`'${node.frontmatter.title}' 글 상세보기`}
+                >
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary-700 transition-colors">{node.frontmatter.title}</h3>
                   <p className="text-gray-600 text-sm mb-3">{node.frontmatter.description || node.excerpt}</p>
                   <div className="flex justify-between items-center">
                     <span className="text-xs text-gray-400">{node.frontmatter.date}</span>
-                    <Link to={`/article/${node.fields.slug}`} className="text-primary-600 hover:underline text-xs font-medium">
-                      읽기 →
-                    </Link>
+                    {/* 읽기 버튼 제거 */}
                   </div>
-                </div>
+                </Link>
               ))
             ) : (
               <div className="text-center py-12">

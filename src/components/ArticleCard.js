@@ -2,49 +2,19 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const ArticleCard = ({ article }) => {
-  const { frontmatter, fields, excerpt } = article;
-  
   return (
-    <article className="bg-white border border-gray-200 rounded-lg p-6 transition-shadow">
-      <div className="mb-3">
-        <Link 
-          to={`/article/${fields.slug}`}
-          className="text-lg font-bold text-gray-900 hover:text-primary-600 transition-colors"
-        >
-          {frontmatter.title}
-        </Link>
+    <Link
+      to={`/article/${article.fields.slug}`}
+      className="group bg-white border border-gray-200 rounded-lg p-5 block transition-all duration-200 hover:shadow-lg hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-400"
+      aria-label={`'${article.frontmatter.title}' 글 상세보기`}
+    >
+      <h3 className="text-base font-semibold mb-1 group-hover:text-primary-700 transition-colors">{article.frontmatter.title}</h3>
+      <p className="text-gray-600 text-sm mb-3">{article.frontmatter.description || article.excerpt}</p>
+      <div className="flex justify-between items-center">
+        <span className="text-xs text-gray-400">{article.frontmatter.date}</span>
+        {/* 읽기 버튼 제거 */}
       </div>
-      
-      <p className="text-gray-600 text-base mb-4 line-clamp-3">
-        {frontmatter.description || excerpt}
-      </p>
-      
-      <div className="flex items-center justify-between mt-2">
-        <div className="flex items-center space-x-3">
-          <time className="text-xs text-gray-400">
-            {frontmatter.date}
-          </time>
-          {frontmatter.tags && frontmatter.tags.length > 0 && (
-            <div className="flex space-x-1">
-              {frontmatter.tags.slice(0, 3).map((tag) => (
-                <span 
-                  key={tag}
-                  className="px-2 py-0.5 border border-gray-200 bg-gray-50 text-gray-500 text-xs rounded-full font-normal"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
-        </div>
-        <Link 
-          to={`/article/${fields.slug}`}
-          className="text-primary-600 hover:text-primary-700 text-xs font-medium underline underline-offset-2"
-        >
-          읽기 →
-        </Link>
-      </div>
-    </article>
+    </Link>
   );
 };
 
