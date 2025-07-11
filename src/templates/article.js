@@ -66,7 +66,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
             </header>
 
             {/* 아티클 본문 */}
-            <div className="prose prose-lg max-w-none mb-12" dangerouslySetInnerHTML={{ __html: html }} />
+            <div className="prose prose-sm max-w-none mb-12" dangerouslySetInnerHTML={{ __html: html }} />
 
             {/* 이전/다음 글 네비게이션 */}
             <nav className="pt-8 border-t border-gray-100 mt-8">
