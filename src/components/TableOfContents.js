@@ -104,10 +104,10 @@ const TableOfContents = ({ headings }) => {
           <li key={heading.id}>
             <button
               onClick={() => scrollToHeading(heading.id)}
-              className={`w-full text-left px-2 py-1 text-2xs rounded transition-colors
+              className={`w-full cursor-pointer text-left px-2 py-1 text-2xs transition-colors
                 ${activeId === heading.id
-                  ? 'font-bold text-primary-700 border-l-4 border-primary-600 bg-primary-50 shadow-sm'
-                  : 'text-gray-700 hover:text-primary-600 border-l-4 border-transparent'}
+                  ? 'font-bold text-primary-700 border-primary-600 bg-primary-50'
+                  : 'text-gray-700 hover:text-primary-600'}
               `}
               style={{ paddingLeft: `${(heading.depth - 2) * 8}px` }}
             >
