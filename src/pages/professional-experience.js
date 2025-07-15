@@ -552,57 +552,59 @@ const PROFESSIONAL_EXPERIENCES = [
 const ProfessionalExperience = () => {
   return (
     <Layout title="경력기술서 - Professional Experience : HungSun LIM">
-      <div className="max-w-3xl mx-auto px-2 py-8">
-        <h1 className="text-2xl font-bold mb-8 tracking-tight">경력기술서 (Professional Experience)</h1>
-        <div className="space-y-10">
+      <div className="max-w-3xl mx-auto px-2 py-12">
+        <h1 className="text-3xl font-bold mb-12 tracking-tight text-foreground">경력기술서 (Professional Experience)</h1>
+        <div className="space-y-12">
           {PROFESSIONAL_EXPERIENCES.map((exp, idx) => (
-            <section key={exp.company + exp.period} className="bg-card-bg border border-card-border rounded-lg p-6">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                <div className="text-lg font-semibold">{exp.company}</div>
-                <div className="text-xs text-subtle mt-1 md:mt-0">{exp.period}</div>
+            <section key={exp.company + exp.period} className="bg-card-bg border border-card-border rounded-xl shadow-sm p-8 space-y-6">
+              <div>
+                <div className="text-2xl font-bold text-foreground mb-1">{exp.company}</div>
+                <div className="text-xs text-subtle mb-2">{exp.period}</div>
+                <div className="text-base text-muted font-semibold mb-4">{exp.position}</div>
               </div>
-              <div className="text-sm text-muted mb-2 font-medium">{exp.position}</div>
-              {exp.projects.map((project, pidx) => (
-                <div key={project.name + pidx} className="mb-6">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                    <div className="text-base font-bold">{project.name}</div>
-                    <div className="text-xs text-subtle mt-1 md:mt-0">{project.duration}</div>
-                  </div>
-                  <div className="text-sm text-subtle mb-2">{project.description}</div>
-                  {project.roles && project.roles.length > 0 && (
-                    <div className="mb-1">
-                      <span className="font-semibold text-xs text-subtle">주요 역할</span>
-                      <ul className="list-disc list-inside text-xs text-muted space-y-0.5 ml-2">
-                        {project.roles.map((role, ridx) => (
-                          <li key={ridx}>{role}</li>
-                        ))}
-                      </ul>
+              <div className="space-y-8">
+                {exp.projects.map((project, pidx) => (
+                  <div key={project.name + pidx} className="pt-6 border-t border-border-strong first:pt-0 first:border-t-0">
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                      <div className="text-lg font-bold mb-1 mt-2 md:mt-0">{project.name}</div>
+                      <div className="text-xs text-subtle ml-0 md:ml-2 mt-1 md:mt-0">{project.duration}</div>
                     </div>
-                  )}
-                  {project.stack && project.stack.length > 0 && (
-                    <div className="mb-1">
-                      <span className="font-semibold text-xs text-subtle">기술스택</span>
-                      <div className="flex flex-wrap gap-2 mt-1">
-                        {project.stack.map((tech) => (
-                          <span key={tech} className="px-2 py-0.5 bg-surface border border-border rounded text-xs text-subtle">
-                            {tech}
-                          </span>
-                        ))}
+                    <div className="text-sm text-subtle mt-1 leading-relaxed">{project.description}</div>
+                    {project.roles && project.roles.length > 0 && (
+                      <div className="mt-4">
+                        <span className="font-semibold text-xs text-subtle">주요 역할</span>
+                        <ul className="list-disc list-inside text-xs text-muted space-y-1 ml-2 mt-1">
+                          {project.roles.map((role, ridx) => (
+                            <li key={ridx}>{role}</li>
+                          ))}
+                        </ul>
                       </div>
-                    </div>
-                  )}
-                  {project.achievements && project.achievements.length > 0 && (
-                    <div className="mb-1">
-                      <span className="font-semibold text-xs text-subtle">주요 성과</span>
-                      <ul className="list-disc list-inside text-xs text-muted space-y-0.5 ml-2">
-                        {project.achievements.map((ach, aidx) => (
-                          <li key={aidx}>{ach}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ))}
+                    )}
+                    {project.stack && project.stack.length > 0 && (
+                      <div className="mt-4">
+                        <span className="font-semibold text-xs text-subtle">기술스택</span>
+                        <div className="flex flex-wrap gap-2 mt-1">
+                          {project.stack.map((tech) => (
+                            <span key={tech} className="px-2 py-0.5 bg-surface border border-border rounded text-xs text-subtle">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {project.achievements && project.achievements.length > 0 && (
+                      <div className="mt-4">
+                        <span className="font-semibold text-xs text-subtle">주요 성과</span>
+                        <ul className="list-disc list-inside text-xs text-muted space-y-1 ml-2 mt-1">
+                          {project.achievements.map((ach, aidx) => (
+                            <li key={aidx}>{ach}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </section>
           ))}
         </div>
