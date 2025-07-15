@@ -43,48 +43,48 @@ const ArticleTemplate = ({ data, pageContext }) => {
           {/* 메인 컨텐츠 */}
           <article className="lg:col-span-4">
             {/* 아티클 헤더 */}
-            <header className="mb-8 border-b border-gray-100 pb-4">
+            <header className="mb-8 border-b border-border-strong pb-4">
               <nav className="mb-3">
-                <Link to="/articles" className="text-primary-600 hover:underline text-xs font-medium">
+                <Link to="/articles" className="text-primary hover:underline text-xs font-medium">
                   ← Articles
                 </Link>
               </nav>
               <h1 className="text-2xl font-bold mb-2 tracking-tight">{frontmatter.title}</h1>
-              <div className="flex items-center space-x-3 text-xs text-gray-400 mb-4">
+              <div className="flex items-center space-x-3 text-xs text-subtle mb-4">
                 <time>{frontmatter.date}</time>
                 {frontmatter.tags && frontmatter.tags.length > 0 && (
                   <div className="flex space-x-1">
                     {frontmatter.tags.map((tag) => (
-                      <span key={tag} className="px-2 py-0.5 border border-gray-200 bg-gray-50 text-gray-500 rounded-full">
+                      <span key={tag} className="px-2 py-0.5 border border-border bg-surface text-subtle rounded-full">
                         {tag}
                       </span>
                     ))}
                   </div>
                 )}
               </div>
-              {frontmatter.description && <p className="text-base text-gray-600 mb-2">{frontmatter.description}</p>}
+              {frontmatter.description && <p className="text-base text-subtle mb-2">{frontmatter.description}</p>}
             </header>
 
             {/* 아티클 본문 */}
-            <div className="prose prose-sm max-w-none mb-12" dangerouslySetInnerHTML={{ __html: html }} />
+            <div className="prose prose-sm dark:prose-invert max-w-none mb-12" dangerouslySetInnerHTML={{ __html: html }} />
 
             {/* 이전/다음 글 네비게이션 */}
-            <nav className="pt-8 border-t border-gray-100 mt-8">
+            <nav className="pt-8 border-t border-border-strong mt-8">
               <div className="flex justify-between gap-2">
                 {previous ? (
                   <Link
                     to={`/article/${previous.fields.slug}`}
-                    className="flex-1 pr-4 text-left text-xs text-gray-500 hover:text-primary-600">
+                    className="flex-1 pr-4 text-left text-xs text-subtle hover:text-primary">
                     <div className="mb-1">이전 글</div>
-                    <div className="text-primary-600 font-medium truncate">{previous.frontmatter.title}</div>
+                    <div className="text-primary font-medium truncate">{previous.frontmatter.title}</div>
                   </Link>
                 ) : (
                   <div className="flex-1"></div>
                 )}
                 {next ? (
-                  <Link to={`/article/${next.fields.slug}`} className="flex-1 pl-4 text-right text-xs text-gray-500 hover:text-primary-600">
+                  <Link to={`/article/${next.fields.slug}`} className="flex-1 pl-4 text-right text-xs text-subtle hover:text-primary">
                     <div className="mb-1">다음 글</div>
-                    <div className="text-primary-600 font-medium truncate">{next.frontmatter.title}</div>
+                    <div className="text-primary font-medium truncate">{next.frontmatter.title}</div>
                   </Link>
                 ) : (
                   <div className="flex-1"></div>

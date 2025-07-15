@@ -95,8 +95,8 @@ const TableOfContents = ({ headings }) => {
   if (!headings || headings.length === 0) return null;
 
   return (
-    <nav className="border border-gray-200 rounded-lg p-4 bg-white">
-      <h3 className="text-xs font-semibold mb-3 text-gray-500 tracking-wide uppercase">
+    <nav className="border border-card-border rounded-lg p-4 bg-card-bg">
+      <h3 className="text-xs font-semibold mb-3 text-subtle tracking-wide uppercase">
         목차
       </h3>
       <ul className="space-y-1">
@@ -106,8 +106,8 @@ const TableOfContents = ({ headings }) => {
               onClick={() => scrollToHeading(heading.id)}
               className={`w-full cursor-pointer text-left px-2 py-1 text-2xs transition-colors
                 ${activeId === heading.id
-                  ? 'font-bold text-primary-700 border-primary-600 bg-primary-50'
-                  : 'text-gray-700 hover:text-primary-600'}
+                  ? 'font-bold text-primary-hover border-primary bg-primary-bg'
+                  : 'text-muted hover:text-primary-hover'}
               `}
               style={{ paddingLeft: `${(heading.depth - 2) * 8}px` }}
             >

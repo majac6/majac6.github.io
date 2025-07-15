@@ -556,23 +556,23 @@ const ProfessionalExperience = () => {
         <h1 className="text-2xl font-bold mb-8 tracking-tight">경력기술서 (Professional Experience)</h1>
         <div className="space-y-10">
           {PROFESSIONAL_EXPERIENCES.map((exp, idx) => (
-            <section key={exp.company + exp.period} className="bg-white border border-gray-100 rounded-lg p-6">
+            <section key={exp.company + exp.period} className="bg-card-bg border border-card-border rounded-lg p-6">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                <div className="text-lg font-semibold text-primary-600">{exp.company}</div>
-                <div className="text-xs text-gray-400 mt-1 md:mt-0">{exp.period}</div>
+                <div className="text-lg font-semibold">{exp.company}</div>
+                <div className="text-xs text-subtle mt-1 md:mt-0">{exp.period}</div>
               </div>
-              <div className="text-sm text-gray-700 mb-2 font-medium">{exp.position}</div>
+              <div className="text-sm text-muted mb-2 font-medium">{exp.position}</div>
               {exp.projects.map((project, pidx) => (
                 <div key={project.name + pidx} className="mb-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
                     <div className="text-base font-bold">{project.name}</div>
-                    <div className="text-xs text-gray-400 mt-1 md:mt-0">{project.duration}</div>
+                    <div className="text-xs text-subtle mt-1 md:mt-0">{project.duration}</div>
                   </div>
-                  <div className="text-sm text-gray-600 mb-2">{project.description}</div>
+                  <div className="text-sm text-subtle mb-2">{project.description}</div>
                   {project.roles && project.roles.length > 0 && (
                     <div className="mb-1">
-                      <span className="font-semibold text-xs text-gray-500">주요 역할</span>
-                      <ul className="list-disc list-inside text-xs text-gray-700 space-y-0.5 ml-2">
+                      <span className="font-semibold text-xs text-subtle">주요 역할</span>
+                      <ul className="list-disc list-inside text-xs text-muted space-y-0.5 ml-2">
                         {project.roles.map((role, ridx) => (
                           <li key={ridx}>{role}</li>
                         ))}
@@ -581,10 +581,10 @@ const ProfessionalExperience = () => {
                   )}
                   {project.stack && project.stack.length > 0 && (
                     <div className="mb-1">
-                      <span className="font-semibold text-xs text-gray-500">기술스택</span>
+                      <span className="font-semibold text-xs text-subtle">기술스택</span>
                       <div className="flex flex-wrap gap-2 mt-1">
                         {project.stack.map((tech) => (
-                          <span key={tech} className="px-2 py-0.5 bg-gray-50 border border-gray-200 rounded text-xs text-gray-600">
+                          <span key={tech} className="px-2 py-0.5 bg-surface border border-border rounded text-xs text-subtle">
                             {tech}
                           </span>
                         ))}
@@ -592,11 +592,11 @@ const ProfessionalExperience = () => {
                     </div>
                   )}
                   {project.achievements && project.achievements.length > 0 && (
-                    <div>
-                      <span className="font-semibold text-xs text-gray-500">주요 성과</span>
-                      <ul className="list-disc list-inside text-xs text-gray-700 space-y-0.5 ml-2">
-                        {project.achievements.map((ach, aid) => (
-                          <li key={aid}>{ach}</li>
+                    <div className="mb-1">
+                      <span className="font-semibold text-xs text-subtle">주요 성과</span>
+                      <ul className="list-disc list-inside text-xs text-muted space-y-0.5 ml-2">
+                        {project.achievements.map((ach, aidx) => (
+                          <li key={aidx}>{ach}</li>
                         ))}
                       </ul>
                     </div>

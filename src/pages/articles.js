@@ -21,7 +21,7 @@ const ArticlesPage = ({ data }) => {
         {/* 페이지 헤더 */}
         <div className="mb-10">
           <h1 className="text-2xl font-bold mb-2 tracking-tight">Articles</h1>
-          <p className="text-base text-gray-600">
+          <p className="text-base text-subtle">
             프론트엔드 개발, React, 그리고 웹 기술에 대한 글들을 공유합니다.
           </p>
         </div>
@@ -34,7 +34,7 @@ const ArticlesPage = ({ data }) => {
             ))
           ) : (
             <div className="text-center py-12">
-              <p className="text-gray-400 text-base">아직 작성된 글이 없습니다.</p>
+              <p className="text-subtle text-base">아직 작성된 글이 없습니다.</p>
             </div>
           )}
         </div>

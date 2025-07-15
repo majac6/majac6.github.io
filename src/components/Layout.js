@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-white font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen bg-background font-sans text-foreground">
       <Helmet title={title}>
         <html lang="ko" />
         <meta name="description" content="Senior Frontend Engineer HungSun LIM의 포트폴리오" />
@@ -14,7 +14,7 @@ const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) 
       <main className="flex-1 max-w-4xl w-full mx-auto px-4 py-12">
         {children}
       </main>
-      <footer className="print:hidden border-t border-gray-200 py-8 mt-16 bg-white">
+      <footer className="print:hidden border-t border-border py-8 mt-16 bg-background">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center">
             <div className="text-base font-semibold opacity-70 mb-2">
@@ -25,7 +25,7 @@ const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) 
                 href="https://github.com/majac6" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-primary-600 transition-colors text-sm underline-offset-2 hover:underline"
+                className="text-subtle hover:text-primary transition-colors text-sm underline-offset-2 hover:underline"
                 aria-label="GitHub 프로필"
               >
                 GitHub
@@ -34,7 +34,7 @@ const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) 
                 href="https://www.facebook.com/majac6" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-primary-600 transition-colors text-sm underline-offset-2 hover:underline"
+                className="text-subtle hover:text-primary transition-colors text-sm underline-offset-2 hover:underline"
                 aria-label="Facebook 프로필"
               >
                 Facebook
@@ -43,7 +43,7 @@ const Layout = ({ children, title = "Senior Frontend Engineer : HungSun LIM" }) 
                 href="https://www.linkedin.com/in/hungsun-lim-a37824106/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-primary-600 transition-colors text-sm underline-offset-2 hover:underline"
+                className="text-subtle hover:text-primary transition-colors text-sm underline-offset-2 hover:underline"
                 aria-label="LinkedIn 프로필"
               >
                 LinkedIn

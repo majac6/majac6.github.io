@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from 'components/Layout';
+import { Link } from 'gatsby';
 
 // 1. 경력 데이터 구조화
 const CAREERS = [
@@ -62,10 +63,7 @@ const CAREERS = [
     company: '박차컴퍼니',
     position: 'Frontend Engineer',
     period: '2016.06 - 2017.05',
-    details: [
-      '차팡/박차 모바일 앱, 박차 비즈 웹사이트 등 프론트엔드 개발',
-      'Framework7, AngularJS 등 하이브리드/SPA 개발',
-    ],
+    details: ['차팡/박차 모바일 앱, 박차 비즈 웹사이트 등 프론트엔드 개발', 'Framework7, AngularJS 등 하이브리드/SPA 개발'],
   },
   {
     company: '이큐브랩(Ecube Labs)',
@@ -125,17 +123,17 @@ const AboutPage = () => {
             <img
               src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
               alt="HungSun LIM"
-              className="w-28 h-28 rounded-full mx-auto border border-gray-200 mb-4"
+              className="w-28 h-28 rounded-full mx-auto border border-border mb-4"
             />
           </div>
           <div className="mb-2">
             <div className="text-xl font-bold">임흥선</div>
-            <div className="text-base text-gray-500">HungSun LIM</div>
+            <div className="text-base text-subtle">HungSun LIM</div>
           </div>
           <div className="mb-3">
             <div className="text-base font-semibold mb-1">Senior Frontend Engineer</div>
-            <div className="text-xs text-gray-400 mb-1">KangNam Univ. Computer Media Engineering</div>
-            <a href="mailto:majac6@gmail.com" className="text-primary-600 hover:underline text-sm">
+            <div className="text-xs text-subtle mb-1">KangNam Univ. Computer Media Engineering</div>
+            <a href="mailto:majac6@gmail.com" className="text-primary hover:underline text-sm">
               majac6@gmail.com
             </a>
           </div>
@@ -144,40 +142,40 @@ const AboutPage = () => {
               href="https://github.com/majac6"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
               GitHub
             </a>
             <a
               href="https://www.facebook.com/majac6"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
               Facebook
             </a>
             <a
               href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
               Linkedin
             </a>
           </div>
           {/* 경력기술서 바로가기 */}
           <div className="mt-4">
-            <a
-              href="/professional-experience"
-              className="inline-block px-4 py-1.5 border border-primary-600 text-primary-600 rounded font-medium text-xs hover:bg-primary-50 transition-colors print:hidden">
+            <Link
+              to="/professional-experience"
+              className="inline-block px-4 py-1.5 border border-primary text-primary rounded font-medium text-xs hover:bg-primary-bg transition-colors print:hidden">
               경력기술서 바로가기
-            </a>
+            </Link>
           </div>
         </section>
 
         {/* 스킬 섹션 */}
-        <section className="mb-12 border-b border-gray-100 pb-8">
+        <section className="mb-12 border-b border-border-strong pb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div>
               <h3 className="text-base font-semibold mb-2">Frontend (Senior)</h3>
-              <ul className="space-y-1 text-xs text-gray-700">
+              <ul className="space-y-1 text-xs text-muted">
                 <li>• Micro Frontend Architecture, Buildtime Or Runtime (Monolithic, Monorepo, Federation)</li>
                 <li>• Javascript, Typescript</li>
                 <li>• React, NextJS(10,12 and over 13), Angular, Svelte, Vue</li>
@@ -189,7 +187,7 @@ const AboutPage = () => {
             </div>
             <div>
               <h3 className="text-base font-semibold mb-2">Backend (Mid-Level)</h3>
-              <ul className="space-y-1 text-xs text-gray-700">
+              <ul className="space-y-1 text-xs text-muted">
                 <li>• Javascript / Typescript : NodeJS, NestJS, Express</li>
                 <li>• PHP : Codeigniter, Laravel</li>
                 <li>• Database :MySQL, MariaDB, Redis, Memcached</li>
@@ -198,7 +196,7 @@ const AboutPage = () => {
           </div>
           <div className="mb-8">
             <h3 className="text-base font-semibold mb-2">Infrastructure / Operation</h3>
-            <ul className="space-y-1 text-xs text-gray-700">
+            <ul className="space-y-1 text-xs text-muted">
               <li>• DevOps : EKS, k8s, ECS, Docker run</li>
               <li>• GitOps : ArgoCD</li>
               <li>• CI/CD : Github Actions, Jenkins</li>
@@ -209,28 +207,29 @@ const AboutPage = () => {
         </section>
 
         {/* 자격증 섹션 */}
-        <section className="mb-12 border-b border-gray-100 pb-8">
+        <section className="mb-12 border-b border-border-strong pb-8">
           <h2 className="text-lg font-bold mb-6">Licenses</h2>
-          <ul className="space-y-1 text-xs text-gray-700">
+          <ul className="space-y-1 text-xs text-muted">
             {LICENSES.map((lic) => (
               <li key={lic.date + lic.name + lic.code}>
-                • {lic.date} - {lic.name}{lic.code ? `(${lic.code})` : ''}
+                • {lic.date} - {lic.name}
+                {lic.code ? `(${lic.code})` : ''}
               </li>
             ))}
           </ul>
         </section>
 
         {/* 경력 섹션 */}
-        <section className="mb-12 border-b border-gray-100 pb-8">
+        <section className="mb-12 border-b border-border-strong pb-8">
           <h2 className="text-lg font-bold mb-6">경력</h2>
           <div className="mb-6">
             <div className="space-y-5">
               {CAREERS.map((career) => (
                 <div key={career.company + career.period}>
-                  <div className="text-xs text-gray-400 mb-1">{career.period}</div>
-                  <div className="text-xs font-medium text-gray-700 mb-1">{career.position}</div>
+                  <div className="text-xs text-subtle mb-1">{career.period}</div>
+                  <div className="text-xs font-medium text-muted mb-1">{career.position}</div>
                   <div className="text-base font-semibold mb-1">{career.company}</div>
-                  <ul className="space-y-1 text-xs text-gray-700">
+                  <ul className="space-y-1 text-xs text-muted">
                     {career.details.map((d, i) => (
                       <li key={i}>• {d}</li>
                     ))}
@@ -242,14 +241,14 @@ const AboutPage = () => {
         </section>
 
         {/* 학력 섹션 */}
-        <section className="mb-12 border-b border-gray-100 pb-8">
+        <section className="mb-12 border-b border-border-strong pb-8">
           <h2 className="text-lg font-bold mb-6">학력</h2>
           <div className="space-y-5">
             {EDUCATIONS.map((edu) => (
               <div key={edu.period + edu.school}>
-                <div className="text-xs text-gray-400 mb-1">{edu.period}</div>
+                <div className="text-xs text-subtle mb-1">{edu.period}</div>
                 <div className="text-base font-semibold mb-1">{edu.school}</div>
-                <div className="text-xs text-gray-700">{edu.degree}</div>
+                <div className="text-xs text-muted">{edu.degree}</div>
               </div>
             ))}
           </div>

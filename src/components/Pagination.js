@@ -42,8 +42,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className={`px-3 py-1.5 text-sm font-medium rounded border border-gray-200 bg-white transition-colors
-          ${currentPage === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:border-primary-300 hover:text-primary-600'}`}
+        className={`px-3 py-1.5 text-sm font-medium rounded border border-border bg-background transition-colors
+          ${currentPage === 1 ? 'text-subtle cursor-not-allowed' : 'text-subtle hover:border-primary-hover hover:text-primary'}`}
         aria-label="이전 페이지"
       >
         이전
@@ -53,14 +53,14 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       {getPageNumbers().map((page, index) => (
         <React.Fragment key={index}>
           {page === '...' ? (
-            <span className="px-3 py-1.5 text-gray-400">...</span>
+            <span className="px-3 py-1.5 text-subtle">...</span>
           ) : (
             <button
               onClick={() => onPageChange(page)}
-              className={`px-3 py-1.5 text-sm font-medium rounded border border-gray-200 bg-white transition-colors
+              className={`px-3 py-1.5 text-sm font-medium rounded border border-border bg-background transition-colors
                 ${currentPage === page
-                  ? 'text-primary-600 border-primary-600 font-bold cursor-default'
-                  : 'text-gray-600 hover:border-primary-300 hover:text-primary-600'}`}
+                  ? 'text-primary border-primary font-bold cursor-default'
+                  : 'text-subtle hover:border-primary-hover hover:text-primary'}`}
               disabled={currentPage === page}
               aria-current={currentPage === page ? 'page' : undefined}
             >
@@ -74,8 +74,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className={`px-3 py-1.5 text-sm font-medium rounded border border-gray-200 bg-white transition-colors
-          ${currentPage === totalPages ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:border-primary-300 hover:text-primary-600'}`}
+        className={`px-3 py-1.5 text-sm font-medium rounded border border-border bg-background transition-colors
+          ${currentPage === totalPages ? 'text-subtle cursor-not-allowed' : 'text-subtle hover:border-primary-hover hover:text-primary'}`}
         aria-label="다음 페이지"
       >
         다음
