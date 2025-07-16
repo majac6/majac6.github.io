@@ -39,7 +39,7 @@ const Navigation = () => {
   const handleThemeToggle = () => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
 
   return (
-    <nav className="print:hidden border-b border-border bg-background sticky top-0 z-30">
+    <nav className="print:hidden bg-background sticky top-0 z-30">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* 로고 */}
@@ -65,22 +65,17 @@ const Navigation = () => {
             ))}
             {/* 테마 토글 버튼 */}
             <button
-              className="flex items-center justify-center w-8 h-8 rounded-full border border-border bg-background text-foreground hover:bg-primary-bg focus:outline-none focus:ring-2 focus:ring-primary-500 ml-2"
+              className="flex items-center justify-center w-8 h-8 rounded-full bg-background text-foreground hover:bg-primary-bg ml-2"
               onClick={handleThemeToggle}
               aria-label="테마 전환"
               type="button">
               {theme === 'dark' ? (
-                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="text-primary">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+                <svg width={18} height={18} fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z" />
                 </svg>
               ) : (
-                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="text-primary">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.07l-.71.71M21 12h-1M4 12H3m16.66 5.66l-.71-.71M4.05 4.93l-.71-.71M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
+                <svg width={18} height={18} fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
                 </svg>
               )}
             </button>
