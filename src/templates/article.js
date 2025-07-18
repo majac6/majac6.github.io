@@ -53,9 +53,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
               <div className="flex items-center space-x-3 text-xs text-subtle mb-4">
                 <time>{frontmatter.date}</time>
                 {frontmatter.tags && frontmatter.tags.length > 0 && (
-                  <div className="flex space-x-1">
+                  <div className="flex flex-wrap space-x-1 gap-2">
                     {frontmatter.tags.map((tag) => (
-                      <span key={tag} className="px-2 py-0.5 border border-border bg-surface text-subtle rounded-full">
+                      <span key={tag} className="px-2 py-0.5 border border-border bg-surface text-subtle rounded-full text-nowrap">
                         {tag}
                       </span>
                     ))}
