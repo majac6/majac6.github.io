@@ -9,6 +9,17 @@ const PROFESSIONAL_EXPERIENCES = [
     period: '2024.01 - NOW',
     projects: [
       {
+        name: '2025 여름 아모레 세일 페스타',
+        duration: '2025.05 - 2025.06',
+        description: '새로운 주문 페이지를 활용해 대규모 커머스 행사를 안정적으로 진행하고 초과 성과를 달성하였습니다.',
+        stack: ['typescript', 'react19', 'nextjs15', 'tailwind', 'storybook', 'docker'],
+        roles: ['FE 개발 총괄', '주문 페이지 내재화', '주문 페이지 리팩토링', '전시 페이지 리디자인 적용'],
+        achievements: [
+          '주문 페이지 리팩토링으로 주문 프로세스 안정성 및 속도 향상',
+          '행사 기간 106억 매출 달성 (전 행사대비 2% 증가 및 90억 목표였으나 초과 달성)'
+        ],
+      },
+      {
         name: '주문 페이지 2차',
         duration: '2025.01 - 2025.04',
         description: '1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.',
