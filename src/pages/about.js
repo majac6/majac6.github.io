@@ -54,16 +54,20 @@ const CAREERS = [
     position: 'Frontend Engineer',
     period: '2017.07 - 2018.12',
     details: [
-      'Play-ce RoRo Admin/웹 콘솔/제품 소개 페이지 등 프론트엔드 개발',
-      'React, Angular, Gatsby 등 다양한 프레임워크 활용',
-      'AWS 등 클라우드 환경 기반 개발',
+      '프론트앤드 개발 환경 구축 및 운영',
+      '인프라 관리 운영 솔루션 프론트앤드 개발 및 운영',
+      '협력사 프론트앤드 개발 교육 및 지원',
     ],
   },
   {
     company: '박차컴퍼니',
     position: 'Frontend Engineer',
     period: '2016.06 - 2017.05',
-    details: ['차팡/박차 모바일 앱, 박차 비즈 웹사이트 등 프론트엔드 개발', 'Framework7, AngularJS 등 하이브리드/SPA 개발'],
+    details: [
+      '박차 프론트앤드 개발 및 운영',
+      '박차, 차팡(차량 경매) 하이브리드 앱(PhoneGap 기반) 개발 및 운영',
+      '박차 양수도 서비스 프론트앤드 개발 및 운영',
+    ],
   },
   {
     company: '이큐브랩(Ecube Labs)',
