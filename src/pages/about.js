@@ -135,8 +135,8 @@ const AboutPage = () => {
             <div className="text-base text-subtle">HungSun LIM</div>
           </div>
           <div className="mb-3">
-            <div className="text-base font-semibold mb-1">Senior Frontend Engineer</div>
-            <div className="text-xs text-subtle mb-1">KangNam Univ. Computer Media Engineering</div>
+            <div className="text-base font-semibold mb-1">시니어 프론트엔드 엔지니어</div>
+            <div className="text-xs text-subtle mb-1">용인 강남대학교 컴퓨터미디어정보공학부 학사 졸업</div>
             <a href="mailto:majac6@gmail.com" className="text-primary hover:underline text-sm">
               majac6@gmail.com
             </a>
