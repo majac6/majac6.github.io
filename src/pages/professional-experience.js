@@ -37,7 +37,7 @@ const PROFESSIONAL_EXPERIENCES = [
       },
       ,
       {
-        name: 'DX 개선 1차 : 모노레포 구조 개선',
+        name: 'DX 개선 1차 : 모노레포 구조 개선 및 베트남 개발자센터 이관',
         duration: '2025.07 - 2025.08',
         description:
           'nodejs14 환경의 yarn workspace 프로젝트를 멀티레포 구조로 리팩토링하고 추후 turborepo 프로젝트로 이관하기 위한 기초 작업입니다.',
@@ -49,6 +49,7 @@ const PROFESSIONAL_EXPERIENCES = [
           '신규 모노레포(turborepo) 구조 설계 및 구축',
           '멀티레포 구조 개선으로 각 프로젝트별 빌드 속도 약 2~3배 이상 감소',
           '코드 파편화 방지를 위한 systemjs 사용으로 코드 공유 가능하도록 구조 개선',
+          '베트남 개발자센터로 원활한 지식 이전 및 협업 환경 구축',
         ],
       },
       {
