@@ -7,7 +7,7 @@ const CAREERS = [
   {
     company: '아모레퍼시픽 / AMORE PACIFIC',
     position: 'Senior Frontend Engineer(Lead)',
-    period: '2024.01 - NOW',
+    period: '2024.01 - 2025.12',
     details: [
       '아모레몰(전자상거래) 프론트엔드 개발 리드',
       '커머스커뮤니티, 스킨노트 등 신사업 프론트엔드 개발 리드',

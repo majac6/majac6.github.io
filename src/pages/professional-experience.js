@@ -6,8 +6,21 @@ const PROFESSIONAL_EXPERIENCES = [
   {
     company: '아모레퍼시픽 / AMORE PACIFIC',
     position: 'Senior Frontend Engineer(Lead)',
-    period: '2024.01 - NOW',
+    period: '2024.01 - 2025.12',
     projects: [
+      {
+        name: '2025년 겨울(12월) 아모레 세일 페스타',
+        duration: '2025.11 - 2025.12',
+        description:
+          '마이파우치(마이홈), 장바구니 개편, 첫구매 혜택 프로모션 추가 등 다양한 신규 기능 개발과 안정적인 대규모 커머스 행사 진행을 통해 초과 성과를 달성하였습니다.',
+        stack: ['디자인시스템','tailwind', 'storybook', 'react19', 'nextjs16', 'tailwind', 'storybook', 'docker', 'datadog'],
+        roles: ['일정관리','신규 프로모션 아키텍처 설계', ''],
+        achievements: [
+          '목표: 마이파우치 및 신규 프로모션을 도입하고 관련된 모니터링 지표를 추가해 신규 행사를 대비하기 위한 개발요청사항 처리',
+          '마이파우치 페이지를 신규로 개편하고 성능 25% 향상하고 모니터링 지표 추가',
+          '주문 관련 로직에 신규 프로모션을 처리할수 있도록 설계하고 장바구니 페이지를 신규 프로젝트로 전환해 devops 환경 적용해 성능 및 빌드 속도 50% 이상 향상하고 모니터링 지표 추가',
+        ],
+      },
       {
         name: 'DX 개선 2차 : 터보레포 운영환경 적용 및 AI MCP 활용',
         duration: '2025.09 - 2025.10',
@@ -47,6 +60,7 @@ const PROFESSIONAL_EXPERIENCES = [
         achievements: [
           '주문 페이지 리팩토링으로 주문 프로세스 안정성 및 속도 향상 (버그 및 VOC 발생률 50%이상 감소)',
           '이전 행사 대비 매출 초과달성',
+          'BY25 디지털서비스개발팀 초과성과 우수사원 선정'
         ],
       },
       {
