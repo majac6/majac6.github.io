@@ -125,7 +125,7 @@ const AboutPage = () => {
         <section className="mb-12 text-center">
           <div className="mb-5">
             <img
-              src="https://s.gravatar.com/avatar/ac88fef73fb20037feaf38ff349b129c?s=500&r=pg"
+              src="/images/about/profile-hungsun.jpg"
               alt="HungSun LIM"
               className="w-28 h-28 rounded-full mx-auto border border-border mb-4"
             />
