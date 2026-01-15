@@ -19,7 +19,7 @@ const CAREERS = [
   },
   {
     company: '딜리헙(Dillyhub)',
-    position: 'Fullstack Engineer',
+    position: 'Senior Fullstack(Front/Back/Mobile/DevOps) Engineer(Lead)',
     period: '2021.01 - 2023.06',
     details: [
       '오픈 웹툰/소설 플랫폼(US,KR) 스토어/스튜디오 프론트엔드/백엔드 개발 및 운영',

@@ -160,7 +160,7 @@ const PROFESSIONAL_EXPERIENCES = [
   },
   {
     company: '딜리헙(Dillyhub)',
-    position: 'Fullstack Engineer',
+    position: 'Senior Fullstack(Front/Back/Mobile/DevOps) Engineer(Lead)',
     period: '2021.01 - 2023.06',
     projects: [
       {
