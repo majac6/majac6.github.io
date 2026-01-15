@@ -127,7 +127,8 @@ const AboutPage = () => {
             <img
               src="/images/about/profile-hungsun.jpg"
               alt="HungSun LIM"
-              className="w-28 h-28 rounded-full mx-auto border border-border mb-4"
+              className="mx-auto mb-4 rounded-full border-4 border-border-strong"
+              style={{ width: '200px', height: '200px', objectFit: 'cover', objectPosition: 'center 5%' }}
             />
           </div>
           <div className="mb-2">
