@@ -12,39 +12,35 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '2025년 겨울(12월) 아모레 세일 페스타',
         duration: '2025.11 - 2025.12',
         description:
-          '마이파우치(마이홈), 장바구니 개편, 첫구매 혜택 프로모션 추가 등 다양한 신규 기능 개발과 안정적인 대규모 커머스 행사 진행을 통해 초과 성과를 달성하였습니다.',
-        stack: ['디자인시스템','tailwind', 'storybook', 'react19', 'nextjs16', 'tailwind', 'storybook', 'docker', 'datadog'],
-        roles: ['일정관리','신규 프로모션 아키텍처 설계', ''],
+          '마이파우치 및 신규 프로모션 도입, 관련 모니터링 지표 추가 등 신규 행사 대비 개발요청사항 처리를 통해 초과 성과 달성.',
+        stack: ['디자인시스템', 'Tailwind', 'Storybook', 'React 19', 'Next.js 16', 'Docker', 'DataDog'],
+        roles: ['프론트엔드 아키텍처 설계'],
         achievements: [
-          '목표: 마이파우치 및 신규 프로모션을 도입하고 관련된 모니터링 지표를 추가해 신규 행사를 대비하기 위한 개발요청사항 처리',
           '마이파우치 페이지를 신규로 개편하고 성능 25% 향상하고 모니터링 지표 추가',
           '주문 관련 로직에 신규 프로모션을 처리할수 있도록 설계하고 장바구니 페이지를 신규 프로젝트로 전환해 devops 환경 적용해 성능 및 빌드 속도 50% 이상 향상하고 모니터링 지표 추가',
         ],
       },
       {
-        name: 'DX 개선 2차 : 터보레포 운영환경 적용 및 AI MCP 활용',
+        name: 'AX : 터보레포 운영환경 적용 및 AI MCP 활용',
         duration: '2025.09 - 2025.10',
         description:
-          '아모레몰을 포함해 사내 모든 프론트앤드를 관리할수 있는 새롭고 모던한 환경을 구축하고 점진적으로 이관하는 첫번째 단계입니다.',
-        stack: ['디자인시스템', 'figma', 'AI MCP with Cursor', 'react19', 'nextjs15', 'tailwind', 'storybook', 'docker'],
-        roles: ['아키텍처 설계', '레거시 프로젝트 분석 및 리팩토링', '신규 모노레포(turborepo) 구조 설계 및 구축'],
+          '아모레몰을 포함해 사내 모든 프론트엔드를 관리할수 있는 모던한 환경 구축 및 점진적 이관의 첫번째 단계. 디자인시스템 도입과 Figma x Cursor AI MCP 활용으로 개발 시간 단축 및 모던 프론트엔드 개발/운영 환경 구축.',
+        stack: ['디자인시스템', 'Figma', 'AI MCP with Cursor', 'React 19', 'Next.js 15', 'Tailwind', 'Storybook', 'Docker'],
+        roles: ['Figma with Cursor MCP 기반 디자인시스템 설계', '프론트엔드 아키텍처 설계', '레거시 프로젝트 분석 및 리팩토링', '신규 모노레포(turborepo) 구조 설계 및 구축'],
         achievements: [
-          '목표: 디자인시스템 도입과 figma x Cursor 활용한 AI MCP 활용으로 프로젝트 개발 시간 단축하고 모던 프론트앤드 개발/운영 환경을 구축',
           '고객센터 페이지를 첫 타겟으로 운영환경 적용',
           '이전 대비 웹 바이탈 성능 2배 이상 증가 및 메모리 누수 등 문제 해결',
           '이전 대비 빌드속도 3배 이상 감소',
         ],
       },
-      ,
       {
-        name: 'DX 개선 1차 : 모노레포 구조 개선 및 베트남 개발자센터 이관',
+        name: 'DX 개선 : 모노레포 구조 개선 및 베트남 개발자센터 이관',
         duration: '2025.07 - 2025.08',
         description:
-          'nodejs14 환경의 yarn workspace 프로젝트를 멀티레포 구조로 리팩토링하고 추후 turborepo 프로젝트로 이관하기 위한 기초 작업입니다.',
-        stack: ['typescript', 'react19', 'nextjs15', 'tailwind', 'storybook', 'docker', 'rollup', 'systemjs'],
-        roles: ['아키텍처 설계', '레거시 프로젝트 분석 및 리팩토링', '신규 모노레포(turborepo) 구조 설계 및 구축'],
+          'Node.js 14 환경의 yarn workspace 프로젝트를 멀티레포 구조로 리팩토링하고 추후 turborepo 프로젝트로 이관하기 위한 기초 작업. 사내 해외 개발센터 이관 대비.',
+        stack: ['TypeScript', 'React 19', 'Next.js 15', 'Tailwind', 'Storybook', 'Docker', 'Rollup', 'SystemJS'],
+        roles: ['프론트엔드 아키텍처 설계', '레거시 프로젝트 분석 및 리팩토링', '신규 모노레포(turborepo) 구조 설계 및 구축'],
         achievements: [
-          '목표: 사내 해외 개발센터로 이관과 터보레포 프로젝트로 이관할수 있는 기초 작업',
           '레거시 프로젝트의 2개 서비스를 각각 커머스커뮤니티, 아모레몰 저장소로 분리',
           '신규 모노레포(turborepo) 구조 설계 및 구축',
           '멀티레포 구조 개선으로 각 프로젝트별 빌드 속도 약 2~3배 이상 감소',
@@ -55,21 +51,21 @@ const PROFESSIONAL_EXPERIENCES = [
       {
         name: '2025 여름 아모레 세일 페스타',
         duration: '2025.05 - 2025.06',
-        description: '새로운 주문 페이지를 활용해 대규모 커머스 행사를 안정적으로 진행하고 초과 성과를 달성하였습니다.',
-        stack: ['typescript', 'react19', 'nextjs15', 'tailwind', 'storybook', 'docker'],
+        description: '새로운 주문 페이지를 활용해 대규모 커머스 행사를 안정적으로 진행하고 초과 성과 달성.',
+        stack: ['TypeScript', 'React 19', 'Next.js 15', 'Tailwind', 'Storybook', 'Docker'],
         roles: ['FE 개발 총괄', '주문 페이지 내재화', '주문 페이지 리팩토링', '전시 페이지 리디자인 적용'],
         achievements: [
           '주문 페이지 리팩토링으로 주문 프로세스 안정성 및 속도 향상 (버그 및 VOC 발생률 50%이상 감소)',
           '이전 행사 대비 매출 초과달성',
-          'BY25 디지털서비스개발팀 초과성과 우수사원 선정'
+          'BY25 디지털서비스개발팀 초과성과 우수사원 선정',
         ],
       },
       {
         name: '주문 페이지 2차',
         duration: '2025.01 - 2025.04',
-        description: '1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발이 진행되었습니다.',
-        stack: ['typescript', 'react19', 'nextjs15', 'tailwind', 'storybook', 'docker'],
-        roles: ['프로젝트 개발 총괄', 'VOC 대응 등 모니터링 계획 수립', '결제 프로세스 및 에러 케이스 발생 시 대응 방안 수립'],
+        description: '1차 목표 달성 이후 회원 케이스에서도 동일한 경험을 주기 위해 후속 개발 진행.',
+        stack: ['TypeScript', 'React 19', 'Next.js 15', 'Tailwind', 'Storybook', 'Docker'],
+        roles: ['프로젝트(TF) 개발 리드', 'VOC 대응 등 모니터링 계획 수립', '결제 프로세스 및 에러 케이스 발생 시 대응 방안 수립'],
         achievements: [
           '로그 수집 및 분석을 통해 버그 발생시 문제가 되는 부분을 정확히 파악 가능',
           '데이터독을 활용해 웹 바이탈을 측정하고 메모리 누수 등 문제를 발견하고 해결할수 있는 기초 마련',
@@ -81,9 +77,9 @@ const PROFESSIONAL_EXPERIENCES = [
         duration: '2024.12',
         description:
           '라이브방송과 연계된 쿠폰 feature 를 추가. 라이브방송 영상에서 상품과 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능을 추가, 데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템 구성.',
-        stack: ['typescript', 'react17', 'nextjs10', 'datadog'],
+        stack: ['TypeScript', 'React 17', 'Next.js 10', 'DataDog'],
         roles: [
-          '라이브방송 영상에서 상품고 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능 추가',
+          '라이브방송 영상에서 상품과 관련된 쿠폰을 발급하고 쿠폰을 사용할수 있는 기능 추가',
           '데이터독을 활용해 VOC 유입 전 미리 대응할수 있도록 시스템 구성',
         ],
         achievements: [
@@ -96,15 +92,15 @@ const PROFESSIONAL_EXPERIENCES = [
         duration: '2024.10 - 2024.11',
         description:
           '외주사에서 관리된 주문/완료 페이지 내재화. 기존 nextjs10 환경이 아닌 사내 devops 환경에서 운영되는 EKS 로 이관, next 최신 버전(14)로 모던한 프로젝트 구성. 비회원 구매 케이스 우선 1차 목표.',
-        stack: ['typescript', 'react18', 'nextjs14', 'tailwind', 'storybook', 'docker'],
-        roles: ['프로젝트 개발 총괄', '새로운 주문 프론트앤드 프로젝트 아키텍처 설계', 'tailwind 기반 디자인시스템 설계'],
+        stack: ['TypeScript', 'React 18', 'Next.js 14', 'Tailwind', 'Storybook', 'Docker'],
+        roles: ['프로젝트(TF) 개발 리드', '새로운 주문 프론트엔드 프로젝트 아키텍처 설계', 'tailwind 기반 디자인시스템 설계'],
         achievements: ['DevOps 환경에서 운영되는 EKS 로 이관 및 배포 환경 구성', 'nextjs14 기반 및 모던한 프론트엔드 프로젝트 구성'],
       },
       {
         name: 'Web/Native 인터페이스 리팩토링',
         duration: '2024.08 - 2024.09',
         description: '아모레몰 Web과 Native App(iOS, Android) 간 Webview 인터페이스를 선언적으로 재설계. 외주사에도 JS 라이브러리로 제공.',
-        stack: ['javascript', 'typescript', 'react17', 'nextjs10'],
+        stack: ['JavaScript', 'TypeScript', 'React 17', 'Next.js 10'],
         roles: ['Web-Native 인터페이스 라이브러리 설계', '라이브러리 React Hook, pure javascript 각각 작성'],
         achievements: [
           '매주 발생하는 동일한 원인의 다른 버그 발생률 Zero 달성',
@@ -117,7 +113,7 @@ const PROFESSIONAL_EXPERIENCES = [
         description:
           '로그 수집과 분석, 장애 대응 등 전반적인 모니터링을 위해 데이터독 도입. 고객 VOC 유입 전 미리 대응할수 있도록 시스템 구성.',
         stack: ['DataDog'],
-        roles: [],
+        roles: ['프론트엔드 아키텍처 설계'],
         achievements: [
           '웹 바이탈 데이터 수집 및 분석 환경 구성해 성능적으로 취약한 부분에 대응할수 있도록 기술적 기반 마련.',
           '클라이언트 에러 발생 시 웹훅을 통해 알림 추가해 대응 시간 단축.',
@@ -128,7 +124,7 @@ const PROFESSIONAL_EXPERIENCES = [
         duration: '2024.04 - 2024.05',
         description:
           '아모레 세일 페스타용 신규 feature "럭키드로우"와 "멤버십플러스 이용권" 개발. 신규 유저 유입 및 멤버십 체험 기능 추가.',
-        stack: ['Nextj10', 'React17', 'Redux'],
+        stack: ['Next.js 10', 'React 17', 'Redux'],
         roles: ['상품상세 페이지 업데이트 및 럭키드로우 관련 페이지 추가', '멤버십플러스 이용권 조회/사용/갱신/취소 등 관리 페이지 추가'],
         achievements: [
           '럭키드로우를 통해 운영에서 새로운 방식의 BM 활용 가능',
@@ -140,7 +136,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '디지털 분석 도구 고도화',
         duration: '2024.03 - 2024.04',
         description: 'GA3 지원 종료로 GA4 마이그레이션 및 분석 도구 통합 모듈화. 데이터 분석 및 통계 효율화.',
-        stack: ['Nextj10', 'React17', 'GA3', 'GA4', 'GTM', 'aiaqua'],
+        stack: ['Next.js 10', 'React 17', 'GA3', 'GA4', 'GTM', 'Aiaqua'],
         roles: ['페이스북/카카오/네이버 등 추적 도구 GTM 주입 가이드', 'GA, GTM 관련 React 컴포넌트 및 훅 작성'],
         achievements: ['분석 도구 통합 및 관리 효율화', 'GA4 기반 정확한 데이터 분석 및 매출 분석 용이'],
       },
@@ -148,7 +144,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '아모레몰 선물하기',
         duration: '2024.01 - 2024.02',
         description: '단일 상품 선물하기 feature 추가. 구매자는 수신자 정보 입력, 수신자는 별도 페이지에서 상품 수령.',
-        stack: ['Nextjs10', 'React17', 'Typescript', 'Redux'],
+        stack: ['Next.js 10', 'React 17', 'TypeScript', 'Redux'],
         roles: ['선물하기 모듈 설계', '모니터링 방안 수립'],
         achievements: [
           '선물받기를 통한 신규 유저 확보 경로 추가',
@@ -164,10 +160,10 @@ const PROFESSIONAL_EXPERIENCES = [
     period: '2021.01 - 2023.06',
     projects: [
       {
-        name: 'Google Cloud Platform 마이그레이션 from AWS',
-        duration: '2025.01 ~ 2025.02',
-        description: '퇴사 이후 진행된 프로젝트로 이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션.',
-        stack: ['k8s', 'aws', 'gcp'],
+        name: 'Google Cloud Platform 마이그레이션 from AWS (퇴사 후 외부 협업)',
+        duration: '2025.01 - 2025.02',
+        description: '이전 AWS k8s 환경의 비용 문제로 인해 GCP docker run (컨테이너) 환경으로 마이그레이션.',
+        stack: ['K8s', 'AWS', 'GCP'],
         roles: [
           '기존 k8s 환경 분석',
           '각 프로젝트별 docker run 필요 파일 및 환경변수 생성',
@@ -176,20 +172,20 @@ const PROFESSIONAL_EXPERIENCES = [
         achievements: ['비용 절감으로 인해 매달 비용문제 해결', '소수 인원으로 쉽게 관리할수 있도록 마이그레이션 진행'],
       },
       {
-        name: '프론트앤드 리팩토링',
-        duration: '2023.03 ~ 2023.06',
+        name: '프론트엔드 리팩토링',
+        duration: '2023.03 - 2023.06',
         description:
-          '1차 개발을 마친 상태에서 프론트앤드 리팩토링. Typescript + Vite, Vitest, Storybook 등 최신 기술 도입 및 테스트 코드 작성, 전체 코드 TS로 포팅.',
-        stack: ['Typescript', 'Vite', 'Vitest', 'Tailwind', 'SCSS', 'Storybook'],
-        roles: ['전반적인 프로젝트 구조 설계', '배포 및 브랜치 전략 수립', '기존 javascript 코드 typescript 로 포팅'],
+          '1차 개발을 마친 상태에서 프론트엔드 리팩토링. TypeScript + Vite, Vitest, Storybook 등 최신 기술 도입 및 테스트 코드 작성, 전체 코드 TS로 포팅.',
+        stack: ['TypeScript', 'Vite', 'Vitest', 'Tailwind', 'SCSS', 'Storybook'],
+        roles: ['전반적인 프로젝트 구조 설계', '배포 및 브랜치 전략 수립', '기존 JavaScript 코드 TypeScript로 포팅'],
         achievements: ['빌드 속도 약 2~3배 이상 감소', '테스트 코드 작성으로 안정성 향상', '타입스크립트 적용으로 코드 안정성 향상'],
       },
       {
         name: '텍스트 에디터 및 뷰어 개발',
-        duration: '2022.11 ~ 2023.02',
+        duration: '2022.11 - 2023.02',
         description:
           'Promise Mirror 를 활용해 100% 확장 가능한 텍스트 에디터 개발 및 스튜디오/스토어 프로젝트 적용, 뷰어에 댓글 기능 추가.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'Promise Mirror'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'Promise Mirror'],
         roles: ['Promise Mirror 프레임워크 분석 및 구조화', '텍스트 에디터 및 뷰어 개발', '뷰어에 댓글 기능 추가'],
         achievements: [
           '웹소설도 게재할수 있도록 서비스 확장',
@@ -198,10 +194,10 @@ const PROFESSIONAL_EXPERIENCES = [
       },
       {
         name: '갤러리 개발',
-        duration: '2022.06 ~ 2022.10',
+        duration: '2022.06 - 2022.10',
         description:
           '일러스트 등 다양한 이미지를 게시하고 유저간 소통할 수 있는 갤러리 기능 개발. 이미지 업로드, 편집, Feed, 댓글, 도네이션(Meow) 기능 포함.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'Nodejs', 'Express'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'Node.js', 'Express'],
         roles: [
           '이미지 업로드 및 간단한 편집기능 개발',
           '이미지 뷰를 위한 Feed 컴포넌트 개발',
@@ -212,42 +208,42 @@ const PROFESSIONAL_EXPERIENCES = [
       },
       {
         name: 'iOS App 출시',
-        duration: '2022.04 ~ 2022.05',
+        duration: '2022.04 - 2022.05',
         description: '안드로이드 앱 출시 경험을 바탕으로 iOS 앱도 동일한 아키텍처로 개발. 애플로그인 서드파티 로그인 지원 추가.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'JS Interface'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'JS Interface'],
         roles: ['Apple Login 구현', '기존 로직에서 iOS 관련 스펙이 동작하도록 구조 변경 및 구현'],
         achievements: ['iOS 앱 출시 및 애플로그인 지원'],
       },
       {
         name: 'Product 기능 추가',
-        duration: '2022.01 ~ 2022.03',
+        duration: '2022.01 - 2022.03',
         description: '디지털 컨텐츠(폰트, 이미지 등) 판매 기능 구현. Quill 에디터 도입, 프로덕트 기능에 필요한 컴포넌트/페이지/훅 구현.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'Quill Editor', 'Nodejs', 'Express'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'Quill Editor', 'Node.js', 'Express'],
         roles: ['Quill 에디터 React 컴포넌트 작성', '프로덕트 기능에 필요한 추가 컴포넌트, 페이지, 훅 구현'],
         achievements: ['완성형 에디터를 통해 유저가 풍부한 컨텐츠 게재 가능', '디지털 상품을 게시하고 판매할수 있는 새로운 BM 추가'],
       },
       {
         name: 'Android App 출시',
-        duration: '2021.11 ~ 2021.12',
+        duration: '2021.11 - 2021.12',
         description: 'Base로 설계된 안드로이드 앱에 웹뷰 형태로 웹앱 렌더링, 네이티브 앱과 연동 위한 JS Interface 설계/적용.',
-        stack: ['JS Interface', 'React', 'Webpack', 'Javascript', 'tailwind', 'SCSS'],
+        stack: ['JS Interface', 'React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS'],
         roles: ['JS interface 정의', 'Android 앱 동작성 테스트 및 앱 전용 페이지 구현'],
         achievements: ['Android 앱 출시 및 JS 인터페이스 연동'],
       },
       {
         name: '스토어/스튜디오 추가 업데이트',
-        duration: '2021.06 ~ 2021.10',
+        duration: '2021.06 - 2021.10',
         description: '스토어, 스튜디오 개발 이후 기능 추가 및 외부 라이브러리 설치, A/B 테스트 등 마케팅/분석 기능 강화.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'Nodejs', 'Express'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'Node.js', 'Express'],
         roles: ['애널리틱스 툴 적용 : GTM, Mixpanel', '스토어 홈/스튜디오 랜딩 페이지 개발', 'Hackle 사용한 A/B 테스트 진행'],
         achievements: ['계획된 마케팅 진행', '유저 행동 분석 및 A/B테스트 진행'],
       },
       {
         name: '스토어 웹 개발',
-        duration: '2021.03 ~ 2021.05',
+        duration: '2021.03 - 2021.05',
         description:
           '창작자가 만든 창작물을 공개하기 위한 웹앱 개발. 웹툰 뷰어, 디자인 시스템, 커스터마이제이션 뷰어, 알림, 소셜 로그인 등 구현.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'Nodejs', 'Express'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'Node.js', 'Express'],
         roles: [
           '웹툰 뷰어 개발',
           '디자인 시스템 개발',
@@ -259,9 +255,9 @@ const PROFESSIONAL_EXPERIENCES = [
       },
       {
         name: '스튜디오 웹 개발',
-        duration: '2021.01 ~ 2021.02',
+        duration: '2021.01 - 2021.02',
         description: '창작자를 위한 웹앱 개발. 웹툰 생성 위자드, 에디터, 폼, 커스터마이제이션, 디자인 시스템, 소셜 로그인 등 구현.',
-        stack: ['React', 'Webpack', 'Javascript', 'tailwind', 'SCSS', 'React Hook Form', 'Nodejs', 'Express'],
+        stack: ['React', 'Webpack', 'JavaScript', 'Tailwind', 'SCSS', 'React Hook Form', 'Node.js', 'Express'],
         roles: [
           '웹툰 생성 위자드 개발',
           '웹툰 에디터 개발',
@@ -280,13 +276,13 @@ const PROFESSIONAL_EXPERIENCES = [
     period: '2020.09 - 2020.12',
     projects: [
       {
-        name: 'Home-in 프론트앤드 프로젝트',
-        duration: '2020.09 ~ 2020.12',
+        name: 'Home-in 프론트엔드 프로젝트',
+        duration: '2020.09 - 2020.12',
         description:
-          '프로젝트 도중 합류, 퍼블리싱/프론트 개발 유기화, VueJS 기반 프론트 개발 교육 및 진행상화, 웹뷰 기반 앱 개발환경 구축.',
-        stack: ['VueJS', 'JS interface', 'Javascript', 'Tailwind'],
+          '프로젝트 도중 합류, 퍼블리싱/프론트 개발 유기화, VueJS 기반 프론트 개발 교육 및 진행상황, 웹뷰 기반 앱 개발환경 구축.',
+        stack: ['Vue.js', 'JS Interface', 'JavaScript', 'Tailwind'],
         roles: [
-          '프론트앤드 개발 총괄',
+          '프론트엔드 개발 총괄',
           '퍼블리셔 대상 VueJS 컴포넌트 구현 교육 진행',
           'iOS, Android 진행상황 체크 및 웹 인터페이스 개발 테스트 진행',
           'WEB(PC, Mobile) : 1개의 로직(index)에서 다른 UI(PC, Mobile) 을 렌더링할수 있는 구조로 개선',
@@ -305,13 +301,13 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '카닥몰 3차 업데이트',
         duration: '2020.08',
         description: '마이페이지, 장바구니, 체크아웃 등 워드프레스 의존 페이지를 React로 재구현, DB 직접 연동 및 Express 엔드포인트 작성.',
-        stack: ['React', 'Express', 'SCSS', 'Javascript', 'Nodejs'],
-        roles: ['장바구니, 결제하기 등 주요 페이지 로드 속도 대폭 감소'],
-        achievements: [],
+        stack: ['React', 'Express', 'SCSS', 'JavaScript', 'Node.js'],
+        roles: ['워드프레스 의존 페이지 React 재구현', 'DB 직접 연동 및 Express 엔드포인트 작성'],
+        achievements: ['장바구니, 결제하기 등 주요 페이지 로드 속도 대폭 감소'],
       },
       {
         name: '카닥 커뮤니티 탭 구현',
-        duration: '2020.06 ~ 2020.07',
+        duration: '2020.06 - 2020.07',
         description: '카닥 앱에 "커뮤니티" 탭 추가, 유저 정보/마이카 활용, 서버/웹/앱 데이터 구조 및 인터페이스 설계, 팀원 협업 구조화.',
         stack: ['React', 'SCSS'],
         roles: ['프로젝트 리딩', '각 환경(서버, 웹, 앱) 데이터 구조와 인터페이스 정의'],
@@ -324,7 +320,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: 'cardoc react generator 업데이트',
         duration: '2020.05',
         description: 'cg 커맨드 개선, 페이지/엘리먼트 자동 생성, 프로젝트 메인 언어 자동 감지, 패키지 자동 첨부, 작업자 피로도 감소.',
-        stack: ['NodeJS', 'Yarn Workspace'],
+        stack: ['Node.js', 'Yarn Workspace'],
         roles: ['ts, js 옵션 자동 감지', 'ReadME/프론트 개발자 교육'],
         achievements: [],
       },
@@ -443,7 +439,7 @@ const PROFESSIONAL_EXPERIENCES = [
           'Redux 기반 Flux 구조 작성',
           'Code Spliting 등 앱 최적화',
           'Jest 기반 테스트 환경 구성',
-          'Anglar4에서 React로 리팩토링',
+          'Angular 4에서 React로 리팩토링',
         ],
         achievements: [],
       },
@@ -451,7 +447,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '공식 제품 소개 페이지 개발',
         duration: '2017.09 - 2017.10',
         description: '사내 개발 제품 소개용 Static 웹사이트. 제품 종류/소개, 한/영 번역, markdown blog로 소식 전달.',
-        stack: ['gatsby', 'Styled Component'],
+        stack: ['Gatsby', 'Styled Component'],
         roles: [
           'Adobe XD로 기획/프로토타입',
           'Photoshop/Illustrator로 샘플 디자인',
@@ -465,7 +461,7 @@ const PROFESSIONAL_EXPERIENCES = [
   {
     company: '박차컴퍼니',
     position: 'Frontend Engineer',
-    period: '2016.06 ~ 2017.05',
+    period: '2016.06 - 2017.05',
     projects: [
       {
         name: '차팡 모바일 앱 개발',
@@ -517,7 +513,7 @@ const PROFESSIONAL_EXPERIENCES = [
         duration: '2015.08 - 2016.03',
         description:
           '기존 1.0 버전에서 새로운 제품군 추가 및 다양한 요구사항 수용을 위해 2.0 리워크. 구글맵 지도 기반에서 각 사용자별 제품 관리, 마커 그룹화 및 실시간 필터링 제공.',
-        stack: ['AngularJS', 'SCSS', 'NodeJS', 'MariaDB', 'AWS'],
+        stack: ['AngularJS', 'SCSS', 'Node.js', 'MariaDB', 'AWS'],
         roles: [
           '프론트엔드 기능 구현',
           'AngularJS 기반 컨트롤러/디렉티브/서비스/팩토리 개발',
@@ -530,7 +526,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: '시크릿차트 웹사이트 개발',
         duration: '2014.08 - 2015.08',
         description: '병원 마케팅 플랫폼, 후기 게시/공유, 병원정보/검색/추천, 관리자 페이지 등 다양한 기능 개발.',
-        stack: ['Jquery', 'SCSS', 'Codeigniter', 'MariaDB'],
+        stack: ['jQuery', 'SCSS', 'CodeIgniter', 'MariaDB'],
         roles: [
           '백엔드/프론트엔드 개발환경 구성 및 기능 구현',
           'CI 기반 MVC 구조 개발',
@@ -544,7 +540,7 @@ const PROFESSIONAL_EXPERIENCES = [
         name: 'CCN 웹사이트 1.0 개발',
         duration: '2012.11 - 2014.08',
         description: '태양광 압축 쓰레기통 관리용 웹 콘솔, 지도 기반 데이터 시각화, 하이브리드 앱(PhoneGap) 개발 및 업데이트.',
-        stack: ['Jquery', 'SCSS', 'PhoneGap', 'JqueryMobile', 'Codeigniter', 'MariaDB'],
+        stack: ['jQuery', 'SCSS', 'PhoneGap', 'jQuery Mobile', 'CodeIgniter', 'MariaDB'],
         roles: [
           '백엔드/프론트엔드 개발환경 구성 및 기능 구현',
           'Jquery/PhoneGap 기반 구조 개발',
@@ -575,7 +571,7 @@ const PROFESSIONAL_EXPERIENCES = [
         duration: '2018.07 - 2018.08',
         description:
           'PHP 기반 오픈소스인 영카트5를 활용해 베트남 쇼핑몰 구축. 귀금속 쇼핑몰에 맞게 커스터마이징, docker-compose로 미들웨어 관리, 글로벌 서비스 인프라(AWS EC2, RDB, S3, CloudFront) 설계/구축.',
-        stack: ['PHP', 'Composer', 'Jquery', 'SCSS', 'Docker', 'Docker-compose', 'AWS', 'EC2', 'S3', 'CloudFront'],
+        stack: ['PHP', 'Composer', 'jQuery', 'SCSS', 'Docker', 'Docker-compose', 'AWS', 'EC2', 'S3', 'CloudFront'],
         roles: [
           '요구사항 정리 및 문서화',
           'Adobe XD로 기본 기획 및 프로토타입 작성',
@@ -608,7 +604,7 @@ const PROFESSIONAL_EXPERIENCES = [
 const ProfessionalExperience = () => {
   return (
     <Layout title="경력기술서 - Professional Experience : HungSun LIM">
-      <div className="max-w-3xl mx-auto px-2 py-12">
+      <div className="max-w-1xl mx-auto px-2 py-12">
         <h1 className="text-3xl font-bold mb-12 tracking-tight text-foreground">경력기술서 (Professional Experience)</h1>
         <div className="space-y-12">
           {PROFESSIONAL_EXPERIENCES.map((exp, idx) => (

@@ -120,7 +120,7 @@ const EDUCATIONS = [
 const AboutPage = () => {
   return (
     <Layout title="About Me - Senior Frontend Engineer : HungSun LIM">
-      <div className="max-w-3xl mx-auto px-2 py-8">
+      <div className="max-w-1xl mx-auto px-2 py-8">
         {/* 프로필 섹션 */}
         <section className="mb-12 text-center">
           <div className="mb-5">

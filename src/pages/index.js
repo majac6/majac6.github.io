@@ -7,7 +7,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout title="Home - Senior Frontend Engineer : HungSun LIM">
-      <div className="max-w-3xl mx-auto px-2 py-8">
+      <div className="max-w-1xl mx-auto px-2 py-8">
         {/* 히어로 섹션 */}
         <section className="text-center mb-16">
           <div className="mb-8">

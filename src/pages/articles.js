@@ -17,7 +17,7 @@ const ArticlesPage = ({ data }) => {
 
   return (
     <Layout title="Articles - Senior Frontend Engineer : HungSun LIM">
-      <div className="max-w-3xl mx-auto px-2 py-8">
+      <div className="max-w-1xl mx-auto px-2 py-8">
         {/* 페이지 헤더 */}
         <div className="mb-10">
           <h1 className="text-2xl font-bold mb-2 tracking-tight">Articles</h1>
