@@ -106,19 +106,30 @@
     background: #fff;
   }
 
-  /* 서비스 블록과 목록 항목이 페이지 사이에서 쪼개지지 않도록 한다. */
-  .break-inside-avoid,
+  /*
+   * 서비스를 통째로 붙들면 블록 하나가 통째로 다음 장으로 밀리면서 앞 페이지
+   * 절반이 비어버린다. 그래서 쪼개짐을 막는 범위를 '한 항목'까지로 좁히고,
+   * 대신 혼자 남으면 곤란한 것들(회사 이름, 서비스 제목, 목록 라벨)만
+   * 뒤따르는 내용과 붙여 둔다.
+   */
   li {
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
-  /* 제목만 페이지 끝에 남는 것을 막는다. */
+  .keep-with-next,
   h1,
   h2,
   h3 {
     break-after: avoid;
     page-break-after: avoid;
+  }
+
+  /* 문단이 한 줄만 떼어져 넘어가지 않게 한다. */
+  p,
+  li {
+    orphans: 2;
+    widows: 2;
   }
 
   a {

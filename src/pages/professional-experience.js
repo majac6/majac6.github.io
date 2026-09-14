@@ -45,7 +45,7 @@ const Timeline = ({ label, projects }) => {
   if (projects.length === 0) return null;
   return (
     <div className="mt-4">
-      <div className="text-2xs font-semibold text-subtle tracking-wide">{label}</div>
+      <div className="keep-with-next text-2xs font-semibold text-subtle tracking-wide">{label}</div>
       <ul className="mt-1.5 space-y-1.5">
         {projects.map((project) => (
           <Bullet key={project.name} className="text-xs text-muted">
@@ -72,18 +72,20 @@ const ServiceBlock = ({ service, projects }) => {
   const tracks = service.tracks && service.tracks.length > 0 ? service.tracks : [];
 
   return (
-    <div className="pt-6 mt-6 border-t border-border-strong first:pt-0 first:mt-0 first:border-t-0 break-inside-avoid">
-      <h3 className="text-base font-bold text-foreground">
-        {service.name}
-        {service.kind ? <span className="ml-2 text-xs font-normal text-subtle">— {service.kind}</span> : null}
-      </h3>
-      <div className="text-2xs text-subtle tabular-nums mt-0.5">{[service.span, service.role].filter(Boolean).join(' · ')}</div>
+    <div className="pt-6 mt-6 border-t border-border-strong first:pt-0 first:mt-0 first:border-t-0">
+      <div className="keep-with-next">
+        <h3 className="text-base font-bold text-foreground">
+          {service.name}
+          {service.kind ? <span className="ml-2 text-xs font-normal text-subtle">— {service.kind}</span> : null}
+        </h3>
+        <div className="text-2xs text-subtle tabular-nums mt-0.5">{[service.span, service.role].filter(Boolean).join(' · ')}</div>
 
-      {service.summary ? <p className="text-xs text-muted leading-relaxed mt-2.5">{service.summary}</p> : null}
+        {service.summary ? <p className="text-xs text-muted leading-relaxed mt-2.5">{service.summary}</p> : null}
+      </div>
 
       {service.wins && service.wins.length > 0 && (
         <div className="mt-4">
-          <div className="text-2xs font-semibold text-subtle tracking-wide">주요 성과</div>
+          <div className="keep-with-next text-2xs font-semibold text-subtle tracking-wide">주요 성과</div>
           <ul className="mt-1.5 space-y-1.5">
             {service.wins.map((win) => (
               <Bullet key={win} className="text-xs text-foreground">
@@ -123,7 +125,7 @@ const ProfessionalExperience = () => {
                 key={exp.company + exp.period}
                 className="bg-card-bg border border-card-border rounded-xl shadow-sm p-8 print:border-0 print:shadow-none print:p-0"
               >
-                <div className="pb-4 border-b border-border">
+                <div className="keep-with-next pb-4 border-b border-border">
                   <div className="text-2xl font-bold text-foreground">{exp.company}</div>
                   <div className="text-2xs text-subtle mt-1 tabular-nums">
                     {[exp.period, exp.position, exp.team].filter(Boolean).join(' · ')}
