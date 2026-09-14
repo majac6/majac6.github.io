@@ -1,86 +1,20 @@
 import React from 'react';
 import Layout from 'components/Layout';
 import { Link } from 'gatsby';
+import PROFESSIONAL_EXPERIENCES from 'data/experiences';
 
-// 1. 경력 데이터 구조화
-const CAREERS = [
-  {
-    company: '아모레퍼시픽 / AMORE PACIFIC',
-    position: 'Senior Frontend Engineer(Lead)',
-    period: '2024.01 - 2025.12',
-    details: [
-      '아모레몰(전자상거래) 프론트엔드 개발 리드',
-      '커머스커뮤니티, 스킨노트 등 신사업 프론트엔드 개발 리드',
-      '프론트엔드 기술 전략 및 로드맵 수립',
-      '프론트엔드 개발 환경 구축 및 운영',
-      '협력사 및 계약직 인력 관리',
-      '프로젝트 일정 관리',
-    ],
-  },
-  {
-    company: '딜리헙(Dillyhub)',
-    position: 'Senior Fullstack(Front/Back/Mobile/DevOps) Engineer(Lead)',
-    period: '2021.01 - 2023.06',
-    details: [
-      '오픈 웹툰/소설 플랫폼(US,KR) 스토어/스튜디오 프론트엔드/백엔드 개발 및 운영',
-      '딜리뷰 프론트엔드/백엔드 개발 및 운영',
-      '디자인 시스템 구축',
-      'k8s 기반 devops 환경 구축 및 운영',
-    ],
-  },
-  {
-    company: 'LGU+',
-    position: 'Frontend Engineer(Lead)',
-    period: '2020.09 - 2020.12',
-    details: [
-      'Home-in(홈 서비스 플랫폼) 프론트엔드 개발 리드',
-      '퍼블리셔 대상 VueJS 컴포넌트 구현 교육',
-      'iOS, Android 웹뷰 기반 개발환경 구축',
-      '프로젝트 일정 관리',
-    ],
-  },
-  {
-    company: '주식회사 카닥',
-    position: 'Frontend Engineer',
-    period: '2019.01 - 2020.08',
-    details: [
-      '카닥 프론트엔드 개발환경 구축 및 운영',
-      '수리, 테크샵(엔진오일), 세차, 카닥몰, 커뮤니티 등 개발 및 운영',
-      '프론트엔드 모노레포/CI/CD/배포 자동화',
-    ],
-  },
-  {
-    company: '오픈소스컨설팅(Open Source Consulting)',
-    position: 'Frontend Engineer',
-    period: '2017.07 - 2018.12',
-    details: [
-      '프론트앤드 개발 환경 구축 및 운영',
-      '인프라 관리 운영 솔루션 프론트앤드 개발 및 운영',
-      '협력사 프론트앤드 개발 교육 및 지원',
-    ],
-  },
-  {
-    company: '박차컴퍼니',
-    position: 'Frontend Engineer',
-    period: '2016.06 - 2017.05',
-    details: [
-      '박차 프론트앤드 개발 및 운영',
-      '박차, 차팡(차량 경매) 하이브리드 앱(PhoneGap 기반) 개발 및 운영',
-      '박차 양수도 서비스 프론트앤드 개발 및 운영',
-    ],
-  },
-  {
-    company: '이큐브랩(Ecube Labs)',
-    position: 'Fullstack Engineer',
-    period: '2012.11 - 2016.03',
-    details: [
-      'IoT 기반 스마트 쓰레기통 관리 시스템(CCN) 및 병원 마케팅 플랫폼(시크릿차트) 등 다양한 웹서비스 프론트/백엔드 개발',
-      'AngularJS, Jquery, SCSS, NodeJS, Codeigniter 등 다양한 기술 스택 활용',
-      '지도 기반 데이터 시각화, 관리자 대시보드, 하이브리드 앱(PhoneGap) 등 주요 기능 구현',
-      '프론트엔드/백엔드 환경 설계 및 구축, API/컨트롤러/서비스/디렉티브 등 구조 설계 및 개발',
-    ],
-  },
-];
+// 1. 경력 요약 — 경력기술서와 같은 데이터에서 뽑는다.
+//    회사별 항목은 담당한 서비스 이름 + 서비스에 매이지 않는 회사 단위 역할로 구성된다.
+//    상세 내용은 /professional-experience 에서 본다.
+const CAREERS = PROFESSIONAL_EXPERIENCES.filter((exp) => !exp.excludeFromSummary).map((exp) => ({
+  company: exp.company,
+  position: exp.position,
+  period: exp.period,
+  details: [
+    ...(exp.services || []).map((service) => (service.kind ? `${service.name} — ${service.kind}` : service.name)),
+    ...(exp.responsibilities || []),
+  ],
+}));
 
 // 2. 자격증 데이터 구조화
 const LICENSES = [
@@ -147,21 +81,24 @@ const AboutPage = () => {
               href="https://github.com/majac6"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline"
+            >
               GitHub
             </a>
             <a
               href="https://www.facebook.com/majac6"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline"
+            >
               Facebook
             </a>
             <a
               href="https://www.linkedin.com/in/hungsun-lim-a37824106/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline">
+              className="text-subtle hover:text-primary-hover text-xs underline-offset-2 hover:underline"
+            >
               Linkedin
             </a>
           </div>
@@ -169,7 +106,8 @@ const AboutPage = () => {
           <div className="mt-4">
             <Link
               to="/professional-experience"
-              className="inline-block px-4 py-1.5 border border-primary text-primary rounded font-medium text-xs hover:bg-primary-bg transition-colors print:hidden">
+              className="inline-block px-4 py-1.5 border border-primary text-primary rounded font-medium text-xs hover:bg-primary-bg transition-colors print:hidden"
+            >
               경력기술서 바로가기
             </Link>
           </div>
