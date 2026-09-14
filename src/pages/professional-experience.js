@@ -130,11 +130,15 @@ const ProfessionalExperience = () => {
                   </div>
                 </div>
 
-                {services.map((service) => (
-                  <ServiceBlock key={service.id} service={service} projects={exp.projects.filter((p) => p.serviceId === service.id)} />
-                ))}
+                {/* 서비스를 한 겹 감싸야 첫 서비스에 first: 변형이 걸린다.
+                    감싸지 않으면 회사 이름의 아래 선과 첫 서비스의 위 선이 겹쳐 보인다. */}
+                <div className="mt-6">
+                  {services.map((service) => (
+                    <ServiceBlock key={service.id} service={service} projects={exp.projects.filter((p) => p.serviceId === service.id)} />
+                  ))}
 
-                {orphans.length > 0 && <Timeline label="기타" projects={[...orphans].sort(byOldestFirst)} />}
+                  {orphans.length > 0 && <Timeline label="기타" projects={[...orphans].sort(byOldestFirst)} />}
+                </div>
               </section>
             );
           })}
