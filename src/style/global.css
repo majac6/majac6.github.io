@@ -42,7 +42,9 @@
   --color-muted: #cbd0d7;
   --color-subtle: #a8b4c5;
   --color-border: #334155;
-  --color-border-strong: #1e293b;
+  /* 카드 배경(--color-card-bg)과 같은 값이면 구분선이 보이지 않는다.
+     배경보다는 밝고 --color-border 보다는 옅은 값으로 둔다. */
+  --color-border-strong: #2e3b4e;
   --color-primary: #60a5fa;
   --color-primary-hover: #3b82f6;
   --color-primary-bg: #1e293b;
