@@ -73,15 +73,13 @@ const ServiceBlock = ({ service, projects }) => {
 
   return (
     <div className="pt-6 mt-6 border-t border-border-strong first:pt-0 first:mt-0 first:border-t-0">
-      <div className="keep-with-next">
-        <h3 className="text-base font-bold text-foreground">
-          {service.name}
-          {service.kind ? <span className="ml-2 text-xs font-normal text-subtle">— {service.kind}</span> : null}
-        </h3>
-        <div className="text-2xs text-subtle tabular-nums mt-0.5">{[service.span, service.role].filter(Boolean).join(' · ')}</div>
+      <h3 className="text-base font-bold text-foreground">
+        {service.name}
+        {service.kind ? <span className="ml-2 text-xs font-normal text-subtle">— {service.kind}</span> : null}
+      </h3>
+      <div className="text-2xs text-subtle tabular-nums mt-0.5">{[service.span, service.role].filter(Boolean).join(' · ')}</div>
 
-        {service.summary ? <p className="text-xs text-muted leading-relaxed mt-2.5">{service.summary}</p> : null}
-      </div>
+      {service.summary ? <p className="text-xs text-muted leading-relaxed mt-2.5">{service.summary}</p> : null}
 
       {service.wins && service.wins.length > 0 && (
         <div className="mt-4">

@@ -117,10 +117,13 @@
     page-break-inside: avoid;
   }
 
-  .keep-with-next,
-  h1,
-  h2,
-  h3 {
+  /*
+   * break-after: avoid 는 Chrome 이 실제로 지킨다. 그래서 붙들 대상이 크면
+   * 그 덩어리가 통째로 다음 장으로 밀리며 앞 페이지가 비어버린다.
+   * 회사 이름과 목록 라벨처럼 '한두 줄짜리'에만 쓴다. 서비스 제목과 요약까지
+   * 붙들었더니 페이지 채움률이 도리어 나빠졌다(최저 58% -> 55%).
+   */
+  .keep-with-next {
     break-after: avoid;
     page-break-after: avoid;
   }
