@@ -12,6 +12,35 @@ const startOf = (duration) => {
 /** 진행 내역은 서비스 안에서 오래된 것부터 읽히도록 오름차순으로 둔다. */
 const byOldestFirst = (a, b) => startOf(a.duration) - startOf(b.duration);
 
+/** '2024' → '24'. 연도가 아니면 그대로 둔다. */
+const shortYear = (point) => point.replace(/^\d{2}(\d{2})(?=\.|$)/, '$1');
+
+/**
+ * 진행 내역의 기간은 짧게 줄여 읽는 흐름을 끊지 않게 한다. 연도의 앞 두 자리는
+ * 서비스 헤더에 이미 온전히 적혀 있으므로 생략하고, 한 해 안에서 끝나는 기간은
+ * 연도를 한 번만 적는다.
+ *
+ *   '2024.10 - 2024.11' → '24.10–11'
+ *   '2022.11 - 2023.02' → '22.11–23.02'
+ *   '2024.12'           → '24.12'
+ *   '외주'               → '외주'
+ */
+const formatDuration = (duration) => {
+  const points = (duration || '').split('-').map((point) => point.trim());
+  if (points.length < 2) return shortYear(points[0] || '');
+
+  const [from, to] = points;
+  const sameYear = /^\d{4}\./.test(from) && from.slice(0, 4) === to.slice(0, 4);
+  return `${shortYear(from)}–${sameYear ? to.slice(5) : shortYear(to)}`;
+};
+
+/** 목록 항목. 글머리 기호를 실제 글자로 두어 복사했을 때도 따라오게 한다. */
+const Bullet = ({ children, className = '' }) => (
+  <li className={`pl-[1.15em] -indent-[1.15em] leading-relaxed ${className}`}>
+    <span className="text-subtle">•</span> {children}
+  </li>
+);
+
 const Timeline = ({ label, projects }) => {
   if (projects.length === 0) return null;
   return (
@@ -19,9 +48,8 @@ const Timeline = ({ label, projects }) => {
       <div className="text-2xs font-semibold text-subtle tracking-wide">{label}</div>
       <ul className="mt-1.5 space-y-1.5">
         {projects.map((project) => (
-          <li key={project.name} className="text-xs text-muted leading-relaxed">
-            <span className="text-subtle tabular-nums">{project.duration}</span>
-            {' · '}
+          <Bullet key={project.name} className="text-xs text-muted">
+            <span className="text-subtle tabular-nums">{formatDuration(project.duration)}</span>{' '}
             <span className="font-semibold text-foreground">{project.name}</span>
             {project.headline ? ` — ${project.headline}` : ''}
             {project.link ? (
@@ -32,7 +60,7 @@ const Timeline = ({ label, projects }) => {
                 </a>
               </>
             ) : null}
-          </li>
+          </Bullet>
         ))}
       </ul>
     </div>
@@ -58,9 +86,9 @@ const ServiceBlock = ({ service, projects }) => {
           <div className="text-2xs font-semibold text-subtle tracking-wide">주요 성과</div>
           <ul className="mt-1.5 space-y-1.5">
             {service.wins.map((win) => (
-              <li key={win} className="text-xs text-foreground leading-relaxed">
+              <Bullet key={win} className="text-xs text-foreground">
                 {win}
-              </li>
+              </Bullet>
             ))}
           </ul>
         </div>
