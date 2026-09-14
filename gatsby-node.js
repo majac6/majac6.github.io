@@ -6,10 +6,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // 아티클 페이지 생성
   const result = await graphql(`
     query {
-      allMarkdownRemark(
-        sort: { frontmatter: { date: DESC } }
-        limit: 1000
-      ) {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 1000) {
         edges {
           node {
             id
@@ -77,7 +74,8 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     resolve: {
       alias: {
         components: path.resolve(__dirname, 'src/components'),
+        data: path.resolve(__dirname, 'src/data'),
       },
     },
   });
-}; 
+};
