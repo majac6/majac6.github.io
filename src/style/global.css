@@ -78,3 +78,57 @@
   --color-card-border: var(--color-card-border);
   --color-card-shadow: var(--color-card-shadow);
 }
+
+/*
+ * 인쇄 / PDF 출력
+ * 경력기술서는 PDF 로 뽑아 공유하는 경우가 많다. 다크 모드에서도 흰 종이에
+ * 검은 글씨로 나가야 하고, 한 서비스가 페이지 경계에서 잘리지 않아야 한다.
+ */
+@media print {
+  :root,
+  .dark {
+    --color-background: #fff;
+    --color-surface: #fff;
+    --color-foreground: #000;
+    --color-muted: #1f2937;
+    --color-subtle: #4b5563;
+    --color-border: #d1d5db;
+    --color-border-strong: #e5e7eb;
+    --color-card-bg: #fff;
+    --color-card-border: #d1d5db;
+  }
+
+  @page {
+    margin: 14mm 12mm;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  /* 서비스 블록과 목록 항목이 페이지 사이에서 쪼개지지 않도록 한다. */
+  .break-inside-avoid,
+  li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* 제목만 페이지 끝에 남는 것을 막는다. */
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* 인쇄물에서는 링크를 누를 수 없으므로 주소를 함께 노출한다. */
+  .print-url::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.92em;
+    word-break: break-all;
+  }
+}
