@@ -20,7 +20,7 @@ const PROFESSIONAL_EXPERIENCES = [
   {
     company: '주식회사 DAUM',
     position: 'Senior Frontend Engineer',
-    period: '2026.01 - 현재',
+    period: '2025.12 - 현재',
     team: '포털개발팀',
     services: [
       {
@@ -32,8 +32,8 @@ const PROFESSIONAL_EXPERIENCES = [
         summary:
           '다음 미디어뷰의 프론트엔드 아키텍처를 새로 세우고, 그 위에서 댓글과 광고 영역을 이어서 개편하고 있습니다. daum-ui 리액트 컴포넌트 체계로 전환하면서 마크업 외주 개발 프로세스를 AI 기반으로 바꿨습니다.',
         wins: [
-          '신규 프론트엔드 아키텍처와 AI 를 활용한 daum-ui 로, 카카오 시절 파트별 팀 단위로 관리되던 미디어 영역을 1/10 인력으로 더 빠르고 효율적으로 개발',
-          '타임톡을 폐지하고 댓글을 도입해 다음 뉴스·콘텐츠 방문자 수와 체류 시간 약 10% 증가',
+          '신규 프론트엔드 아키텍처와 daum-ui 리액트 컴포넌트 체계를 도입하고, 마크업 외주 개발 프로세스를 AI 기반으로 재설계',
+          '타임톡을 폐지하고 댓글 기능을 다시 도입해 뉴스·콘텐츠 영역을 개편',
         ],
         tracks: [],
         stack: ['Next.js', 'React', 'daum-ui', 'turborepo', 'pnpm', 'Docker', 'ArgoCD', 'k8s'],
@@ -48,7 +48,7 @@ const PROFESSIONAL_EXPERIENCES = [
           '카카오TV 폐지에 대비해 동영상 시청 경로를 다음 안으로 흡수하는 TF 에 참여했습니다. 다음앱과 PC·Mobile 첫화면의 루프탭 프론트엔드를 개발했고, 그 결과 카카오TV 종료 이후에도 다음이 단독으로 동영상 서비스를 운영할 수 있게 되었습니다.',
         wins: [
           '카카오TV 서비스 종료 이후에도 다음만의 별도 동영상 서비스를 운영할 수 있도록 시스템 분리',
-          '광고 최적화를 통해 동영상 수익 25% 증가',
+          '첫화면 루프탭 광고 영역 최적화 수행',
           '다음앱 및 PC·Mobile 첫화면 루프탭 개발로 동영상 시청 경로 확보',
         ],
         tracks: [],
@@ -67,7 +67,7 @@ const PROFESSIONAL_EXPERIENCES = [
         stack: ['Next.js', 'React', 'daum-ui', 'turborepo', 'pnpm', 'Docker', 'ArgoCD', 'k8s'],
         roles: ['프론트엔드 아키텍처 설계', 'daum-ui 컴포넌트 개발 체계 전환', '마크업 외주 개발 프로세스 AI 전환'],
         achievements: [
-          '카카오 시절 파트별 팀 단위로 관리되던 미디어 영역을 1/10 인력으로 개발·운영 가능하도록 전환',
+          '파트 단위로 분산돼 있던 미디어 영역을 단일 컴포넌트 체계로 통합해 개발·운영 효율 개선',
           'AI 기반 마크업 프로세스 도입으로 개발 속도 및 효율 향상',
         ],
       },
@@ -81,7 +81,7 @@ const PROFESSIONAL_EXPERIENCES = [
         description: '다음 댓글기능 추가 및 타임톡 폐지.',
         stack: ['Next.js', 'React', 'daum-ui', 'turborepo', 'pnpm', 'Docker', 'ArgoCD', 'k8s'],
         roles: ['댓글 기능 프론트엔드 개발'],
-        achievements: ['다음 뉴스·콘텐츠 방문자 수 및 체류 시간 약 10% 증가'],
+        achievements: ['댓글 재도입으로 뉴스·콘텐츠 이용 경험 개선'],
       },
       {
         serviceId: 'daum-mediaview',
@@ -103,7 +103,7 @@ const PROFESSIONAL_EXPERIENCES = [
         description: '카카오TV 폐지 대비 동영상수익화TF. 다음앱, PC/Mobile 첫화면 루프탭 FE 개발.',
         stack: [],
         roles: ['다음앱 첫화면 루프탭 프론트엔드 개발', 'PC/Mobile 첫화면 루프탭 프론트엔드 개발'],
-        achievements: ['카카오TV 종료 이후 다음 단독 동영상 서비스 운영을 위한 시스템 분리', '광고 최적화를 통해 동영상 수익 25% 증가'],
+        achievements: ['카카오TV 종료 이후 다음 단독 동영상 서비스 운영을 위한 시스템 분리', '첫화면 루프탭 광고 영역 최적화 수행'],
       },
     ],
   },
@@ -538,14 +538,14 @@ const PROFESSIONAL_EXPERIENCES = [
   {
     company: 'LGU+',
     position: 'Frontend Engineer(Lead)',
-    period: '2020.09 - 2020.12',
+    period: '2020.10 - 2020.12',
     responsibilities: ['프로젝트 일정 관리'],
     services: [
       {
         id: 'homein',
         name: 'Home-in',
         kind: '홈 서비스 플랫폼',
-        span: '2020.09 - 2020.12',
+        span: '2020.10 - 2020.12',
         role: '프론트엔드 개발 총괄',
         summary:
           '프로젝트 중반에 합류해 퍼블리싱과 프론트엔드 개발을 하나의 흐름으로 묶고, 웹뷰 기반 iOS·Android 개발환경을 구축했습니다. 퍼블리셔를 대상으로 Vue 컴포넌트 구현 교육을 직접 진행했습니다.',
@@ -562,7 +562,7 @@ const PROFESSIONAL_EXPERIENCES = [
       {
         serviceId: 'homein',
         name: 'Home-in 프론트엔드 프로젝트',
-        duration: '2020.09 - 2020.12',
+        duration: '2020.10 - 2020.12',
         headline: '프로젝트 중반 합류해 프론트엔드 개발을 총괄하고, 퍼블리싱 통합과 웹뷰 개발환경 구축을 함께 진행',
         description:
           '프로젝트 도중 합류, 퍼블리싱/프론트 개발 유기화, VueJS 기반 프론트 개발 교육 및 진행상황, 웹뷰 기반 앱 개발환경 구축.',
@@ -581,7 +581,7 @@ const PROFESSIONAL_EXPERIENCES = [
   {
     company: '주식회사 카닥',
     position: 'Frontend Engineer',
-    period: '2019.01 - 2020.08',
+    period: '2019.01 - 2020.09',
     services: [
       {
         id: 'cardoc-app',
